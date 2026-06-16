@@ -2,6 +2,7 @@
 title: "The Foundation of an AI-Native Company: Closed Loops and Intelligence Layers"
 podcast: "The Gist Talk"
 source: "https://open.spotify.com/episode/3oz4CnEHWNO2joiabxZ5uJ"
+underlying_resource: "https://www.ycombinator.com/library/OX-the-playbook-for-building-an-ai-native-company"
 published: 2026-05-13
 captured: 2026-06-16
 ---
@@ -62,7 +63,8 @@ specifications and the tests; AI generates the code.** The spec + the
 scenario-based validation become the source of truth — not handwritten code.
 
 - **Strong DM** — cited as a repo containing *no handwritten code*: only specs
-  and scenario-based validations.
+  and scenario-based validations ([StrongDM Software Factory](https://factory.strongdm.ai/);
+  write-up: [Simon Willison](https://simonwillison.net/2026/Feb/7/software-factory/)).
 - The engineer's leverage jumps from ~1,000x toward ~10,000x once the loop
   (spec → generate → validate → feed back) is tight.
 
@@ -74,22 +76,31 @@ minimal; the capability lives in many sharp, single-purpose skills/agents.
 
 **Specialized agents named:**
 - **Office Hours Agent** — Y-Combinator-style forcing questions that pressure-test
-  product and strategy decisions.
+  product and strategy decisions. (Described concept; no standalone release —
+  GStack ships an equivalent CEO/strategy agent.)
 - **Design Shotgun** — generates multiple UI directions in ~60 seconds for fast
-  visual exploration.
+  visual exploration. (Described concept; the assistant's own `design-variants`
+  skill does the same.)
 - **Adversarial Review / QA automation** — multi-step reviews driven through
   Playwright/Chromium CLI wrappers.
-- **GStack** — open-source tool that turns Claude Code into an AI engineering team.
-- **Atlas** (Giga ML's internal agent) — browser use, policy editing, code writing.
+- **GStack** — [Garry Tan's open-source toolkit](https://github.com/garrytan/gstack)
+  that turns Claude Code into a 23-agent engineering team (CEO, designer, eng
+  manager, reviewer, QA, security, release). MIT-licensed.
+- **Atlas** ([Giga](https://giga.ai/)'s internal agent) — browser use, policy
+  editing, code writing. (Name cited in the talk; Giga's public product is its
+  enterprise browser/support agent — "Atlas" itself isn't separately published.)
 
 ## Case studies (productivity multipliers)
 
-- **Giga ML / "Atlas"** — internal agent doubled-to-tripled engineering scope; one
-  FTE serviced dozens of Fortune 500 accounts.
-- **Legion Health** — custom dashboard unifying scheduling, patient history, and
-  insurance data → ~4x growth in revenue/patient volume *without new hires*.
+- **Giga ML / "Atlas"** ([giga.ai](https://giga.ai/)) — internal agent
+  doubled-to-tripled engineering scope; one FTE serviced dozens of Fortune 500
+  accounts.
+- **Legion Health** ([YC company](https://www.ycombinator.com/companies/legion-health))
+  — AI-native psychiatry clinic; custom dashboard unifying scheduling, patient
+  history, and insurance data → ~4x growth in revenue/patient volume *without new
+  hires*.
 - **Phase Shift** — automated daily manual work and avoided hiring whole
-  departments (e.g. design teams).
+  departments (e.g. design teams). (Named in the talk; no public source verified.)
 
 ## Why this matters for us (Jens / fabrik / the assistant)
 
@@ -111,3 +122,24 @@ minimal; the capability lives in many sharp, single-purpose skills/agents.
 Capability is not the constraint — *legibility* is. Close the loop so the org can
 be queried, then an intelligence layer plus a thin-harness/fat-skills agent fleet
 does the coordinating and the building.
+
+## References
+
+**Underlying resource** — the talk distills Y Combinator's AI-native playbook
+(same closed-loop / intelligence-layer-replaces-middle-management thesis):
+- Diana Hu (YC), *The Playbook For Building An AI Native Company* — [YC Startup Library](https://www.ycombinator.com/library/OX-the-playbook-for-building-an-ai-native-company)
+
+**Captured from**
+- The Gist Talk episode — [Spotify](https://open.spotify.com/episode/3oz4CnEHWNO2joiabxZ5uJ)
+- The Gist Talk — [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-gist-talk/id1783208488)
+
+**Tools & agents named in the talk**
+- GStack — Garry Tan's open-source toolkit turning Claude Code into a 23-agent engineering team: https://github.com/garrytan/gstack
+- StrongDM Software Factory ("Strong DM repo = only specs + tests") — spec-driven, no human-written or human-reviewed code: https://factory.strongdm.ai/ · write-up: [Simon Willison, *How StrongDM's AI team build serious software without even looking at the code*](https://simonwillison.net/2026/Feb/7/software-factory/)
+- Giga ("Atlas" internal agent) — enterprise browser/support agents: https://giga.ai/
+- Office Hours Agent / Design Shotgun / Adversarial Review — described as specialized agents, no standalone public release; GStack ships equivalents and the assistant has a `design-variants` skill.
+- Phase Shift — named in the talk; no public source verified.
+
+**Companies cited**
+- Giga — https://giga.ai/
+- Legion Health — https://www.ycombinator.com/companies/legion-health
