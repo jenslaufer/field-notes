@@ -12,6 +12,7 @@ captured: 2026-06-18
 > monetization. Tag **🟢 = audience-light** (harvests existing demand — fits a
 > no-audience builder; see [`../distribution-without-audience.md`](../distribution-without-audience.md))
 > vs **🟡 = needs distribution/audience** to work. Source episode in *(parens)*.
+> Abbreviations explained in German: [`glossar.md`](glossar.md).
 
 ## A. Vertical data products (Firecrawl micro-SaaS) — 🟢
 
@@ -56,8 +57,9 @@ Same motion: **flip, broker, or relaunch** against a cheap/abandoned asset.
 **$2K–10K/mo passive** on **$200–1,000** build cost. Site is easy (Claude Code);
 the hard part is sourcing the data. Keyword-first, product-second.
 
-- Worked niches: **jetski rentals** (74K/mo, KD 13), **dog beaches** (60.5K/mo, KD 4),
-  **pediatric dentists** (201K/mo, KD 1), **luxury restroom-trailers** (~$273/day, built in 4 days) *(online-directory)*
+- Worked niches (KD = Keyword Difficulty, niedrig = leicht zu ranken): **jetski rentals**
+  (74K Suchen/mo, KD 13), **dog beaches** (60.5K/mo, KD 4), **pediatric dentists**
+  (201K/mo, KD 1), **luxury restroom-trailers** (~$273/day, built in 4 days) *(online-directory)*
 - Monetize: display ads → **sell qualified leads** to listed businesses → **upsell a vertical SaaS** tool *(online-directory)*
 
 ## E. Consumer / mobile apps (gotcha feature) — 🟡
@@ -101,7 +103,9 @@ Only possible now that frontier intelligence runs on-device/air-gapped.
 
 ## J. SaaS-to-exit (the wrapper play) — 🟡
 
-- **Vibe-code a niche SaaS → ~$50K/mo at ~50% margin → sell at 10–15× EBITDA = a $3–5M business.** Loop: build audience → pre-sell → automate → repeat → compound *(saas-minting)*
+- **Vibe-code a niche SaaS → ~$50K/mo at ~50% margin → sell at 10–15× EBITDA = a $3–5M business.**
+  (EBITDA = operativer Jahresgewinn; der Käufer zahlt ein Vielfaches davon.) Loop:
+  build audience → pre-sell → automate → repeat → compound *(saas-minting)*
 
 ## Shortlist for a no-audience builder
 

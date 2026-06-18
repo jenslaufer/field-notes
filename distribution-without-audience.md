@@ -10,6 +10,7 @@ context: "Synthesized from the greg-isenberg/ marketing notes + a strategy discu
 > Core insight: **"distribution first" ≠ "audience first."** Audience is just *one*
 > channel — the slowest and most identity-binding one. You can win distribution by
 > **harvesting existing demand** instead of manufacturing it.
+> Abbreviations explained in German: [`greg-isenberg/glossar.md`](greg-isenberg/glossar.md).
 
 ## The reframe
 
@@ -40,7 +41,7 @@ Optimized for a no-audience builder validating offer × audience quickly.
 | 3 | **Trigger-event cold outreach** (scraped, personalized) | Days | Medium–High | Low | ~Free + tools | B2B. Sell into companies at the moment budget appears (new hire, funding, closure). |
 | 4 | **Marketplaces / launch platforms** (App Store, Product Hunt, directories, MCP registries) | Days–weeks | Medium–High | Low | ~Free | Distribution is built into the channel. Ship where buyers already browse. |
 | 5 | **Free tool as top-of-funnel** | Days–weeks | Medium, compounds | Low–Med | Cheap | Ship a tool in a day → instant value → email capture → upsell. Run a tool/week. |
-| 6 | **Programmatic SEO / AEO** | Weeks–months | High, compounds | Low | Cheap | Long game. Slow feedback, near-zero CAC once indexed. Keyword-first, product-second. |
+| 6 | **Programmatic SEO / AEO** (Google- + KI-Such-Optimierung) | Weeks–months | High, compounds | Low | Cheap | Long game. Slow feedback, near-zero acquisition cost once indexed. Keyword-first, product-second. |
 | 7 | **Owned email list** (byproduct) | Slow to build, then fast | High, compounds | Medium | ~Free | The asset that makes *every* future launch warm. Deliver value, don't perform. |
 | — | ~~Personal brand / creator audience~~ | Months–years | High | **High** | Time | Skip unless you genuinely enjoy it. Highest commitment, slowest payback. |
 
@@ -49,6 +50,7 @@ Optimized for a no-audience builder validating offer × audience quickly.
 - **Middle (4–5) = real traction, still low commitment.** Build these once an offer survives validation.
 - **Bottom (6–7) = compounding assets.** Slow feedback, but they lower CAC for years.
   Start the list early *because* it's slow — it's the only channel that pays back the cold-start cost.
+  (CAC = Customer Acquisition Cost = Kosten, einen Kunden zu gewinnen.)
 
 ## The play for a multi-product builder
 

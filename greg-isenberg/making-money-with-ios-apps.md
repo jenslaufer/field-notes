@@ -73,8 +73,8 @@ captured: 2026-06-17
   Maps directly to the launch-kit *idea-validation* thesis (test the offer×audience
   fast, the plumbing was never the bottleneck — cf. ExtCharge 0/593).
 - The **$2 CPM / $100-day / 5–15 creatives / $2 ARPU** numbers are a concrete,
-  copyable paid-ads starting recipe if we ever push a consumer app or a FK/HC
-  tool with paid acquisition.
+  copyable paid-ads starting recipe if we ever push a consumer app or any tool
+  with paid acquisition.
 - "Onboarding *is* the sales page" is a reusable conversion frame for any
   lead-capture funnel.
 

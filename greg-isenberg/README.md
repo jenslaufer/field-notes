@@ -6,6 +6,7 @@ per episode. No transcripts.
 **Start here:**
 - [`marketing-playbook.md`](marketing-playbook.md) — every marketing/growth tip across all notes, deduped into 10 themes.
 - [`business-opportunities.md`](business-opportunities.md) — every concrete business idea, grouped by category with monetization + audience-light tags.
+- [`glossar.md`](glossar.md) — alle Abkürzungen (CAC, SEO, MCP, EBITDA …) auf Deutsch erklärt.
 
 ## Episodes
 

@@ -11,7 +11,7 @@ captured: 2026-06-18
 > Every marketing/growth tip from the Greg Isenberg field notes, deduped and
 > grouped. The through-line: **building is free, so distribution is the moat.**
 > Marketers will be the wealthiest people of the next decade. Source episode in
-> *(parentheses)*.
+> *(parentheses)*. Abbreviations explained in German: [`glossar.md`](glossar.md).
 
 ## 0. The one rule
 
