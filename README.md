@@ -13,3 +13,4 @@ Cross-source syntheses:
 
 - [`distribution-without-audience.md`](distribution-without-audience.md) — channels ranked by traction × feedback speed for a builder with no audience
 - [`serendipitaet-actionplan.md`](serendipitaet-actionplan.md) — serendipity action plan
+- [`ideabrowser-curated.md`](ideabrowser-curated.md) — IdeaBrowser daily ideas, screened for my profile + German market
