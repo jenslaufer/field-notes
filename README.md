@@ -5,6 +5,7 @@ Distilled takeaways from podcasts and papers — tips, prompts, findings, and id
 Organized by source:
 
 - [`greg-isenberg/`](greg-isenberg/) — The Startup Ideas Podcast
+- [`kopywriting-kourse/`](kopywriting-kourse/) — Kopywriting Kourse (Neville Medhora — copywriting, SEO, distribution)
 - [`linear-digressions/`](linear-digressions/) — Linear Digressions (machine learning & data science)
 - [`the-gist-talk/`](the-gist-talk/) — The Gist Talk (AI-native company building, AI & investing)
 - [`my-rejection-story/`](my-rejection-story/) — My Rejection Story (negativity bias, tiny experiments, mindful productivity)
