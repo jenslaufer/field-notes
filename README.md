@@ -19,3 +19,4 @@ Cross-source syntheses:
 - [`ideabrowser-curated.md`](ideabrowser-curated.md) — IdeaBrowser daily ideas, screened for my profile + German market
 - [`antifragility.md`](antifragility.md) — Taleb's antifragile triad, convexity, barbell & via negativa, with a solo-builder playbook
 - [`thinking-in-systems.md`](thinking-in-systems.md) — Donella Meadows: stocks & flows, feedback loops, systems traps & the 12 leverage points, with a solo-builder read
+- [`complexity-science.md`](complexity-science.md) — David Krakauer (Santa Fe Institute): what complexity science is, the four pillars (entropy, evolution, dynamics, computation), why emergence makes every science beyond physics necessary, with a solo-builder read
