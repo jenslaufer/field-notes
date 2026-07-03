@@ -20,3 +20,4 @@ Cross-source syntheses:
 - [`antifragility.md`](antifragility.md) — Taleb's antifragile triad, convexity, barbell & via negativa, with a solo-builder playbook
 - [`thinking-in-systems.md`](thinking-in-systems.md) — Donella Meadows: stocks & flows, feedback loops, systems traps & the 12 leverage points, with a solo-builder read
 - [`complexity-science.md`](complexity-science.md) — David Krakauer (Santa Fe Institute): what complexity science is, the four pillars (entropy, evolution, dynamics, computation), why emergence makes every science beyond physics necessary, with a solo-builder read
+- [`stochastic-processes.md`](stochastic-processes.md) — stochastic processes outside physics: the eight-process zoo (random walk, Markov, Poisson, branching, martingales, multiplicative growth, mean reversion, Pólya urn), the five transferable concepts (ergodicity, stationarity, Markov property, absorbing states, tails), with a solo-builder read
