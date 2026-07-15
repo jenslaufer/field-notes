@@ -20,6 +20,7 @@ per episode. No transcripts.
 - [Making $$$ with iOS apps](making-money-with-ios-apps.md) — gotcha feature + paid-ads recipe
 
 ### Agent businesses & monetization
+- [Making $$$ with Loop Engineering](making-money-loop-engineering.md) — Elie Steinbock: run the business on monthly agent loops (task + objective metric + stop condition): SEO loop on GSC + DataForSEO, ads loop, product-feedback loop, MVL ("10 likes, not 100k followers"), ~$5/run
 - [AI Agents are the new SaaS](ai-agents-are-the-new-saas.md) — the full "product is the job" playbook: paycheck-workflow filter, shadow the human, minimum useful agent, the wrapper = trust, sell the pilot like labor → productize, 30-day plan
 - [The $1M+ solo AI agent business](1m-solo-ai-agent-business.md)
 - [Start an AI agent business today](start-ai-agent-business-today.md)
