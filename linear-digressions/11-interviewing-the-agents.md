@@ -112,15 +112,15 @@ constraint out loud.
 The published show note is a single paragraph (reproduced verbatim above); the
 hosts and full audio content are not transcribed on the site. The "Core message"
 and everything after it is my synthesis for your context, not reported claims from
-the episode — kept separate on purpose so the two never blur. **Numbering caveat:**
-the site labels both this finale and the previous *Agent Economics* episode as
-"Episode 11" in their URLs/titles (the homepage separately calls Agent Economics
-"Episode 10"). The site's own numbering is inconsistent, so this file is sequenced
-by publication date (newest = highest number, after `11-agent-economics.md`),
-not by the on-site label. This is the **season finale** either way.
+the episode — kept separate on purpose so the two never blur. **Numbering resolved
+(2026-07-20):** at capture time the site's URL labelled *Agent Economics* "Episode
+11" too, so this file was first filed as `12-`. The RSS feed now numbers the season
+consistently 1–11 with no gap — *Agent Economics* is Episode 10, this finale is
+Episode 11. Files renumbered accordingly; the once-suspected "missing Episode 10"
+never existed.
 
 ## Links
 
 - Episode — lineardigressions.com/episodes/2026/6/28/interviewing-the-linear-digressions-agents-the-agents-season-episode-11
-- Previous: Agent Economics (Jevons paradox / induced demand) — [`11-agent-economics.md`](11-agent-economics.md)
+- Previous: Agent Economics (Jevons paradox / induced demand) — [`10-agent-economics.md`](10-agent-economics.md)
 - Your binding-constraint thread — [`../distribution-without-audience.md`](../distribution-without-audience.md), [`../distribution-skill-trainieren.md`](../distribution-skill-trainieren.md)
