@@ -20,6 +20,7 @@ per episode. No transcripts.
 - [Making $$$ with iOS apps](making-money-with-ios-apps.md) — gotcha feature + paid-ads recipe
 
 ### Agent businesses & monetization
+- [FDE: The $1M/Year AI Job Explained](fde-million-dollar-ai-job.md) — Vas (Varick Agents): intelligence is commoditized, the edge is *deployment*; the Forward Deployed Engineer ($150K–$1M/yr) bridges messy business reality ↔ the model via the **audit → evals → deployment** loop; build-on-existing not migrate; free-audit-then-paid-on-value; 30-day plan to "do the job before you have the title" — the *delivery* half to Ganim's *acquisition* half
 - [The $1,000/hour Solo AI business](1000-per-hour-solo-ai-business.md) — Corey Ganim: $999 AI Tools Assessment (45-min interview → prescribe 3–7 off-the-shelf tools, refund guarantee) as tripwire → 50% buy implementation → AI Concierge retainer ($1,200–2,000/mo for two calls ≈ $1,000/h, cap 6 clients); 7 zero-capital client channels
 - [Making $$$ with Loop Engineering](making-money-loop-engineering.md) — Elie Steinbock: run the business on monthly agent loops (task + objective metric + stop condition): SEO loop on GSC + DataForSEO, ads loop, product-feedback loop, MVL ("10 likes, not 100k followers"), ~$5/run
 - [AI Agents are the new SaaS](ai-agents-are-the-new-saas.md) — the full "product is the job" playbook: paycheck-workflow filter, shadow the human, minimum useful agent, the wrapper = trust, sell the pilot like labor → productize, 30-day plan
