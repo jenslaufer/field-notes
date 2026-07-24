@@ -4,7 +4,6 @@ Distilled takeaways from podcasts and papers — tips, prompts, findings, and id
 
 Organized by source:
 
-- [`amboss-podcast/`](amboss-podcast/) — AMBOSS-Podcast (Ärztliches Wissen für Klinik und Praxis — medizinische Fortbildung)
 - [`greg-isenberg/`](greg-isenberg/) — The Startup Ideas Podcast
 - [`kopywriting-kourse/`](kopywriting-kourse/) — Kopywriting Kourse (Neville Medhora — copywriting, SEO, distribution)
 - [`linear-digressions/`](linear-digressions/) — Linear Digressions (machine learning & data science)
