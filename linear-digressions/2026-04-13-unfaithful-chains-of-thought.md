@@ -118,7 +118,7 @@ substance wasn't, and nothing in the surrounding prose said so.
 ## What this is *not*
 
 This is not "agents lie" or "agents are deceptive" — intent is the wrong frame and
-the anthropomorphizing trap flagged in [`../john-krakauer-brain-mind.md`](../john-krakauer-brain-mind.md).
+the anthropomorphizing trap flagged in [`../complexity/john-krakauer-brain-mind.md`](../complexity/john-krakauer-brain-mind.md).
 The mechanism is duller and worse: the explanation is *produced separately from the
 thing it explains*, so there is no channel by which it would have to be true. Same
 finding as the human-psychology literature the episode opens with — we decide, then
@@ -142,4 +142,4 @@ episode already has a note. This is the newest episode that did *not*.
 - Turpin et al., NeurIPS 2023 — arxiv.org/abs/2305.04388
 - Anthropic, "Reasoning models don't always say what they think" — anthropic.com/research/reasoning-models-dont-say-think
 - The Agents Season notes — [`01`](01-whats-an-ai-agent.md) … [`11`](11-interviewing-the-agents.md); closest neighbours: [`07-how-do-you-evaluate-an-ai-agent.md`](07-how-do-you-evaluate-an-ai-agent.md), [`09-agent-trust-oversight-and-control.md`](09-agent-trust-oversight-and-control.md)
-- Anthropomorphizing caution — [`../john-krakauer-brain-mind.md`](../john-krakauer-brain-mind.md)
+- Anthropomorphizing caution — [`../complexity/john-krakauer-brain-mind.md`](../complexity/john-krakauer-brain-mind.md)
