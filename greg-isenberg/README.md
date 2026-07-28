@@ -11,6 +11,7 @@ per episode. No transcripts.
 ## Episodes
 
 ### Marketing & growth
+- [Marketing Agents Are Too Good Now](marketing-agents-too-good-cody-schneider.md) — Cody Schneider builds a Facebook-ads marketing agent end to end (Perplexity→Reddit pain points → Nano Banana/HeyGen creative → write-only Marketing API → Airbyte→ClickHouse warehouse → kill-losers/promote-winners loop → entropy solver); + the "AI for WordPress" idea. Companion: [`marketing-agent-build-prompt.md`](marketing-agent-build-prompt.md) (copy-paste Claude Code build prompt)
 - [Stop Vibe Coding. Start Getting Customers.](stop-vibe-coding-start-getting-customers.md) — 7 distribution weapons
 - [$145K marketing machine (Claude + MCPs)](145k-marketing-machine-claude-mcps.md) — Cody Schneider, GTM engineering
 - [$450K marketing campaign — Promoter Blueprint](450k-marketing-campaign-promoter-blueprint.md) — Jonathan Courtney
