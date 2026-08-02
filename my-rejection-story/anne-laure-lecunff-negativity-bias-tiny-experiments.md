@@ -95,5 +95,3 @@ Review the data, then choose one of three (no permanent verdicts):
   PACT ("I will X for N trials"), simulate noisy outcomes, and *show* that judging
   any single trial is the trap — only the distribution over trials carries signal.
   Makes the negativity-bias point felt, not told.
-</content>
-</invoke>
