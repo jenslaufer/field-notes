@@ -11,6 +11,7 @@ per episode. No transcripts.
 ## Episodes
 
 ### Marketing & growth
+- [Everyone is saying SOFTWARE IS DEAD (LIVE Q&A)](software-is-dead-unfair-advantage.md) — the rebuttal to the indie-hacker gloom (Bannerbear + levels.io on halved Google traffic): **code is no longer the unfair advantage** — distribution, niche depth, proprietary data, network effects and maintenance are; who actually loses is the $20/mo tool sold to other indie hackers; agent-first ≠ AI bolted on ("Instagram was mobile-first Facebook"); ACP (audience→community→product), earn attention vs craft affinity, anti-positioning copy, downplay "AI-powered" because public sentiment is negative; first $25K = niche service, one-time + monthly
 - [Marketing Agents Are Too Good Now](marketing-agents-too-good-cody-schneider.md) — Cody Schneider builds a Facebook-ads marketing agent end to end (Perplexity→Reddit pain points → Nano Banana/HeyGen creative → write-only Marketing API → Airbyte→ClickHouse warehouse → kill-losers/promote-winners loop → entropy solver); + the "AI for WordPress" idea. Companion: [`marketing-agent-build-prompt.md`](marketing-agent-build-prompt.md) (copy-paste Claude Code build prompt)
 - [Stop Vibe Coding. Start Getting Customers.](stop-vibe-coding-start-getting-customers.md) — 7 distribution weapons
 - [$145K marketing machine (Claude + MCPs)](145k-marketing-machine-claude-mcps.md) — Cody Schneider, GTM engineering
@@ -48,5 +49,6 @@ per episode. No transcripts.
 - [Obsidian + Claude Code as a personal OS](obsidian-claude-code-personal-os.md)
 
 ### Using the models well
+- [Jack Dorsey's Buzz: clearly explained](buzz-agentic-slack-jack-dorsey.md) — Vinny (Wasp): Block's open-source, Nostr-based "Slack where agents are members". The two real features: **swappable harness under any agent** (Claude Code/Codex/Goose — context travels with you) and **shared compute** (one local model, whole team). Plus parallel-worktree Git on your own relay, audio huddles, public channels so a user's bug goes straight to an agent. Steal regardless of Buzz: pin agents to model tiers, build a router agent, and the closed loop app→public API→daily post into the channel→ask questions with the numbers already in context. Honest status: alpha-ish, workflows don't land, slower than Claude Code direct
 - [You are using Claude Fable 5 wrong](you-are-using-fable-5-wrong.md) — prompt patterns
 - [Claude Fable 5 is banned — what to do](claude-fable-5-is-banned-what-to-do.md)
