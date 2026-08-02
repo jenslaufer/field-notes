@@ -14,6 +14,7 @@ Organized by source:
 
 Cross-source syntheses:
 
+- [`uebergreifende-konzepte.md`](uebergreifende-konzepte.md) — die zehn Gedanken, die in Quellen wiederkehren, die nichts voneinander wissen (Stadtphysik, Agenten-Papiere, Investorenmemo, Vogelgesang, Marketing) — plus vier Stellen, an denen die Quellen einander widersprechen
 - [`distribution-without-audience.md`](distribution-without-audience.md) — channels ranked by traction × feedback speed for a builder with no audience
 - [`distribution-skill-trainieren.md`](distribution-skill-trainieren.md) — Skill 2 als Handwerk trainieren: wöchentliche Reps + worked Distribution-Map (Freelance-IAM)
 - [`serendipitaet-actionplan.md`](serendipitaet-actionplan.md) — serendipity action plan
