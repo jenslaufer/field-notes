@@ -18,5 +18,5 @@ Cross-source syntheses:
 - [`distribution-skill-trainieren.md`](distribution-skill-trainieren.md) — Skill 2 als Handwerk trainieren: wöchentliche Reps + worked Distribution-Map (Freelance-IAM)
 - [`serendipitaet-actionplan.md`](serendipitaet-actionplan.md) — serendipity action plan
 - [`ideabrowser-curated.md`](ideabrowser-curated.md) — IdeaBrowser daily ideas, screened for my profile + German market
-- [`uebersehene-erkenntnisse-2026-08-02.md`](uebersehene-erkenntnisse-2026-08-02.md) — Durchgang durch alle 88 Notizen: was aufgeschrieben, aber nie in eine Entscheidung übersetzt wurde (Marken-Suche gemessen, fehlendes „Kloster", ungebautes Datenlager, Dienst-als-bezahlte-Spezifikation)
+- [`uebersehene-erkenntnisse-2026-08-02.md`](uebersehene-erkenntnisse-2026-08-02.md) — **Fassung 2** (Erstfassung zurückgewiesen: zu weit weg von der eigentlichen Arbeit). Ehrliche Karte der 85 Notizen: 41 % sind Verständnis ohne Geschäftsbezug; der Befund ist nicht eine übersehene Einsicht, sondern drei fertige, nie ausgeführte Verteilungs-Pläne im Wurzelordner
 - [`claude-prompt-commands.md`](claude-prompt-commands.md) — 14 Fake-„Claude Commands" aus einem Instagram-Reel entlarvt + Nachtrag: die ECHTEN versteckten Claude-Code-Kommandos (ultracode, Rewind, /fork, CLI-Flags), verifiziert gegen CLI 2.1.209

@@ -1,245 +1,132 @@
 ---
-title: "Was in den Field Notes steht und untergegangen ist"
-type: cross-source review
-scope: "alle 88 Notizen, ~98.000 Wörter, Stand 2026-08-02"
+title: "Was in den Field Notes wirklich zu deiner Arbeit gehört — korrigierte Fassung"
+type: cross-source review (Fassung 2, ersetzt die Erstfassung vom selben Tag)
+scope: "85 Notizen, Stand 2026-08-02"
 captured: 2026-08-02
+supersedes: "Erstfassung 09690ef — von Jens zurückgewiesen: „Themen haben nichts mit meiner Arbeit zu tun … wirkt krampfhaft""
 ---
 
-# Was in den Field Notes steht und untergegangen ist
+# Was in den Field Notes wirklich zu deiner Arbeit gehört
 
-> Ein Durchgang durch alle 88 Notizen mit einer einzigen Frage: welche Erkenntnis
-> ist schon aufgeschrieben, aber nie in eine Entscheidung übersetzt worden?
-> Zwei der Punkte waren nachmessbar — die sind gemessen, nicht behauptet.
-> Sortiert nach Wert, nicht nach Quelle.
-
----
-
-## 1. Der Markenname ist der einzige Suchbegriff, der bei dir zieht — gemessen
-
-**Die Notiz.** Tim Soulo (Ahrefs, `kopywriting-kourse/`, erfasst 30.06.): rund die
-**Hälfte aller Google-Suchen sind Marken-Suchen**, und eine Marken-Suche entsteht
-**nicht bei Google** — jemand hört von dir woanders und tippt dann deinen Namen.
-Deshalb: Social/Aktionen *erzeugen* Marken-Suche, Suchmaschinen-Arbeit *bedient*
-sie. Und: eine kleine Marken-Suche zu bedienen lässt sie wachsen (Ahrefs sah
-10–15 Suchen im Monat nach einem Werkzeug, baute es, die Zahl stieg).
-
-**Nachgemessen** (`tools/gsc.py`, 03.07.–31.07.2026, 28 Tage, volle Abfrage):
-
-| Property | Klicks gesamt | Einblendungen | Klicks aus benannten Suchbegriffen |
-|---|---|---|---|
-| fingrab.app | 15 | 952 | **10 — alle aus „fingrab"**, Position 1,0, Klickrate 47,6 % |
-| solytics.de | 60 | 4.750 | 3 — davon **2 aus „solytics"**, Position 2,8, Klickrate 16,7 % |
-| finanzkalkulatoren.com | 5 | 4.425 | — |
-| healthcalculator.app | 2 | 2.309 | — |
-
-Bei fingrab hat **kein einziger** der 60 anderen benannten Suchbegriffe je einen
-Klick gebracht — die ganze „best free stock screener"-Familie steht auf Position
-50 bis 96. Bei solytics dasselbe Bild über 238 weitere Begriffe.
-
-**Was daran neu ist.** Unsere eigene Begründung für das FK/HC-Aus lautet
-„Autorität war der Engpass, nicht das Rechner-Inventar". Die Richtung stimmt, der
-Mechanismus ist aber schärfer: **solytics hat einen Namen, den Menschen tippen,
-FK und HC hatten nie einen.** Der einzige Begriff mit belegter Umwandlung auf
-beiden lebenden Seiten ist der Markenname. Alles andere ist Einblendungs-Rauschen.
-
-**Was folgt — drei konkrete Züge:**
-
-1. **fingrab hat 21 Marken-Einblendungen in 28 Tagen und wandelt sie zu 47,6 % um.**
-   Das ist exakt die Ahrefs-Lage. Es gibt bis heute nichts, was diese Suche
-   bedient außer dem Store-Eintrag: keine „So benutzt du fingrab"-Seite, keine
-   Fehlerbehebungs-Seite, keine Änderungsliste. Das ist die billigste
-   Verteilungs-Arbeit im ganzen Bestand.
-2. **solytics.de steht auf Platz 2,8 für den eigenen Namen** — fingrab steht auf
-   1,0. Ehrliche Einschränkung: „Solytics Partners" ist eine echte, größere Firma,
-   also womöglich eine Namenskollision, die man nicht wegoptimiert. Aber es ist
-   nachprüfbar, und ein dritter Platz beim eigenen Namen ist ein Leck.
-3. **Jede künftige Suchmaschinen-Wette auf allgemeine Dauerbegriffe ist tot,
-   unabhängig von Autorität.** Soulos Regel: auf *neue* Themen setzen, wo es noch
-   nichts gibt, nicht auf die zehnte Anleitung zu einem alten Thema.
+> Fassung 2. Die Erstfassung von heute Mittag war schlecht, und zwar nachrechenbar.
+> Was hier steht, hat den Filter überlebt: **Quelle zitierbar + hängt an einem
+> laufenden Geld-Faden + nicht längst entschieden + setzt kein Netzwerk voraus.**
 
 ---
 
-## 2. Vier unabhängige Quellen sagen dasselbe über dein fehlendes Netzwerk — und keine sagt „poste mehr"
+## Warum die Erstfassung schlecht war — mit Zahlen
 
-Das ist die stärkste Konvergenz im ganzen Bestand, und sie steht in vier Notizen
-verstreut, die sich gegenseitig nicht zitieren:
+Sie hatte 13 Punkte. Nachgezählt:
 
-- **Creanza (Vogelgesang, SFI):** Teilvernetzung schlägt Vollvernetzung.
-  Neuerungen verbreiten sich **schneller** entlang eingeschränkter Netzwerke als
-  wenn jeder mit jedem redet. Aber: *der Gewinn entsteht beim Kontakt, nicht in
-  der Isolation.*
-- **David Krakauer (2019):** Berg → **Kloster** → Metropole. Jede Idee braucht
-  alle drei, in dieser Reihenfolge.
-- **West & Krakauer (2021):** je größer das Team, desto mehr Zitate und desto
-  weniger Umbruch — umgekehrt proportional. Kleine Gruppen stören, aber „niemand
-  hört zu". Krakauers Schluss: **abwechseln, bewusst.**
-- **Isenberg, Fähigkeit 6:** 6–8 Leute um **eine scharfe Frage**, danach eine
-  kurze Zusammenfassung an alle. Kein Event, eine Gewohnheit.
+| Kategorie | Punkte |
+|---|---|
+| Über **meinen** Betrieb, nicht über deine Arbeit (Skill-Dateien, `waiting.md`, `model.conf`, Mehr-Agenten-Schwelle, Datenlager) | 5 |
+| Falsch oder erledigt (Netzwerk-Runde, Rechner-Warnung) | 2 |
+| Randnotiz ohne Handlung | 3 |
+| **Hängt tatsächlich an einem Geld-Faden** | **3** |
 
-**Was daran untergegangen ist.** Du hast den Berg (Ideen sind bei dir fast
-kostenlos) und die Metropole (das offene Netz, wo Sachen an Stille sterben). Es
-fehlt **die mittlere Stufe** — eine kleine, wohlwollende Runde, die eine Idee
-prüft, *bevor* sie öffentlich stirbt. Deine stehende Randbedingung heißt „ich habe
-kein Netzwerk". Die Antwort dieser vier Quellen darauf ist nicht „bau dir
-Reichweite auf" (das ist die Metropole, und die willst du nicht), sondern
-**acht Leute an einen Tisch um eine Frage.** John Krakauers Learning Salon gibt
-sogar das Rezept: 10–15 Minuten Vortrag, **zwei Stunden Fragen**, Rangordnung
-flach, Fächer bewusst gemischt.
+Drei von dreizehn. Deine Formulierung „vielleicht punktuell" trifft es genau.
 
-Das ist kein Reichweiten-Zug. Es ist billig, es braucht keine Bühne, und es ist
-die einzige Sache im ganzen Bestand, die dein „kein Netzwerk" wirklich angreift
-statt es zu umgehen.
+**Zwei Fehler waren hart, nicht Geschmackssache:**
+
+1. **Punkt 2 empfahl dir „acht Leute an einen Tisch".** Du hast mich am 16.07.
+   ausdrücklich korrigiert: *„kapier es endlich, dass ich kein Netzwerk habe."*
+   Ich habe die Empfehlung trotzdem an Platz zwei gestellt und mit **vier**
+   Quellen (Vogelgesang, Berg-Kloster-Metropole, Teamgröße, Isenberg) abgestützt.
+   Genau das ist „krampfhaft": vier abstrakte Belege, damit ein Rat unvermeidlich
+   aussieht, den du längst ausgeschlossen hast.
+2. **Der tragende Punkt 1 kam gar nicht aus den Notizen.** Die Zahlen sind eine
+   Search-Console-Abfrage, die ich selbst gefahren habe; die Notiz lieferte
+   nachträglich nur die Erklärung. Ich habe es als „das steht in deinen Notizen"
+   verkauft. Deine Beobachtung „Erkenntnisse ohne Bezug auf die Podcasts" ist an
+   dieser Stelle wörtlich richtig.
 
 ---
 
-## 3. Das meistempfohlene ungebaute Ding kostet null Werbebudget — und du machst seine Arbeit jede Woche von Hand
+## Was die 85 Notizen wirklich sind
 
-Vier Notizen zeigen auf dasselbe Bauteil:
+| Teil | Notizen | Bezug zu deiner Arbeit |
+|---|---|---|
+| Komplexitätswissenschaft (Santa Fe) | 10 | **keiner.** Verständnis, nicht Handlung. |
+| Papers zur Agenten-Prüfung | 11 | betrifft **meinen** Aufbau, nicht dein Geld |
+| Linear Digressions (Agenten-Innenleben) | 14 | dito |
+| Greg Isenberg + Copywriting + The Gist | 41 | **hier liegt das Geschäftliche** |
+| Eigene Synthesen (Wurzelordner) | 6 | **hier liegt das Umsetzbare** |
 
-- `marketing-agent-build-prompt.md`, Phase 1, wörtlich: *„Fang bei Phase 1 an und
-  überleg ernsthaft, dort aufzuhören."* Ein eigenes Datenlager über die
-  **verstreuten eigenen Zahlen** (Stripe, Search Console, Store-Installationen,
-  Anzeigen) plus „frag Claude Code" als Abfrage-Ebene.
-- **Buzz-Notiz, Demo 2:** App → offene Schnittstelle → geplanter Lauf schreibt die
-  Zahlen **in den Kanal, in dem du ohnehin redest** → du fragst mit den Zahlen
-  schon im Kontext. Kernsatz: *die Messung kommt dorthin, wo entschieden wird —
-  ungefragt.*
-- **Loop-Engineering:** eine Schleife braucht eine objektive Kennzahl und eine
-  Gedächtnisdatei, sonst ist sie keine Schleife.
-- **Linear Digressions, Finale:** ziele mit Agenten auf **die Arbeit, an der du
-  sonst aufhörst** — nicht auf den schönen Teil.
-
-**Der Beleg, dass es der richtige Griff wäre, steht in deiner eigenen Inbox:**
-„Analysiere Stripe" (01.08., 31.07., 22.07., 21.07., 06.07., …), „Untersuche die
-Search Console" (29.07., 22.07., 16.07., …), „Wie ist der Stand bei fingrab"
-(29.07., 19.07. viermal, 17.07., 16.07., …). Dieselbe Handarbeit, immer wieder,
-jedes Mal drei getrennte Abfragen.
-
-**Ehrliche Einordnung, sonst wäre es Artefakt N+1:** das ist
-**Verteidigungsarbeit, kein Nachfrage-Zug**. Es verkauft nichts. Es rangiert
-hinter Punkt 1 und 2. Aber es ist das einzige Bauvorhaben im Bestand, das ohne
-Werbebudget auskommt, jede Kanal-Entscheidung bedient und eine belegte
-wiederkehrende Reibung tötet.
+**35 von 85 Notizen — 41 % — haben schlicht keinen Geschäftsbezug.** Aus
+Stadt-Skalierung und Vogelgesang lassen sich keine Geld-Züge ableiten, und der
+Versuch erzeugt genau das Gefühl, das du beschrieben hast. Sie sind gut, sie
+gehören ins Repo, aber sie beantworten deine Frage nicht. Ich höre auf, Brücken
+dorthin zu bauen.
 
 ---
 
-## 4. Die Rechner-Warnung stand einen Monat vor dem FK/HC-Aus in den Notizen — und sie gilt weiter
+## Der eigentliche Befund: die Antwort ist schon geschrieben und liegt unbenutzt
 
-`kopywriting-kourse/`, erfasst **30.06.**, einen Monat vor deinem Aus für FK/HC am
-30.07.: Neville Medhora sagt, ChatGPT baue inzwischen **auf Zuruf einen
-persönlichen Rechner**, damit sei „die ganze Idee eines allgemeinen Rechners
-weitgehend erledigt". Soulos Gegenrede: nicht jeder weiß, welche Fragen er
-stellen muss — es bleibt Platz, aber nur für **spezifisch, eingebettet, mit
-Namen**.
+Deine Frage war „welche Erkenntnis ist mir entgangen". Die ehrliche Antwort ist
+unbequemer als eine neue Erkenntnis: **es gibt keine versteckte Einsicht — es
+gibt drei fertige Pläne im selben Ordner, für genau deine Lage geschrieben
+(kein Publikum, kein Netzwerk), und keiner davon läuft.**
 
-Das war ein *struktureller* Grund, unabhängig von deinen Klickzahlen, und er lag
-vier Wochen vor der Entscheidung im Repo. Wichtiger ist, wofür er **noch gilt**:
-für jedes künftige „ich bau ein kleines Werkzeug" — und für den
-Concept-Simulator, dessen Wert genau nicht im Rechnen liegt, sondern im
-Mitmachen (erst raten, dann aufdecken). Das ist die Verteidigungslinie, und sie
-sollte in der Positionierung stehen, nicht implizit bleiben.
+- **`distribution-without-audience.md`** — Kanaltabelle, sortiert nach
+  Geschwindigkeit des Urteils. Platz 1: *bezahlte Anzeige → Landingpage,
+  Rückmeldung in Stunden bis Tagen, „das schnellste Signal, das man für Geld
+  kaufen kann"*. Platz 4: Marktplätze. Platz 5: kostenloses Werkzeug als
+  Trichter-Einstieg. Ausdrücklich **ohne** Publikumsaufbau — die Zeile
+  „Personal Brand" ist in der eigenen Tabelle durchgestrichen.
+- **`distribution-skill-trainieren.md`** — enthält die Diagnose in klaren Worten:
+  *„Ich shippe den Build und lasse die zehn Distributions-Stücke weg. Jeder
+  Simulator, jeder Kalkulator, jeder Field-Note ist ein fertiges Produkt ohne ein
+  einziges Stück Distribution dahinter."* Und: Verteilung ist ein **Handwerk**,
+  man wird nur durch Wiederholungen besser, nicht durch Lesen.
+- **`serendipitaet-actionplan.md`** — Kästchenliste, kein Kästchen angehakt.
+  Darunter zwei Züge, die nichts kosten und kein Netzwerk brauchen: eine
+  „Woran ich arbeite"-Seite, und **den eigenen Namen in ein Werkzeug einbauen**.
 
----
-
-## 5. Der Dienstleistungs-Widerspruch ist in den Notizen längst aufgelöst
-
-Drei Notizen (Ganim, Vas/FDE, „Software ist tot") empfehlen dir eine
-Dienstleistung. Drei Mal steht in derselben Notiz deine eigene Gegenprüfung:
-*„immer noch ein Dienst, immer noch eine Stunden-Decke, nicht konvex."* Der
-Faden hängt seit dem Frühjahr in waiting #75.
-
-**Die Auflösung steht in Schritt 6 der Agenten-SaaS-Notiz und wurde nie als Regel
-ausgesprochen:** verkaufe **drei Piloten in EINER Nische**, dann mache das
-*Wiederkehrende* zum Produkt. *„Du verdienst dir die Software, indem du die
-Arbeit zuerst machst."* Der Dienst ist nicht die Sackgasse — er ist die **vom
-Kunden bezahlte Spezifikation**. Damit ist die Frage nicht mehr „Dienst oder
-Produkt", sondern „habe ich eine Nische, in der ich dreimal denselben Auftrag
-bekomme". Das ist eine andere, viel leichter zu beantwortende Frage.
-
-Dazu die Namensgebung, die du unabhängig selbst gefunden hattest: Vas' Agentur
-hat „Audit" zu **„Sprint"** umbenannt, weil „Audit" nach Steuerprüfung klingt.
-Dein „KI-Sprint" ist derselbe Zug — Bestätigung, kein Zufall.
+Das ist die Erkenntnis, die dir entgangen sein könnte, und sie ist unangenehm:
+**der Engpass ist nicht fehlendes Wissen, sondern dass die eigenen fertigen
+Pläne nicht ausgeführt werden.** Dafür brauche ich keine 88 Notizen zu lesen —
+aber es ist wahr, überprüfbar und es hängt an Geld.
 
 ---
 
-## 6. Ein Stanford-Professor stellt genau die Frage über deinen Aufbau, die niemand gemessen hat
+## Was den Filter sonst überlebt — zwei Punkte, ehrlich etikettiert
 
-Chris Potts, gefragt, woran er als Nächstes arbeiten will (Notiz vom 20.07.):
+**1. fingrab wird nur unter seinem eigenen Namen gefunden — und nichts bedient
+diesen Namen.** *Quelle der Zahlen: Search Console, nicht die Notizen.*
+28 Tage (03.07.–31.07.): 15 Klicks gesamt, davon alle 10 aus benannten
+Suchbegriffen aus dem einen Wort „fingrab" (Position 1,0, Klickrate 47,6 %).
+Die 60 anderen Begriffe: null. *Was die Notiz beisteuert* (Tim Soulo, Ahrefs,
+`kopywriting-kourse/`): eine kleine Marken-Suche zu bedienen lässt sie wachsen —
+Ahrefs sah 10–15 Suchen im Monat nach einem Werkzeug, baute es, die Zahl stieg.
+**Zug:** eine Seite auf fingrab.app, die „fingrab" bedient (Anleitung, Fehler,
+Änderungsliste). Deckt sich mit Platz 5 der Kanaltabelle. Kostet kein Budget.
 
-> *„Was ist der Grenznutzen einer Skill-Datei? Alle investieren gerade darin —
-> aber führt das zu mehr Produktivität? Führt es zu mehr PRs im Schnitt?"*
-
-Du fährst 159 Skills, einen 24-KB-Gedächtnisindex, Profile und Routinen. Das ist
-ein großer, **vollständig ungemessener** Einsatz in genau dem Artefakt, für das
-laut Potts niemand Belege hat. Und du hast als einer der wenigen die Daten dafür:
-`skill-usage.py`, `skill-outcomes.py`, Ergebnisse pro Lauf, Qualitätstor-Quoten.
-Das ist ein abgeschlossenes, billiges Experiment, das noch niemand gefahren hat.
-
-Aus derselben Notiz, härter: **fließende Nutzer stoßen in 64 % der Gespräche auf
-Fehler, Anfänger nur in 24 % — aber 85,6 % der Anfänger-Fehler bleiben
-unsichtbar.** Mehr Reibung ist der gesunde Zustand. Und die
-Auftrags-YAML-Datei — ein Block Text, um 22:00 abgefeuert, niemand da zum
-Nachfragen — ist die Anfänger-Haltung als Verfahren. Kein Grund aufzuhören
-(Code ist der gut prüfbare Fall), aber die Regel daraus: **jede YAML muss
-beantworten „was fängt das ab, wenn es abdriftet, während niemand hinschaut".**
+**2. „KI" in der eigenen Außendarstellung ist kostenlos testbar.** Zwei Notizen
+sagen, die Stimmung zu KI außerhalb der Technikwelt sei negativ und man solle das
+*Ergebnis* verkaufen. Auf solytics.de steht „KI-Automatisierung" in `index.html`,
+`About.vue`, `Kontakt.vue`, `FunnelCTA.vue`, `RelatedArticles.vue`,
+`BlogArticle.vue` — nachgezählt. solytics ist das einzige Repo, in dem ich
+ohnehin Ideen einbringen darf.
 
 ---
 
-## 7. Ein Ausfallmuster hat bei dir noch keinen Namen: „The Walkaway"
+## Zurückgezogen
 
-Die Notiz ordnet sieben deiner eigenen Lernpunkte den Fehler-Grundformen aus
-Potts' Arbeit zu — Confidence Trap, Silent Mismatch, Drift, Death Spiral. Eine
-Form bleibt ohne Gegenstück, und es ist ausgerechnet **die größte: „The
-Walkaway"**, in über 65 % der mehrstufigen Gespräche. Definition: der Faden endet
-einfach, ungelöst, ohne dass jemand es merkt.
-
-In deinem Betrieb ist das kein Chat-Phänomen, sondern `waiting.md` mit 25 Punkten,
-offene PRs, beantwortete Fragen ohne Folgeschritt. Es ist der einzige Fehlertyp,
-gegen den du **keine** Schutzmaßnahme gebaut hast — für alle anderen gibt es eine
-(Teil-Commit-Wächter, Diff-statt-Text prüfen, Qualitätstor). Ehrlich: das ist
-meine Übertragung, nicht Potts' Aussage. Aber die Lücke ist echt.
+- **Netzwerk-Runde / Learning Salon** — verstößt gegen deine eigene Ansage.
+  Ersatzlos gestrichen, nicht abgeschwächt.
+- **Rechner-Warnung** — betrifft eine Entscheidung, die du am 30.07. getroffen
+  hast. Ein geschlossener Faden gehört nicht in eine Erkenntnisliste.
+- **Skill-Dateien, `waiting.md`/„Walkaway", `--fallback-model`,
+  `setup-token`, Mehr-Agenten-Schwelle, eigenes Datenlager** — das ist mein
+  Maschinenraum. Es kann berechtigt sein, aber es ist nicht deine Arbeit und
+  hat in einer Antwort auf deine Frage nichts verloren. Gehört, wenn überhaupt,
+  in meinen Journal-Eintrag, nicht in deine Notizen.
 
 ---
 
-## 8. Kürzere Liste — richtig, billig, nie gezogen
+## Die eine Zeile
 
-- **`claude -p --fallback-model A,B`** macht nativ, was der Sitzungs-Starter mit
-  `model.conf` von Hand baut. **`claude setup-token`** gibt einen langlebigen
-  Zugang statt kurzlebigem OAuth — die Notiz vom 14.07. sagt ausdrücklich
-  *„prüfen, ob das die stille-Ausfall-Klasse beseitigt"*. Nie geprüft; stattdessen
-  wurde der Telegram-Login-Tanz gebaut. (`claude-prompt-commands.md`)
-- **„Vielleicht sollte in der Werbung gar nicht KI stehen."** Zwei Notizen sagen,
-  dass die Stimmung zu KI außerhalb der Technikwelt negativ ist und man das
-  *Ergebnis* verkaufen soll. Auf solytics.de steht „KI-Automatisierung" in
-  `index.html`, `About.vue`, `Kontakt.vue`, `FunnelCTA.vue`,
-  `RelatedArticles.vue`, `BlogArticle.vue` — nachgezählt. Kostenlos testbar, und
-  solytics ist das einzige Repo, in dem du ohnehin Ideen einbringen darfst.
-- **Die 45-%-Schwelle** (Linear Digressions 8) räumt einen Verdacht aus statt
-  einen zu bestätigen: mehrere Agenten helfen bei **unabhängigen Teilaufgaben**
-  (+80 %) und schaden bei **abhängigen Schritten** (−70 %). Fabrik = ein Arbeiter
-  pro Ticket = der gute Fall. Die Warnung gilt dem Zerlegen *einer*
-  aufeinander aufbauenden Aufgabe auf mehrere Agenten — nicht Fabriks Bauform.
-- **Kill-Schwellen gehören in erwartete Abschlüsse, nicht in Euro oder Tage.**
-  (`stochastic-processes.md`) Bei kleiner Rate sind Wochen ohne Verkauf der
-  *erwartete* Verlauf, kein Todesbeleg. Die 500-€-Schwelle bei fingrab misst
-  Ausgaben, nicht Erwartung.
-- **West: melde Verzehnfachungs-Zeiten, nicht Verdopplungen** — und sag nie
-  „exponentiell", wenn du „schnell" meinst. Eine Exponentialkurve ist am Anfang
-  *langsam*, genau dann sagen es alle.
-
----
-
-## 9. Hauswirtschaft
-
-`my-rejection-story/anne-laure-lecunff-negativity-bias-tiny-experiments.md` endet
-mit zwei versehentlich hineingeschriebenen Werkzeug-Marken (`</content>`,
-`</invoke>`) — Rest eines Schreibvorgangs. Inhaltlich unversehrt, aber die Datei
-sollte sauber sein.
-
----
-
-## Die eine Zeile, wenn du nur eine liest
-
-**Der einzige Suchbegriff, der auf deinen lebenden Seiten je einen Klick
-gebracht hat, ist dein eigener Produktname — und niemand hat je etwas gebaut, das
-ihn bedient.** Alles andere in diesen 88 Notizen ist Beiwerk zu dieser Zahl.
+**In 85 Notizen steckt keine übersehene Einsicht — es steckt ein übersehener
+Stapel fertiger Pläne, geschrieben für jemanden ohne Publikum, und die
+schnellste Zeile darin heißt: bezahlte Anzeige auf eine Seite, Urteil in Tagen.**
