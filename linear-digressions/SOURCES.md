@@ -49,7 +49,8 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | Note | Source |
 |---|---|
 | `2026-08-03-reasoning-models-…` | transcript (2026-08-03) |
-| the other 14 notes | **show notes — rewrite in progress, batch started 2026-08-04 09:32 UTC** |
+| `2026-07-27-distillation-how-to-steal-a-model` | transcript (rewritten 2026-08-04) |
+| the other 13 notes | **show notes — rewrite in progress, batch started 2026-08-04 09:32 UTC** |
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which

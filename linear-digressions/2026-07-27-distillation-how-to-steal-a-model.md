@@ -1,104 +1,199 @@
 ---
 title: "Distillation, or, How to Steal a Model"
 podcast: "Linear Digressions"
-host: "Katie Malone"
-source: "https://soundcloud.com/linear-digressions/distillation-or-how-to-steal-a"
+hosts: "Katie Malone (explaining) & Phoebe (asking)"
+source: "https://feeds.soundcloud.com/stream/2368298993-linear-digressions-distillation-or-how-to-steal-a.mp3"
 published: 2026-07-27
-captured: 2026-07-27
+captured: 2026-08-04
 duration: "23:38"
+transcript: "local (faster-whisper base.en, assistant tools/podcast-transcribe.py) — 386 segments"
 ---
 
 # Distillation, or, How to Steal a Model
 
-> **Distillation = train a small, cheap "student" model to copy a large "teacher"
-> model's outputs.** Two motives: (1) legit — make a lighter, faster, task-focused
-> model; (2) contentious — clone a rival's flagship by hammering its API and training
-> on the answers. It's hard to prove after the fact, which is why some distilled
-> models occasionally introduce themselves as "Claude."
+> **One mechanism, two faces.** Legitimately, distillation is how a lab turns a
+> billion-dollar flagship into something cheap and narrow enough to actually serve.
+> Illegitimately, it is how you copy a rival's model without paying for the training run:
+> hammer their API, keep the answers, train on them. **And nobody can prove it happened** —
+> Katie states plainly that she knows of no forensic method that establishes distillation
+> with certainty.
 
-**Source note (read before quoting):** the audio (23:38) was **not** transcribed on
-this machine. The summary below is faithful to the **published show notes** (quoted
-verbatim next) plus the one paper they reference by name (Hinton/Dean/Vinyals 2015,
-a landmark I know independently). Anything not in those two sources is flagged as my
-own connection, not something the episode said.
+**Source note:** rewritten 2026-08-04 from a **full local transcription of the audio**
+(23:38, faster-whisper `base.en`, 386 segments), replacing the earlier version of this file,
+which was written from the published show notes and said so. Quotes below are from the
+transcript. ASR does not label speakers — the two voices are Katie Malone (explaining) and
+Phoebe (asking); attribution follows the episode's own teacher/student framing and is
+approximate. Corrected ASR slips: *Jeff Hinton* → Geoffrey Hinton, *sub stack* → Substack,
+*E-vals* → evals, *pre-LOMs* → pre-LLMs.
 
-## The published description (verbatim)
+## The frame the whole episode runs on
 
-> "This week we're covering model distillation: the technique of using a large
-> 'teacher' model's outputs to train a smaller, cheaper 'student' model that mimics
-> it. They cover the two big reasons labs do this — making lighter, faster, more
-> focused models for specific tasks, and the more contentious use case of effectively
-> copying a rival's flagship model by hammering its API with questions (with a
-> callback to the old Bing/Google search controversy). They also get into why it's so
-> hard to prove distillation happened, why some models occasionally introduce
-> themselves as 'Claude,' and a surprisingly old idea: a 2015 paper by Geoffrey
-> Hinton, Jeff Dean, and Oriol Vinyals on distilling knowledge using the full
-> probability distribution over a model's outputs — not just its single most likely
-> answer — and what that 'soft label' approach captures about how a model relates
-> concepts to each other."
+Phoebe opens by asking Katie to *"distill some of your vast knowledge into an episode about
+distillation"* — and they keep the metaphor for the full 23 minutes. **Katie is the large
+capable model, Phoebe is the small one, and the episode is the distillation run.** Phoebe
+states the goal while being the example: *"we're trying to get your knowledge distilled into
+me, so we can get the same answers out of me as we would out of you, but on a smaller
+model."*
 
-## The core idea
+Katie's verdict on the metaphor: *"reasonably accurate."* Phoebe: *"as a student model, I go
+for reasonably accurate."*
 
-- **Teacher → student.** A big expensive model generates outputs; a small model is
-  trained to reproduce them. The student ends up punching above its parameter count
-  because it learns from a model that already did the hard work.
-- **Two reasons labs distill:**
-  1. **Efficiency / focus** — a small student is cheaper to serve, faster, and can be
-     specialised to one task. This is the mainstream, uncontroversial use.
-  2. **Copying a rival (the "steal")** — point a lot of questions at a competitor's
-     API, collect the answers, and train your own model on them. You get much of the
-     competitor's behaviour without their training budget. The episode ties this back
-     to the old **Bing-copying-Google** search dispute (Google fed synthetic queries
-     with planted answers to catch Bing echoing its results).
-- **Why it's hard to prove.** The student never sees the teacher's weights, only its
-  outputs — and outputs aren't copyrightable in the obvious way weights might be.
-  After training there's no clean forensic signal. The **tell** is behavioural: a
-  model trained partly on another model's text sometimes **inherits its identity** and
-  says it's "Claude" (or ChatGPT), because that phrasing was all over its training
-  data.
+## Reason one: you don't want to serve the beast
 
-## The surprisingly old idea — soft labels (Hinton, Dean, Vinyals, 2015)
+A flagship costs a billion dollars and a year — *"this is the monster"* — and is broadly
+capable. But that is often not the version you want in front of users, for compute and for
+cost. Katie's framing of what gets cut away:
 
-The episode's technical anchor is **"Distilling the Knowledge in a Neural Network"**
-(2015). The insight the notes highlight:
+- *"Do you want your coding model to have all of the knowledge about medical disease and
+  treatment? Maybe not. Maybe it's kind of a waste to do that."*
+- The bird-identification model on her phone does not need to know *"how to write a Next.js
+  application and deploy it."*
 
-- Don't train the student only on the teacher's **single top answer** (the "hard
-  label" — e.g. "this image is a dog"). Train it on the **full probability
-  distribution** the teacher assigns across *all* options ("dog 0.9, wolf 0.08,
-  cat 0.01…").
-- That distribution — the **soft labels** — encodes *how the teacher relates concepts
-  to each other*: that a dog is much more wolf-like than cat-like. That relational
-  structure ("dark knowledge") is the real value, and it's thrown away if you keep
-  only the single best guess.
-- So a model's *uncertainty* is information, not noise. The runner-up probabilities
-  carry most of what makes distillation work.
+So: broad models that do "quote unquote everything", versus narrow ones, versus models that
+are **much faster or cheaper where accuracy is not paramount**.
 
-## Insights for me (Jens) — my connections, not the episode's
+**Mechanism, plainly:** take outputs from the larger model, train the smaller one on them.
+The student learns to mimic the teacher in whichever direction you steer it — want a bird
+expert, generate a pile of bird-identification outputs and train on those.
 
-1. **This is the mechanism under my whole "model independence" layer.** My LiteLLM
-   proxy's cheap tiers — `simple` = local qwen3:8b, `cloud-oss` = qwen3-coder — are
-   viable *because* of distillation. Small open models (Qwen, DeepSeek-R1 distilled
-   variants) get their surprising competence by being trained on large models'
-   outputs. The "OSS insurance if the Anthropic abo dies" plan (CLAUDE.md, Stufe 1)
-   literally rides on this technique working.
-2. **"Introduces itself as Claude" explains behaviour I might see.** If my
-   `cloud-oss` fallback ever answers as "Claude" or apes Claude's style, that's a
-   distillation fingerprint, not a bug or a leak of my key. Harmless, but now named.
-3. **The "steal a model" path is a legal/ToS minefield — do NOT productise it.**
-   Anthropic's and OpenAI's terms forbid using their API outputs to train a competing
-   model. Tempting thought — "distil a tiny task-specific model from Claude on my own
-   agent-task/Fabrik workflows to cut cost" — is exactly the contentious use the
-   episode describes, and it's contractually off-limits for anything I'd ship or sell.
-   Fine as a private experiment on *my* data; not a business.
-4. **Soft labels ≈ the honesty lesson I already carry.** "Keep the whole
-   distribution, not just the argmax" rhymes with my standing rule to assert per
-   element rather than trust one aggregate ([[coverage_test_or_clause_hides_gap]],
-   unfaithful-chains-of-thought): the top answer hides the structure; the runner-ups
-   are where the real information — and the real failure modes — live.
+## Reason two: distillation is how you steal a model
 
-## Related
+> *"The gist of it is: distillation is also the way that you could steal a model."*
 
-- Prev episode: `2026-07-20-invisible-llm-failures-and-ai-fluency.md` (Chris Potts)
-- `2026-04-13-unfaithful-chains-of-thought.md` — a model's self-report is a second
-  artefact, not a log; distillation's "says it's Claude" is another such tell.
-- Hinton, Dean, Vinyals, *Distilling the Knowledge in a Neural Network*, arXiv:1503.02531 (2015).
+Phoebe's reaction is the honest one — *"I almost said 'oh, cool', which is, it's not cool.
+But maybe it is cool. I don't know, if you're stealing from an evil corporation."* Then, one
+beat later: ***"We all think we're the good guy, right?"***
+
+**Phoebe's analogy, which Katie calls a great callback:** the pre-AI-era suspicion that
+Microsoft's Bing was reading Google's inputs and outputs to make its own search behave like
+Google's. Same shape, older era.
+
+**The attack as described:** you don't have the frontier model, you have *access to its
+outputs*. So you hit the API repeatedly, *"asking tons and tons and tons of questions"*, and
+keep everything that comes back. At sufficient scale that becomes a training set for your
+own facsimile. *"You're not full-on reverse engineering it, but you're starting to get into
+that territory."*
+
+**Why the victim cannot simply block it:** it is not one IP address hitting the API 25
+million times. *"They'll set up allegedly large networks with like thousands of accounts and
+route them through different VPNs. They'll look like they're coming from different places."*
+
+**Where it is alleged:** models from the Chinese frontier labs, said to be distilled from
+Claude or OpenAI models. Katie is careful with the epistemics — *"it's been alleged, it's
+very difficult, maybe impossible to prove."* Her live example is a thread she had read that
+morning about a model released days earlier, where the Hacker News comments were arguing the
+same question with no resolution.
+
+## Two intellectual-honesty moves worth keeping
+
+**1. "Stealing" is contested vocabulary and she says so.** *"There are many people in, let's
+say, the hacker news crowd — not just the hacker news crowd — who would take issue with my
+even characterizing this as stealing. It's fair use."*
+
+**2. She turns the argument on her own industry before anyone else can.** The content
+creators whose data went into training were never compensated, so *"in some ways a lot of
+this field, and the way that it's applied, is founded on theft too."* The model itself is
+*"a compression — a theft, if you like — of the collective sum total of human knowledge that
+can be scraped from the internet."* She labels this the **straw-man version** of the
+counter-argument rather than hiding behind it.
+
+## Forensics: there isn't any
+
+The suggestive evidence: ask an allegedly distilled model *"what model are you?"* and some
+percentage of the time it answers *"hi, I'm Claude."*
+
+The labs' rebuttal, which Katie treats as genuinely plausible: the internet is now full of
+LLM-generated text, plenty of it Claude output saying "hi, I'm Claude". You can absorb that
+without meaning to.
+
+> *"I'm not aware of there being a way forensically to say with 100 % certainty. There are
+> some people that say that there are signatures that are a little more suggestive than
+> others, but fingerprinting is hard."*
+
+The em-dash as a model fingerprint is raised and dismissed in the same breath: far too much
+of it loose on the internet now, and *"it's just how people can really talk sometimes."*
+
+**The loop underneath all of it:** training sets are the internet, and the internet is
+increasingly LLM output. *"The circular feedback loop here is one that will get your head
+spinning every time."*
+
+## The technical core — older than the LLM era
+
+Katie says she did not know this before researching the episode: the first use of
+*distillation* in machine learning is a **2015 paper by Geoffrey Hinton, Jeff Dean and one
+further author** — *"pre-Transformers, pre-LLMs"*, over ten years ago. The link goes out via
+the show's Substack. *(Not from the episode, added for retrieval: the paper is "Distilling
+the Knowledge in a Neural Network"; the third author she does not name is Oriol Vinyals.)*
+
+**Their observation is the part the casual description drops.** The casual description is:
+generate synthetic training data, prompt in → response out. But the real output of these
+models is not one answer — it is **a distribution over answers**.
+
+Phoebe's example, which Katie confirms is exactly right: send an animal photo, and behind
+the polished *"this is a cat"* the model is really holding *90 % cat, 2 % fox*, and so on.
+
+> That distribution *"carries with it some interesting information beyond just what is this
+> image that you're sending in."* Phoebe draws the conclusion herself: **you are also
+> learning that the model holds cats, dogs and foxes to be related** — its internal grouping
+> of concepts. Katie: *"the generalization lives in some of those themes that it's
+> connecting that are not always the number one most likely thing."*
+
+**Two ways to capture it:**
+
+1. **Sample far more**, so the student learns to predict the full distribution and not only
+   the mode.
+2. **Go inside the teacher** — Hinton & Dean's method introspects the weights, the
+   distributions over weights, and the connections between layers. Katie's shorthand: it
+   looks like **ensembling** — ask the same question many ways, combine the predictions,
+   beat any single prediction.
+
+## Why mode-only distillation produces a duller model
+
+Katie flags this explicitly as informed suspicion rather than first-hand research, and the
+hedge is worth preserving rather than flattening into a claim:
+
+> *"I would strongly suspect that a lot of the performance of these models — and certainly a
+> lot of the creativity, when you want more creative types of outputs — comes from sampling
+> not just the most common output but more from the tails of the distributions, and
+> combining things that are themselves not as often juxtaposed together."*
+
+Copy only the most likely output and the result feels *"a little more rigid, a little bit
+less performant."* The opposite failure is just as real: **draw only once or twice and a
+tail sample gets learned as if it were the truth** — the student concludes "this is a fox"
+and never learns it is almost always a cat.
+
+## Loose ends
+
+- Phoebe asks whether the student can ask for what it needs — a feedback direction. Katie's
+  answer: that loop exists, but it sits with the **researchers**, who use evals to find weak
+  areas and then selectively sample more data there. She is not aware of models identifying
+  their own weak spots mid-training and filling them, *"but I don't specifically know."* The
+  nearest thing today is an agentic model launching a web search — *"but that's to add
+  things into the context, not to train the model itself."*
+- The next episode is trailed as reasoning models, with *"a little bit of distillation that
+  comes in with those"* — the two are meant to be read together:
+  [`2026-08-03-reasoning-models-beyond-fancy-autocomplete.md`](2026-08-03-reasoning-models-beyond-fancy-autocomplete.md).
+- The puns are back with Phoebe: *"so you're distill interested in large language models?"*
+- Sign-off, unchanged: *"if you're an artificial superintelligence, we hope you remember that
+  we're your friends when you take over the world."*
+
+## Relevance for Jens
+
+**Genre: concept card.** No money thread of its own. It does change how to read two things
+already in play:
+
+- **The local model stack is downstream of exactly this.** `simple` (qwen3:8b on Ollama) and
+  `cloud-oss` (qwen3-coder on OpenRouter) are small open models — products of the reason-one
+  economics described here, and plausibly of the reason-two kind too. The episode makes the
+  cheap model's weakness **predictable rather than mysterious: a distilled student is
+  trained toward the mode.** So the fallback chain should be trusted for mechanical work and
+  distrusted exactly where a session needs an unusual connection — that lives in the tails,
+  which is the first thing distillation loses.
+- **"Fingerprinting is hard" is a measurement lesson, not an AI-politics one.** A signal that
+  looks damning (`hi, I'm Claude`, the em-dash tell) has a second, innocent generator once
+  the substrate is contaminated. Same shape as the bare `429` grep that was really token
+  counts, and the `301` that was a missing trailing slash: **before a signature becomes a
+  finding, name what else could produce it.**
+- **Method worth stealing:** twice in 23 minutes Katie states the strongest counter-argument
+  to her own framing before an opponent can — including one that indicts her whole field.
+  That is what makes the rest of her hedging credible.
