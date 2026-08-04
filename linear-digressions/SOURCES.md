@@ -39,11 +39,32 @@ curl -s "https://feeds.feedburner.com/linear-digressions?format=xml" \
   | grep -oP '(?<=<pubDate>)[^<]+' | sed -n 2p     # line 1 is the channel, line 2 the newest item
 ```
 
+## Which notes are built on a transcript, and which are not
+
+Jens, 2026-08-04 09:29: *"die Folgen … hast du zusammengefasst anhand der Summary Notes.
+Mach das bitte aber mach eine Summary bitte von den Transcribes"* — so every note here is
+being rebuilt from the audio. A note counts as done only when its front matter carries a
+`transcript:` line.
+
+| Note | Source |
+|---|---|
+| `2026-08-03-reasoning-models-…` | transcript (2026-08-03) |
+| the other 14 notes | **show notes — rewrite in progress, batch started 2026-08-04 09:32 UTC** |
+
+Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
+they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
+reads `manifest.tsv`, skips finished slugs and is therefore safe to re-run after a
+session dies. Progress: `tail ~/.cache/podcast-transcripts/run.log`.
+
 ## Transcribing an episode
 
 Since 2026-08-03 the audio is transcribed locally instead of summarising from show
 notes — `~/repos/assistant/tools/podcast-transcribe.py` (faster-whisper, CPU, no GPU
-needed; ~11 min for a 25-min episode). Grab the newest enclosure straight from the feed:
+needed). **Speed, measured 2026-08-04:** `base.en` at 7 threads did a **26:28 episode in
+2.5 minutes** — roughly **10× real time**, not the ~11 min per 25-min episode the tool's
+own docstring claims. That figure came from the very first run, which also downloaded the
+~150 MB model. Plan work off 10×: a full 6-hour back catalogue is ~30 minutes with two
+workers at 4 threads, not three hours. Grab the newest enclosure straight from the feed:
 
 ```bash
 tools/podcast-transcribe.py "$(curl -s 'https://feeds.feedburner.com/linear-digressions?format=xml' \
