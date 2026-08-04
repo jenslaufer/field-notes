@@ -105,7 +105,7 @@ ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen".
 die Markierung überhaupt eingeführt war. Der belastbare Test vergleicht **den Inhalt**:
 jedes Zitat der Notiz mit ≥ 8 Wörtern gegen ein 8-Wort-Fenster im normalisierten Transkript.
 Ergebnis oben — der Abstand zwischen 0–22 % und 57 % ist eindeutig, dazwischen liegt nichts.
-Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x) und `05` (04.08. 18:5x): **4 offen** (`01`–`04`).
+Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x), `05` (04.08. 18:5x), `04` (04.08. 19:xx) und `03` (05.08. 01:4x): **2 offen** (`01`–`02`).
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
