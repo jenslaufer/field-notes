@@ -56,7 +56,8 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `10-agent-economics` | transcript | neu geschrieben 04.08. |
 | `09-agent-trust-oversight-and-control` | transcript | neu geschrieben 04.08. — **35 von 39 Zitaten wörtlich belegt**, die 4 übrigen sind Auslassungszeichen-Artefakte bzw. das gestrichene Falschzitat |
 | `08-many-agents-many-problems` | transcript | neu geschrieben 04.08. — **29 von 33 Zitaten wörtlich belegt**; die Schaunotizen-Fassung war hier inhaltlich korrekt, der Zugewinn ist das Argument selbst |
-| die anderen 7 Notizen (`01`–`07`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `07-how-do-you-evaluate-an-ai-agent` | transcript | neu geschrieben 04.08. — die Schaunotizen-Fassung war weitgehend korrekt, enthielt aber **zwei erfundene GAIA-Zahlen** ("~mid-70s" und "one submitted system claims 92 %"): keine kommt im Transkript vor, die 92 % waren der **Menschen**-Wert, einem System zugeschrieben. Ausserdem Vorspann korrigiert — Katie **allein**, nicht "Katie Malone & Ben Jaffe" |
+| die anderen 6 Notizen (`01`–`06`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
 
 **Zwei Fehlerarten, die die Schaunotizen-Fassungen erzeugen** (beide in `09` gefunden und
 dort belegt): eine Passage aus einer **anderen Folge** (der Fable-5-Rückruf gehört zu `10`,
@@ -82,7 +83,7 @@ ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen".
 die Markierung überhaupt eingeführt war. Der belastbare Test vergleicht **den Inhalt**:
 jedes Zitat der Notiz mit ≥ 8 Wörtern gegen ein 8-Wort-Fenster im normalisierten Transkript.
 Ergebnis oben — der Abstand zwischen 0–22 % und 57 % ist eindeutig, dazwischen liegt nichts.
-Der Rückstand ist also **12 Notizen, nicht 14**.
+Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` am 04.08. 16:xx: **6 offen** (`01`–`06`).
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
