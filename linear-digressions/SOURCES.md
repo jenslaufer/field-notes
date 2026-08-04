@@ -58,9 +58,10 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `08-many-agents-many-problems` | transcript | neu geschrieben 04.08. — **29 von 33 Zitaten wörtlich belegt**; die Schaunotizen-Fassung war hier inhaltlich korrekt, der Zugewinn ist das Argument selbst |
 | `07-how-do-you-evaluate-an-ai-agent` | transcript | neu geschrieben 04.08. — die Schaunotizen-Fassung war weitgehend korrekt, enthielt aber **zwei erfundene GAIA-Zahlen** ("~mid-70s" und "one submitted system claims 92 %"): keine kommt im Transkript vor, die 92 % waren der **Menschen**-Wert, einem System zugeschrieben. Ausserdem Vorspann korrigiert — Katie **allein**, nicht "Katie Malone & Ben Jaffe" |
 | `05-agentic-planning` | **Transkript** | neu geschrieben 04.08. 18:5x, 46/46 Zitatsegmente ≥ 8 W belegt |
-| die anderen 4 Notizen (`01`–`04`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `04-memory-management-for-ai-agents` | **Transkript** | neu geschrieben 04.08. 21:xx, 31/31 Zitatsegmente ≥ 8 W belegt |
+| die anderen 3 Notizen (`01`–`03`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
 
-**Drei Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **vier**
+**Vier Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **fünf**
 Notizen belegt, also die Regel und nicht der Einzelfall:
 
 1. **Passage aus einer anderen Folge** (`09`: der Fable-5-Rückruf gehört zu `10`, steht in
@@ -73,6 +74,14 @@ Notizen belegt, also die Regel und nicht der Einzelfall:
    recurring pattern at AI inflection points* mit **Deep Blue/Kasparov, ~200 Mio.
    Positionen/Sekunde und AlphaGo/Lee Sedol** — `chess`, `Kasparov`, `AlphaGo`,
    `Monte Carlo`, `200 million` haben **null Treffer über alle 16 Transkripte**).
+4. **Fremdwissen als Folgeninhalt ausgegeben** (`04`: Autorenliste „Packer, Wooders, Lin,
+   Fang, Patil, Stoica, Gonzalez" + `arxiv.org/abs/2310.08560` zum MemGPT-Papier —
+   sachlich richtig, aber `Packer`, `Stoica`, `Gonzalez`, `arxiv`, `2310` haben null
+   Treffer in allen 16 Transkripten; die Folge sagt nur „a paper out of UC Berkeley in
+   late 2023 called MemGPT"). Diese Art ist die heimtückischste, weil sie jede
+   Faktenprüfung besteht — falsch ist nur die **Quellenangabe**. Dazu wieder eine
+   erfundene Zahl derselben Bauart wie in `07`: „Assume anything 20 messages old is
+   effectively gone" (`20 messages` = null Treffer).
 
 Beim Neuschreiben deshalb **jede auffällige Passage UND jede Zahl einzeln** gegen den
 Volltext greppen — quer über **alle** Transkripte, nicht nur das der Folge. Ein
