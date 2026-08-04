@@ -54,7 +54,15 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `11-interviewing-the-agents` | transcript | neu geschrieben 04.08. |
 | `2026-04-13-unfaithful-chains-of-thought` | transcript | neu geschrieben 04.08. |
 | `10-agent-economics` | transcript | neu geschrieben 04.08. |
-| die anderen 9 Notizen (`01`–`09`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `09-agent-trust-oversight-and-control` | transcript | neu geschrieben 04.08. — **35 von 39 Zitaten wörtlich belegt**, die 4 übrigen sind Auslassungszeichen-Artefakte bzw. das gestrichene Falschzitat |
+| die anderen 8 Notizen (`01`–`08`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+
+**Zwei Fehlerarten, die die Schaunotizen-Fassungen erzeugen** (beide in `09` gefunden und
+dort belegt): eine Passage aus einer **anderen Folge** (der Fable-5-Rückruf gehört zu `10`,
+steht in `09` in keinem einzigen Segment) und ein **erfundenes Schlusszitat**
+(„Have we reached the singularity yet?" — das Wort *singularity* kommt in **keinem** der 15
+Transkripte vor). Beim Neuschreiben deshalb jede auffällige Passage einzeln gegen den
+Volltext greppen, nicht nur die Kernaussagen.
 
 **Reihenfolge der Neuschrift: neueste zuerst, und „neueste" heißt hier die SoundCloud-ID,
 nicht der Dateiname.** Die IDs im `manifest.tsv` wachsen mit dem Upload-Zeitpunkt:
