@@ -53,13 +53,14 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `2026-07-20-invisible-llm-failures-and-ai-fluency` | transcript | **62 von 108 Zitaten wörtlich im Transkript (57 %)** — war von Anfang an audio-basiert, nur die Markierung fehlte |
 | `11-interviewing-the-agents` | transcript | neu geschrieben 04.08. |
 | `2026-04-13-unfaithful-chains-of-thought` | transcript | neu geschrieben 04.08. |
-| die anderen 10 Notizen (`01`–`10`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `10-agent-economics` | transcript | neu geschrieben 04.08. |
+| die anderen 9 Notizen (`01`–`09`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
 
 **Reihenfolge der Neuschrift: neueste zuerst, und „neueste" heißt hier die SoundCloud-ID,
 nicht der Dateiname.** Die IDs im `manifest.tsv` wachsen mit dem Upload-Zeitpunkt:
 `2026-04-13-unfaithful-cot` = 2300885150 ist die **älteste** der 15, nicht die neueste — die
 Journal-Notiz vom 04.08. 13:00 („neueste der 12 Rückständigen") war falsch. Übrige Reihenfolge
-also `10` → `09` → … → `01`.
+also `09` → `08` → … → `01`.
 
 **Zwei Korrekturen, die beim Hören auffielen und im Vorspann beider neu geschriebener Notizen
 stehen:** die Ko-Moderatorin ist seit mindestens 04/2026 **Phoebe**, nicht Ben Jaffe (so stand
