@@ -51,7 +51,19 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `2026-08-03-reasoning-models-…` | transcript | geschrieben aus dem Transkript (03.08.) |
 | `2026-07-27-distillation-how-to-steal-a-model` | transcript | neu geschrieben 04.08. |
 | `2026-07-20-invisible-llm-failures-and-ai-fluency` | transcript | **62 von 108 Zitaten wörtlich im Transkript (57 %)** — war von Anfang an audio-basiert, nur die Markierung fehlte |
-| die anderen 12 Notizen | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `11-interviewing-the-agents` | transcript | neu geschrieben 04.08. |
+| `2026-04-13-unfaithful-chains-of-thought` | transcript | neu geschrieben 04.08. |
+| die anderen 10 Notizen (`01`–`10`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+
+**Reihenfolge der Neuschrift: neueste zuerst, und „neueste" heißt hier die SoundCloud-ID,
+nicht der Dateiname.** Die IDs im `manifest.tsv` wachsen mit dem Upload-Zeitpunkt:
+`2026-04-13-unfaithful-cot` = 2300885150 ist die **älteste** der 15, nicht die neueste — die
+Journal-Notiz vom 04.08. 13:00 („neueste der 12 Rückständigen") war falsch. Übrige Reihenfolge
+also `10` → `09` → … → `01`.
+
+**Zwei Korrekturen, die beim Hören auffielen und im Vorspann beider neu geschriebener Notizen
+stehen:** die Ko-Moderatorin ist seit mindestens 04/2026 **Phoebe**, nicht Ben Jaffe (so stand
+es in beiden alten Vorspännen); und die Folge 11 ist **Katie allein** plus ihre zwei Agenten.
 
 **Wie das gemessen wird — und warum die erste Messung falsch war.** Am 04.08. 09:29 zählte
 ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen". Das misst die
