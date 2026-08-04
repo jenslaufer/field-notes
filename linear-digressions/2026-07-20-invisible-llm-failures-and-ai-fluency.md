@@ -7,6 +7,9 @@ source: "https://soundcloud.com/linear-digressions/invisible-llm-failures-and-ai
 published: 2026-07-20
 captured: 2026-07-20
 duration: "41:23"
+transcript: "local ASR, 41:03 — verified 2026-08-04: 62 of 108 quoted passages match the
+transcript verbatim (8-word window). The rest are quotations from the two papers, as the
+note states. This note was audio-based from the start; only the marker was missing."
 ---
 
 # Invisible LLM Failures and AI Fluency

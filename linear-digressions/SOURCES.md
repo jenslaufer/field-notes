@@ -46,11 +46,21 @@ Mach das bitte aber mach eine Summary bitte von den Transcribes"* — so every n
 being rebuilt from the audio. A note counts as done only when its front matter carries a
 `transcript:` line.
 
-| Note | Source |
-|---|---|
-| `2026-08-03-reasoning-models-…` | transcript (2026-08-03) |
-| `2026-07-27-distillation-how-to-steal-a-model` | transcript (rewritten 2026-08-04) |
-| the other 13 notes | **show notes — rewrite in progress, batch started 2026-08-04 09:32 UTC** |
+| Note | Source | gemessen |
+|---|---|---|
+| `2026-08-03-reasoning-models-…` | transcript | geschrieben aus dem Transkript (03.08.) |
+| `2026-07-27-distillation-how-to-steal-a-model` | transcript | neu geschrieben 04.08. |
+| `2026-07-20-invisible-llm-failures-and-ai-fluency` | transcript | **62 von 108 Zitaten wörtlich im Transkript (57 %)** — war von Anfang an audio-basiert, nur die Markierung fehlte |
+| die anderen 12 Notizen | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+
+**Wie das gemessen wird — und warum die erste Messung falsch war.** Am 04.08. 09:29 zählte
+ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen". Das misst die
+**Markierung**, nicht die **Herkunft**: die 07-20-Notiz sagt in ihrem eigenen Text
+*„Everything below comes from the audio (transcribed locally)"* und wurde geschrieben, bevor
+die Markierung überhaupt eingeführt war. Der belastbare Test vergleicht **den Inhalt**:
+jedes Zitat der Notiz mit ≥ 8 Wörtern gegen ein 8-Wort-Fenster im normalisierten Transkript.
+Ergebnis oben — der Abstand zwischen 0–22 % und 57 % ist eindeutig, dazwischen liegt nichts.
+Der Rückstand ist also **12 Notizen, nicht 14**.
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
