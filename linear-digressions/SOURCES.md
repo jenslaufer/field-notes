@@ -55,7 +55,8 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `2026-04-13-unfaithful-chains-of-thought` | transcript | neu geschrieben 04.08. |
 | `10-agent-economics` | transcript | neu geschrieben 04.08. |
 | `09-agent-trust-oversight-and-control` | transcript | neu geschrieben 04.08. — **35 von 39 Zitaten wörtlich belegt**, die 4 übrigen sind Auslassungszeichen-Artefakte bzw. das gestrichene Falschzitat |
-| die anderen 8 Notizen (`01`–`08`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `08-many-agents-many-problems` | transcript | neu geschrieben 04.08. — **29 von 33 Zitaten wörtlich belegt**; die Schaunotizen-Fassung war hier inhaltlich korrekt, der Zugewinn ist das Argument selbst |
+| die anderen 7 Notizen (`01`–`07`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
 
 **Zwei Fehlerarten, die die Schaunotizen-Fassungen erzeugen** (beide in `09` gefunden und
 dort belegt): eine Passage aus einer **anderen Folge** (der Fable-5-Rückruf gehört zu `10`,
