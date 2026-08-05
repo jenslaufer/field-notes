@@ -59,16 +59,22 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `07-how-do-you-evaluate-an-ai-agent` | transcript | neu geschrieben 04.08. — die Schaunotizen-Fassung war weitgehend korrekt, enthielt aber **zwei erfundene GAIA-Zahlen** ("~mid-70s" und "one submitted system claims 92 %"): keine kommt im Transkript vor, die 92 % waren der **Menschen**-Wert, einem System zugeschrieben. Ausserdem Vorspann korrigiert — Katie **allein**, nicht "Katie Malone & Ben Jaffe" |
 | `05-agentic-planning` | **Transkript** | neu geschrieben 04.08. 18:5x, 46/46 Zitatsegmente ≥ 8 W belegt |
 | `04-memory-management-for-ai-agents` | **Transkript** | neu geschrieben 04.08. 21:xx, 31/31 Zitatsegmente ≥ 8 W belegt |
-| die anderen 3 Notizen (`01`–`03`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `03-lost-in-the-middle` | **Transkript** | neu geschrieben 05.08. 01:xx, 9/9 Zitatsegmente ≥ 8 W belegt |
+| `02-react-and-tool-usage` | **Transkript** | neu geschrieben 05.08. 03:xx, 24/24 Zitatsegmente ≥ 8 W belegt |
+| die letzte Notiz (`01`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
 
-**Vier Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **fünf**
+**Vier Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **sechs**
 Notizen belegt, also die Regel und nicht der Einzelfall:
 
 1. **Passage aus einer anderen Folge** (`09`: der Fable-5-Rückruf gehört zu `10`, steht in
    `09` in keinem einzigen Segment).
 2. **Erfundenes Zitat** (`09`: „Have we reached the singularity yet?" — *singularity* kommt
    in **keinem** der 16 Transkripte vor · `05`: „The act of seeing the plan laid out often
-   changes what I actually do", angeblich über Claude Codes `/plan`).
+   changes what I actually do", angeblich über Claude Codes `/plan` · `02`: „Reasoning
+   without action leaves a model stuck in its own head, and action without reasoning leads
+   to brittle, aimless tool use" — `stuck in its own head` und `brittle, aimless` haben
+   **null Treffer über alle 16 Transkripte**; der Gedanke steht in der Folge, der Satz
+   nicht).
 3. **Erfundene Zahlen und ganze erfundene Abschnitte** (`07`: „~mid-70s" und „92 %" auf
    GAIA, die 92 % waren der **Menschen**-Wert · `05`: ein kompletter Abschnitt *Search is the
    recurring pattern at AI inflection points* mit **Deep Blue/Kasparov, ~200 Mio.
@@ -81,7 +87,11 @@ Notizen belegt, also die Regel und nicht der Einzelfall:
    late 2023 called MemGPT"). Diese Art ist die heimtückischste, weil sie jede
    Faktenprüfung besteht — falsch ist nur die **Quellenangabe**. Dazu wieder eine
    erfundene Zahl derselben Bauart wie in `07`: „Assume anything 20 messages old is
-   effectively gone" (`20 messages` = null Treffer).
+   effectively gone" (`20 messages` = null Treffer). Zweiter Beleg in `02`:
+   „Toolformer (**Schick et al.**, Meta AI, 2023)" — `Schick` hat null Treffer in allen
+   16 Transkripten, die Folge sagt nur „it came out of meta AI in early 2023". Der
+   ReAct-Erstautor ist dagegen **im Audio genannt** („Shen Yu Yao"), also nicht dieselbe
+   Art Fehler.
 
 Beim Neuschreiben deshalb **jede auffällige Passage UND jede Zahl einzeln** gegen den
 Volltext greppen — quer über **alle** Transkripte, nicht nur das der Folge. Ein
@@ -105,7 +115,7 @@ ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen".
 die Markierung überhaupt eingeführt war. Der belastbare Test vergleicht **den Inhalt**:
 jedes Zitat der Notiz mit ≥ 8 Wörtern gegen ein 8-Wort-Fenster im normalisierten Transkript.
 Ergebnis oben — der Abstand zwischen 0–22 % und 57 % ist eindeutig, dazwischen liegt nichts.
-Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x), `05` (04.08. 18:5x), `04` (04.08. 19:xx) und `03` (05.08. 01:4x): **2 offen** (`01`–`02`).
+Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x), `05` (04.08. 18:5x), `04` (04.08. 19:xx), `03` (05.08. 01:4x) und `02` (05.08. 03:xx): **1 offen** (`01`).
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
