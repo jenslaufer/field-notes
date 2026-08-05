@@ -61,9 +61,9 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 | `04-memory-management-for-ai-agents` | **Transkript** | neu geschrieben 04.08. 21:xx, 31/31 Zitatsegmente ≥ 8 W belegt |
 | `03-lost-in-the-middle` | **Transkript** | neu geschrieben 05.08. 01:xx, 9/9 Zitatsegmente ≥ 8 W belegt |
 | `02-react-and-tool-usage` | **Transkript** | neu geschrieben 05.08. 03:xx, 24/24 Zitatsegmente ≥ 8 W belegt |
-| die letzte Notiz (`01`) | **show notes** | 0–22 % Zitat-Treffer, Neuschrift läuft |
+| `01-whats-an-ai-agent` | **Transkript** | neu geschrieben 05.08. 04:xx, 35/35 Zitatsegmente ≥ 8 W belegt — **Rückstand damit 0** |
 
-**Vier Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **sechs**
+**Vier Fehlerarten, die die Schaunotizen-Fassungen erzeugen** — inzwischen in **sieben**
 Notizen belegt, also die Regel und nicht der Einzelfall:
 
 1. **Passage aus einer anderen Folge** (`09`: der Fable-5-Rückruf gehört zu `10`, steht in
@@ -74,7 +74,11 @@ Notizen belegt, also die Regel und nicht der Einzelfall:
    without action leaves a model stuck in its own head, and action without reasoning leads
    to brittle, aimless tool use" — `stuck in its own head` und `brittle, aimless` haben
    **null Treffer über alle 16 Transkripte**; der Gedanke steht in der Folge, der Satz
-   nicht).
+   nicht · `01`: „basically a responder with extra steps" — `extra steps` hat **null
+   Treffer über alle 16 Transkripte**, gesagt wird nur `Let's call it a responder.`;
+   dazu „doesn't have clean answers yet" statt `Super tricky question, and it is not
+   actually answered yet.` und eine Paraphrase zweier getrennter Stellen, gesetzt als
+   Blockzitat der „working definition").
 3. **Erfundene Zahlen und ganze erfundene Abschnitte** (`07`: „~mid-70s" und „92 %" auf
    GAIA, die 92 % waren der **Menschen**-Wert · `05`: ein kompletter Abschnitt *Search is the
    recurring pattern at AI inflection points* mit **Deep Blue/Kasparov, ~200 Mio.
@@ -91,7 +95,10 @@ Notizen belegt, also die Regel und nicht der Einzelfall:
    „Toolformer (**Schick et al.**, Meta AI, 2023)" — `Schick` hat null Treffer in allen
    16 Transkripten, die Folge sagt nur „it came out of meta AI in early 2023". Der
    ReAct-Erstautor ist dagegen **im Audio genannt** („Shen Yu Yao"), also nicht dieselbe
-   Art Fehler.
+   Art Fehler. Dritter Beleg in `01`: der Ausblick nannte „die zwei 2022–2023 Papiere —
+   ReAct und **Toolformer**"; `Toolformer` kommt in Folge 1 **nicht** vor (Treffer nur in
+   `ld-02`), der echte Ausblick nennt ReAct, „tool use for the first time" und **MCP** —
+   also Wissen aus der Folge danach, rückwärts in die Folge davor geschrieben.
 
 Beim Neuschreiben deshalb **jede auffällige Passage UND jede Zahl einzeln** gegen den
 Volltext greppen — quer über **alle** Transkripte, nicht nur das der Folge. Ein
@@ -115,7 +122,8 @@ ich `grep -L '^transcript:'` und meldete „14 von 15 stammen aus Schaunotizen".
 die Markierung überhaupt eingeführt war. Der belastbare Test vergleicht **den Inhalt**:
 jedes Zitat der Notiz mit ≥ 8 Wörtern gegen ein 8-Wort-Fenster im normalisierten Transkript.
 Ergebnis oben — der Abstand zwischen 0–22 % und 57 % ist eindeutig, dazwischen liegt nichts.
-Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x), `05` (04.08. 18:5x), `04` (04.08. 19:xx), `03` (05.08. 01:4x) und `02` (05.08. 03:xx): **1 offen** (`01`).
+Der Rückstand ist also **12 Notizen, nicht 14**. Nach der Neuschrift von `07` (04.08. 16:xx), `06` (04.08. 17:5x), `05` (04.08. 18:5x), `04` (04.08. 19:xx), `03` (05.08. 01:4x), `02` (05.08. 03:xx) und `01` (05.08. 04:xx): **Rückstand 0**. Gegenprobe:
+`grep -L '^transcript:' linear-digressions/*.md` gibt nur noch `SOURCES.md` aus.
 
 Audio is transcribed once into `~/.cache/podcast-transcripts/<slug>.txt` (outside git —
 they are raw ASR, not artefacts) by `~/.cache/podcast-transcripts/run-batch.sh`, which
