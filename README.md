@@ -9,7 +9,7 @@ Organized by source:
 - [`linear-digressions/`](linear-digressions/) — Linear Digressions (machine learning & data science)
 - [`the-gist-talk/`](the-gist-talk/) — The Gist Talk (AI-native company building, AI & investing)
 - [`my-rejection-story/`](my-rejection-story/) — My Rejection Story (negativity bias, tiny experiments, mindful productivity)
-- [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), systems thinking, stochastic processes, antifragility
+- [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), scaling (Geoffrey West, Melanie Moses), systems thinking, stochastic processes, antifragility
 - [`papers/`](papers/) — research paper surveys and distillations
 
 Cross-source syntheses:
