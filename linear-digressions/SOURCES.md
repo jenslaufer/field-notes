@@ -48,6 +48,7 @@ being rebuilt from the audio. A note counts as done only when its front matter c
 
 | Note | Source | gemessen |
 |---|---|---|
+| `2026-08-10-overconfident-llms-kaitlyn-zhou` | **Transkript** | geschrieben 10.08. 15:0x, **34/34 Zitatsegmente ≥ 8 W verbatim**, 1 kurzes Fragment korrigiert (mein Platzhalter „the answer is X" → das echte Beispiel „Paris is the capital"). Drei ASR-Verstümmelungen beim Prüfen gefunden und stehen gelassen statt still geglättet: `dying in Kruger` (= Dunning-Kruger), `Epic-seameth markers and` (= epistemic markers in), `clogged` (= Claude); dazu der Gast-Name durchgehend als „Caitlin Jewe" (Feed: **Kaitlyn Zhou**) und der Advisor als „Dan Drowski" — die Auflösung zu Dan Jurafsky ist in der Notiz **als meine Zuordnung markiert**, nicht als Folgeninhalt (Fehlerart 4) |
 | `2026-08-03-reasoning-models-…` | transcript | geschrieben aus dem Transkript (03.08.) |
 | `2026-07-27-distillation-how-to-steal-a-model` | transcript | neu geschrieben 04.08. |
 | `2026-07-20-invisible-llm-failures-and-ai-fluency` | transcript | **62 von 108 Zitaten wörtlich im Transkript (57 %)** — war von Anfang an audio-basiert, nur die Markierung fehlte |
