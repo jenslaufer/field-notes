@@ -23,7 +23,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 - [ ] `2606.26300` — The Verification Horizon
 - [ ] `2607.26117` — Try Again, Don't Look Back
 - [ ] `2606.23196` — When Does Intrinsic Self-Correction Help?
-- [ ] `2608.04355` — The Calibration Floor (*also seen*, but the sharpest methodological warning of the four sections — treat as a main entry)
+- [x] [`2608.04355`](2608.04355-calibration-floor.md) — **Calibration Floor**: most measured "self-correction" is a regex finding a number. Forcing parseable output removes a median 71 % of the effect; a 32-token "finish your sentence" beats the full two-round review 63.5 % vs 19.2 %.
 
 ## 3. Swarm and emergence with smaller models
 
