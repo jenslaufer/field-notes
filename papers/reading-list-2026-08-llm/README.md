@@ -37,10 +37,17 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 
 - [x] [`2608.01050`](2608.01050-executability-gating.md) — **Deterministic Executability Gating** (Wix, 756K messages): invert a skill's own exit conditions and evaluate them as code *before* its description reaches the model. Removes 59.4 % of semantically-matched candidates. The only behavioural number is the smallest one — 7.8 % — and it reads both ways.
 - [x] [`2608.02464`](2608.02464-detection-and-repair.md) — **Real-Time Detection and Repair**: builds a µs-scale telemetry monitor, then measures three plain deterministic checks beating it on the same episodes (60 % vs 54 % recall, **0 % vs 17 % false positives**). Measured its own stipulated judge and published that the correction took its escalation result from 82 % to 43 %. Best repair prompt names the failing check and **withholds the value** (45 % vs 36 %).
-- [ ] `2606.14935` — PrologMCP
-- [ ] `2606.27281` — Resource-Aware Neuro-Symbolic Reasoning
-- [ ] `2608.03065` — Grammar-Constrained Decoding via Parser Stack Classification
-- [ ] `2607.20492` — PhantomFill (the counter-example)
+- [x] [`2606.14935`](2606.14935-prologmcp.md) — **PrologMCP**: Prolog as a stateful MCP tool, with non-fatal consults and typed diagnostics. On the general sample it *ties* (1.00 vs 1.00); the decisive SLDNF-diverging subset has **one label** — a constant `false` scores 1.00. Seven of its nine tools are never exercised, and it says so.
+- [x] [`2606.27281`](2606.27281-resource-aware-neuro-symbolic.md) — **VFR-LLM**: the best-disciplined paper here. 0.933 vs 0.283 — bought with **13.6 % more tokens**, saving calls and latency, and it names the unit. Verification *without* repair scores **below doing nothing** (0.250 vs 0.275); the whole gain is the repair loop. Two of nine conditions are losses, one a rout (Phi 0.183 → 0.042).
+- [x] [`2608.03065`](2608.03065-parser-stack-classification.md) — **PSC**: grammar-constrained decoding at `O(1)` in vocabulary size, 700× faster masks. The generic JSON grammar buys ~nothing; the *specific schema* doubles Gemma 3 270M (28.3 → 56.6). Every item it scores is answerable — which is why it cannot see PhantomFill.
+- [x] [`2607.20492`](2607.20492-phantomfill.md) — **PhantomFill** (the counter-example): the same constraint, on *unanswerable* fields, drives GPT-5.5 from 2 % to **100 %** fabrication. Under enforced decoding the legal escape token is spent **0/203** times on the fields that carry the lie, and 12 times on the one where escaping is free.
+
+## What section 4 concluded
+
+Five papers arrived at *deterministic check first, model second* from five directions. The last
+two split it precisely: **a schema is the cheapest quality gain a weak model can get, and the
+mechanism that forces a lie when the evidence is absent.** The discriminator is whether the field
+has an honest value available. Constrain the form; never constrain away "no".
 
 ## How the full text is obtained
 
