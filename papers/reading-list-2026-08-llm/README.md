@@ -29,7 +29,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 
 - [x] [`2606.27288`](2606.27288-co-failure-ceiling.md) — **Co-Failure Ceiling** (67 models, 21 providers): every router/vote/cascade is capped at `1−β`, and pairwise ρ **provably cannot see β**. Stripping the answer options from GPQA moves β from ≈0 to 0.127 — format sets the regime, not subject.
 - [x] [`2607.20216`](2607.20216-small-free-effective.md) — **Small, Free, and Effective**: its own appendix shows self-debate reproduces **95 %** of the "collaboration" gain (Ministral-8B). The deterministic tools carry 11.17 pp, the LLM verifier 0.26 pp — a section-4 paper with a section-3 title.
-- [ ] `2605.10698` — The Bystander Effect in Multi-Agent Reasoning
+- [x] [`2605.10698`](2605.10698-bystander.md) — **The Bystander Effect**: one sentence claiming a peer consensus takes GPT-5.4 from 1.00 to **0.23** (74 % adopt the wrong answer); Claude 4.6 unmoved. There is no swarm — the manipulation is prompt text, which is exactly why it applies here. Its Sovereignty Gap theorem differences a Likert score against an accuracy rate.
 - [ ] `2608.02827` — Emergence of Biased Consensus in Multi-Agent Debates
 - [ ] `2608.00028` — Width, Memory, and Delay
 
