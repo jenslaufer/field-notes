@@ -20,7 +20,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 
 - [x] [`2608.06940`](2608.06940-pivotal-vote.md) — **Pivotal Vote**: a second ballot can only matter on a 4–3 split — zero gain elsewhere, provably. But its own Table 7 shows just running the tests beats every panel policy tested.
 - [x] [`2608.01810`](2608.01810-radar.md) — **RADAR**: probe one criterion, watch the others move. Helpfulness/correctness couple at 0.92 — not two dimensions. But the advertised `r ≥ 0.84` holds in 20 of 36 grid cells; the worst reads **−0.04**.
-- [ ] `2606.26300` — The Verification Horizon
+- [x] [`2606.26300`](2606.26300-verification-horizon.md) — **The Verification Horizon** (Qwen, production): scalable/faithful/robust — pick two. A judge that *runs* the artifact resists the length exploitation a judge that *reads* it invites; five of seven "cheating" behaviours correlate with failure, not success.
 - [x] [`2607.26117`](2607.26117-try-again.md) — **Try Again, Don't Look Back**: the placebo the self-repair literature omits. Below 7B, blind resampling beats showing the model its own failed program; the diagnostic content of execution feedback adds `+0.000`.
 - [x] [`2606.23196`](2606.23196-when-does-sc-help.md) — **When Does Intrinsic SC Help?**: 19 of 35 cells significant, 4 negative, and SAT — the one benchmark with a real checker — carries the result. Missing the one-call control that would settle it.
 - [x] [`2608.04355`](2608.04355-calibration-floor.md) — **Calibration Floor**: most measured "self-correction" is a regex finding a number. Forcing parseable output removes a median 71 % of the effect; a 32-token "finish your sentence" beats the full two-round review 63.5 % vs 19.2 %.
