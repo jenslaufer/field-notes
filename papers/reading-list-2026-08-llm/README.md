@@ -27,7 +27,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 
 ## 3. Swarm and emergence with smaller models
 
-- [ ] `2606.27288` — Co-Failure Ceiling across 67 frontier models
+- [x] [`2606.27288`](2606.27288-co-failure-ceiling.md) — **Co-Failure Ceiling** (67 models, 21 providers): every router/vote/cascade is capped at `1−β`, and pairwise ρ **provably cannot see β**. Stripping the answer options from GPQA moves β from ≈0 to 0.127 — format sets the regime, not subject.
 - [ ] `2607.20216` — Small, Free, and Effective (orchestrating open-weight SLMs)
 - [ ] `2605.10698` — The Bystander Effect in Multi-Agent Reasoning
 - [ ] `2608.02827` — Emergence of Biased Consensus in Multi-Agent Debates
