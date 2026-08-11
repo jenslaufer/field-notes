@@ -36,7 +36,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 ## 4. Improving results with "dumb" tools
 
 - [x] [`2608.01050`](2608.01050-executability-gating.md) — **Deterministic Executability Gating** (Wix, 756K messages): invert a skill's own exit conditions and evaluate them as code *before* its description reaches the model. Removes 59.4 % of semantically-matched candidates. The only behavioural number is the smallest one — 7.8 % — and it reads both ways.
-- [ ] `2608.02464` — Real-Time Detection and Repair of Agent Failures
+- [x] [`2608.02464`](2608.02464-detection-and-repair.md) — **Real-Time Detection and Repair**: builds a µs-scale telemetry monitor, then measures three plain deterministic checks beating it on the same episodes (60 % vs 54 % recall, **0 % vs 17 % false positives**). Measured its own stipulated judge and published that the correction took its escalation result from 82 % to 43 %. Best repair prompt names the failing check and **withholds the value** (45 % vs 36 %).
 - [ ] `2606.14935` — PrologMCP
 - [ ] `2606.27281` — Resource-Aware Neuro-Symbolic Reasoning
 - [ ] `2608.03065` — Grammar-Constrained Decoding via Parser Stack Classification
