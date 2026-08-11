@@ -13,7 +13,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 - [x] [`2607.22962`](2607.22962-consistencygate.md) — **ConsistencyGate**: check a fact at write time. Costs 42 % of correct facts when they are implicit — the paper's own operating regime excludes conversational memory.
 - [x] [`2607.27773`](2607.27773-chronomem.md) — **ChronoMem**: versioned memory + NL rollback. Recall@1 is 20.5 %; the durable result is the negative one (prompt-only rollback scores 2 %).
 - [x] [`2608.00009`](2608.00009-agentmembench.md) — **AgentMemBench**: five strategies, one harness. Windows and summaries score 0.000–0.005 on long-range recall; the paper's own baseline table dissolves its cost argument.
-- [ ] `2605.17304` — Compress the Context, Keep the Commitments
+- [x] [`2605.17304`](2605.17304-context-codec.md) — **Context Codec**: compress commitments, not tokens. Its own Table 5 trips its own rejection criterion 2 — structured prose ties on faithfulness and is shorter on average — and the BPE check undoes the token column.
 - [ ] `2607.14275`, `2608.09153` (*also seen* in the reading list — lower priority)
 
 ## 2. Orthogonal evaluation and feedback loops
