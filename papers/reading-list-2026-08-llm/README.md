@@ -28,7 +28,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 ## 3. Swarm and emergence with smaller models
 
 - [x] [`2606.27288`](2606.27288-co-failure-ceiling.md) — **Co-Failure Ceiling** (67 models, 21 providers): every router/vote/cascade is capped at `1−β`, and pairwise ρ **provably cannot see β**. Stripping the answer options from GPQA moves β from ≈0 to 0.127 — format sets the regime, not subject.
-- [ ] `2607.20216` — Small, Free, and Effective (orchestrating open-weight SLMs)
+- [x] [`2607.20216`](2607.20216-small-free-effective.md) — **Small, Free, and Effective**: its own appendix shows self-debate reproduces **95 %** of the "collaboration" gain (Ministral-8B). The deterministic tools carry 11.17 pp, the LLM verifier 0.26 pp — a section-4 paper with a section-3 title.
 - [ ] `2605.10698` — The Bystander Effect in Multi-Agent Reasoning
 - [ ] `2608.02827` — Emergence of Biased Consensus in Multi-Agent Debates
 - [ ] `2608.00028` — Width, Memory, and Delay
