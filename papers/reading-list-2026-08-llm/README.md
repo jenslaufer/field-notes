@@ -18,7 +18,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 
 ## 2. Orthogonal evaluation and feedback loops
 
-- [ ] `2608.06940` — Blind to the Pivotal Vote
+- [x] [`2608.06940`](2608.06940-pivotal-vote.md) — **Pivotal Vote**: a second ballot can only matter on a 4–3 split — zero gain elsewhere, provably. But its own Table 7 shows just running the tests beats every panel policy tested.
 - [ ] `2608.01810` — RADAR: rubric dependency and redundancy
 - [ ] `2606.26300` — The Verification Horizon
 - [ ] `2607.26117` — Try Again, Don't Look Back
