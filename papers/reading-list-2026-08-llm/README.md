@@ -31,7 +31,7 @@ Started 2026-08-11. Notes are added in reading-list order; this index is the led
 - [x] [`2607.20216`](2607.20216-small-free-effective.md) — **Small, Free, and Effective**: its own appendix shows self-debate reproduces **95 %** of the "collaboration" gain (Ministral-8B). The deterministic tools carry 11.17 pp, the LLM verifier 0.26 pp — a section-4 paper with a section-3 title.
 - [x] [`2605.10698`](2605.10698-bystander.md) — **The Bystander Effect**: one sentence claiming a peer consensus takes GPT-5.4 from 1.00 to **0.23** (74 % adopt the wrong answer); Claude 4.6 unmoved. There is no swarm — the manipulation is prompt text, which is exactly why it applies here. Its Sovereignty Gap theorem differences a Likert score against an accuracy rate.
 - [x] [`2608.02827`](2608.02827-biased-consensus.md) — **Biased Consensus**: a debate is a spin system and sampling temperature is the knob. Below T≈0.5 an arbitrarily small shared bias locks into unanimity **within 1–2 rounds**; *mixing* temperatures across agents cuts bias and lifts performance. Its ablation summary contradicts its own figure caption on the sign of λ.
-- [ ] `2608.00028` — Width, Memory, and Delay
+- [x] [`2608.00028`](2608.00028-width-memory-delay.md) — **Width, Memory, and Delay**: width averages noise, internal-model memory buys structure, delay sets a floor neither removes. **Contains no LLM experiment** — the harness runs on a mock backend that "yields no scientific result"; read it as vocabulary, not evidence. Depth only beats width above a minimum SNR (at the smallest equal budget it is a wash: 2.24 vs 2.37).
 
 ## 4. Improving results with "dumb" tools
 
