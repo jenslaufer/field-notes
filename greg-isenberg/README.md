@@ -32,6 +32,7 @@ per episode. No transcripts.
 - [AI agents run my business and life](ai-agents-run-my-business-wilkinson.md) — Andrew Wilkinson
 
 ### Ideas & trends
+- [Cloudflare will make 1000+ AI millionaires](cloudflare-agent-internet-1000-millionaires.md) — **the agent web monetizes resources, not attention**: Cloudflare's Monetization Gateway (x402 / HTTP 402, waitlist since 01.07.2026) turns any page, dataset, API or MCP tool into a metered resource; three ideas — **niche data refinery** (one niche, one city, 100 businesses, sell to the agencies *already* serving them, $300–800/mo), **agent readiness** (20–50 buyer-intent prompts → show the screenshot → sell the agent-readable source of truth → monthly measurement loop, $3–10K), **expert archive → one job-specific agent tool**. Filter for any data business: *valuable · repeated · changing · fragmented · annoying*
 - ["Learn AI" is bad advice — learn these 6 skills instead](learn-ai-bad-advice-six-skills.md) — agent operator, distribution, robotics, curation, builder-distributor, IRL community (+ one rep each)
 - [9 startup opportunities in the AI boom](9-startup-opportunities-in-the-ai-boom.md)
 - [23 AI trends](23-ai-trends.md)
