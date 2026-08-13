@@ -9,6 +9,7 @@ Organized by source:
 - [`linear-digressions/`](linear-digressions/) — Linear Digressions (machine learning & data science)
 - [`the-gist-talk/`](the-gist-talk/) — The Gist Talk (AI-native company building, AI & investing)
 - [`my-rejection-story/`](my-rejection-story/) — My Rejection Story (negativity bias, tiny experiments, mindful productivity)
+- [`econtalk/`](econtalk/) — EconTalk (Russ Roberts): Nassim Taleb on antifragility (2012, recorded before the book existed) and Rory Sutherland on Alchemy (2019) — plus the full list of Taleb's ten appearances
 - [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), scaling (Geoffrey West, Melanie Moses), systems thinking, stochastic processes, antifragility
 - [`papers/`](papers/) — research paper surveys and distillations
 
