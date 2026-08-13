@@ -337,6 +337,50 @@ to make use of the opening once the incumbent constraint lifts.
   rather than lean: it's what buys the option to move when the next maximum-pessimism
   moment appears.
 
+## Context outside the episode — Taleb named Miller himself
+
+*Added 2026-08-13, prompted by Jens asking for "a Bill Miller podcast with Taleb's
+ideas". Nothing here is in the transcript; it is background that sharpens the Essay 5
+reading above.*
+
+The "read Miller against Taleb" verdict is stronger than it looks in the episode,
+because the pairing is not mine — **Taleb used Miller's track record as his standing
+example of luck mistaken for skill.** The argument in *Fooled by Randomness* and
+*The Black Swan* is survivorship bias: given a large enough population of fund managers,
+someone beating the index fifteen years running is the expected outcome of chance, and
+crediting that person with skill is the error. Leonard Mlodinow ran the coin-toss
+arithmetic on Miller by name in *The Drunkard's Walk* (summarised by Cardiff Garcia,
+FT Alphaville, 22 November 2011).
+
+**Miller conceded the point himself**, which is the part that makes him interesting
+rather than a foil: he has called the streak "an accident of the calendar" — "if the year
+ended in different months it wouldn't be there and at some point the mathematics will hit
+us" — and put a number on it: "maybe it's not 100% luck, maybe 95% luck." *Sourcing
+caveat: these quotes are attributed to a Money Magazine interview of July 2007
+(money.cnn.com/2007/07/17/pf/miller_interview_full.moneymag/). That page now returns
+HTTP 503 and I could not open the primary source — treat the wording as second-hand.*
+
+So the episode and the outside record point the same way. Krakauer presents Miller as the
+complexity-literate investor who buys at maximum pessimism; Taleb points at the same
+career and says a long run of wins is not evidence of a convex payoff. Both can be true,
+and together they make the distinction in the Essay 5 note concrete: **a track record
+measures outcomes, a payoff shape is a property of the position.** Beta-1.5 and a barbell
+can produce identical fifteen-year records and still differ completely in what a single
+bad tail does to them. Miller's post-streak years are the demonstration — the Value Trust
+fell heavily through 2006–2011 with the same strategy that produced the streak.
+
+**Negative finding, so nobody re-runs the search (checked 13 August 2026).** No podcast
+episode with Bill Miller as a guest discusses Taleb. Searched: Masters in Business
+(Ritholtz) 2016 and July 2020 · The Investors Podcast TIP117 (Dec 2016) and TIP247
+(Jun 2019) · Richer, Wiser, Happier RWH007 (May 2022) and RWH021 (Feb 2023) · Masters in
+Business with Bill Miller IV (Mar 2026). No mention of Taleb, Black Swan, antifragility
+or convexity in any of them; "optionality" appears once in the Bill Miller IV transcript,
+meaning career flexibility, not the Taleb sense. The closest in substance is **RWH007**,
+where Miller separates risk from uncertainty via Frank Knight and frames his Bitcoin
+position as insurance against a financial catastrophe — a tail-hedge argument in Taleb's
+shape, never attributed to him, and about an asset Taleb himself considers the opposite
+of a hedge.
+
 ## Quotable
 
 - "There is definitely running through today's conversation this idea of error and
