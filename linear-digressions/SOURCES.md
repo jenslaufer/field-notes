@@ -153,3 +153,26 @@ The "Agents Season" ran 1–11 without a gap (the website once labelled two epis
 as 11, which caused a phantom "missing episode 10" report in June 2026). Files
 `01-…` to `11-…` follow the feed's numbering. Episodes outside a numbered season are
 filed by publication date, e.g. `2026-07-20-….md`.
+
+## Zwei Fallen beim Schreiben einer Notiz (17.08. beide getreten)
+
+**1. `podcast-transcribe.py` NIE mit `python3` starten.** Das Skript ist ein
+`uv run --script` mit PEP-723-Kopf; `python3 tools/podcast-transcribe.py …` umgeht uv und
+stirbt mit `ModuleNotFoundError: No module named 'faster_whisper'`. Das liest sich wie
+„Transkribieren ist auf dem Mini-PC kaputt" und ist in Wahrheit der falsche Aufrufweg.
+Richtig ist der Shebang: `./tools/podcast-transcribe.py <url> -o <ziel> -t 7`. Gilt
+sinngemaess fuer jedes Werkzeug mit `#!/usr/bin/env -S uv run` — die Abhaengigkeit fehlt
+nie, sie wird nur nicht aufgeloest. Gemessen: 23:21 Audio in **~2 min** bei 7 Threads,
+371 % CPU. Fertig-Signal bleibt allein die Logzeile `transcribed MM:SS`.
+
+**2. `verify-quotes.py` haelt bei der Ueberschrift `## Insights for me` an** (Konstante
+`DEFAULT_STOP`, per `--stop-at` aenderbar). Wer den Schlussabschnitt anders ueberschreibt,
+laesst die **eigenen** Saetze als Zitate mitpruefen — und deutsche Anfuehrungszeichen
+(`„ …"`) ergeben dann leicht eine ungerade Zahl, worauf das Werkzeug `UNPARSEABLE`
+meldet statt eines Ergebnisses. Also die Konvention-Ueberschrift benutzen:
+`## Insights for me (Jens) — my connections, flagged as mine`.
+
+**Und den Exit-Code ohne Pipe messen.** `verify-quotes.py … | tail` gab **Exit 0**
+zurueck, waehrend das Werkzeug die Notiz gar nicht pruefen konnte — `$?` gehoert dann
+`tail`. Erst `> datei; echo $?` zeigte die echte Lage. Dieselbe Falle wie beim
+Bing-Auslieferungs-Check und beim freelancermap-Sweep.
