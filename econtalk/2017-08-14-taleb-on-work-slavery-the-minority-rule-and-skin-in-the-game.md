@@ -2,6 +2,7 @@
 title: "Taleb on Work, Slavery, the Minority Rule, and Skin in the Game — the manuscript, read aloud"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk, seven months before Skin in the Game was published: the Rubin trade as an option written on strangers, skin in the game as a filter rather than an incentive, why firms buy employees and what the employee sells, the honorable life, the minority rule with its exact conditions (asymmetric acceptability, threshold, cost of accommodation, aggregation scale, circuit breakers), the Lindy effect as a writing rule, cosmetic sophistication, and an unresolved argument with Roberts about globalization, clubs and scale"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Work, Slavery, the Minority Rule, and Skin in the Game', published 14 Aug 2017, recorded 10 Jul 2017, Taleb's 7th appearance — official transcript with speaker labels at https://www.econtalk.org/nassim-nicholas-taleb-on-work-slavery-the-minority-rule-and-skin-in-the-game/"
+published: 2017-08-14
 captured: 2026-08-13
 type: podcast distillation
 ---

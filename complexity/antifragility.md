@@ -184,8 +184,8 @@ an antifragility machine — *if* we set the shape deliberately:
    irreversible one.
 
 This is the same lesson as
-[`distribution-without-audience.md`](distribution-without-audience.md) and
-[`the-gist-talk/shape-of-the-company-as-ai-moat.md`](the-gist-talk/shape-of-the-company-as-ai-moat.md)
+[`distribution-without-audience.md`](../distribution-without-audience.md) and
+[`the-gist-talk/2026-05-13-shape-of-the-company-as-ai-moat.md`](../the-gist-talk/2026-05-13-shape-of-the-company-as-ai-moat.md)
 from a risk angle: when building is free, the edge isn't any single product — it's the
 *shape* of the operation, and a deliberately convex shape is the most defensible one a
 solo operator can hold.

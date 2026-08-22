@@ -229,7 +229,7 @@ narrower and more annoying — the *account* is not an audit log, so it cannot b
 That is exactly why the guards here are scripts and diffs rather than review of agent prose.
 
 **Not "agents lie."** Intent is the wrong frame and the anthropomorphising trap flagged in
-[`../complexity/john-krakauer-brain-mind.md`](../complexity/john-krakauer-brain-mind.md). The
+[`../complexity/2022-11-11-john-krakauer-brain-mind.md`](../complexity/2022-11-11-john-krakauer-brain-mind.md). The
 mechanism is duller and worse: the explanation is produced separately from the thing it
 explains, so **there is no channel by which it would have to be true**.
 
@@ -245,4 +245,4 @@ explains, so **there is no channel by which it would have to be true**.
 
 - Turpin et al., NeurIPS 2023 — arxiv.org/abs/2305.04388
 - Anthropic, "Reasoning models don't always say what they think" — anthropic.com/research/reasoning-models-dont-say-think
-- Nearest neighbours in this folder: [`07-how-do-you-evaluate-an-ai-agent.md`](07-how-do-you-evaluate-an-ai-agent.md), [`09-agent-trust-oversight-and-control.md`](09-agent-trust-oversight-and-control.md), [`2026-08-03-reasoning-models-beyond-fancy-autocomplete.md`](2026-08-03-reasoning-models-beyond-fancy-autocomplete.md)
+- Nearest neighbours in this folder: [`2026-06-01-07-how-do-you-evaluate-an-ai-agent.md`](2026-06-01-07-how-do-you-evaluate-an-ai-agent.md), [`2026-06-14-09-agent-trust-oversight-and-control.md`](2026-06-14-09-agent-trust-oversight-and-control.md), [`2026-08-03-reasoning-models-beyond-fancy-autocomplete.md`](2026-08-03-reasoning-models-beyond-fancy-autocomplete.md)

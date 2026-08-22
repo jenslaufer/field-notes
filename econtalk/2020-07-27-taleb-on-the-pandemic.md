@@ -2,6 +2,7 @@
 title: "Taleb on the Pandemic — the precautionary principle under live fire"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk, recorded four months into COVID and before anyone knew the outcome: risk of variation vs risk of ruin, why contagion breaks the individual/collective split, the two convexities the health bureaucracies missed on masks, the January 2020 warning with Norman and Bar-Yam, quarantine as 300-year-old standard operating procedure, why a single-point forecast on a fat-tailed variable is not science, the thousand-death class boundary, 'it's not fighting the pandemic that's costing money — it's the pandemic', the protocol that is explicitly not a lockdown, geronticide as a trade-off he refuses to price, and the one question he will not answer"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on the Pandemic', published 27 Jul 2020, recorded 3 Jul 2020 — full official transcript at https://www.econtalk.org/nassim-nicholas-taleb-on-the-pandemic/"
+published: 2020-07-27
 captured: 2026-08-13
 type: podcast distillation
 ---

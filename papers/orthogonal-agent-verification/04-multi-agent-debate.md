@@ -22,7 +22,7 @@ captured: 2026-06-14
 
 **Result.** Improves factuality and reasoning and cuts hallucination across math, reasoning, and factual-validity tasks.
 
-**Caution.** Debate pays off when a task parallelises or a solo agent is weak; once a single agent is already strong, coordination overhead can hurt (see `../../linear-digressions/08-many-agents-many-problems.md`). Match the architecture to the task — don't reach for a panel by reflex.
+**Caution.** Debate pays off when a task parallelises or a solo agent is weak; once a single agent is already strong, coordination overhead can hurt (see `../../linear-digressions/2026-06-08-08-many-agents-many-problems.md`). Match the architecture to the task — don't reach for a panel by reflex.
 
 **Takeaway.** Make verifiers *argue*, not just vote. Forced exposure to dissent is a stronger filter than parallel independent guesses.
 

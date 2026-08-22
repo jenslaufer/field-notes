@@ -1,6 +1,6 @@
 # Fähigkeit 2 trainieren — Distribution
 
-> Aus der Greg-Isenberg-Folge [„Learn AI Is Bad Advice"](greg-isenberg/learn-ai-bad-advice-six-skills.md):
+> Aus der Greg-Isenberg-Folge [„Learn AI Is Bad Advice"](greg-isenberg/2026-06-25-learn-ai-bad-advice-six-skills.md):
 > Distribution ist **nicht Posten**. Distribution heißt: **wissen, wo die
 > Aufmerksamkeit schon ist, welche Angst die Leute schon haben, in welchen genauen
 > Worten sie das Problem beschreiben — und Vertrauen aufbauen, bevor man verkauft.**

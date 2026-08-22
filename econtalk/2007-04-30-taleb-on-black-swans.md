@@ -2,6 +2,7 @@
 title: "Taleb on Black Swans — before the crisis proved him right"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk: confirmation bias as not taking seriously what you don't see, Mediocristan vs Extremistan, how much sample is enough, the summer of 1982 banks, narrative fallacy and the blurry dog, the riddle of induction and the melted ice cube, skill vs luck among 1000 traders, the 80/20 how-to and the envelope of serenity, serendipity as the engine of discovery, the ludic fallacy, and turning lack of knowledge into action"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Black Swans', published 30 April 2007 — timestamped Podcast Episode Highlights (NOT a verbatim transcript) at https://www.econtalk.org/taleb-on-black-swans/"
+published: 2007-04-30
 captured: 2026-08-13
 type: podcast distillation
 ---

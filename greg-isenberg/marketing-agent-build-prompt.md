@@ -1,6 +1,6 @@
 ---
 title: "Build prompt — a Cody-Schneider-style marketing agent"
-companion_to: "marketing-agents-too-good-cody-schneider.md"
+companion_to: "2026-07-27-marketing-agents-too-good-cody-schneider.md"
 source_episode: "https://www.youtube.com/watch?v=U2hogriGmEw (2026-07-27)"
 captured: 2026-07-28
 use: "Paste into Claude Code inside a fresh repo. Fill the [BRACKETS] block first. Follow the phase gates — do NOT let it build all 8 steps blind."
@@ -57,7 +57,7 @@ components. Write tests first for every non-trivial unit.
 
 ### PHASE 0 — Plan & confirm
 
-- Read the companion note `marketing-agents-too-good-cody-schneider.md` if present.
+- Read the companion note `2026-07-27-marketing-agents-too-good-cody-schneider.md` if present.
 - Restate the PROJECT CONTEXT back to me, list the components you'll build, and flag
   every step that costs money or sends something outbound.
 - Produce a **build order + a risk/ROI note** (what's cheap and reversible vs. what

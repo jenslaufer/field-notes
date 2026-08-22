@@ -13,6 +13,24 @@ Organized by source:
 - [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), scaling (Geoffrey West, Melanie Moses), swarm engineering (Sabine Hauert), systems thinking, stochastic processes, antifragility
 - [`papers/`](papers/) — research paper surveys and distillations
 
+## Dateinamen
+
+**Folgen-Notizen heissen `YYYY-MM-DD-slug.md`** und sortieren damit chronologisch — das Datum ist
+das **Veroeffentlichungsdatum der Folge**, gegen die Quelle geprueft (Audio-Feed des Podcasts bzw.
+YouTube `uploadDate`), nicht das Datum, an dem die Notiz entstand (`captured:`). Beides kann Monate
+auseinanderliegen: 20+ Notizen tragen denselben Sammel-Import 2026-06-18.
+
+**Kein Datum tragen bewusst:** thematische Destillate und Buch-Notizen (`antifragility.md`,
+`thinking-in-systems.md`, `stochastic-processes.md`, `complexity-science.md`), quellenuebergreifende
+Synthesen im Wurzelverzeichnis, die Isenberg-Sammelseiten (`marketing-playbook.md`,
+`business-opportunities.md`, `glossar.md`, `marketing-agent-build-prompt.md`), Paper-Destillate in
+`papers/` und das Investoren-Memo `the-gist-talk/oaktree-ai-hurtles-ahead-memo.md`. Das sind keine
+Folgen; ein Datum davor waere eine erfundene Reihenfolge.
+
+**Drei Notizen fassen mehrere Folgen zusammen** (Geoffrey West, John Krakauer, Nature of
+Intelligence). Sie tragen das Datum der **ersten** Folge; das `published:`-Feld nennt die ganze
+Spanne.
+
 Cross-source syntheses:
 
 - [`uebergreifende-konzepte.md`](uebergreifende-konzepte.md) — die zehn Gedanken, die in Quellen wiederkehren, die nichts voneinander wissen (Stadtphysik, Agenten-Papiere, Investorenmemo, Vogelgesang, Marketing) — plus vier Stellen, an denen die Quellen einander widersprechen

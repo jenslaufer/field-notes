@@ -5,7 +5,7 @@ author: "Howard Marks, Co-Chairman, Oaktree Capital Management"
 source: "https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead"
 pdf: "https://www.oaktreecapital.com/docs/default-source/memos/ai-hurtles-ahead.pdf"
 extends: "Howard Marks, 'Is It a Bubble?' (Oaktree, 2025-12-09)"
-distilled_by: "The Gist Talk episode — see [howard-marks-ai-hurtles-ahead.md](howard-marks-ai-hurtles-ahead.md)"
+distilled_by: "The Gist Talk episode — see [2026-05-08-howard-marks-ai-hurtles-ahead.md](2026-05-08-howard-marks-ai-hurtles-ahead.md)"
 published: 2026-02-26
 captured: 2026-06-18
 ---
@@ -20,7 +20,7 @@ captured: 2026-06-18
 > **moderate, selective, prudent** position — neither all-in (risk of ruin) nor
 > all-out (risk of missing a great technological step).
 
-This is the primary resource. The [Gist Talk episode](howard-marks-ai-hurtles-ahead.md)
+This is the primary resource. The [Gist Talk episode](2026-05-08-howard-marks-ai-hurtles-ahead.md)
 is a faithful summary of it.
 
 ## Origin story — Marks lets Claude teach him
@@ -195,4 +195,4 @@ fairly priced."
 - CNBC (2025-10-13) — [Marks: AI frenzy isn't a bubble, at least not
   yet](https://www.cnbc.com/2025/10/13/oaktrees-howard-marks-says-ai-frenzy-isnt-a-bubble-at-least-not-yet.html)
 - Distilled by The Gist Talk —
-  [howard-marks-ai-hurtles-ahead.md](howard-marks-ai-hurtles-ahead.md)
+  [2026-05-08-howard-marks-ai-hurtles-ahead.md](2026-05-08-howard-marks-ai-hurtles-ahead.md)

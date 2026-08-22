@@ -2,6 +2,7 @@
 title: "Taleb on Rationality, Risk, and Skin in the Game — the finished argument, three weeks after publication"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk: ensemble probability vs time probability and the absorbing barrier, why an edge does not save you from ruin, why 'loss aversion' is not measurable, the pyramid of ruin risks ordered by life expectancy, paranoia as a survival instinct and courage as prudence, rationality judged ex post rather than ex ante, religion as a survival package, skin in the game as filtering rather than incentives, zero-intelligence players in an intelligent market, inequality measured over a lifetime instead of across a population, and the unit question"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Rationality, Risk, and Skin in the Game', published 5 Mar 2018, recorded 13 Feb 2018, ~1:10 — full official transcript at https://www.econtalk.org/nassim-nicholas-taleb-on-rationality-risk-and-skin-in-the-game/"
+published: 2018-03-05
 captured: 2026-08-13
 type: podcast distillation
 ---

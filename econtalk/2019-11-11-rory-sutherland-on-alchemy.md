@@ -2,6 +2,7 @@
 title: "Rory Sutherland on Alchemy — markets are inventive, not efficient, and the money is in what the map leaves out"
 concept: "Rory Sutherland (Vice Chairman, Ogilvy UK) with Russ Roberts on EconTalk: why perfect-information models delete marketing, variance reduction as rational behaviour in a non-ergodic world, choice architecture that costs £15m a year, minority rule, hedonic opportunity cost, the McNamara fallacy, brands as reputational skin in the game, advertising as costly signalling, and Chesterton's fence as the thesis of the whole book"
 sources: "EconTalk (Russ Roberts), 'Rory Sutherland on Alchemy', published 11 Nov 2019, recorded 16 Sep 2019, 1:12 — full official transcript at https://www.econtalk.org/rory-sutherland-on-alchemy/"
+published: 2019-11-11
 captured: 2026-08-13
 type: podcast distillation
 ---

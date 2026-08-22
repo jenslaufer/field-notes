@@ -2,6 +2,7 @@
 title: "Taleb on the Financial Crisis — the same argument, with the tail behind it"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk, recorded mid-crisis: why small probabilities cannot be estimated, model fragility as the real defect, nine bonuses and the free option, Value at Risk and the number that answers the wrong question, large deviations having no predecessors, returnless risk, why the Internet made tails fatter, leverage and lumping, break-it-early, decisions without probabilities, tinkering over knowledge, and religion as practice rather than belief"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on the Financial Crisis', published 23 March 2009, recorded 15 March 2009 — timestamped Podcast Episode Highlights (NOT a verbatim transcript) at https://www.econtalk.org/taleb-on-the-financial-crisis/"
+published: 2009-03-23
 captured: 2026-08-13
 type: podcast distillation
 ---

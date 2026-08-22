@@ -2,6 +2,7 @@
 title: "Taleb on Black Swans, Fragility, and Mistakes — the post-mortem, before antifragility had a name"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk: the epilogue essay 'On Robustness and Fragility'; why 1987 taught him more than 2008; techne vs episteme; debt as what fragilises a system, and the oldest interdict in history; forecasting and debt as one-to-one; the four quadrants and the map of Chicago; redundancy as the opposite of debt; moral hazard as broken feedback; size and nonlinear liquidation cost; consequences over true/false; the n of nature and iatrogenics; a self-experiment reported with its own confirmation-bias caveat; and the one idea he names when pressed — convexity, not the black swan"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Black Swans, Fragility, and Mistakes', published 3 May 2010, recorded 26 April 2010 — https://www.econtalk.org/taleb-on-black-swans-fragility-and-mistakes/. The text on that page is a condensed 'Podcast Episode Highlights' summary, NOT a verbatim transcript. See the caveat below."
+published: 2010-05-03
 captured: 2026-08-13
 type: podcast distillation
 ---

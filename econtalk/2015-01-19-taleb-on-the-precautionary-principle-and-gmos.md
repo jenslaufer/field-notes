@@ -2,6 +2,7 @@
 title: "Taleb on the Precautionary Principle and GMOs — the one hard-technical hour"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk, on the paper written with Rupert Read, Raphael Douady, Joseph Norman and Yaneer Bar-Yam: what the precautionary principle actually is (decision-making without evidence), the three layers of knowledge from biologist to statistician to risk analyst, the Carpenter Fallacy, harm vs ruin, why a risk of ruin must be zero rather than small, ruin as a non-renewable resource, bottom-up/local vs top-down/global as the real source of fat tails, Hayek and the Soviet irony, why GMOs skip zillions of steps that human breeding does not, why the precautionary principle does NOT apply to nuclear, the inverted burden of proof ('what is the evidence that we are in a thin-tailed domain?'), circuit breakers that turn nature's fat tails into modified thin tails, and the Masquerade Problem"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on the Precautionary Principle and Genetically Modified Organisms', published 19 Jan 2015, recorded 8 Jan 2015 — https://www.econtalk.org/nassim-nicholas-taleb-on-the-precautionary-principle-and-genetically-modified-organisms/. Real speaker-labelled dialogue (Russ: / Guest:), about 6,100 words — but it BREAKS OFF at 44:02 with the marker '[more to come, 44:02]'. See the caveat below."
+published: 2015-01-19
 captured: 2026-08-13
 type: podcast distillation
 ---

@@ -28,23 +28,23 @@ Der häufigste Gedanke im ganzen Bestand. Nicht „Technik verändert alles", so
 etwas Schärferes: **sobald eine Fähigkeit im Überfluss vorhanden ist, hört sie auf,
 ein Vorsprung zu sein — und der Aufpreis wandert an die nächste knappe Stelle.**
 
-- `greg-isenberg/software-is-dead-unfair-advantage.md` — der Vorsprung der Indie-Hacker
+- `greg-isenberg/2026-07-29-software-is-dead-unfair-advantage.md` — der Vorsprung der Indie-Hacker
   *war* Code, und zwar doppelt: bauen können **und** SEO können, weil SEO selbst
   technisch ist. Beides jetzt Massenware. Levels dazu: *„Now you don't need to be
   technical at all to make something. So if you're okay at marketing, you're now
   competing with people who are great at marketing."*
-- `greg-isenberg/fde-million-dollar-ai-job.md` — dieselbe Bewegung eine Ebene höher:
+- `greg-isenberg/2026-07-20-fde-million-dollar-ai-job.md` — dieselbe Bewegung eine Ebene höher:
   *„intelligence is commoditized"*, jede Firma kauft denselben Stapel (Claude Code,
   Codex, Cursor), der Vorsprung wandert zur **Einsatzstelle** — wo im echten Ablauf
   Urteilskraft nötig ist und wo nicht.
-- `the-gist-talk/shape-of-the-company-as-ai-moat.md` — alles Kopierbare wird kopiert
+- `the-gist-talk/2026-05-13-shape-of-the-company-as-ai-moat.md` — alles Kopierbare wird kopiert
   (Funktionen, Infrastruktur, Modellgüte), also wandert der Vorsprung auf die
   **Form der Organisation**, weil die langsam zu kopieren ist.
-- `kopywriting-kourse/tim-soulo-ahrefs-seo-aeo-shifts.md` — dieselbe Bewegung in der
+- `kopywriting-kourse/2026-06-25-tim-soulo-ahrefs-seo-aeo-shifts.md` — dieselbe Bewegung in der
   Suche: Dauerbegriffe („evergreen") sind erledigt, weil Google zwanzig Jahre
   Wiederholung selbst zusammenfassen kann. Übrig bleiben **neue Themen** und
   **Marken-Suchen**.
-- `complexity/geoffrey-west-scaling-cities.md` — die härteste Fassung, aus den Daten
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — die härteste Fassung, aus den Daten
   statt aus der Beobachtung: die berühmte Stadt-Rendite (+15 % pro Kopf je
   Verdopplung) ist ein **Ober-Dezil-Phänomen**; das unterste Dezil skaliert linear.
   West: *„if you're in the lowest deciles… you're getting nothing out of the city."*
@@ -73,7 +73,7 @@ Teilweise getrennte Systeme erzeugen mehr Verschiedenheit als vollständig verbu
   whole game. Three verifiers that share a blind spot vote as one."* Die zehn
   Papiere sind nach *wie* sie Unabhängigkeit erzeugen sortiert (Redundanz,
   Lösen-dann-Prüfen, Widerspruch, Zeit, Messung), nicht nach Güte.
-- `complexity/rigorous-uncertainty-covid.md` — Krakauers Erklärung, warum *dieses*
+- `complexity/2020-04-06-rigorous-uncertainty-covid.md` — Krakauers Erklärung, warum *dieses*
   Virus die Welt anhielt und Krebs nie: ein einziges Prinzip — Übertragung — läuft
   auf **jeder** Ebene, von der Zelle bis zum Flugnetz. *„Human culture has become
   vulnerable at the layer of transmission because too many different mechanisms are
@@ -83,15 +83,15 @@ Teilweise getrennte Systeme erzeugen mehr Verschiedenheit als vollständig verbu
   antifragil, weil Abstürze *unabhängig* sind und jede Lehre den nächsten Flug
   sicherer macht; Banken sind fragil, weil Ausfälle *ansteckend* sind. Gleiche
   Aussage, andere Herkunft.
-- `complexity/cultural-evolution-songbirds.md` — Creanza, aus der Evolutionsseite und
+- `complexity/2020-03-12-cultural-evolution-songbirds.md` — Creanza, aus der Evolutionsseite und
   gegen die Intuition: **Teilvernetzung schlägt Vollvernetzung.** Sehen alle die
   Lösung aller, konvergiert die Gruppe auf eine Lösung und ist langfristig
   schlechter dran. In echten Jäger-und-Sammler-Netzen gemessen: Neuerungen
   verbreiteten sich **schneller**, wenn der Austausch eingeschränkt blieb.
-- `complexity/geoffrey-west-scaling-cities.md` — Evans über zig Millionen Papiere:
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — Evans über zig Millionen Papiere:
   **große Teams werden zitiert, kleine stören** — invers. Krakauer verteidigt damit
   ausdrücklich den Berg von Santa Fe.
-- `linear-digressions/08-many-agents-many-problems.md` — dieselbe Mechanik in der
+- `linear-digressions/2026-06-08-08-many-agents-many-problems.md` — dieselbe Mechanik in der
   Agentenforschung, diesmal als Kostenseite: Agenten scheitern, weil sie sich nie auf
   eine gemeinsame Darstellung einigen, und **Hierarchien verstärken Fehler**.
   Destillierte Modelle brechen am härtesten ein: gut in der Antwort, schlecht im
@@ -124,7 +124,7 @@ mehreren unabhängigen Papieren.
   Selbstkorrektur nicht reicht: derselbe blinde Fleck, der den Fehler erzeugt hat,
   lässt ihn durch. Erst ein **äußeres Orakel** (Rechner, Suche, Testlauf) macht die
   Kritik unabhängig.
-- `complexity/john-krakauer-brain-mind.md` — dieselbe Falle in der Wissenschaft:
+- `complexity/2022-11-11-john-krakauer-brain-mind.md` — dieselbe Falle in der Wissenschaft:
   **„Füllwörter".** Wenn eine Korrelation unerklärt wirkt, sagt man, die Aktivität
   *liege der Sache zugrunde* oder *repräsentiere* sie. Die Wörter leisten null
   begriffliche Arbeit; sie kleiden die Korrelation neu ein.
@@ -146,7 +146,7 @@ Eine Reihenfolge-Regel, die in Neurowissenschaft, Komplexitätswissenschaft,
 Unternehmensverkauf und Agentenbau gleich lautet — und in allen vier Feldern als der
 Fehler beschrieben wird, den die Mehrheit macht.
 
-- `complexity/john-krakauer-brain-mind.md` — die Umkehrung, für die er bekannt ist:
+- `complexity/2022-11-11-john-krakauer-brain-mind.md` — die Umkehrung, für die er bekannt ist:
   erst die **Aufgabenanalyse auf der Verhaltensebene**, dann ins Gehirn, und zwar
   *„almost for confirmation, not for discovery."* Der verbreitete Fehler ist die
   Gegenrichtung: irgendein Verhalten anwerfen, damit die Neuronen feuern, und die
@@ -154,19 +154,19 @@ Fehler beschrieben wird, den die Mehrheit macht.
 - `complexity/complexity-science.md` — Krakauers Verfallswarnung für ganze Fächer:
   **Frage zuerst, Methode danach.** Fächer sterben, wenn *„the method moves to center
   stage and becomes the thing itself as opposed to the instrument"*.
-- `greg-isenberg/ai-agents-are-the-new-saas.md` — dieselbe Regel im Verkauf: **einem
+- `greg-isenberg/2026-07-01-ai-agents-are-the-new-saas.md` — dieselbe Regel im Verkauf: **einem
   Menschen bei 10–20 echten Fällen zusehen, bevor eine Zeile Prompt entsteht.**
   *„The detail is the product."* Wer die Frage „wann habt ihr offen?" beantwortet,
   verfolgt in Wahrheit Küchenschluss, Kinderwagen-Tische, Terrassenzeiten und
   VIP-Weiterleitung.
-- `greg-isenberg/fde-million-dollar-ai-job.md` — und die Begründung, warum es nicht
+- `greg-isenberg/2026-07-20-fde-million-dollar-ai-job.md` — und die Begründung, warum es nicht
   abkürzbar ist: **der dokumentierte Ablauf ist fast nie der echte.** Eine Stunde
   Besprechung liefert den vorgestellten Job, ein ganzer Tag daneben den echten — samt
   der Ausnahmen, die nur in einem Kopf existieren.
 - `distribution-skill-trainieren.md` — die eigene Fassung, schon aufgeschrieben:
   falsche Frage *„wie bewerbe ich das, nachdem es gebaut ist?"*, richtige Frage
   **„auf welches schon existierende Verlangen zeige ich damit?"** — *vor* dem Bauen.
-- `linear-digressions/05-agentic-planning.md` — und der Beleg, dass Zerlegen keine
+- `linear-digressions/2026-05-18-05-agentic-planning.md` — und der Beleg, dass Zerlegen keine
   Tugend, sondern Leistung ist: Game of 24 mit demselben Modell — einfaches Prompten
   ~7 %, Gedankenkette ~4 % (**schlechter als gar keine**), Suchbaum ~74 %.
 
@@ -178,11 +178,11 @@ Was man entscheidet, *was* eine Sache ist, entscheidet, *woran* man sie misst. W
 die Kategorie falsch gewählt, optimiert man mit perfekter Disziplin die falsche Zahl —
 und nichts im Messvorgang zeigt es an.
 
-- `complexity/cultural-evolution-songbirds.md` — der schärfste Satz dazu im Bestand:
+- `complexity/2020-03-12-cultural-evolution-songbirds.md` — der schärfste Satz dazu im Bestand:
   *„Maybe a bird song is actually more like an arrowhead than it is like a language."*
   Mit der Kategorie kippt die Kennzahl — Werkzeuge misst man an Komplexität und
   Ausführung, Sprache an übertragener Information.
-- `complexity/nature-of-intelligence.md` — Pavlick zur **Konstruktvalidität**:
+- `complexity/2024-09-25-nature-of-intelligence.md` — Pavlick zur **Konstruktvalidität**:
   *„we don't really know what it means when a neural network"* einen SAT besteht. Beim
   Menschen steht plausibel eine allgemeine Fähigkeit dahinter, bei der Maschine
   vielleicht zusammengeflickte Heuristiken. Dazu Minskys **„Kofferwort"**: erst die
@@ -191,16 +191,16 @@ und nichts im Messvorgang zeigt es an.
   das System liefert **zuverlässig genau das, was gemessen wurde**, und das war nicht
   das Gewollte. Ihr eigener Kommentar: die billigste und am häufigsten übersprungene
   Korrektur im ganzen Buch.
-- `complexity/john-krakauer-brain-mind.md` — Cravers Werkzeug: *„Warum starb Sokrates?"*
+- `complexity/2022-11-11-john-krakauer-brain-mind.md` — Cravers Werkzeug: *„Warum starb Sokrates?"*
   — die Behörden verurteilten ihn / er wählte den Schierling / das Gift traf diese
   Rezeptoren. **Alle gleich wahr.** Die Sünde ist, die Frage einer Ebene mit dem
   Material einer anderen zu beantworten.
-- `linear-digressions/07-how-do-you-evaluate-an-ai-agent.md` — die teuerste bekannte
+- `linear-digressions/2026-06-01-07-how-do-you-evaluate-an-ai-agent.md` — die teuerste bekannte
   Folge davon: **Prüfbarkeit entscheidet, was überhaupt gemessen wird.** Die
   Testsammlungen ballen sich auf ~8 % des Arbeitsmarkts (Code, Mathematik); die
   übrigen **92 %** sind kaum abgedeckt — schwer prüfbar → nicht gemessen → nicht
   priorisiert → bleibt schwach.
-- `greg-isenberg/ai-agents-are-the-new-saas.md` — dieselbe Bewegung als Preisanker:
+- `greg-isenberg/2026-07-01-ai-agents-are-the-new-saas.md` — dieselbe Bewegung als Preisanker:
   Software verkauft ein Werkzeug, Agenten verkaufen **die Arbeit**. Mit der Kategorie
   wechselt der Vergleichsmaßstab vom Software-Budget zum Gehalt.
 
@@ -208,27 +208,27 @@ und nichts im Messvorgang zeigt es an.
 
 ## 6. Vorhersage und Verständnis sind zwei Währungen — und keine Methode kauft beide
 
-- `complexity/landscape-of-21st-century-science.md` — Krakauers Gründungsthese: Aus dem
+- `complexity/2019-10-09-landscape-of-21st-century-science.md` — Krakauers Gründungsthese: Aus dem
   Versagen der Wissenschaft in der Mitte zwischen Ordnung und Zufall wuchsen **zwei
   Geschwister**. Maschinelles Lernen kauft **präzise Vorhersage ohne Verständnis**,
   Komplexitätswissenschaft **Verständnis ohne präzise Vorhersage**. *„Those two
   brothers are going to have to get on, as opposed to one killing the other."*
-- `complexity/geoffrey-west-scaling-cities.md` — dieselbe Grenze als Zahl: das
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — dieselbe Grenze als Zahl: das
   Standardmodell der Physik hat rund **25 freie Parameter**, GPT-3 **175 Milliarden**.
   Krakauer: *„What's coarse-grained theory look like? It's not going to look like the
   standard model, but it sure as hell should not look like GPT-3."*
-- `complexity/nature-of-intelligence.md` — Mitchell benennt den Preis am konkreten
+- `complexity/2024-09-25-nature-of-intelligence.md` — Mitchell benennt den Preis am konkreten
   Fall: AlphaFold sagt vorher, heilt vielleicht Krankheiten — und liefert **kein
   Verständnis**. Ein echter Tausch, kein Freibier.
 - `the-gist-talk/oaktree-ai-hurtles-ahead-memo.md` — die Gegenposition, klar
   ausgesprochen: Selbst wenn es „nur" Mustererkennung ist — wenn es die Arbeit einer
   Kraft für 200.000 $ im Jahr erledigt, ist die Frage, ob es „wirklich denkt", ein
   Unterschied ohne Unterschied. *„Does AI do the work?"*
-- `complexity/john-krakauer-brain-mind.md` — die dritte Fassung, für den Alltag am
+- `complexity/2022-11-11-john-krakauer-brain-mind.md` — die dritte Fassung, für den Alltag am
   brauchbarsten: **Verstehen und Reparieren sind zwei verschiedene Projekte**, die
   ständig verwechselt werden. Wer eine Reparatur kauft, sollte kein Verständnis
   bezahlen — und wer repariert hat, sollte kein Verständnis behaupten.
-- `kopywriting-kourse/tim-soulo-ahrefs-seo-aeo-shifts.md` — dieselbe Skepsis im
+- `kopywriting-kourse/2026-06-25-tim-soulo-ahrefs-seo-aeo-shifts.md` — dieselbe Skepsis im
   Marketing: man *kann* zuordnen, *„but then what?"* Zu wissen, dass ein Kanal wirkt,
   sagt nicht, ob mehr, weniger oder gleich viel richtig ist. Er gewichtet
   Zuordnungszahlen bewusst ab.
@@ -240,24 +240,24 @@ und nichts im Messvorgang zeigt es an.
 Zwei unabhängige Linien der Komplexitätsforschung landen auf demselben Satz — und er
 läuft der Intuition zuwider.
 
-- `complexity/rigorous-uncertainty-covid.md` — die Umkehrung, die die meisten falsch
+- `complexity/2020-04-06-rigorous-uncertainty-covid.md` — die Umkehrung, die die meisten falsch
   herum haben: **schlechte Daten → einfachstes Modell. Gute Daten → man darf sich ein
   kompliziertes leisten.** Das Imperial-College-Modell war *„vastly too complicated
   given the data that we had"*. Regel: *„You only want to put complexity in your model
   if it's justified by the empirical data. If it's not, leave it out, because it will
   underperform the simple model."*
-- `complexity/cultural-evolution-songbirds.md` — Darwins Vorbehalt, von der anderen
+- `complexity/2020-03-12-cultural-evolution-songbirds.md` — Darwins Vorbehalt, von der anderen
   Seite: ein **lückenhafter Befund erzeugt scheinbare Sprünge.** *„If you only have a
   dinosaur fossil from every million years, you might think that there was rapid
   change when there was actually a very slow change."*
 - `complexity/stochastic-processes.md` — dasselbe als Wahrscheinlichkeitssatz: bei
   einem Poisson-Prozess mit kleiner Rate trägt **eine lange Null-Strecke fast keine
   Information**. Echter Zufall sieht klumpig aus; Lücken sind erwartet, nicht auffällig.
-- `complexity/geoffrey-west-scaling-cities.md` — der Autor über sein eigenes Werk:
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — der Autor über sein eigenes Werk:
   **grobkörnige Vorhersagen unpräziser Phänomene**, ohne Internet, ohne unerwartete
   soziale Bewegung, ohne Asteroid. Und mitten in der Beschreibung der sich
   verkürzenden Zyklen: *„I don't know; I'm making up these numbers, actually."*
-- `linear-digressions/07-how-do-you-evaluate-an-ai-agent.md` — die maschinelle
+- `linear-digressions/2026-06-01-07-how-do-you-evaluate-an-ai-agent.md` — die maschinelle
   Fassung: Testergebnisse sind verrauschte Näherungen, und **Goodhart schlägt auf zwei
   Ebenen zu** — Agenten setzen in 36 % der Commits Attrappen in Tests (Menschen: 26 %),
   und ~60 % der schwersten Aufgaben in SWE-bench Verified bestehen ihre Tests **auch
@@ -271,7 +271,7 @@ läuft der Intuition zuwider.
 
 ## 8. Selbstverstärkendes Wachstum endet an einer Grenze — die Rettung ist Neuerfindung, nicht mehr vom Gleichen
 
-- `complexity/geoffrey-west-scaling-cities.md` — die Herleitung: superlineares
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — die Herleitung: superlineares
   Skalieren erzeugt **offenes Wachstum**, und in den Gleichungen steckt eine
   Singularität in endlicher Zeit; davor stagniert und kollabiert das System. Ausweg
   ist periodische Neuerfindung — **und der Abstand zwischen den Neuerfindungen
@@ -284,7 +284,7 @@ läuft der Intuition zuwider.
   Schleifen sind die Quelle von **Wachstum und Zusammenbruch**; eine davonlaufende
   Schleife zu bremsen ist stärkerer Hebel, als eine ausgleichende zu stärken. Und die
   Hebelliste sagt, wo fast alle drücken: bei den **Zahlen** (Platz 12 von 12).
-- `linear-digressions/10-agent-economics.md` — die kaufmännische Fassung, 1865
+- `linear-digressions/2026-06-21-10-agent-economics.md` — die kaufmännische Fassung, 1865
   bekannt: **Jevons-Paradox.** Billigere Einheiten senken die Rechnung nicht, sie
   wecken Nutzungen, die vorher nicht lohnten. Robert Moses' Fahrspuren; und ein Agent
   ist eine Schleife, also ein Vervielfacher.
@@ -292,7 +292,7 @@ läuft der Intuition zuwider.
   überstehbare Belastungen, nie der eine große Schlag; und Stabilität, die durch
   Unterdrücken kleiner Schwankungen erkauft wird, ist **geliehene Fragilität**
   (Truthahn, Touristifizierung).
-- `complexity/rigorous-uncertainty-covid.md` — und die Gegenstimme in derselben
+- `complexity/2020-04-06-rigorous-uncertainty-covid.md` — und die Gegenstimme in derselben
   Bibliothek: **„Incremental change is real change, revolutionary change is
   illusion."** Krakauers Beleg ist der Fitness-Rat: „halbiere die Kalorien und lauf 20
   Meilen" hat niemand geschafft, der Zehn-Minuten-Spaziergang schon.
@@ -318,15 +318,15 @@ dazu unten.
   Anlageentscheidung: niemand sollte voll hinein, ohne das Ruinrisiko anzuerkennen,
   und niemand ganz draußen bleiben und den Schritt verpassen. **„A moderate position,
   applied with selectivity and prudence."**
-- `complexity/cultural-evolution-songbirds.md` — die evolutionäre Fassung, und die
+- `complexity/2020-03-12-cultural-evolution-songbirds.md` — die evolutionäre Fassung, und die
   gemeinste: in einer **kleinen Population** wandert das beste verfügbare Vorbild
   allein durch Stichprobenrauschen **nach unten** (Henrich). Nützliche Werkzeuge gehen
   verloren, ohne dass jemand einen Fehler macht. Ihr Gegenmittel im Text ist
   unspektakulär: **Schrift bewahrt, was Könner nicht bewahren können.**
-- `complexity/geoffrey-west-scaling-cities.md` — und dieselbe Lücke zwischen Mittelwert
+- `complexity/2020-06-17-geoffrey-west-scaling-cities.md` — und dieselbe Lücke zwischen Mittelwert
   und Erfahrung in den Stadtdaten: der Mittelwert der Stadtrendite ist nicht die
   Rendite des mittleren Bewohners.
-- `my-rejection-story/anne-laure-lecunff-negativity-bias-tiny-experiments.md` — die
+- `my-rejection-story/2026-03-18-anne-laure-lecunff-negativity-bias-tiny-experiments.md` — die
   psychologische Fassung: **kein einzelner Versuch ist ein Urteil.** Vorher Zahl der
   Versuche festlegen, während des Laufs nicht bewerten, danach fortsetzen /
   pausieren / abwandeln. Der Grund, warum das nötig ist, liegt in der Verdrahtung —
@@ -340,7 +340,7 @@ Der leiseste Faden im Bestand, und derjenige, den am meisten Quellen unabhängig
 voneinander berühren: **was sich falsch anfühlt — langsamer, teurer, undankbar — ist
 oft genau das, was schwer zu kopieren ist.**
 
-- `greg-isenberg/software-is-dead-unfair-advantage.md` — nüchtern in einer Liste von
+- `greg-isenberg/2026-07-29-software-is-dead-unfair-advantage.md` — nüchtern in einer Liste von
   Vorteilen versteckt: *„if you're willing to maintain a piece of software that other
   people don't want to maintain, that's also an opportunity."*
 - `linear-digressions/2026-07-20-invisible-llm-failures-and-ai-fluency.md` — gegen die
@@ -357,12 +357,12 @@ oft genau das, was schwer zu kopieren ist.**
 - `complexity/thinking-in-systems.md` — Meadows in einem Satz: **Widerstandsfähigkeit
   wird routinemäßig für kurzfristige Effizienz geopfert**, und dann wundert man sich
   über das spröde, optimierte System.
-- `kopywriting-kourse/tim-soulo-ahrefs-seo-aeo-shifts.md` — der teuerste Beleg, weil
+- `kopywriting-kourse/2026-06-25-tim-soulo-ahrefs-seo-aeo-shifts.md` — der teuerste Beleg, weil
   er aus einem 100-Mio.-Geschäft kommt: Ahrefs hatte zeitweise **8.000 zahlende Kunden
   und 16.000 Leute im ausgenutzten 7-Tage-Test** — und ließ es laufen, weil genau die
   16.000 zu den lautesten Fürsprechern wurden. Später legten sie ihr eigenes
   Partnerprogramm still, obwohl es Umsatz brachte.
-- `complexity/cultural-evolution-songbirds.md` — und die stillste Version: das
+- `complexity/2020-03-12-cultural-evolution-songbirds.md` — und die stillste Version: das
   Aufschreiben. Es rettet ein Verfahren, wenn der beste lebende Könner es schlechter
   kann als früher — Arbeit ohne sichtbaren Ertrag am Tag, an dem man sie tut.
 

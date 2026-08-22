@@ -193,7 +193,7 @@ audience:
 - **Distribution is a reinforcing loop with a long delay.** SEO, audience, and trust
   compound — but the feedback is slow, so you *will* over-correct and quit too early if
   you steer on stale signal. Most "nothing is working" is a balancing loop fighting an
-  invisible delay, not a dead idea. (See [`distribution-without-audience.md`](distribution-without-audience.md).)
+  invisible delay, not a dead idea. (See [`distribution-without-audience.md`](../distribution-without-audience.md).)
 - **"Seeking the wrong goal" is the vanity-metric trap.** Impressions, stars, and
   page-views are measurable; revenue, retained users, and reputation are what you
   want. Measure the thing you actually care about or the system will faithfully give

@@ -282,5 +282,5 @@ small concrete option.*
 - `2026-07-20-invisible-llm-failures-and-ai-fluency.md` (Chris Potts) — Katie calls back to
   it explicitly here for **delegative vs. augmentative** use; Potts is named as Zhou's
   colleague.
-- `06-ai-agent-failure-modes.md`, `09-agent-trust-oversight-and-control.md` — the agent-side
+- `2026-05-25-06-ai-agent-failure-modes.md`, `2026-06-14-09-agent-trust-oversight-and-control.md` — the agent-side
   versions of reliance and oversight.

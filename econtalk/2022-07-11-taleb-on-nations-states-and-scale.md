@@ -2,6 +2,7 @@
 title: "Taleb on Nations, States, and Scale — the last EconTalk, and the one where scale becomes the subject"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk: why the nation-state is a modern and fragile unit, the state as a body of laws rather than a people, city-states and Switzerland's cantons as the working counter-example, why errors and identity-maintenance do not scale linearly, skin in the game as the local mechanism, federalism and confederation as fragility control, the domain-dependence of optimal size, Ukraine as the model case, and the propaganda theory that falls out of Fooled by Randomness"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on the Nations, States, and Scale', published 11 Jul 2022, recorded 20 Jun 2022 — full official transcript at https://www.econtalk.org/nassim-nicholas-taleb-on-the-nations-states-and-scale/"
+published: 2022-07-11
 captured: 2026-08-13
 type: podcast distillation
 ---

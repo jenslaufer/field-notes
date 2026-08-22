@@ -2,6 +2,7 @@
 title: "Taleb on Skin in the Game — the paper version, four and a half years before the book"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk, built on the Taleb/Sandis paper 'The Skin in the Game Heuristic for Protection Against Tail Events': skin in the game as risk-management technology rather than slogan, Hammurabi as an information mechanism, the transfer of tail risk from agent to principal, why the mean of a fat-tailed process is unobservable inside a career, the two columns of society, binary vs vanilla prediction, and Roberts pushing back on liability, on government, and on whether courage really died"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Skin in the Game', published 9 Sep 2013, recorded 1 Aug 2013 — official transcript at https://www.econtalk.org/taleb-on-skin-in-the-game/"
+published: 2013-09-09
 captured: 2026-08-13
 type: podcast distillation
 ---

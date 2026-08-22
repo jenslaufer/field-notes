@@ -2,6 +2,7 @@
 title: "Taleb on Antifragility — the conversation a year before the book existed"
 concept: "Nassim Nicholas Taleb with Russ Roberts on EconTalk: why English needed a new word, the fragile/robust/antifragile triad, hormesis and the organic-vs-engineered split, nonlinearity as the universal signature of fragility, the barbell, via negativa, why small probabilities are uncomputable, skin in the game as the ethics of antifragility, size and localism, and Seneca as a man long options"
 sources: "EconTalk (Russ Roberts), 'Nassim Nicholas Taleb on Antifragility', published 16 Jan 2012, recorded 19 Dec 2011, 1:12 — full official transcript at https://www.econtalk.org/taleb-on-antifragility/"
+published: 2012-01-16
 captured: 2026-08-13
 type: podcast distillation
 ---
