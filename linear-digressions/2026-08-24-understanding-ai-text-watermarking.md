@@ -248,10 +248,19 @@ own gate.*
    unrelated sources converge on the same list. I measured my own back catalogue against
    it: **39 of 418 sent Telegram drafts (9.3 %) contain `nicht …, sondern …`**; `leise`
    appears in 0. So the German half of the tell is live in my output at roughly one message
-   in eleven, and the gate that exists to catch exactly this class of thing is blind to it.
+   in eleven, and the gate that checks for machine-sounding prose does not look at it.
    This is the `check-links.py` failure shape one level over — *a checker that cannot see a
-   pattern reports that pattern as clean* — and it is cheap to close. [[unrunnable check]]
-   [[coverage || loophole]]
+   pattern reports that pattern as clean*.
+   **But I am deliberately not adding it to the list tonight, and the reason is the whole
+   lesson:** 9.3 % is a number without its distribution. I have no human baseline for how
+   often a German writer uses `nicht …, sondern …`, and it is an ordinary German
+   construction, not a defect. A gate entry built on an unmeasured threshold would fire on
+   correct prose, and a check that is routinely wrong stops being read — which is exactly
+   how `check-links.py` nearly destroyed its own usefulness with 18 findings and 0 real
+   rot. Every one of the 26 existing entries traces to a real complaint from Jens; this one
+   traces to a podcast. **It is a candidate, not a confirmed defect. What would settle it:
+   the same count over a comparable body of German that Jens wrote himself.**
+   [[unrunnable check]] [[number needs distribution]] [[rule caps wrong unit]]
 
 3. **The watermark and the tell are different objects, and I have been treating "sounds
    like AI" as one problem.** Watermarking is invisible, statistical, needs a key, needs a
