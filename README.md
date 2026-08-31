@@ -11,6 +11,7 @@ Organized by source:
 - [`my-rejection-story/`](my-rejection-story/) — My Rejection Story (negativity bias, tiny experiments, mindful productivity)
 - [`econtalk/`](econtalk/) — EconTalk (Russ Roberts): **all ten Nassim Taleb appearances 2007–2022, written up in full** — the black swan before the crisis, fragility after it, antifragility before the book, skin in the game before the book, the precautionary principle, the minority rule, ergodicity, the pandemic under live fire, and scale — plus Rory Sutherland on Alchemy (2019)
 - [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), scaling (Geoffrey West, Melanie Moses), swarm engineering (Sabine Hauert), systems thinking, stochastic processes, antifragility
+- [`coffee-and-control/`](coffee-and-control/) — Coffee and Control (Lucy Hodgins): swarm robotics and artificial evolution with Sabine Hauert — the episode in which the field relaxes four of its own defining properties (many, identical, simple, dense)
 - [`papers/`](papers/) — research paper surveys and distillations
 
 ## Dateinamen

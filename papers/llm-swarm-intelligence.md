@@ -82,6 +82,17 @@ improve either. Model diversity widened the net rather than sharpening the aim.
   that literature's whole point is that checks must fail for *different* reasons.
   This paper is the empirical version of the same claim — measured, and weaker than hoped.
 
+## The same conclusion from the other direction
+
+Sabine Hauert's 2025 episode ([`../coffee-and-control/2025-03-01-sabine-hauert-swarm-robotics-artificial-evolution.md`](../coffee-and-control/2025-03-01-sabine-hauert-swarm-robotics-artificial-evolution.md))
+reports that swarm robotics is **relaxing homogeneity** after twenty years of deployment
+work — real swarms are turning out heterogeneous. Finding 3 above is the measured version
+of the same statement for language models: resampling one model re-measures its own bias.
+Two fields with no contact, same conclusion — diversity has to be engineered, not hoped for.
+That episode also carries the sharpest available warning for multi-agent setups, validated
+in vivo: a nanoparticle optimised to stick to cancer cells sticks to the *first layer* and
+never penetrates. Individually optimal, collectively useless, invisible at the agent level.
+
 ## Where it is thin
 
 Six pages, proof-of-concept by the authors' own description. Eight tasks, three
