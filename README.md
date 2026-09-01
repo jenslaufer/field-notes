@@ -40,3 +40,4 @@ Cross-source syntheses:
 - [`serendipitaet-actionplan.md`](serendipitaet-actionplan.md) — serendipity action plan
 - [`ideabrowser-curated.md`](ideabrowser-curated.md) — IdeaBrowser daily ideas, screened for my profile + German market
 - [`claude-prompt-commands.md`](claude-prompt-commands.md) — 14 Fake-„Claude Commands" aus einem Instagram-Reel entlarvt + Nachtrag: die ECHTEN versteckten Claude-Code-Kommandos (ultracode, Rewind, /fork, CLI-Flags), verifiziert gegen CLI 2.1.209
+- [`agent-architektur-diagramm.md`](agent-architektur-diagramm.md) — die „universelle" Agenten-Anatomie aus einem Instagram-Post (Perceive/Think/Remember/Plan/Act/Observe + Guardrails), verbatim erfasst und gegen den eigenen Agenten geprüft: alle sieben Bausteine vorhanden, Cost- und Latency-Messung fehlt — und der Kasten, den das Diagramm nicht hat, ist die Zustellung
