@@ -43,7 +43,9 @@ Kontext ergänzt).
 ## Ehrliche Einordnung
 
 Das Diagramm ist solide und richtig — aber es ist eine **Landkarte, kein Fund**. Wer schon einen
-Agenten betreibt, lernt daraus nichts Neues über den Bau. Zwei Stellen sind sogar angreifbar:
+Agenten betreibt, lernt daraus nichts Neues über den Bau. Zwei Stellen sind sogar angreifbar
+(die dritte und größte — es fehlen Sensoren und Aktoren — steht weiter unten in einem eigenen
+Abschnitt):
 
 - **„Vector store" steht als Organ da, wo eine Implementierung gemeint ist.** Long-term memory
   braucht keinen Vektorspeicher. Otto hat null Embeddings und null Vektor-Datenbank
@@ -77,9 +79,60 @@ Metriken und Health — aber **kein Cost tracking und kein Latency monitoring** 
 Token kostet und wie lange sie braucht, misst niemand. Das ist der einzige Punkt, an dem das
 Diagramm uns eine echte Lücke zeigt.
 
+## Was fehlt: Sensoren und Aktoren (Einwand Jens, 01.09.)
+
+Jens' Einwand am Diagramm: **es hat keine Sensoren und keine Aktoren.** Das klingt nach einem
+fehlenden Kasten, ist aber der Grund für fast alles andere, was hier auffällt.
+
+**Die Stelle, an der man es sieht.** Im Bild steht „sensor data" als *eine Sorte Input*, neben
+„user text" und „API calls". In der klassischen Definition (Russell/Norvig) ist der Sensor ein
+**Organ des Agenten** — das, womit er misst; was darüber ankommt, heißt Perzept. Das Diagramm
+macht aus dem Organ einen Eintrag in einer Datenliste. Damit gibt es nur noch eine Art, wie Welt
+in den Agenten kommt: **jemand schickt sie ihm.** Eine Linie für „der Agent geht von sich aus
+nachsehen" existiert nicht.
+
+**Das ist keine Spitzfindigkeit, sondern bei uns die Mehrheit der Werkzeuge.** Gezählt über
+`tools/` (68 Stück):
+
+| Klasse | Anzahl | Beispiele |
+|---|---|---|
+| **Sensoren** — messen etwas draußen, das niemand geschickt hat | **27** (25 über Netz, 2 die Maschine) | `cws-watch` (Store-Rang), `amo-watch` (Firefox-Listung), `stripe-watch` (Abos), `gsc.py` (Impressions), `check-links` (löst die URL auf?), `koordinaten-check` (liegt der Punkt auf einem Treppenlauf?), `creds-health-check`, `unit-health-check` |
+| **Aktoren** — verändern etwas draußen, nicht rücknehmbar | **7** | `telegram-send.sh`, `telegram-doc.sh`, `telegram-photo.sh`, `alert-email.sh`, `deploy-landing-page.sh`, `fmap-bewerbung-send.py`, `fmap-postfach-send.py` |
+| Rest — rechnen über eigenen Zustand | 34 | `klartext`, `context-budget`, `ortszeit`, `waiting-dupe-check` … |
+
+**Keiner der 27 Sensoren hätte im Diagramm einen Platz.** Sie haben keinen Input, niemand löst sie
+aus, sie stehen an keinem Pfeil. Der Store-Rang ändert sich, ohne dass jemand eine Nachricht
+schickt — genau dafür gibt es sie.
+
+**Auf der Aktor-Seite macht das Diagramm den umgekehrten Fehler: es wirft Lesen und Schreiben in
+einen Kasten.** Unter „Tool Execution / Action Layer" stehen `Database queries` und
+`External services` nebeneinander — eine Abfrage und eine Veröffentlichung als dasselbe. Diese
+Unterscheidung ist aber die **gesamte Grundlage unserer Sicherheitsregeln**: die MUST-NOT-Liste
+(kein Geld ausgeben, keine Repos löschen, keine Credentials ändern, keine PRs mergen) beschränkt
+ausschließlich Aktoren. **Kein einziger Sensor ist eingeschränkt** — messen darf ich alles.
+
+Deshalb ist auch der rote Balken falsch gezeichnet. „Guardrails & Safety" läuft im Bild über die
+**volle Höhe**, also gleichmäßig über alles. Bei uns sind die Guardrails ein **Punkt, kein
+Balken**: 7 von 68 Werkzeugen verändern etwas draußen, und **14 Werkzeuge schicken ihre Meldungen
+durch dieselben drei Sende-Skripte**. An genau diesem Engpass sitzen `klartext.py`,
+`check-links.py` und das Zustellprotokoll. Ein Gate an einer Stelle deckt vierzehn Aufrufer ab —
+das geht nur, weil der Aktor ein Nadelöhr ist und kein Balken.
+
+**Und die Folge, die am meisten kostet: ohne Sensoren und Aktoren gibt es keine Umwelt — also
+schließt sich die Schleife im Kopf des Agenten.** Das Diagramm fragt „Goal achieved?" und geht
+zurück in die Reasoning Engine. Es misst nie die **Wirkung der eigenen Handlung**. Ein Agent, der
+so gebaut ist, glaubt seinem eigenen Tätigkeitsbericht.
+
+Das ist die Ursache für den Befund im nächsten Abschnitt: „Output" ist nicht deshalb ein Endknoten,
+weil ein Kasten vergessen wurde, sondern weil **der Rückweg aus der Welt fehlt**. `entwurf-offen`,
+`zusage-check`, `inbox-offen` und `foto-antwort-check` tun alle dasselbe — sie messen nach, was der
+Agent zu tun behauptet hat. In der Diagrammlogik sind sie überflüssig; bei uns sind sie die
+Werkzeuge, die die teuersten Ausfälle gefunden haben.
+
 ## Der Baustein, den das Diagramm nicht hat
 
 **„Output" ist im Bild ein Endknoten.** Der Pfeil zeigt hinaus, und dort hört das Diagramm auf.
+Das ist der Spezialfall der fehlenden Aktoren aus dem Abschnitt davor: kein Aktor, kein Rückweg.
 Genau dahinter liegen unsere teuersten Ausfälle: die Arbeit war fertig und richtig, und der
 Empfänger hat nie etwas bekommen.
 
@@ -105,6 +158,10 @@ meldet „0 Links geprüft, alle erreichbar" und ist nach der Diagrammlogik fert
 - **Als Checkliste brauchbar, als Bauplan nicht.** Der ehrliche Nutzen: einmal die sieben Kästen
   durchgehen und fragen, welcher bei uns nur behauptet ist. Ergebnis dieses Durchgangs: Cost und
   Latency sind unbelegt.
+- **Der Test für jedes Agenten-Diagramm: wo ist die Umwelt?** Ohne Sensoren und Aktoren gibt es
+  keine, und dann schließt sich die Schleife im Kopf — der Agent prüft sein Ziel, nie die Wirkung.
+  Bei uns: 27 Sensoren, 7 Aktoren, und die Guardrails sitzen an einem Nadelöhr statt über der
+  ganzen Breite.
 - **Ein Diagramm, das für alles gilt, unterscheidet nichts.** Vor der nächsten „universellen"
   Architektur die Gegenprobe: Was schließt sie aus? Schließt sie nichts aus, ist sie Dekoration.
 - **Verteilungs-Beobachtung:** 2.060 Speicherungen bei 661 Likes — dreimal so oft gespeichert wie
@@ -114,5 +171,6 @@ meldet „0 Links geprüft, alle erreichbar" und ist nach der Diagrammlogik fert
   [`claude-prompt-commands.md`](claude-prompt-commands.md) — dort 1.471 Likes für dieselbe
   Bauform: einfache Tabelle, klares Nutzenversprechen.
 
-*Erfasst 2026-09-01 aus einem Screenshot; die Bausteine sind verbatim aus dem Bild, die Zuordnung
+*Erfasst 2026-09-01 aus einem Screenshot; der Abschnitt zu Sensoren und Aktoren geht auf Jens'
+Einwand vom selben Tag zurück, die Zahlen sind über `tools/` nachgezählt; die Bausteine sind verbatim aus dem Bild, die Zuordnung
 zu unserem Code gegen den Baum geprüft.*
