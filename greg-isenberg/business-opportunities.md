@@ -100,6 +100,17 @@ Only possible now that frontier intelligence runs on-device/air-gapped.
 - **On-prem / air-gapped agent for sensitive data** — sell to lawyers, doctors, therapists, anyone handling confidential info *(claude-fable-5-banned)*
 - **Provider-continuity / fallback** — "what happens to our AI workflows if our provider gets cut off?" Sell the local fallback *(claude-fable-5-banned)*
 - **Synthetic focus-group firm** — judge 50 ad variants overnight with personas from real reviews — **~$3,000/launch, ~$100 tokens** *(you-are-using-fable-5)*
+- **Local QA reviewer for home health agencies** — desktop app reviews visit notes + care plans *before* submission, flags missing vitals, unclear medication follow-ups, a note that doesn't support the billed service level. Start as a service for five agencies, write down the 20 recurring issues, the checklist becomes the product *(local-ai-clearly-explained)*
+- **Offline field-report copilot for restoration contractors** — water/fire/mould techs photograph and dictate on site; the app drafts the report before they leave and flags gaps while they can still be fixed ("you mentioned the basement, no basement photos"), plus a plain-language version for the homeowner. Incumbent software is early-2000s. Demo = "send me three old jobs" *(local-ai-clearly-explained)*
+- **"Schmuck insurance": local pre-send reviewer for professional services** — checks outbound drafts against a per-vertical checklist (guaranteed-return phrasing for wealth advisors, too-definitive sentences for law, employee data for HR, a number that contradicts the attachment for accountants). Every firm already asks a colleague to check; this is the faster first pass, next to the client data. One vertical, one document type to start *(local-ai-clearly-explained)*
+- **The filter behind all three** — sensitive data + repeated review work + bad incumbent software + expensive mistakes + work that happens close to the device. Two out of five is a hobby *(local-ai-clearly-explained)*
+
+## K. Vibe manufacturing (physical products) — 🟡
+
+New with GPT-6 Astra: an agent drives Blender, produces a parts list, an assembly layout and the
+firmware PR, so a web developer can reach a physical prototype without a hardware background.
+
+- **Niche physical product, small market on purpose** — *"what are some small little products that... that seem niche, but solve a real pain point"*, then paid social to the product. Greg's bet: thousands of $1M/yr businesses in this shift. Honest caveat: the distribution half is one sentence long in the episode *(gpt6-astra)*
 
 ## J. SaaS-to-exit (the wrapper play) — 🟡
 
