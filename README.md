@@ -12,6 +12,8 @@ Organized by source:
 - [`econtalk/`](econtalk/) — EconTalk (Russ Roberts): **all ten Nassim Taleb appearances 2007–2022, written up in full** — the black swan before the crisis, fragility after it, antifragility before the book, skin in the game before the book, the precautionary principle, the minority rule, ergodicity, the pandemic under live fire, and scale — plus Rory Sutherland on Alchemy (2019)
 - [`complexity/`](complexity/) — complexity science & complex systems: Santa Fe canon (David Krakauer, Melanie Mitchell, John Krakauer), scaling (Geoffrey West, Melanie Moses), swarm engineering (Sabine Hauert), systems thinking, stochastic processes, antifragility
 - [`coffee-and-control/`](coffee-and-control/) — Coffee and Control (Lucy Hodgins): swarm robotics and artificial evolution with Sabine Hauert — the episode in which the field relaxes four of its own defining properties (many, identical, simple, dense)
+- [`the-acquirers/`](the-acquirers/) — The Acquirers Podcast / Value: After Hours (Tobias Carlisle, Jake Taylor): Luca Dellanna on ergodicity, reproducible vs non-reproducible success, why Kelly is too aggressive, and the cost of an artificially short time horizon
+- [`starter-story/`](starter-story/) — Starter Story: founder case studies read for the distribution mechanism, not the product — Career Hound, a job board that wins entirely on timeless content formats bought from creators at $20 a video
 - [`papers/`](papers/) — research paper surveys and distillations
 
 ## Dateinamen
