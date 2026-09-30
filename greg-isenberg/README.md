@@ -66,3 +66,22 @@ per episode. No transcripts.
 - **2026-07-28** · [Jack Dorsey's Buzz: clearly explained](2026-07-28-buzz-agentic-slack-jack-dorsey.md) — Vinny (Wasp): Block's open-source, Nostr-based "Slack where agents are members". The two real features: **swappable harness under any agent** (Claude Code/Codex/Goose — context travels with you) and **shared compute** (one local model, whole team). Plus parallel-worktree Git on your own relay, audio huddles, public channels so a user's bug goes straight to an agent. Steal regardless of Buzz: pin agents to model tiers, build a router agent, and the closed loop app→public API→daily post into the channel→ask questions with the numbers already in context. Honest status: alpha-ish, workflows don't land, slower than Claude Code direct
 - **2026-06-13** · [Claude Fable 5 is banned — what to do](2026-06-13-claude-fable-5-is-banned-what-to-do.md)
 - **2026-06-11** · [You are using Claude Fable 5 wrong](2026-06-11-you-are-using-fable-5-wrong.md) — prompt patterns
+
+## Rated, no note (2026-09-30)
+
+Ten feed episodes 22.05.–24.07. were read in full (publisher VTT) and rated 1–5 for usefulness
+to Jens' current situation. None reached 4, so none got a note. Listed here so no session
+reports them as a gap again.
+
+| Date | Episode | Score | Why not |
+|---|---|---|---|
+| 2026-05-22 | Google's Biggest AI Announcements (Logan Kilpatrick) | 2 | Google I/O launch tour, nothing on demand |
+| 2026-06-02 | The Next $100B Market: Selling To AI Agents | 3 | covered by the Cloudflare and WebMCP notes; new: agent analytics (which agents visit, where they fail) |
+| 2026-06-04 | Codex Sites Clearly Explained | 2 | single-tool tutorial |
+| 2026-06-06 | Hermes Agent App Clearly Explained (Alex Finn) | 3 | feature tour; daily "opportunity scan" cron over Reddit/X |
+| 2026-06-08 | Become AI Native in less than 60 mins (Theo Tabah) | 3 | shared markdown "brain" already runs here; rest needs prospects or testers |
+| 2026-06-09 | What are Agentic Loops? (Ross Mike) | 2 | covered by loop engineering; new: review score collapses on PRs over 1,000 lines |
+| 2026-06-23 | GLM 5.2 Clearly Explained | 3 | cheap cloud model via OpenRouter; guest warns tool calling is weak — test that first for any fallback |
+| 2026-07-09 | We Tested OpenAI's GPT 5.6 for a Month (Dan Shipper) | 3 | personal Codex setup, soft verdicts |
+| 2026-07-10 | Grok 4.5 is a bigger deal than Fable | 2 | tool tour + guest's own products |
+| 2026-07-24 | Managing AI Agents (Ryan Carson) | 3 | already runs here; new: scheduled browser signup test, daily paid-customer event report |
