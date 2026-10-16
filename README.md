@@ -15,6 +15,7 @@ Organized by source:
 - [`the-acquirers/`](the-acquirers/) — The Acquirers Podcast / Value: After Hours (Tobias Carlisle, Jake Taylor): Luca Dellanna on ergodicity, reproducible vs non-reproducible success, why Kelly is too aggressive, and the cost of an artificially short time horizon
 - [`starter-story/`](starter-story/) — Starter Story: founder case studies read for the distribution mechanism, not the product — Career Hound, a job board that wins entirely on timeless content formats bought from creators at $20 a video
 - [`actioncoach/`](actioncoach/) — The ActionCOACH Podcast: Rory Sutherland on trivial improvements vs real strategy — benchmarking makes difference cheap, the S-curve makes big bets look like failures, critical non-essentials; with the books he names
+- [`niklas-steenfatt/`](niklas-steenfatt/) — Niklas Steenfatt (YouTube, German): *Vibe Coding hat sich verändert* — eleven claims on agentic coding in late 2026 (less prompt, no AGENTS.md, model as architect, you are the manager), each checked; the ETH AGENTS.md paper and the system-prompt cut say less than he claims
 - [`papers/`](papers/) — research paper surveys and distillations
 
 ## Personal insights
