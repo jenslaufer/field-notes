@@ -567,69 +567,9 @@ system, it makes your decision-making much, much easier." Uncertainty removes op
 table rather than adding them, provided the downside is ruin-shaped. You do not drink 1% of the
 water.
 
-## Solo-builder read (insights for Jens)
+## Where the dated position can now be scored
 
-*(My own words from here down. The transferable core: cheap early action against a ruin-shaped risk
-beats accurate late measurement — plus the corollary, that most risks are not ruin-shaped and
-deserve no precaution at all.)*
-
-**Do the sort first, and keep the list brutally short.** The liberation clause is the part to steal.
-Almost everything in a one-person software business is variation-shaped: a dead month, a channel
-returning nothing, a churned subscriber, a failed launch. None of it is ruin. A very small set is
-ruin-shaped and worth writing down rather than carrying as unease: a store account ban on the
-platform carrying a product's entire revenue; loss of the only copy of production data; a
-credential expiring unnoticed and taking a payment path with it; a tax or legal exposure that
-scales past the cash balance; a health event with no cover. Four or five items. Everything off that
-list gets no precaution, no hedging and no worry budget — that is the trade the doctrine actually
-offers, and taking only the caution half is the standard misreading.
-
-**Cheap-and-early beats accurate-and-late, and the cost curve is the argument.** The reason to act
-in the egg is not that early action is more likely to be right; it is that early action is nearly
-free and late action is not. The health checks already running in this repo are exactly that shape —
-credentials, units, and the paywall check that asks whether a FinGrab user can still buy. Each was
-bought before there was evidence of the failure it prevents, and each costs almost nothing per day.
-The right question for the next one is never "has this failed before?" — that is the evidence-based
-error — but "if this fails silently, how many days until I notice, and what does the delay cost?" A
-silent failure with a long detection lag is the ruin shape in miniature, and the watchdog is the
-lazaretto.
-
-**Set the class boundary in advance, then stop re-estimating.** His thousand deaths is a tripwire
-chosen for cheapness, not accuracy. The solo equivalent is defining, while calm, the number that
-moves something from "watch" to "today's whole day": a revenue drop of X% sustained for N weeks, a
-client above some share of income, a dependency with no fallback. The value is not the number — it
-is that crossing it triggers action without another round of analysis, and the moment of crossing is
-exactly when judgement is worst and the data thinnest.
-
-**The asymmetry test, with both halves.** Is the cost bounded, known and small? Is the payoff
-unbounded and unknown? Both yes: act, and stop arguing about the evidence. That is parachute logic,
-and it covers backups, a second payment path, a written runbook, a second income channel, a cheap
-listing on another platform. But the first half does the real work: a rewrite, a new framework, a
-new platform commitment all have *unbounded* cost, so the same argument does not license them. The
-test lets very few things through, which is why it is useful.
-
-**Compute the one number in the hour that is actually computable.** A New York restaurant dies from
-a 20% revenue drop because the margin is thin. The equivalent question for Solytics has an exact
-answer and needs no forecast: what percentage drop in monthly income, sustained for how many months,
-ends the runway? That is a measurement of present fragility, available today, and worth more than
-any projection of next year's revenue. If the answer is uncomfortably small, the fixes are
-subtractive — remove fixed costs, extend the buffer — not additive.
-
-**Judge past decisions by exposure, not by outcome.** When a launch, a channel or a client outcome
-is drawn from a fat-tailed distribution, "did it hit the number?" teaches superstition from a sample
-of one — and one observation determines the average, which is precisely why it teaches nothing. The
-retro question that survives: was the downside bounded, and was the option cheap? A cheap bet that
-paid nothing was still correct; an expensive bet that happened to pay was still a mistake. Applied
-to the agent-task and Fabrik pipelines: a PR that shipped nothing useful is not evidence against the
-channel, but a process that can lose work silently is — regardless of what it produced last week.
-
-**Refuse forecasts out loud, and say what would change your mind.** He will not tell Roberts whether
-the flight is safe; he names the evidence class he is waiting for and then takes the risk himself
-rather than recommending it. A usable template for status reporting: state the action taken, state
-the evidence that would move it, and do not manufacture a point estimate to sound decisive. A number
-invented for confidence's sake outlives the conversation and gets quoted back as if it had been
-measured.
-
-**Where the dated position can now be scored** — the calibration worth keeping. The structural calls
+The calibration worth keeping. The structural calls
 held: reduced connectivity mattered more than herd immunity; the protocol he described (borders,
 targeted measures, localism, cheap mitigations) is roughly what worked where anything worked; and
 his insistence that this was not the big one was correct. The institutional calls did not: "we're
@@ -637,7 +577,7 @@ antifragile, we learned from this" and the confidence that the next one would be
 have not obviously been earned, and "not too many industries are suffering" reads badly against what
 followed in travel, hospitality and commercial property. **Claims about the properties of a system
 aged well; claims about how institutions would respond to those properties aged badly.** Discount
-confident predictions of organisational learning — including my own about my own processes.
+confident predictions of organisational learning.
 
 ## Quotable
 

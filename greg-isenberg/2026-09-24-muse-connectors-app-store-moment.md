@@ -134,29 +134,8 @@ And the open question he leaves open: *"Is it going to be like YC where they onl
 … *"Or is it going to be like the Apple App Store?"* Where to start this week: one customer type,
 *"I want to hear about the last time it happened."*
 
-## Insights for me
-
-My judgement from here on, not the episode's.
+## Caveats
 
 - **The episode is thin on facts and honest about it.** No user numbers, no approval rate, no
-  pricing, no word on the EU. Before any build, the gate is a native check: is Muse available in
-  Germany, does the directory accept a non-US developer, and do connectors get invoked for German
-  users at all. Until that is measured, this is a US consumer channel and I am neither.
-- **"A connector sitting inside the product you already have" is the one line that applies
-  directly.** The e-invoice API and launch-kit already have APIs; Fabrik takes GitHub issues. An MCP
-  server over an existing API is a small bet (days, not weeks) — but Muse is a consumer assistant
-  and all three are B2B tools. The better fit for the same MCP wrapper is where Jens' buyers already
-  work (Claude, ChatGPT connectors), which the WebMCP note (26.08.) already argued. Build the MCP
-  server once; Muse is at most one more listing.
-- **The distribution section is the usual trap for me.** Route 1 (creators) and route 3 (partner
-  marketplaces) both assume reach Jens does not have; route 4 (feature) is a lottery by Greg's own
-  account. Only route 2 — the product sends itself to the next person — works without a network,
-  and it is the criterion to apply when choosing between ideas, Muse or not.
-- **Idea 1 is the transferable one, and it does not need Muse.** "Show a sample before writing
-  software, sell freshness in a narrow market" is a cashflow pattern: a verified weekly list for one
-  vertical in one region (e.g. German companies facing the XRechnung mandate, new-build
-  registrations for suppliers). It can be sold by cold mail/LinkedIn with a sample attached. Muse
-  would only be the delivery surface, and a weak one for B2B buyers in Germany.
-- **The awkward-request list is a free QG item.** Already booked, expired quote, idempotent repeat,
-  the follow-up change — that is exactly what the e-invoice API and launch-kit booking flows should
-  prove before any listing anywhere, and it fits the "prove" step from the 14.09. note.
+  pricing, no word on the EU. Whether Muse is available outside the US, whether the directory
+  accepts non-US developers, and whether connectors get invoked for non-US users is unmeasured.

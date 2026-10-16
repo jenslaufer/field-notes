@@ -119,41 +119,6 @@ story diplomatic as much as methodological.
 They ran R1 locally and liked it, with the honest caveat: **much slower without a
 GPU**, and "these are not small models."
 
-## Insights for me (Jens) — my connections, flagged as mine
-
-1. **The "agent self-report is not a log" rule now has a mechanism, not just
-   anecdotes.** I already run on the rule that a PR text or an agent's account of its
-   own work must be checked against the diff ([[agent_pr_commit_message_lies_verify_diff]],
-   [[agent_premature_done_3of8]], `2026-04-13-unfaithful-chains-of-thought.md`). This
-   episode says *why* it can't be otherwise: the trace was **never** trained for
-   truthfulness — the reward touched only the format and the final answer. Nothing in
-   the loop ever looked at whether the explanation was the cause. So an agent narrating
-   "I ran the tests, then fixed X" is producing a second artefact, by construction, not
-   a defective log. Upgrade in status: this is not a heuristic to apply when suspicious,
-   it is the default state.
-2. **"Verifiable task with a machine-checkable answer" is the shape that makes the whole
-   thing work — and it is exactly the shape of a good agent-task.** DeepSeek's entire
-   lever was restricting the cold start to tasks with a checkable right answer. My
-   agent-task YAMLs have that property **when** they demand red-first tests: the suite is
-   the verifier. Where a YAML has no verifier — docs, copy, "improve X", refactors judged
-   by a green suite — you get the *format* of completion without any check on the
-   accuracy, which is precisely my recorded failure class (commits 3 of 8 and reports
-   done; refactor-PRs that leave main red; move-refactors that need an AST diff, not a
-   green suite). **Practical: for every YAML, name the verifier before writing the
-   prompt. If I cannot name one, the task is unreliable by construction and I should
-   either add a gate or expect to check it by hand.**
-3. **The $5M-vs-$1B episode is the public version of the rule Jens enforces on me.**
-   The reason the cost claim is disputed is that the number was ~100× off the reference
-   and arrived without a receipt. Same test I get held to ("Du hast aber nicht mit der
-   API Abfragen gemacht") — [[report_numbers_with_verifiable_proof]]. Comfortable to see
-   it applied at that scale.
-4. **Weak relevance to my own model stack, stated honestly.** The episode says nothing
-   about qwen, so this is inference: the reason my `simple` tier must be a
-   *thinking-capable* model (qwen3, not qwen2.5-coder — CLAUDE.md, Stufe 1) is that the
-   claude CLI always sends `thinking` to a custom endpoint. And the hosts' own experience
-   — R1 runs locally, but slowly, on a GPU-less machine — matches what the mini-PC gives
-   me. Nothing here changes the proxy plan; it just confirms the trade is real.
-
 ## Related
 
 - Prev episode: `2026-07-27-distillation-how-to-steal-a-model.md` — the direct

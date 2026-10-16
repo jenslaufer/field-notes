@@ -23,5 +23,3 @@ captured: 2026-06-14
 **Result.** Backward verification reranks candidates and lifts reasoning accuracy over forward-only decoding on arithmetic and commonsense benchmarks.
 
 **Takeaway.** A verifier need not be a separate system — reversing the task ("does this answer reproduce the question?") is a cheap, model-internal independent check.
-
-**Our stack.** The "reconstruct the inputs from the output" idea is a lightweight self-check worth adding wherever a result can be run backward into its premises.

@@ -86,7 +86,6 @@ resource: "The FDE Blueprint — https://startup-ideas-pod.link/fde-starter"
 - **Naming tip (marketing):** people have an allergic reaction to the word
   "audit" (they hear "tax audit"). The guest's agency **rebranded "audit" as
   "sprint"** (a *design sprint*) — same thing, sold far better.
-  *(Note: this is exactly Jens' "KI-Sprint" framing — see insights.)*
 - **Evals** = turn non-determinism into evidence. Build a **golden data set**
   (easier when you have thousands of past examples, e.g. 10k prior emails or
   5k prior decks → codify "what good looks like"). Run e.g. 50 cases: 41 pass,
@@ -159,68 +158,3 @@ days building proof solo. Pace flexible — "space it out as you need."
 - Palantir (origin of the FDE model). Corey Ganim's prior episode (selling
   audits) is explicitly referenced. Guest's companies: **Varick Agents** +
   agency **LCA**. Resource: **The FDE Blueprint** (link in frontmatter).
-
----
-
-## Insights for me (Jens) — honest, not an echo
-
-1. **This is the *delivery* half of the exact plan I already have queued — and
-   it upgrades the positioning.** My KI-Assessment/KI-Sprint plan (waiting #75
-   + the Aschaffenburg draft) came from Corey Ganim's episode, which this one
-   *explicitly references*. Ganim = **acquisition** (local, zero-capital,
-   $999 assessment tripwire). Vas = **delivery** (audit → evals → deployment,
-   build-on-existing, the 30-day agent-hardening craft). Together they're a
-   complete playbook. And the reframe matters: "**Forward Deployed Engineer**"
-   is a hotter, more premium label than "KI-Berater" — same work, better price
-   anchor. My "KI-Sprint" name is literally the guest's own audit→sprint
-   rebrand, arrived at independently. That's confirmation, not coincidence.
-
-2. **I am unusually close to the rare "art + science" hire.** The whole episode
-   says the $1M profile is rare because it needs consulting communication AND
-   production engineering in one person. I'm data analyst + ML engineer +
-   fullstack + I already run three agent systems (Fabrik, assistant,
-   agent-tasks) end to end. The gap the guest names for engineers is the
-   *left* side (business politics, adoption, selling promotion-not-migration) —
-   which is precisely my weaker muscle and worth deliberate reps. This isn't
-   "learn to code an agent"; for me it's "learn to sit in the room."
-
-3. **"Audit for free → paid on measurable value" fixes my no-audience,
-   no-ad-budget problem.** My KI-Sprint stalled on thin DE paid-search demand
-   and ad spend (#75). The guest's answer needs *neither*: free audit to
-   de-risk, first 1–3 clients as paid tuition. Combined with Ganim's local
-   channels (IHK Aschaffenburg talk pending since March, office hours,
-   accountant partnerships), this is a demand path that doesn't require me to
-   buy clicks or have a following — my standing constraint.
-
-4. **The three metrics are my qualifier — and my kill-switch.** revenue uplift
-   / risk mitigation / cost savings. If a prospect's pain doesn't map to one of
-   these, walk. This is a cleaner filter than my instinct to build the
-   technically interesting thing. It also tells me what the *report/PDF* must
-   lead with (I already build ROI-slide artifacts well — Besichtigungsbogen,
-   the Ganim report template).
-
-5. **"Build on top, don't force migration" is a real technical stance I should
-   adopt as the offer.** The German Mittelstand is DATEV/Lexware/SAP-locked and
-   terrified of migrations. Positioning = "I make your existing stack smarter"
-   (an agent layer over NetSuite/DATEV/HubSpot), not "switch tools." That is
-   both more sellable *and* plays to my integration strength — and it's the
-   opposite of the doomed "rip-and-replace" pitch.
-
-6. **Honest Taleb check (unchanged): still a service, still an hours ceiling.**
-   FDE work is convex in *rate*, not in *scale* — it's premium Bahn-A cashflow,
-   not the exit vehicle. BUT: the money is real, the demand exists ("so much
-   demand, so few who can do it"), and one or two FDE engagements would clear
-   the 5k/month short-term goal and *fund* the convex product bets. The trap to
-   avoid: letting it eat all my time so no build-once/sell-many bet ever ships.
-   One lane, capped — same discipline as the concierge cap in the Ganim note.
-
-7. **The 30-day plan is a *portfolio artifact* I could ship this week, mostly
-   on the assistant stack.** A hardened back-office agent (JSON schema, failure
-   modes, golden-set evals, audit trail, cost-optimized model routing) with a
-   two-audience writeup (engineer + VP) = exactly the proof the guest says
-   opens doors — and it doubles as a live demo for the KI-Sprint landing page.
-   Natural target: **document/invoice extraction → DATEV**, my home turf, even
-   though DE *search* demand for it is thin (#75) — as a *demo asset* it sells
-   the sprint, it doesn't need to be found on Google. If Jens says go, this is
-   the one buildable thing in the whole thread that needs no client and no ad
-   budget.

@@ -25,5 +25,3 @@ captured: 2026-06-14
 **Result.** Harmless **but non-evasive** behaviour: the model explains its objection instead of refusing blankly, with far less human labelling.
 
 **Takeaway.** Verification can be a written rule set, not just a second model. Make the standard explicit and you can critique against it automatically.
-
-**Our stack.** The actor/critic skills score output against stated criteria — the same "critique-against-an-explicit-standard" loop.

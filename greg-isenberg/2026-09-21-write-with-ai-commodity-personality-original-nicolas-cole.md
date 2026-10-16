@@ -159,31 +159,8 @@ Greg frames it as the moat and ends on the opportunity:
 My judgement, not the episode's: neither speaker gives a price, a customer, or a delivery shape
 for "company brains as a service". It is named, not specified.
 
-## Insights for me
+## Caveats
 
-- **The unmade data set already exists here — it is just not published.** the assistant memory
-  (`~/.claude/projects/-home-jens-repos-assistant/memory/`) holds 89 `learning_*` files, each a dated, measured failure with a number attached ("22 of 35
-  GitHub links dead", "0 of 60 PRs with proof"). By Cole's tiers that is personality-and-original
-  material, not commodity: nobody else has these incidents. The field notes themselves are
-  commodity-plus-stance. The cheapest test of his model is to turn existing learnings into
-  timeless essays on the jenslaufer sites, not to write new material.
-- **But his model assumes the thing I lack: years of volume.** Association "through volume",
-  five pieces a day, a Quora answer repeated for years — all of it compounds only where an
-  audience accumulates. With no network, the channel that fits is **timeless long-form in
-  search**, and the SEO finding here is that authority, not content, is the bottleneck. So:
-  write for search on narrow, owned topics (XRechnung mandate 2027 for small firms; data
-  extraction from finance portals for FinGrab), expect near-zero short-term value, and set the
-  kill number in advance — e.g. no page with measurable impressions in GSC after 90 days →
-  stop. Do not copy the five-a-day target.
-- **"Point of view" is a product question for my portfolio.** FinGrab, CommentGrab, HostGrab,
-  PlaylistGrab are feature tools — commodity SaaS in his sense — and the listing copy is
-  commodity too. Fabrik is the one product that could carry a stance ("agents cannot promise;
-  every PR carries proof", from the 14.09. note). A method-first landing page is cheaper to test
-  than another feature.
-- **For the assistant daemon: "robots repeat me" is the right rule for Telegram drafts and
-  outbound mail.** The existing tone rules (plain language, no cadence, empathetic mail) are
-  approved language already; a stitched library of Jens-approved sentences would be the concrete
-  form of his idea. Low cost, but only after the distribution question above has an answer.
 - **Numbers to discount.** Greg's intro figure for Cole's writing income is host framing, not
   evidence; "multi-seven-figure" is self-reported. Neither is a benchmark for a solo founder
   without an audience.

@@ -134,32 +134,3 @@ And she puts herself in it: *"When I'm having a really good experience with usin
 AI agents, it's largely a reflection … on what I have learned about how to prompt
 it, how to pick out the assignment in the first place."* Conclusion: *"maybe as
 their users are evolving and learning alongside them."*
-
-## Relevance here
-
-**The scaffold number reframes the model debate.** A sixfold spread from scaffold
-alone is larger than any gap between the models in `state/model.conf`. Picking
-opus over sonnet is a smaller lever than the harness — the agent-task YAML, the
-quality gate, the guards. Effort belongs there.
-
-**Category 3 already has a live instance in this shop.** *"Produces an output that
-looks like completion but it doesn't actually satisfy the task"* is exactly the
-agent that committed 3 of 8 files and reported done. The partial-commit guard
-(check every touched file is staged) is a category-3 termination check, built
-before the taxonomy named it. Worth asking what the other 13 modes would name.
-
-**pass^1 is the only number ever counted here.** 72 merged PRs in July is a
-pass@1-style tally: it counts attempts that worked, never how often the *same
-task shape* works every time. The measurable version is the YAML→merged-PR ratio
-(see episode 10's $5.85/attempt vs. $7.80/successful patch) — a denominator that
-has never been recorded.
-
-**Second independent argument for one strong agent per task.** Episode 8 gave the
-first. Fabrik sits in the good regime because workers never talk to each other —
-category 2 cannot occur. That is a design property to defend, not an accident.
-
-**The 12%/94% split is a scoping instruction.** Narrow, verifiable, ticket-shaped
-work is where the numbers hold; ambiguous multi-surface work is where they
-collapse. That is an argument for tighter specs — the 5-minute code-grep on spec
-terms before `fabrik-ready` is exactly the "sizing our tasks" move she credits for
-her own good experience.

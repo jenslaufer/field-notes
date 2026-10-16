@@ -120,37 +120,6 @@ Platforms and trends change; the principles of being discoverable stay the same.
 - On focus vs spread: he just **posts everywhere** — low hit rate, but people find him on
   TikTok/LinkedIn/YouTube he forgot he was even on. Anecdotal beats false precision.
 
-## Insights for distribution (the direct answer for us)
-1. **Brand before search.** Our products have no brand → no branded search → we lean on
-   generic SEO, which is *exactly* the channel that's dying (FK/HC = evergreen YMYL that
-   Google now answers itself). This finally explains *why* FK/HC are traffic-dead beyond
-   "young domain": they target amalgamatable evergreen terms with no brand pulling people.
-2. **Free, instant, no-signup tools are a proven traction engine — and Jens already has
-   the asset.** Ahrefs bootstrapped on a free instant report; their best affiliates were
-   *free tools*. This is a direct endorsement of **embeddable mini-tools (channel #4)** and
-   **fingrab**. The concept-simulators and calculators are the right *shape* — what's
-   missing is the brand/notice layer that turns a user into a searcher.
-3. **Serve the tiny branded searches you have.** fingrab already has installs + 3 paying
-   subs + a name people type. Make sure "fingrab" the query is perfectly served (store
-   listing, a "how to use fingrab" page) — fulfilling it grows it via word of mouth. Same
-   for "Jens Laufer".
-4. **Get noticed by doing one real, slightly-crazy, documented thing** — not by posting
-   nicely. This is the same conclusion as [`distribution-without-audience.md`](../distribution-without-audience.md)
-   and the Greg-Isenberg "skill 2" thread, now confirmed by a $100M operator. Stunt → notice
-   → branded search → SEO/AEO serves it.
-5. **Build engines, not campaigns.** Direct cross-check on the **KI-Sprint paid-search**
-   debate (waiting #75): a paid campaign is a burst with a hard ceiling; an engine
-   (concept-sim family, a real blog, a free tool) compounds. Bias the runway toward engines.
-6. **Optimize for being *mentioned*, not just ranked (AEO).** For solytics/e-invoice the
-   future lever is brand/product mentions across the web so we surface in AI answers about
-   e-Rechnung — links alone won't carry it.
-7. **Don't over-trust attribution.** "Marketing is not math" — pick channels on fit +
-   our strengths + feedback speed (our existing filter), not on a clean ROI number that
-   social media won't give us anyway.
-8. **Caution on the calculator thesis.** ChatGPT increasingly makes generic calculators
-   pointless. Our calc bet only holds where the tool is *specific, embedded, and branded*
-   — not "yet another generic Rechner" a user could just ask ChatGPT for.
-
 ## References
 - Video: https://youtu.be/hzitA2zH3Xc
 - Tim Soulo: LinkedIn (Tim Soulo) · https://ahrefs.com

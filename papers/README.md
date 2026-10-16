@@ -2,6 +2,8 @@
 
 Distillations of research papers — findings, method, and what is usable. No full text.
 
+Personal takeaways for Jens' own setup live in one place: [`insights-for-jens.md`](insights-for-jens.md).
+
 - [`orthogonal-agent-verification.md`](orthogonal-agent-verification.md) — survey of 10 papers on
   verifying AI agents; the organising idea is **orthogonality** (stack checks that fail for
   different reasons). One-page note per paper in

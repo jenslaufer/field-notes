@@ -198,38 +198,8 @@ The output is a case study, and he dictates its shape with numbers in it:
 
 > *"I audited this company's growth, we built this customer truth repo, I found was one high intent pain that they didn't know about, and I turned it into an outbound signal engine which shipped 75,"* … *"targeted messages, got nine warm replies, booked three calls, and I documented everything what I learned."*
 
-## Insights for me
+## Caveats
 
-- **The customer-truth folder is now the THIRD independent source naming the same missing thing
-  here, and that changes it from an idea into a finding.** The 17.08. episode measured 8 of 9
-  pieces present and named `/customers` as one of two gaps; the 10.09. episode's operator-dashboard
-  prompt asked for *"what customers are asking for"*; this one makes it system number one and the
-  precondition for the other five. The raw material exists and is unread: 16 FinGrab store
-  reviews at 4.3 stars, a Stripe cancellation with reason `unused` after 6 minutes 43 seconds,
-  and every AMO review that `amo-watch` now sees. None of it lives in a file an agent reads
-  before writing anything.
-- **His "receipts" rule is already the house rule here — which is the reason to trust the rest of
-  the episode.** *"every insight needs a quote or a link or a source"* is verbatim the standard
-  this repo runs on (`verify-quotes`, `check-links`, "a number without proof does not count").
-  He arrived at it independently, as a correction he had to add to an agent that fabricated.
-  Worth noting where the practice is *stronger* here and where it is weaker: the gates are
-  better, the customer input is absent.
-- **"Messages sent is activity, qualified replies is your signal" is the sharpest available test
-  for the distribution problem.** Measured this repo against it and it fails on its own terms:
-  the extension listings have ~500 users and 17 checkout sessions in five months, and the
-  landing domains produced 1 click over 28 days. Those are activity counts. The number that
-  would be a signal — how many people arrived with intent — is not collected anywhere, because
-  none of the six systems above exists here.
-- **Consulting item 2 is a live option, not a thought experiment.** Jens is already on
-  freelancermap with an agent-built CV and two open contracting candidates. "Build one growth
-  system, 30/60/90 days, 5–30K/month" is a materially different offer from "Data Engineer
-  Python/LLM/MLOps" and it is the offer the assets here actually support — a growth repo, agents
-  with job specs, and the gates that make their output trustworthy is a demo we could build in a
-  day from what exists. Worth putting in front of Jens as a positioning question, not a project.
-- **The growth repo is the cheapest thing in the episode and it is the same shape as `field-notes`.**
-  This repo is already the pattern applied to podcasts: structured folders, distilled files, quote
-  rules, an index. Pointing the identical mechanism at customers rather than at podcasts is a
-  copy, not an invention.
 - **Do not take: the 18–24 month window, the $500K and $1M figures, and the billion ChatGPT
   users.** All four are Greg's forecasts or second-hand citations, none measured in the episode.
   They are the reason the episode exists, not evidence from it.

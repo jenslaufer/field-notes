@@ -84,17 +84,3 @@ Combine the imperfect probes (chain of thought, LLM judge, interpretability); in
 alignment upfront, because hoping to catch misalignment afterwards is *"Not a great idea"*;
 and as a user keep treating models as systems that are *"not fully trustworthy, not fully
 foolproof"*. She says this is why the topic took about ten episodes instead of one.
-
-## Insights for me (Jens) — my connections, flagged as mine
-
-- **My setup already follows her conclusion.** Nothing in the assistant trusts the model's own
-  account: `verify-quotes.py` checks quotes against the transcript, the PR rules say the diff
-  beats the commit message, `check-links.py` resolves every link. These are outside probes
-  with a ground truth (the source text, the diff). That is the one thing interpretability
-  lacks for "is it lying" — so for my use cases, output checks against a source remain the
-  stronger tool.
-- **The audit study is the pattern for testing my own guards.** Plant a known fault, then see
-  whether the guard finds it. The test rule "red before, green after" is the same idea at small
-  scale.
-- **Nothing here to build or buy.** The methods are research on toy models; no product
-  decision follows.

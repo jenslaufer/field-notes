@@ -88,17 +88,6 @@ captured: 2026-06-18
 - **One agent, one feed, one buyer** keeps the funnel legible — easy to measure
   and easy to scale by cloning the pattern to a new vertical.
 
-## Why this matters for us
-
-- The **Feed → Asset → Trigger → Buyer → Monetization** framework is a reusable
-  idea-validation template for launch-kit — map any niche to a monetizable motion.
-- **Trigger-based cold outreach** (hiring signals) is a copyable lead-funnel
-  recipe: scrape public feeds, score, enrich, personalize, send.
-- **Agent-as-employee in Slack at ~$25/mo** is a cheap, concrete way to automate
-  our own lead research and content ops.
-- Reinforces **distribution-first**: the asset is cheap, the edge is the
-  buyer-at-the-right-moment.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=Ix43w_IssR8

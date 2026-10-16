@@ -170,14 +170,9 @@ with people, driving value, talking to customers — this is your time."*
 
 ## Relevance for a solo builder with no audience
 
-**1. This episode is the same finding as a dead SEO play, arriving from the other side.**
-Four months of building calculators that produced a handful of clicks a month, at an
-average position in the seventies, is exactly the failure mode described here: **the
-unfair advantage was assumed to be production, and it was actually authority.** Greg's
-version — "code is not the unfair advantage anymore" — and the retrospective version —
-"authority was the bottleneck, not inventory" — are one claim. Useful because it means
-the lesson generalises past that one domain: **any strategy whose engine is "I can build
-more of these than other people" is now betting on a commodity.**
+**1. Production is no longer the advantage; authority is.** Greg's version — "code is not the
+unfair advantage anymore" — generalises: **any strategy whose engine is "I can build more of
+these than other people" is now betting on a commodity.**
 
 **2. Take the list, but not the headline recommendation.** Greg's number-one answer is
 build media and an audience. For anyone who has no network and no intention of becoming
@@ -189,7 +184,7 @@ more than the parts that require standing in front of a camera.
 
 **3. "Sell the service, let the agent fulfil" is the cheapest test available.** No
 product, no store listing, no launch. It is also the one that produces a *paying human*
-fastest, which is the only number that has been stubbornly missing.
+fastest.
 
 **4. The copy instruction is immediately usable and free.** Strip "AI-powered" out of
 outward-facing copy; sell the outcome. That applies to every landing page and every

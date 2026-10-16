@@ -79,17 +79,6 @@ captured: 2026-06-18
 - **Accountability loop.** `/drift` flags when your output diverges from stated goals —
   a built-in check that your content/GTM actually serves the strategy.
 
-## Why this matters for us
-- **This is the content brain, personalized.** Same thesis as our content-engine note:
-  a durable corpus of your thinking, queried by an agent — here the corpus is a linked
-  Obsidian vault and the query layer is Claude Code.
-- **Idea validation upstream.** `/ideas` mines real, lived notes for startup angles —
-  feed those into the launch-kit's validation step instead of cold-brainstorming.
-- **Copyable recipe.** Obsidian (free) + Claude Code + Obsidian CLI plugin + ~10 slash
-  commands. The "humans write, agents read" rule is the load-bearing constraint.
-- **Markdown-first leverage.** Reinforces the house pattern: write everything in `.md`
-  so agents have "oxygen." More writing = more agent capability, compounding.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=6MBq1paspVU
 - Interactive lesson (CC for Everyone): https://ccforeveryone.com/mini-lessons/vin-obsidian-workflows

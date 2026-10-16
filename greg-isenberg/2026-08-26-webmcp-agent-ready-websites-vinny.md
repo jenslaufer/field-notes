@@ -184,21 +184,3 @@ February, joint effort from Microsoft and Google"*.
 Fazit fuer die Bewertung der beiden Geschaeftsideen: die Technik ist echt und von zwei Browser-
 Herstellern getragen, aber sie steht **hinter einem Flag**. Ein Kunde, der heute dafuer zahlt,
 kauft Vorbereitung, keinen Traffic — und genau so muss man es ihm sagen.
-
-## Insights for me
-
-- **Das ist dieselbe These wie die Cloudflare-Folge vom 10.08., eine Etage tiefer.** Dort war das
-  Produkt „agent readiness" als Beratung, hier ist es eine Browser-Schnittstelle. Der verkaufbare
-  Satz ist in beiden Faellen derselbe: die Seite ist fuer Menschen gebaut und der naechste Besucher
-  ist keiner.
-- **Was hier konkret anschlussfaehig ist: solytics.de.** Eine Handvoll WebMCP-Tools auf der
-  Firmenseite (Leistungen filtern, Kontakt anfragen, e-invoice-Fragen beantworten) kostet wenig,
-  ist echt vorzeigbar und passt zum Positionierungssatz „AI-Beratung". Es ist ausserdem das
-  seltene Beispiel, wo Bauen *ist* Distribution: das Artefakt selbst ist der Beleg im Verkauf.
-- **Der Mystery Shopper ist die bessere der beiden Ideen und braucht WebMCP gar nicht.** Er misst
-  nur, ob ein Agent den Kaufweg schafft — das laesst sich heute mit computer use gegen jede Seite
-  fahren, ohne Flag und ohne Kunde, der etwas einbauen muss. Und es ist exakt die Bauart, die hier
-  schon steht: `tools/paywall-health-check.py` misst genau das fuer die eigenen Extensions.
-  Der Sprung von „mein eigener Kaufweg" zu „dein Kaufweg, als Bericht" ist klein.
-- **Nicht ablenken lassen.** Ein Flag-Feature ist keine Distribution. Der Engpass bleibt, dass
-  niemand die fertigen Produkte findet.

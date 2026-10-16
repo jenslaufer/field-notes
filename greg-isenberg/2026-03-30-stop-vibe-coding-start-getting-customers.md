@@ -97,17 +97,6 @@ captured: 2026-06-18
 - **Shots on net:** you don't need many followers; with For You pages, you never
   know when a niche post goes viral — maximize volume.
 
-## Why this matters for us
-
-- **Reinforces the launch-kit distribution-first thesis** — validate offer×audience
-  on a warm list before building, not after.
-- **Free tool + email capture + viral artifact** is a directly copyable lead-funnel
-  recipe for any launch-kit product.
-- **Programmatic SEO + AEO** are concrete, automatable channels we can stand up with
-  Firecrawl + Claude Code.
-- **Newsletter acquisition** is a cheat code for cold-start distribution worth
-  pricing against LTV.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=YeoGehNsrLc

@@ -31,7 +31,7 @@ founder's own numbers and mechanics as the content.
 `[music]` through the speech — the video runs background music under the whole interview — and
 those 27 tokens are stripped from every quote below. Nothing else is smoothed: one stutter
 (*"Like you you don't want to limit yourself"*) is left as spoken. All 21 quotes of eight words
-or more check verbatim against the transcript via `verify-quotes.py`.
+or more check verbatim against the transcript.
 
 ## The numbers, and the one that is not what the title says
 
@@ -196,27 +196,3 @@ Named in full, and it is deliberately lean: **Short URL** (tracking social views
 No analytics-heavy setup, no growth platform. Two of the eight tools exist solely to measure
 marketing (Short URL, PostHog) and a third to watch users (Clarity) — on a stack of eight, the
 measurement share is the tell.
-
-## What it says against our own situation
-
-1. **The "proven category, blame the distribution" filter is a cleaner version of a decision we
-   already make badly.** Our repeated pattern is to build artefact N+1 and then discover nobody
-   finds it. His filter inverts the diagnosis in advance: enter only where demand is proven, so
-   that silence can only mean the distribution is wrong.
-2. **His "timeless format" and our measured store law are the same law.** We measured on
-   PlaylistGrab (03.08.) and again on PDFuse (13.09.) that Chrome Web Store rank follows the
-   listing text, not popularity — PDFuse ranks on `splitting merging pdf` and nowhere on
-   `split pdf`. Roman's version: find the words the audience already uses, then repeat them
-   forever. The store listing is a timeless format that we write once and it earns for years.
-3. **The $20-a-video creator channel is a distribution test we have never run, and it is the
-   cheapest one in this note.** We have no audience and no list. Buying 10 videos against a
-   written format sheet is roughly $200 and produces a real read on whether anyone wants the
-   thing — far below any ad budget.
-4. **The format sheet, not the creator, is the asset.** If we ever test it, the deliverable to
-   build first is the instruction sheet that leaves no room for confusion, and only then the
-   outreach.
-5. **Counterweight — do not read $28K as $28K.** MRR $12K, churn 31 %, LTV $50. His business
-   requires 11.7 million views per month to stand still. That is the price of the model, and it
-   is not passive income. Against Jens's stated goal (cashflow, as passive as possible), this
-   engine is the opposite end of the axis: high throughput, high maintenance, no compounding
-   asset except the format sheet.

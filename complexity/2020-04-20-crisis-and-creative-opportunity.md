@@ -280,68 +280,9 @@ bryozoan, the cryptic variation waiting under normalizing selection, the trust n
 that already existed before the crisis made it visible, Miller's cash and equanimity —
 to make use of the opening once the incumbent constraint lifts.
 
-## Solo-builder read (insights for Jens)
-
-- **You are, structurally, running Elena's quasi-species strategy, not a single-species
-  one.** A quasi-species survives by carrying many low-fitness variants simultaneously so
-  that *something* in the cloud fits whatever the environment becomes next. That is
-  literally the barbell-of-many-small-bets model in `antifragility.md`, arrived at here
-  from virology instead of finance — solytics, buchhaltung-py, e-invoice, fingrab,
-  the Kleinanzeigen/Haus-Tannheim experiments are the variant cloud. The failure mode
-  the essay warns about is the mirror image: push any one bet's "mutation rate" (scope,
-  ambition, spend) past its own error threshold and it doesn't get better, it vaporizes.
-  The relaunch reflex — noted already in the companion note — is exactly this: rather
-  than carrying more small variants, you keep re-rolling one variant at high intensity.
-- **Erwin's "the aftermath interests me, not the extinction" is the right question to ask
-  about every dead channel.** FK/HC shutdown, the paid-channel dead end, a stalled
-  funnel — the reflex is to autopsy the failure. Erwin's essay says the higher-value
-  question is what the removal *makes possible* next, because "the competitive trophic
-  networks that had constrained the growth of lineages are now lifted" applies to a
-  product portfolio as much as to a Permian reef: killing FK/HC didn't just stop a loss,
-  it freed the attention that loss was consuming.
-- **Miller's high-beta/equanimity strategy is not one you can actually run, and that's
-  worth being honest about.** He can "suffer grievous losses with great equanimity"
-  because Legg Mason-scale capital survives being early. A solo operator without that
-  cushion should take the *other* half of the episode's lesson — the antifragility half,
-  not the high-beta half: bound the downside structurally (per-bet cost caps, no debt,
-  the boring cashflow leg) rather than psychologically. Miller's insight ("buy quality
-  names on sale is a great prescription for under-performance") still transfers directly
-  to product decisions, though: the safe-looking, consensus, medium-conviction feature is
-  usually the one with the worst risk-adjusted return, not the best.
-- **The Templeton line is a decision rule you can actually apply this week.** "Buy at the
-  point of maximum pessimism" translates to: the product, channel, or feature everyone
-  around you (including past-you) has already written off is where the re-rating
-  opportunity concentrates, provided the downside is capped. Distinguish this from
-  catching a falling knife — the whole essay's condition for it working is being able to
-  "see through to the end of the cataclysm," i.e. having an actual thesis for why the
-  written-off thing recovers, not just that it's cheap.
-- **Essay 4's mechanism explains why your own outbound mail underperforms even when the
-  facts are right.** "The consequences of disagreeing with the newspaper are nearly
-  zero, whereas the consequences of disagreeing with your friends and family can be
-  rather catastrophic" is the same force behind cold outreach: a stranger's correct,
-  well-argued email is competing against the prospect's own network, and loses by
-  default, not because the argument is weak. It's a structural reason "verify existing
-  channels before paying for new" and warm-network skepticism keep recurring as lessons.
-- **Essay 3's cryptic variation is a useful frame for the skills and half-built tools
-  sitting idle in the repo.** Normalizing selection keeps a capability invisible while
-  the environment it doesn't fit persists — the LiteLLM proxy, the paid-search
-  infrastructure with no live campaign, several dormant skills. The lesson isn't to force
-  them into use now; it's to recognize that a landscape shift (a platform outage, a price
-  change, a new constraint) is what will make the currently-cryptic option visible and
-  valuable, and the job today is just keeping the option alive and cheap, not using it.
-- **The honest gap: Jens has no Merrill Lynch office to walk into.** Miller's entire
-  essay assumes access to liquid, instantly deployable capital at the moment of maximum
-  pessimism. The solo-builder equivalent of "buying the crash" isn't a brokerage
-  account — it's attention and build-time, and those are exactly as perishable and
-  exactly as easy to have none of at the moment they'd be most valuable, which is the
-  real argument for keeping the safe leg (the paying cashflow) boring and overfunded
-  rather than lean: it's what buys the option to move when the next maximum-pessimism
-  moment appears.
-
 ## Context outside the episode — Taleb named Miller himself
 
-*Added 2026-08-13, prompted by Jens asking for "a Bill Miller podcast with Taleb's
-ideas". Nothing here is in the transcript; it is background that sharpens the Essay 5
+*Added 2026-08-13. Nothing here is in the transcript; it is background that sharpens the Essay 5
 reading above.*
 
 The "read Miller against Taleb" verdict is stronger than it looks in the episode,

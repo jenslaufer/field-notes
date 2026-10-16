@@ -85,21 +85,6 @@ $1,000/month example.
 - **Boring is the opportunity.** The spreadsheet step between paid software and payroll, the
   deck the sales rep rebuilds, the tutorial only in English.
 
-## What it means for Jens
+## Caveats
 
-- **Three of the eight already exist in the setup under other names.** Grill Me ≈ the
-  `brainstorming`/`spec` step before a build; Impeccable ≈ `webdesign-critic` and
-  `design-review`; OpenRig ≈ actor/critic agents plus the quality gate before a merge. Nothing
-  to install here.
-- **Grill Me's one rule is worth copying anyway:** list every "probably" as an assumption and
-  check the most expensive one with a customer first. It is the same rule as
-  "validate before build" in the assistant — the skill only makes it a habit at the
-  moment of excitement.
-- **Brag is the cheapest test with a direct channel.** FinGrab's Chrome Web Store listing can
-  carry a promo video; a 20-second clip from the website is one prompt. Measure: listing
-  conversion before vs after, not views.
-- **Free Tools fits FinGrab's model** (free extension, paid tier) and its rule *show the result
-  before the email* fits the Launch Kit opt-ins.
-- **Agent Reach's search phrases are the useful part,** not the tool. "I export it to Excel"
-  is FinGrab's own buyer sentence; the phrases work in a normal search, too.
 - **Discount:** no results, no prices, no failure cases. A list of things he tested at night.

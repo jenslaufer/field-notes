@@ -69,16 +69,6 @@ captured: 2026-06-18
 - **Pricing as marketing:** "lifetime / pay-per-use" is itself a wedge against
   subscription-fatigued buyers.
 
-## Why this matters for us
-
-- This *is* the launch-kit thesis spelled out: **idea validation (pre-sell) → lead
-  funnel (magnet + list) → product**. Order matters — buyers before code.
-- **Media flywheel = building marketable features that double as lead magnets.**
-  Every public tool should pull SEO + email.
-- The **$50K/mo → 50% margin → 10–15× exit** math is the concrete "why bother"
-  framing for solo/small-team SaaS.
-- **Affiliate ladder + pricing wedges** are copyable growth levers, numbers included.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=9T1yWEq5kP0

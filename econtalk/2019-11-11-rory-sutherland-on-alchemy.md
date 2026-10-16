@@ -394,43 +394,6 @@ willy-nilly because there probably is a function, as they later discovered."
    hundreds of millions; 20% more pleasant may cost nothing. And an entire rail network can
    be created "mostly with ink."
 
-## Solo-builder read (insights for Jens)
-
-- **"Look at what the map leaves out" is the sharpest version of an idea already in the
-  strategy notes, and it is testable this week.** Where everyone searches the same way —
-  the Chrome Web Store's ranked list, a job board's filter set, a portal's price brackets —
-  the arbitrage is in the attribute nobody filters on. Concrete: which of my products' real
-  strengths has no field in the surface people browse? That is either a positioning
-  opportunity or a reason nobody finds it.
-- **The £825,000 ziggurat is a pricing warning, not a curiosity.** If the surface a buyer
-  browses quantises price (store tiers, portal brackets, marketplace filters), a price
-  between the notches is invisible regardless of how correct it is. Check the *steps of the
-  browsing surface* before choosing a number.
-- **KFC Australia: raising the price raised demand, because the price is a position.** A
-  product priced in the middle is neither bargain nor treat. Worth holding against a
-  27 USD/month subscription and a lifetime tier — which of the two is the item being read
-  as, and does the price say the same thing?
-- **Advertising as costly signalling reframes the ad spend question.** The point of a paid
-  channel is not only the clicks it buys; visible spend is itself the signal that the
-  seller expects repeat visits. For a solo product with no brand, that argues for
-  *visible* commitment (a real listing, a real site, a price that isn't apologetic) over
-  quietly efficient acquisition.
-- **The variance argument explains a funnel that is intact but silent better than "weak
-  demand" does.** If a prospect's real question is *what's the worst that could happen*,
-  then every missing reassurance — no reviews, no refund line, no screenshot of the actual
-  output — is a 1% nightmare risk dwarfing a 99% gain. Cheaper than more traffic, and it
-  is the same lever as the picture of the cocktail glass.
-- **The intermediary passage is an argument for repeat relationships over one-shot sales.**
-  "one person buying 10 times over time" is worth more than ten one-shot buyers *to both
-  sides*, because it is the only structure where square-dealing pays. Relevant to anything
-  sold once and never followed up.
-- **Persuasion → incentives → compulsion is a usable order for any behaviour change**,
-  including internal ones: try the norm before the rule, because a rule punishes the people
-  with a legitimate exception, and a norm doesn't.
-- **The trivial-example licence.** "nobody criticized Darwin for looking at finches' beaks."
-  Small consumer behaviours are legitimate evidence; a note about why someone didn't click a
-  button is not beneath analysis.
-
 ## Quotable
 
 - "I like markets because they're inventive."

@@ -23,5 +23,3 @@ captured: 2026-06-14
 **Result.** Game of 24: 4% (CoT) → **74% (ToT)**; also strong on creative writing and mini-crosswords where solutions need planning.
 
 **Takeaway.** When a task needs planning or has dead ends, give the model room to branch and to judge its own partial states. Search beats a single confident trace.
-
-**Our stack.** The "propose several, score each, keep the best" pattern is the judge-panel shape used in design-variant and exploration workflows.

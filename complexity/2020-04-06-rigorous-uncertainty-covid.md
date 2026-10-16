@@ -189,58 +189,6 @@ One aside worth keeping: under real urgency, fundamental labs repurposed
 themselves into applied service in almost no time — evidence that the
 basic/applied distinction "isn't really real."
 
-## Solo-builder read (insights for Jens)
-
-- **The bad-data rule is the one to actually install.** You keep making calls on
-  genuinely thin data — 2 clicks in 28 days, four leads, one paid channel that
-  never produced a verdict. The instinct in that situation is to build a *better
-  model*: a fuller attribution chain, a richer dashboard, a more elaborate funnel
-  theory. Krakauer says that instinct is exactly inverted. **Sparse data licenses
-  only the crudest estimator.** The FK/HC shutdown was decided on three number
-  pairs and nothing else — that was not a shortcut, that was methodologically the
-  right size of model for the data available. Resist the urge to upgrade it.
-- **"Good scientists are comfortable with uncertainty" is a test you can run on
-  advisors, agents, and me.** The confident number on thin evidence is the tell,
-  not the credential — and it is a documented failure mode of summarising models,
-  including mine. Applied to your own reports: when I hand you a clean figure,
-  the right question is what data it stands on, and a fluent answer should raise
-  suspicion rather than lower it. Krakauer's mechanism explains *why* the
-  confident version keeps winning: it's supplying demand.
-- **Alignment across scales is fragility — and your stack is aligned.** The virus
-  won because one mechanism ran at every level. Look at your own layers: one
-  mini-PC hosting the assistant, the agent runners and Fabrik; one Anthropic
-  subscription behind nearly every agent; one distribution hypothesis (organic
-  search) behind several products at once. When these are the same mechanism at
-  every scale, a single shock takes all of them. The LiteLLM proxy is literally
-  an *engineered misalignment* — it is worth more than it looks, and it is worth
-  finishing the wiring. Same reasoning as the Taleb note
-  ([`antifragility.md`](antifragility.md)), arrived at from epidemiology.
-- **Superlinear scaling cuts both ways and you only ever use one side.** You apply
-  it defensively (concentration risk). The offensive side: in a superlinear
-  regime, small absolute increases in the number of connected points produce
-  disproportionate spread — which is the entire argument for the distribution move
-  ranking above artefact N+1. The lesson is not "go bigger," it's that *the small
-  numbers are not noise*. Four leads versus eight is not a rounding difference.
-- **"Making analysis habit" is precisely what your routines file is for.** You
-  already discovered this empirically on 2026-07-06: a lesson only works where it
-  is read every session, not in a document nobody opens. DeDeo's framing gives it
-  the mechanism — the crisis moved things into System 2, and the value is lost
-  unless they are deliberately re-compressed back into System 1. The 100-day
-  "distribution first" lesson is currently a System 2 insight; it is a habit only
-  once a session does it without deciding to.
-- **"Incremental change is real change, revolutionary change is illusion" is a
-  direct rebuke to the relaunch reflex.** The pattern in your history is the big
-  swing — a new site, a new brand, a new extension, the next artefact. The fitness
-  analogy is the correction, and it's aimed at exactly the ADHD failure mode:
-  the draconian version gets rejected wholesale, the ten-minute walk compounds.
-  Applied concretely: one lever per week, moved deliberately, beats a redesign.
-- **Citizen-based medicine is a Sutherland-shaped reframe.** The highest-leverage
-  intervention was not the pharmaceutical one; it was behavioural, distributed,
-  and unglamorous — and it was *harder to design* than the vaccine. Transferred:
-  the reason your funnels stall is rarely the code. The Haus-Tannheim finding —
-  a whole calendar dead behind one configuration row, while every metric looked
-  healthy — is this same lesson with a different costume.
-
 ## Quotable
 
 - "Good scientists are comfortable with uncertainty, bad ones are not."

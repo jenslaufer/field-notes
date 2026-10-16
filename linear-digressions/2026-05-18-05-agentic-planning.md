@@ -177,32 +177,6 @@ planning at the fundamental LLM level. There's a decent chance it's because … 
 in more of a reactive mode when what it kind of needs … probably related to cost —
 is planning this closer to search or tree of thoughts."*
 
-## Relevance here — a concept card, no money thread
-
-Declared as such: this changes how tasks are *specified*, it does not touch a
-paying customer.
-
-- **Our agent-task YAMLs have exactly one planning lever, and it is the model
-  field.** When greenfield calculators came back as no-diff four times out of four,
-  the fix was `model: claude-opus-4-7`, `effort: high` — and it worked. This episode
-  names the second lever we have never pulled: the *shape* of the instruction.
-  A YAML that says "implement X, tests first" is a chain-of-thought instrument. It
-  asks for one path.
-- **The triage question is ours too.** Most YAMLs really are linear — read a file,
-  write tests, implement, run them. Her own overkill example is nearly a
-  description of them. So the honest reading is *not* "make everything plan", it is:
-  the few tasks with genuine branching (a refactor with several viable cut lines, a
-  bug with several plausible causes) are the ones where the reactive loop is the
-  wrong tool, and we have never marked them as different.
-- **Fits the escalation rule from episode 8.** There the warning was that
-  mid-task model escalation is the fragile topology — escalate by *redoing* the
-  step. Here escalation is *"detecting when you're starting to get stuck, and then
-  escalating up to the tree search"*, which is the same move done right: a new,
-  wider search over the step, not a bigger model appended to a corrupted state.
-- **Evaluation is cheaper than generation** is the reusable half. It is the reason
-  the partial-commit guard, the citation checker, and `unit-health-check.py` earn
-  their keep: each one *judges* an artefact instead of producing a better one.
-
 ## Corrections to the previous version of this file
 
 It was written from the published show notes. Beyond gaps, it contained **invented

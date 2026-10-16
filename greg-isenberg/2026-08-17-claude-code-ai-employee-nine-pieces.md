@@ -19,11 +19,9 @@ related: "2026-08-19-skills-plugins-team-distribution-remy.md, 2026-08-21-grok-b
 > eyes, review, schedule, permissions, skills — built live around one real idea, with every
 > prompt spoken out loud. It closes with a seven-day plan.
 >
-> **Revision note (2026-08-23):** the first version of this note was a gap analysis — it
-> assumed the recipe was already known here and spent its length on what we lack. Jens asked
-> for the episode itself. This version is the walkthrough: every step in his order, every
-> prompt reconstructed, every screen result he reads out. The comparison against our own
-> setup now sits at the end, where it belongs.
+> **Revision note (2026-08-23):** the first version of this note was a gap analysis. This
+> version is the walkthrough: every step in his order, every prompt reconstructed, every screen
+> result he reads out.
 
 ---
 
@@ -551,76 +549,16 @@ work becomes a scheduled routine.
 
 ---
 
-## Where Otto already stands — measured, not assumed
+## Three smaller things worth taking
 
-Measured in `~/repos/assistant` on 2026-08-22.
+- **Out-of-scope belongs in the ticket.** He writes what is excluded this week and why — a
+  ticket names the fence, not only the target.
+- **Split parallel sessions by kind of job**, not just by ticket — bug, copy, sales.
+- **Two review depths.** He reserves the deep remote review for auth, payments, production.
 
-| # | Piece | Otto | Verdict |
-|---|---|---|---|
-| 1 | Workspace | `profiles/ prompts/ state/ scripts/ tools/` | **have** |
-| 2 | Memory | `MEMORY.md` + dated files + `learnings.md`, with a **byte cap and an eviction tool** | **ahead** — he has no eviction policy at all |
-| 3 | Brief / plan mode | agent-tasks go straight to implementation | **gap, minor** |
-| 4 | Ticket | agent-task YAML + GitHub issue, ≤3 open PRs/repo, 1 PR/repo/night | **have** |
-| 5 | Eyes | `browse`, `handtest`, `extension-e2e`, screenshot tools exist | **have, under-used** |
-| 6 | Review | `quality-gate` skill; **no `review.md`** | **partial** |
-| 7 | Schedule | **44 routine lines**, 5 systemd timers, watchdog, second alert path over e-mail | **far ahead** |
-| 8 | Permissions | MAY / MUST NOT written out in `profiles/assistant.md` | **have** |
-| 9 | Skills / connectors / hooks | **118 skills**, Gmail/Drive/Calendar connectors, hooks | **have** |
-
-`unit-health-check.py` exit 0 in the same minute — every declared unit healthy, so the schedule
-row is a live measurement, not a paper claim.
-
-### The two we do not have
-
-**1. `/customers`.** He gives it a folder of its own, day 6 of 7 is sending it to ten people,
-and day 7 files the replies back into it. Measured: `fingrab`, `invoicegrab`, `playlistgrab`,
-`commentgrab`, `hostgrab` — **five of five have no `customers/`, no `feedback/`, no `reviews/`,
-no `context/`.** Zero. And we are not short of customer language, only of a place to put it:
-**16 written FinGrab store reviews** at 4.3★ (21.08.); a PlaylistGrab customer who cancelled
-after **6 min 43 s** with reason `unused`, unread for **53 days**; the first InvoiceGrab buyer
-on 20.08. Not one of them sits in a file an agent can read.
-
-That is the 100-day retro's finding arriving from an unrelated direction. His plan puts talking
-to customers on day 6 of 7. Ours puts it nowhere — no routine says *read what the buyers wrote*.
-
-**2. `review.md`.** We have `quality-gate` (does it pass) but no file that says what good looks
-like. Our quality bar lives as prose across `CLAUDE.md` and `profiles/assistant.md`, so every
-reviewing agent re-derives it. The must-fix / should-fix / okay-to-ship split is worth taking on
-its own — it is the difference between a review that blocks and a review that informs.
-
-### Three smaller things worth taking
-
-- **Out-of-scope belongs in the ticket.** He writes what is excluded this week and why. Our
-  agent-tasks name the target; they rarely name the fence.
-- **Split parallel sessions by kind of job**, not just by ticket — bug, copy, sales. We have
-  worktree isolation; we do not routinely split that way.
-- **Two review depths.** He reserves the deep remote review for auth, payments, production. We
-  run one gate at one depth for everything.
-
-### Where he is behind us
+## Where the recipe is thin
 
 Worth saying plainly, because the episode is sponsored and reads as a maturity ladder. His
-schedule piece is **two routines** and a PR hook. Ours is 44 routine lines, five timers, an
-hourly watchdog, a mailbox-sweep staleness check and a **second alert path over e-mail for the
-case where Telegram itself is the fault**. He has no answer to the case where an agent is blind
-and does not know it — the exact failure this estate has been bitten by and has since
-instrumented. His memory piece has no size limit; ours has a measured one because `MEMORY.md`
-tore through its read cap in 16 hours.
-
----
-
-## Relevance for Jens
-
-**Two concrete moves, both cheap, both distribution-side:**
-
-1. **Create `customers/` in the three selling repos and fill it from what already exists** — 16
-   FinGrab reviews, the `unused` cancellation with its 6:43, the InvoiceGrab buyer. One session,
-   and it converts dead evidence into something every future agent reads before writing a
-   listing, an ad or a landing page.
-2. **Write `review.md`** with the must-fix / should-fix / okay-to-ship split, and point
-   `quality-gate` at it.
-
-**The uncomfortable read:** this is a checklist we score 8/9 on, and the one we fail is the one
-that touches customers. That is not a coincidence — it is the shape of the whole 100 days. The
-pieces we built out furthest (schedule, memory, permissions) are the inward-facing ones; the
-piece we never built is the one where a stranger's words come in.
+schedule piece is **two routines** and a PR hook. He has no answer to the case where an agent is
+blind and does not know it, and no second alert path for when the notification channel itself
+fails. His memory piece has no size limit and no eviction policy.

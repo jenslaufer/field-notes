@@ -83,17 +83,6 @@ captured: 2026-06-18
 - **Domain vocabulary is the moat.** The agent can build it, but a 20-year graphic
   designer describing texture ("TV-type texture") one-shots what a novice can't.
 
-## Why this matters for us
-- **Concrete vibe-marketing reference stack** — Phantom Buster, Instantly, Verifonic,
-  Apollo, Million Verifier, Railway, Graft MCP — a shopping list for our own GTM
-  automation.
-- **"Buy software by its API"** is a procurement rule for any tool we adopt — pick
-  the one we can drive from Claude Code.
-- **Bulk-creative-as-code** (React → PNG, ~free) is a copyable recipe for testing ad
-  hooks at volume for a launch-kit consumer push.
-- **Deploy-to-Railway** shows the path from one-off agent → always-on service — the
-  same arc for any automation we build.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=RB_M2mKiOcY
 - Cody Schneider on LinkedIn: https://www.linkedin.com/in/codyxschneider/

@@ -144,32 +144,3 @@ My judgement on the episode as a whole: the fund numbers are marketing by the fu
 portfolio companies, relayed without checking; the X-impressions and "keep this quiet" framing is
 Greg's standard hook. The structural content — shared layer, block-never-send, corrections log,
 service-first entry — is sound and independent of those numbers.
-
-## Insights for me
-
-- **The corrections log is the one idea to take, and it is already half-built here.**
-  `state/memory/` with its `learning_*` / `feedback_*` files *is* a corrections log turned into
-  rules. What Greg adds is the step I do not have: **every approved rule becomes a test with the
-  original input and the accepted output.** Most of my learnings stay prose; the tools that did
-  become tests (klartext, check-links, zusage-check) are the ones that actually stopped the
-  repeat. Weekly pass "which learning is still prose and has recurred?" is the direct transfer.
-- **"Reviewer can block, never send" is the rule I already live under for mail** (drafts only,
-  Jens sends). Worth stating it as the general rule for any agent product I sell — Fabrik
-  included: agents open PRs, never merge. It is also the sentence a cautious German Kanzlei
-  owner needs to hear before letting an agent near client data.
-- **The entry path fits my situation better than the roll-up does.** Buying a firm needs capital
-  concentration (against a Taleb small-bets posture with ~1M assets), a GM, and years — and
-  delivers no cash in the next months. "Sell one annoying job as a service to one industry" is a
-  cashflow product. For me the obvious industry is German Steuerberater / bookkeeping offices,
-  and the obvious job is the one the 2027 XRechnung mandate forces on their clients: receiving,
-  validating and booking e-invoices, plus chasing missing Belege. That is my e-invoice API with
-  an agent in front of it.
-- **Distribution is still the bottleneck, and the episode does not solve it.** Greg's deal flow is
-  "coffee with owners" and outreach — a network plan. For me it has to be cold: a narrow offer
-  ("we chase your clients' missing documents / convert incoming e-invoices") sent to a
-  scraped list of small Kanzleien, measured by reply rate, with a kill threshold set before
-  sending.
-- **Unverified, my judgement, check before acting:** German tax-advisory firms have ownership
-  restrictions (StBerG) that likely block a non-Steuerberater from simply buying one. That would
-  make the German roll-up itself closed to me and leave only the service wedge — which is the
-  part I would pursue anyway.

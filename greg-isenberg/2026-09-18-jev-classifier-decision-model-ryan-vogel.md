@@ -131,31 +131,11 @@ washed"*, Jev scores the local providers, and the "instant quote" form becomes a
 ask your own AI agent *"what sort of workflows do I do on the daily basis that could benefit from a
 decision maker like Jeff?"*
 
-## Insights for me
+## Caveats
 
-My judgement from here on, not the episode's.
-
-- **The episode sells a capability, not a moat.** Anyone reaches Jev through the Vercel gateway in
-  an afternoon. Greg's own frame says where the value sits: in *owning the queue*. I own almost no
-  queue with volume — launch-kit contacts are near zero, FinGrab has 512 users and 3 paying subs.
-  A lead scorer in front of an empty funnel scores nothing. This is the distribution bottleneck
-  again, dressed as a model launch.
-- **Where I do have a queue: freelancermap listings.** That is the one inbound stream with real
-  volume that I read by hand, and the decision is exactly Jev-shaped: fit to my profile (AI/data,
-  remote, rate cap vs. my ~95 EUR/h), yes/no, probability. `tools/fmap-satz.py` already parses 40
-  listings for rate caps; a fit score per listing is the same pipeline plus one classifier call. Small
-  bet: score the last few weeks of listings, compare against the ones I would have applied to, and
-  keep it only if the ranking beats my own skim. Measure hit rate before trusting it — the episode
-  shows no accuracy number for anything.
-- **The daemon's own routing is a cheaper fit than Claude for some jobs.** Inbox triage, mailbox
-  sweeps, "does this message need an answer" (`tools/inbox-offen.py` decides that with rules today)
-  are yes/no decisions on incoming text. Claude sessions are the expensive part of this system and
-  Claude is still a single point of failure; a 200 ms classifier as a pre-filter would be a second,
-  independent path for the boring decisions. Worth one agent-task to try on the mail sweep, not a
-  rebuild.
 - **Price, computed from the demo's own figures:** 4.2M input + 0.5M output tokens for $0.18 is about
   $0.04 per million tokens — roughly two orders of magnitude under frontier chat models. If that holds
   outside a demo, classification becomes free enough to run on every item, which is the real change.
-- **Keep Ryan's limit.** "Advisory, not trading" matches my own rules: nothing it scores goes out
-  (mail, applications, money) without a human or a verified gate. The Bitcoin miss is the reminder
-  that a confident probability is not a correct one.
+- **No accuracy number.** The episode shows no hit rate for anything; measure it before trusting a
+  score. Ryan's own limit — advisory, not trading — is the right one. The Bitcoin miss is the
+  reminder that a confident probability is not a correct one.

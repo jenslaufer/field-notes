@@ -27,7 +27,7 @@ and guest) and [`antifragility.md`](antifragility.md)
 skin in the game — read in full before this note, since the framing below
 depends on it).
 
-**On the antifragility framing.** Jens asked for this episode read explicitly
+**On the antifragility framing.** This note reads the episode explicitly
 through Taleb. Three of the five essays map onto the triad unusually cleanly —
 Moore's tail-risk argument, the radical-uncertainty essay's forecasting problem,
 and the frailty/monotherapy piece's redundancy argument — and those sections say
@@ -282,58 +282,6 @@ for the single drug, and naming the single historical cause are all the same
 move — collapsing a distributed, redundant, tail-heavy reality down to one
 number or one lever, which is exactly the shape that breaks under a shock the
 simple model didn't see coming.
-
-## Solo-builder read (insights for Jens)
-
-- **Averages hide the tail in your own reporting, not just in epidemiology.**
-  When you check whether a channel or product "is working," a single average
-  conversion or click number does what Moore says the national R-naught does —
-  it erases the possibility that most days contribute ~0 and one rare event (a
-  single lead source, a single viral post) is carrying the whole period. The
-  fix Moore's essay implies is the one you already half-apply elsewhere in this
-  repo (`learning_cold_start_number_needs_its_distribution.md`): ask for the
-  distribution, not the mean, before calling a channel dead or alive.
-- **Conviction narratives are the trap in the assistant's own reports, and the
-  agent-task cadence rule is the antidote already in place.** A fluent
-  end-of-session summary can supply the certainty you want without actually
-  reducing uncertainty — that's exactly the tension Krakauer names in his own
-  source material. The one-PR-per-repo-per-night rule and the ≤3-open-PR cap
-  aren't just governance — read through this episode, they're an OODA loop:
-  small, fast, revisable bets instead of one big narrative-driven push. Worth
-  naming that mechanism explicitly next time the instinct is to write a
-  bigger, more confident plan instead of the next small step.
-- **The business's frailty concentrates exactly where the essay predicts it
-  would.** John Krakauer & Carlson's finding — the shock lands hardest on the
-  group with the least systemic redundancy — has a blunt literal reading here:
-  a one-person company has exactly one operator, and if that operator is out
-  (illness, burnout), there's no second system to compensate, the same way a
-  frail 65-year-old has no spare capacity to absorb a respiratory shock. The
-  multi-model proxy (`config/litellm-config.yaml`) is the closest thing this
-  operation has to "physical exercise" in this metaphor — general-purpose
-  redundancy rather than a single-lever fix — but per the assistant's own
-  README it is "not yet wired into the agents." The up-regulation exists;
-  it isn't load-bearing yet.
-- **The Tyranny of Metrics thread already happened once, concretely.** The
-  H-index critique — a legible proxy replacing judgment — is not a hypothetical
-  here: `feedback_haiku_escalation.md` records exactly this failure, where a
-  jq bug turned a cosmetic "model label" into something that briefly looked
-  like a real signal, before Jens's rule reasserted that cost and judgment
-  decide, not the label. Worth keeping as the concrete case when this pattern
-  threatens to repeat with some other new dashboard number.
-- **Compounding catastrophe is a checklist gap.** Rome didn't fall to the
-  plague or the climate shock; it fell to both landing without recovery time
-  between them. The existing fragility learnings here (single mini-PC, single
-  Anthropic subscription, single distribution hypothesis) are all framed as
-  independent risks. This essay argues for also asking the *combination*
-  question directly: which two of those, landing in the same week with no
-  slack between them, would do what the little ice age did to Rome — a
-  question none of the existing single-risk audits ask.
-- **Van Savage's null-model instinct is worth stating as a rule before
-  trusting a zero.** "0 leads" or "0 clicks" reads as information; it might
-  just be a saturated or under-sampled instrument, the way a sold-out stadium
-  looks like maximum demand instead of limited supply. Before concluding a
-  channel produced nothing, ask what the null model — what you'd see anyway,
-  from measurement limits alone — would have looked like.
 
 ## Quotable
 

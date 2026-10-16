@@ -530,49 +530,6 @@ Where Roberts holds his ground he holds it on the same two points each time: he 
 the sweeping contempt for academics, and he will not pretend the case for second chances is
 only sentimentality. Neither objection is answered. Both are left standing.
 
-## Solo-builder read (insights for Jens)
-
-- **The most expensive mistake available to me is treating my business as an ensemble.**
-  Every founder statistic — success rates, average revenue per app, time to first customer —
-  describes a population. It does not describe the sequence I am running, because I am one
-  path with finite runway, and the runway is an absorbing barrier. Two products with the same
-  positive expected value are not interchangeable if one of them can end the sequence.
-- **Size bets against remaining runway, not against expected value.** The Kelly-shaped rule —
-  bet more as you make money, less as you lose it — is the opposite of what pressure suggests.
-  The instinct when runway shortens is to make the bet bigger, because only a big win closes
-  the gap. That instinct is precisely the ruin strategy. The correct response is a smaller bet
-  with a shorter feedback loop, even though it feels like giving up on the outcome.
-- **Client concentration and platform dependence are absorbing barriers in costume.** One
-  client carrying most of revenue, one Chrome Web Store account, one subscription behind the
-  whole agent stack: none of these is a risk to be weighed against a return. Each is a point
-  where the sequence can stop, so each belongs on a separate list and gets handled first —
-  which is what the LiteLLM proxy already is, and it is worth naming it as ruin insurance
-  rather than as infrastructure polish.
-- **His two methods are cheap enough to run on every plan.** *Make it dynamic:* does this
-  survive being repeated fifty times, or does it only work once? *Perturbate:* if my estimate
-  here is wrong by a factor of two, what breaks? Both are ten-minute questions, and both are
-  the questions I skip when a plan feels good.
-- **Filtering beats discipline, for me personally.** Skin in the game works on people who are
-  not paying attention, and I should build the same way. Instead of resolving to check
-  something, arrange it so the failure removes itself: a watchdog that alerts, a test that
-  goes red, a timer that fires. Every place where I rely on noticing is a place where I chose
-  an incentive over a filter.
-- **Losing money as evidence of a doing business is the argument for shipping the imperfect
-  thing.** FinGrab's three subscriptions are a worse number than any deck would claim, and
-  also the only evidence that a real buyer exists. Scars are the asset; the empty suit is the
-  founder whose offer has never been priced by a stranger.
-- **The unit question applies directly to how I spend a week.** If the unit is today's
-  revenue, every hour on infrastructure is a loss. If the unit is the assistant plus every
-  future project that runs on it, the same hour is transmission. Both framings are legitimate
-  and give opposite answers — so name which unit a decision is being made in, out loud,
-  instead of switching between them to justify what I already wanted.
-- **The one place to be slower to follow him.** He uses the layering argument to defend
-  inheritance in the same hour he uses it to justify the precautionary principle, and the
-  second use is much weaker than the first. When a tool that worked once starts producing
-  convenient conclusions, check whether the conclusion is doing the work. Roberts does exactly
-  this — accepts the mobility argument, refuses the envy generalisation — and that selective
-  acceptance is the skill worth copying here, more than any single claim in the hour.
-
 ## Quotable
 
 - "in order to make money, you must first survive. It's not like an option. It's a condition."

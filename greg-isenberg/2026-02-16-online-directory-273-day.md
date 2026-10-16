@@ -67,18 +67,6 @@ captured: 2026-06-18
 - **Low CAC by design:** organic search intent means you're harvesting demand,
   not buying it. Passive once indexed.
 
-## Why this matters for us
-
-- **Distribution-first via SEO intent:** validate demand with keyword volume +
-  difficulty *before* building — same "test offer×audience first" discipline as
-  launch-kit idea validation.
-- **Data as the moat** is a reusable wedge: a scraped-+-enriched dataset behind a
-  thin filterable UI is a copyable, low-maintenance product recipe.
-- **Claude Code + Crawl4AI** is a concrete cheap-build stack we can mirror for
-  any data-backed micro-tool or lead funnel.
-- Multiple **monetization layers** (lead gen → SaaS → affiliate) show how one
-  asset funds several revenue lines.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=I_wbc5ND79o

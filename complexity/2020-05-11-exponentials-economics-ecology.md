@@ -25,7 +25,7 @@ first episode of the same Transmission series — bad-data modeling, superlinear
 of group size, the value judgments hidden inside "just give me the numbers") and
 [`antifragility.md`](antifragility.md) (Taleb's fragile/robust/antifragile triad,
 convexity, the barbell, via negativa, skin in the game — the lens this note reads the
-whole episode through, at Jens's explicit request). This episode returns, independently
+whole episode through). This episode returns, independently
 and from a different essay, to almost the same mathematics as the first one — superlinear
 scaling reappears, this time in cities rather than classroom groups — which is itself a
 small piece of evidence for how load-bearing that idea is across the series.
@@ -259,55 +259,6 @@ discovering, independently, that the honest response to that object is structura
 predictive. The episode ends on a purely administrative note: the series moves to a
 biweekly schedule and pauses to interview SFI's Miller Scholars, with Krakauer
 signaling a change in tone toward "reflecting on what we've learned."
-
-## Solo-builder read (insights for Jens)
-
-- **Learn to sort your own thin-data calls into the two buckets before reaching for "more
-  analysis."** A lot of your calls — a channel with a handful of clicks, a funnel with
-  four leads — genuinely are epistemic uncertainty, and the E26 lesson (simplest model
-  the data can support) is the right tool. But a channel about to go viral, a broad-match
-  leak compounding daily, or one credential's silent expiry cascading through an aligned
-  stack are chaotic-uncertainty situations: no amount of extra dashboarding will narrow
-  the outcome range, because the range isn't a measurement problem, it's what the
-  exponential does. The tell is the same as Redner's: does more data actually shrink the
-  spread, or does the spread come from the dynamics themselves? If the latter, stop
-  analyzing and start capping the downside.
-- **R0-as-interest-rate is a genuinely useful frame for any of your growth loops.** A
-  channel or asset with an effective R above 1 — organic search authority once it's
-  actually earned, a referral loop that feeds itself — compounds without fresh fuel, the
-  way Redner's virus compounds without new investment. Anything with R below 1 (most paid
-  channels, most cold outreach) needs constant injection just to stay flat. Worth naming,
-  explicitly, which of your channels are actually in which bucket rather than treating
-  "traffic" as one undifferentiated thing.
-- **Superlinear scaling is the same concentration-risk lesson as the E26 note, arrived at
-  a second time from a different essay — which is itself worth noticing.** The mini-PC
-  running the assistant, the agent runners, and Fabrik; one Anthropic subscription behind
-  nearly all of it; one distribution hypothesis behind several products — that's your
-  "city": one shared substrate, so a shock at any layer propagates through all of it
-  faster than it would in a smaller, less coupled system. The LiteLLM proxy is the
-  engineered de-coupling move, same conclusion as before, now backed by an independent
-  line of reasoning.
-- **Mechanism design's cut-and-choose principle names something your quality-gate already
-  does right.** An agent that writes code and also grades its own work is the "you cut,
-  you also divide the pieces" failure mode — no incentive not to take the bigger,
-  easier-to-report piece. The actor/critic split, and quality-gate running as a genuinely
-  separate step before merge, is the fix already in place: the party that decides is not
-  the same party that judges the outcome. Worth checking, deliberately, for the places
-  where that separation has quietly collapsed back into one party doing both.
-- **Treat a long clean run as a question, not an answer.** The tortoise lost its fear
-  response not despite years of calm but *because* of them; a credential, a cron job, or
-  a funnel that's "been fine for months" is not evidence it's sound, it's evidence it
-  hasn't yet met its stressor. This is the same shape as several of your own documented
-  near-misses (creds expiring silently, an SSH lockout, a dead calendar sync behind one
-  configuration row) — the episode supplies an ecological instance of exactly that
-  pattern, independently of the outage learnings you already keep.
-- **The standing rule worth actually installing:** when a report — an agent's, a
-  dashboard's, your own first instinct — proposes "let's get more data" in response to
-  something genuinely volatile, ask first whether the uncertainty in front of you is
-  ignorance-shaped or amplification-shaped. Only the first kind gets smaller with more
-  data. Applied to the exponential kind, the correct move is never "analyze harder," it's
-  "cap the downside and let the upside stay open" — which is a decision you can make
-  today, not a forecast you have to get right.
 
 ## Quotable
 

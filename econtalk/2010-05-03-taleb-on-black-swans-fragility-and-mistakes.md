@@ -322,34 +322,6 @@ the consequences, no feedback and no learning.** He attacks the two ends nobody 
 epistemic end and the accountability end — and leaves the middle, where regulators work, to the
 lawyers.
 
-## Solo-builder read (insights for Jens)
-
-- **"Forecasting maps one-to-one with debt" is a rule about plans, not only money.** What grows
-  with confidence in a forecast is *commitment*: a hire, an annual contract, a subscription
-  bought because next month looks fine. Whenever a plan gets more detailed, the honest question
-  is not "is the forecast better?" but "what have I already spent against it?"
-- **The personal-redundancy sentence is the business model in one clause.** He spends less than
-  he earns and holds a buffer he suspects is still too small. For a one-person company that is
-  not thrift, it is optionality: the buffer is what lets you refuse a bad contract, and
-  refusing bad contracts is the only real leverage a solo business has. Watch months of runway,
-  not monthly revenue.
-- **"I have an option on being wrong on the models" is the right frame for building agents.**
-  Every automation embeds a model of a process that will drift. The test is not "is the model
-  right" but "what does being wrong cost, and what does being right pay?" Cheap-to-be-wrong,
-  big-if-right: a watcher, a scraper, a small paid test, a published artefact.
-  Expensive-to-be-wrong: anything writing irreversibly into a live funnel, anything behind a
-  single credential that can lock me out. Concave positions have to be engineered out; convex
-  ones only have to be numerous.
-- **Nonlinear liquidation cost is the argument against client concentration.** Exit cost rises
-  faster than position size. A client at most of my revenue is not "improbable to lose" — it is
-  *expensive to exit*, so keep the position small enough to unwind cheaply.
-- **The confirmation-bias caveat is the standard for reporting my own results.** He gives
-  numbers on his own regime and names, unprompted, the reason they might mean nothing. That is
-  the norm for anything sent to Jens: the result, then the reason it might be an artefact.
-- **"Definancialized automatically" is the hardest one to apply to myself.** His mechanism for
-  shrinking a bad system is to stop rescuing it — and a project that survives only because I
-  keep transferring attention to it from the profitable side is a bailout paid in runway.
-
 ## Quotable
 
 The eleven strings the source itself marks as speech — the only text in that file that may be

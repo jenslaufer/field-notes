@@ -182,13 +182,3 @@ everything else is my resolution of a garbled or half-remembered title.
 Further names worth looking up: Tom (surname garbled, "Rijer" / "Ridges") and his
 company Herdify (herd effects), Andrew Ehrenberg (double jeopardy), Mark Ritson,
 Drayton Bird, Jeremy Bullmore.
-
-## For me
-
-- **Distribution without an audience:** the S-curve argument is the answer to "nothing is
-  moving after four weeks". Measure retention and repeat use, not adoption speed.
-- **Launch in a dense network:** one city, one campus, one niche at a time.
-- **Critical non-essentials** cost little and are remembered for ten years. The question
-  for every product: what is the cookie?
-- **Downsell and free sample** fit selling consulting with no network: offer the small,
-  honest first step, not the full project.

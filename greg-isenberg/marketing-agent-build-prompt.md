@@ -127,19 +127,3 @@ components. Write tests first for every non-trivial unit.
   savings.** If a step doesn't move one of those, flag it.
 
 ## PASTE TO HERE ↑
-
----
-
-### Notes for me (Jens) before I run this
-
-- **Start at Phase 1 and honestly consider stopping there.** A self-hosted
-  Airbyte→ClickHouse warehouse over *my own* scattered data (Stripe, GSC, CWS installs,
-  ads) + "ask Claude Code" is the highest-value, lowest-risk, **$0-ad-budget** piece —
-  it's the standing observability / fast-feedback loop I keep circling (#78), and it
-  serves every channel decision, not just ads.
-- **Phases 2–6 burn paid ad budget** — gated on cashflow, per the honest caveat in the
-  episode note (insight 4). The agent removes the *labor*, not the *spend*.
-- **First real target if I do run the full loop:** wire it into `fullstack-business`
-  (its purpose already *is* this loop) rather than a throwaway repo.
-- Set `Budget posture: $0 — dry-run only` to walk the whole system end-to-end without
-  spending, to see what it produces before committing a cent.

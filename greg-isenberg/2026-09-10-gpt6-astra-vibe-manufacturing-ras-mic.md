@@ -144,24 +144,8 @@ His own filter for what to build in it:
 Note that the last clause is the distribution half, and it is one sentence long. That ratio is the
 episode's blind spot, not its lesson.
 
-## Insights for me
+## Caveats
 
-- **The two audits are the cheapest thing in this episode and they apply tonight.** Five shipped
-  extensions and a live Launch Kit instance have never had a model-run security review, and
-  `fingrab` takes payments. The prompt is one line, the target is an app real people use, and the
-  measurement already exists in the repo — a red finding is a ticket, not an opinion. This ranks
-  above every idea in section 3 because it touches something already sold.
-- **Prompt 4 is Otto's `/ops` report, written by someone who does not have Otto.** "What is making
-  money, what's wasting time, what customers are asking for, what I should stop doing" is exactly
-  the weekly summary this repo could produce from `state/` plus Stripe — and does not. Worth
-  noting which half is missing: the "what customers are asking for" column is the same `/customers`
-  gap the 17.08. episode exposed. Second independent source now pointing at the same hole.
-- **Prompt 8 is already built here, one level down.** `stripe-watch.py`, `amo-watch.py` and
-  `cws-watch` watch our own shelves; nothing watches the neighbours' listings, although the
-  shelf-size measurements from 22.08. show that is where the competitive facts live.
-- **Vibe manufacturing is not a thread for us and should be named as such.** It is the most
-  entertaining part of the episode and the least connected to any money thread here — no hardware
-  asset, no supplier relationship, no channel. Enjoy the story, do not open a project.
 - **Watch the subsidy claim, do not repeat it.** "$24,000 of API value for a couple of $200
-  subscriptions" is one user's self-reported number from his own agent, not a measurement. If it
-  ever matters for a model decision here, it has to be re-derived from our own token counts.
+  subscriptions" is one user's self-reported number from his own agent, not a measurement. Any
+  model decision has to re-derive it from measured token counts.

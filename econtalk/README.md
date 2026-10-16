@@ -1,12 +1,16 @@
 # EconTalk (Russ Roberts)
 
-Weekly conversations on economics, hosted by Russ Roberts since 2006. Relevant here for
-two recurring guests whose ideas sit in the owner profile: **Nassim Nicholas Taleb**
+Weekly conversations on economics, hosted by Russ Roberts since 2006. Covered here for
+two recurring guests: **Nassim Nicholas Taleb**
 (antifragility, tails, skin in the game) and **Rory Sutherland** (perceived value,
 psycho-logic, alchemy).
 
 **All ten Taleb appearances (2007–2022) and the single Sutherland appearance are written
 up below, each from the official page text, read end to end.**
+
+Personal takeaways for Jens live in [`insights-for-jens.md`](insights-for-jens.md); the
+notes themselves cover the source only. Taleb's concepts and what they mean for Jens, in
+German: [`taleb-die-konzepte-und-was-sie-fuer-jens-bedeuten.md`](taleb-die-konzepte-und-was-sie-fuer-jens-bedeuten.md).
 
 ## Working with this source
 
@@ -31,7 +35,7 @@ Practical notes:
   e.g. "empty fragile" for *antifragile* (2012), "Blacks won" for *Black Swan* (2017),
   "Repetitions are very easy to game" for *Reputations* (2013). One transcript, 2015,
   simply **stops at 44:02** mid-argument.
-- Every note was checked with `tools/verify-quotes.py` (in `~/repos/assistant`): each
+- Every note was checked with a quote verifier: each
   quoted string of ≥8 words is verbatim in its own transcript, no cross-episode
   contamination, every number traceable. All eleven exit 0.
 

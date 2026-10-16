@@ -23,5 +23,3 @@ captured: 2026-06-14
 **Result.** Strong gains on decision-making (ALFWorld), QA (HotPotQA), and coding (HumanEval pass@1 ~91%).
 
 **Takeaway.** Persisting *why it went wrong* in plain language — not just *that* it went wrong — is enough to improve behaviour without retraining. Memory is a verifier across attempts.
-
-**Our stack.** This is the model behind our memory files: durable, plain-language learnings ("X lied, verify the diff") that the next session reads before repeating a mistake.

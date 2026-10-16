@@ -28,5 +28,3 @@ captured: 2026-06-14
 **Key finding.** Testing 15 models on 2 benchmarks: recent **capability gains brought only small reliability gains**. Accuracy and reliability are *different axes* — getting smarter does not automatically get more trustworthy.
 
 **Takeaway.** Measure reliability separately from capability. "Is it good?" and "can I depend on it?" are distinct questions and need distinct metrics.
-
-**Our stack.** Argues for tracking run-to-run consistency of our agents/Fabrik workers — not just whether a PR passed once. This is the meta-layer over all the verification methods: it measures whether the agent *behaves* reliably at all.

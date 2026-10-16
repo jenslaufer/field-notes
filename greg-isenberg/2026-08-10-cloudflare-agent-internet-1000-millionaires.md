@@ -199,50 +199,8 @@ in the category: *"chat with an expert"* is too broad. Specific and outcome-base
 - **Settlement is stablecoins.** Never said in the episode, and it is not a neutral detail for a German GmbH — USDC receipts are an accounting and tax question before they are a revenue line.
 - **Idea 2's technical audit is already free** at isitagentready.com (17.04.2026). What is *not* free is the buyer-intent-prompt half and the monthly loop.
 
-## Relevance for Jens
+## Sources checked
 
-Ranked by how close each one sits to money he can actually collect, and with the known
-constraints applied (no audience, no network, away 15.08.–07.09.).
-
-**1. Idea 2 is a service offer, not a startup — and that is the version that fits.** The
-audit → fix → monthly measurement loop is structurally the same shape as the FDE loop from
-`2026-07-20-fde-million-dollar-ai-job.md` (audit → evals → deployment), applied to a new deliverable. It
-needs no product, no audience and no capital — it needs prospects. Jens sells day-rate work at
-€2,000/day from 15.09., 54 live freelancermap postings demand agent skills, and making a
-company legible to AI buyers is a sellable line item on that profile. **Concrete step:** one
-bullet on the freelancermap profile and in the CV, alongside the harness positioning — not a
-new business.
-
-**2. A measurement, done today, not a plan.** Both of his live sites score **Level 1, "Basic
-Web Presence"** on Cloudflare's free ladder (`isitagentready.com`, measured 12.08.2026 08:11 UTC):
-solytics.de and fingrab.app both pass robots.txt, sitemap and AI bot rules, and both fail
-Link headers, DNS-AID, markdown negotiation, Content Signals and the entire discovery block
-(API catalogue, OAuth discovery, MCP server card, agent skills). The next rung is **one line in
-robots.txt** (`Content-Signal: ai-train=no, search=yes, ai-input=no`). That is a real, cheap
-step — but note what it is: it makes his sites *legible* to agents; it does not make anyone
-find them. The authority bottleneck from the FK/HC post-mortem is unchanged.
-
-**3. Idea 3 is blocked by a known constraint, and should not be attempted.** It runs on the
-expert's distribution. Jens has no audience and no network — the model only works if he is the
-*builder* for someone else's archive, which means the first move is an outbound sale to a
-creator, i.e. exactly the cold channel that has produced nothing so far. The archive he does
-own (field-notes, concept-simulator) has no audience attached to it.
-
-**4. Idea 1's value here is the filter, not the idea.** *Valuable · repeated · changing ·
-fragmented · annoying* is a better idea screen than anything currently in use, and it explains
-several past dead ends in one line: the FK/HC calculators were none of the five (a computation
-is not fragmented and does not change), tradegrab failed *annoying* the day Trade Republic
-shipped native CSV export. Worth keeping as a screen. As a business it needs a niche where he
-has an unfair advantage and a buyer he can reach — neither exists today.
-
-**5. One second-order observation.** The episode's own premise is that agents will pay for
-clean, structured, trustworthy resources. Everything Jens has built for himself in the last
-months — the field notes, the tooling, the memory files — is exactly that shape and is
-currently worth nothing to anyone else, because it is private and undistributed. The gap
-between "I have a refinery" and "someone pays for the output" is the same distribution gap the
-100-day retrospective already named. This episode does not solve it; it just prices it.
-
-**Sources checked while writing this note:**
 [Monetization Gateway](https://blog.cloudflare.com/monetization-gateway/) ·
 [Agent Readiness score](https://blog.cloudflare.com/agent-readiness/) ·
 [isitagentready.com](https://isitagentready.com) ·

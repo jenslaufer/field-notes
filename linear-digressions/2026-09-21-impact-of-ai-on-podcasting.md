@@ -98,19 +98,3 @@ see *"a little bit mixed"* signals. Her point: models' capability and real-world
 apart, because people and businesses must first rework their routines so that AI *"is actually
 delivering value in a meaningful way"*. Jon's closing worry: if anyone can generate a professional
 podcast on demand, AI *"can maybe in the not too distant future compete me out of my job"*.
-
-## Insights for me (Jens) — my connections, flagged as mine
-
-- **My assistant does exactly what Katie does with her newsletter.** It transcribes and summarises
-  podcasts for me. The difference that matters: I check the result against the source
-  (`verify-quotes.py`, numbers against the transcript). Katie edits by hand; she names no check.
-  My setup is stricter, and this episode gives no reason to change it.
-- **The line they draw matches mine.** AI for chores and scouting, human for direction and
-  judgement. The field-note rule "Insights for me, flagged as mine" is the same split as their
-  editorial line. Nothing to change.
-- **The detector question does not touch me today.** I publish nothing from these notes. If I
-  ever turn field notes into public posts, a Pangram-style label would mark them as AI text
-  although the selection is mine — worth knowing, nothing to do now.
-- **Their magic-wand wish is a known weakness.** AI-suggested interview questions "settle into a
-  rut" — matches my experience that drafts converge on the obvious. No action; just do not
-  outsource question-finding for client interviews.

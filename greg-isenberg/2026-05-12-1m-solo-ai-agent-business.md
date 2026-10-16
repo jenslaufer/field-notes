@@ -89,18 +89,6 @@ captured: 2026-06-18
 - **Demo the meta-agent.** Showing an agent that manages 27 VMs over Telegram is
   itself the proof-of-competence that closes legacy-industry skeptics.
 
-## Why this matters for us
-
-- **Unlimited-flat-retainer + hidden plumbing** is a clean monetization pattern:
-  price for the buyer's fear, deliver against the 1–3-agent reality. Copyable for
-  any AI service offer.
-- **"Diverge then converge" on verticals** mirrors launch-kit idea-validation —
-  run several offer×audience tests, then double down where the market pulls.
-- **Content-as-acquisition + a free 15-min setup call** is a distribution-first
-  funnel we can replicate: publish builds → capture leads → close on a live demo.
-- **MCP-equipped builder agents (Perplexity/Context7/X MCP)** are a concrete
-  recipe for keeping our own agent tooling current.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=BI-MNjm1tTQ

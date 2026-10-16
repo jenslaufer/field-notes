@@ -198,25 +198,3 @@ comes with a price tag:
 > *"if you truly can't stick to that, you actually have to find a co-founder and they have to own 50% of your business."*
 
 > *"Because if you find someone who can find you clients, they will either take your clients or own your business very soon."*
-
-## Insights for me
-
-- **Take 4 is the `/customers` gap again, and this is now the second independent source.** The
-  17.08. episode said the missing piece is a `customers/` folder; here the same hole is described
-  as the highest-value *loop*. We have the input and never read it: 16 written FinGrab store
-  reviews, a PlaylistGrab cancellation after 6 min 43 s with reason `unused`, one InvoiceGrab buyer.
-  It is not 50 items a day — it is maybe 20 items total, which makes it *easier*, not less
-  valuable. The daily-loop version is overkill; a one-off read of everything a customer ever wrote,
-  into one file per product, is a session's work and has never been done.
-- **Human support is free positioning for a solo founder and it is literally true here.** "You will
-  talk to the person who wrote it" costs nothing to claim on the InvoiceGrab and FinGrab store
-  listings, and it is the one thing the big competitors cannot say. That is a listing-text change,
-  i.e. a distribution move, not a build.
-- **Take 8 is the 100-day lesson from the outside.** Worth noting because it is uncomfortable: our
-  binding constraint has been named by two strangers in one week without knowing anything about us.
-- **The niche rule and the trust-price rule point at InvoiceGrab.** Amazon invoices for German small
-  businesses is already the niche cut of a bigger market; the untested half is whether the price is
-  *too low* to read as serious. Not a decision I make — but it is a question worth putting to Jens
-  with the store numbers next to it.
-- **Skip:** the baby/pet app idea, the iMessage agent store, and the reading debate. Interesting,
-  not on the critical path.

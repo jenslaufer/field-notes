@@ -150,46 +150,6 @@ you're the person everyone wants in the room.** They compound: the agent person
 builds tools for the community, the marketer grows it, the curator turns its best
 conversations into content, the builder-distributor launches products from it.
 
-## Why this matters for us
-
-- **Skill 1 is literally what Harry/the assistant already is.** The "daily
-  briefing agent that shows sources and asks approval before sending" is this
-  whole project (heartbeat, inbox loop, waiting.md, Telegram). The packaging Greg
-  describes — "I'll turn your 10 tools + 50 automations into an operating system,
-  here's what each agent may do and where it needs approval" — is a **sellable
-  Solytics/Fabrik offer**, framed exactly as he frames it. We're already living
-  the rep; the gap is selling it, not building it.
-- **Skill 2 names our binding constraint.** Distribution, not product, is the
-  bottleneck for FK/HC/launch-kit (calculators are traffic-tot; the constraint is
-  attention/authority). The **distribution-map rep** (20 attention sources + one
-  painful sentence + 20 hooks) is a cheap, concrete exercise to run *before* the
-  next calculator or blog post — it would have caught the "build it, but it's a
-  discovery orphan" pattern earlier. Worth doing per niche (Steuer/e-Rechnung,
-  Pendler, freelance-IAM).
-- **Skill 4 (curator/yapper) is the missing top-of-funnel for the concepts/
-  field-notes assets.** The 11 Taleb/stats simulators, the 138-failures essay, and
-  these very notes are high-signal "taste file" material. The "I saw this → most
-  think X → I think Y → here's the move" short-form structure is a repeatable way
-  for Jens to turn one simulator or one field note into a post — the authentic,
-  anti-slop format the algorithms currently reward. Ties straight into the
-  pending **LinkedIn-138 post (#59)** and the **field-notes owned-list (#60)**.
-- **Skill 5 (builder-distributor) describes Jens's own one-person model** and
-  validates the portfolio-of-experiments approach. The **48-hour loop** (tiny
-  ugly build + 10 distribution pieces before ready) is a sharper version of our
-  "every session leaves something new" mandate — and a corrective: we ship the
-  build (concepts sims, PRs) but routinely skip the *10 distribution pieces*. The
-  ACP funnel (Audience → Community → Product) is the same owned-list thesis as
-  `distribution-without-audience.md`.
-- **Skill 6 (IRL) is a concrete answer to Jens's 06-24 "Bauchgefühl: travel or
-  meetups?"** The dinner-of-8-around-one-question rep is low-cost, antifragile,
-  and exactly the kind of belonging/trust asset that AI can't commoditize. The
-  AI-meetup that got cancelled (#58) is the *event* trap; the *recurring small
-  dinner* is the habit that actually compounds.
-- **Skill 3 (robotics)** is the one furthest from current projects — file as a
-  watch-item / optionality, not a near-term bet. The transferable bit: the
-  "buy-a-cheap-thing, teach it one boring task, document every failure" loop is
-  how to learn *any* unfamiliar domain cheaply.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=jJIOA4GroBw

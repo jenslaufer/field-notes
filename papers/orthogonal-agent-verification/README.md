@@ -1,8 +1,8 @@
 # Orthogonal Verification — individual paper notes
 
 One note per paper from the [Orthogonal Verification survey](../orthogonal-agent-verification.md).
-Each note carries the paper's problem, method, key result, takeaway, and how it
-maps to our own stack — plus a link back to the survey and to the paper.
+Each note carries the paper's problem, method, key result, and takeaway — plus a
+link back to the survey and to the paper.
 
 Ordered as in the survey's reading list, grouped by family.
 

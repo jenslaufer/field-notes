@@ -88,20 +88,7 @@ below is Greg's, said from memory, none verified. Weigh praise against the spons
 up to 1M output tokens; the $19.99 Pro plan does not include Antigravity or AI Studio. He also says
 Antigravity *"is not my favorite harness"*; Argon runs in Cursor or OpenCode, too.
 
-## What it means for Jens
+## Caveats
 
-- **No reason to switch models.** The six habits are what the Claude Code setup already does
-  (plan, sub-agents, browser test, learnings into memory). The episode is sponsored and names no
-  comparison on the same task.
-- **References first applies to every model.** The webdesign and design-variants work
-  should always get two or three reference sites; a bare "make it better" gives the generic
-  result here, too.
-- **The voice skill is the cheapest takeaway.** Jens has years of texts (essays, blog, LinkedIn).
-  One run that extracts his voice into a skill could feed the German style rules that `klartext`
-  now enforces by word list.
-- **Free tool → paid second tool is FinGrab's model already** (free extension, 706 users in the
-  Chrome Web Store, paid tier). The episode adds one concrete step: read the competitors' G2 /
-  Capterra complaints and build exactly what they miss.
-- **Vibe manufacturing does not fit now:** no printer, no shop, no audience in a niche. Keep it
-  in `business-opportunities.md`, not on the to-do list.
-- **Discount:** sponsored, one week of use, revenue and cost figures from memory.
+- **Discount:** sponsored, one week of use, revenue and cost figures from memory. The episode
+  names no comparison with another model on the same task.

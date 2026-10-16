@@ -62,14 +62,6 @@ captured: 2026-06-18
 - **Solo-team leverage**: codified taste (DESIGN.md + skills) lets one person run
   four products' worth of branded output — a distribution multiplier, not just a design one.
 
-## Why this matters for us
-- **DESIGN.md is our anti-slop weapon.** A single committed file gives every agent
-  our exact colors/type/components — directly addresses generic AI UI in our products.
-- **It exports to Tailwind** — drops straight into our Vue 3 + Tailwind stack.
-- **Skills + HTML references** are a copyable recipe for repeatable, on-brand
-  landing pages in the launch-kit.
-- **Taste-as-moat** reframes design from cost to distribution edge for a small team.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=oLu32YpiIJw
 - DESIGN.md spec (GitHub): https://github.com/google-labs-code/design.md

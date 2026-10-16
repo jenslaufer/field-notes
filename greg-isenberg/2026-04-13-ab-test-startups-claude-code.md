@@ -58,15 +58,6 @@ captured: 2026-06-18
 - **Productize it.** The exact workflow is sold as managed service for $5K–$10K/mo —
   the build is cheap, the packaging is the margin.
 
-## Why this matters for us
-- **Launch-kit blueprint**: idea context → landing page → live experiment is the
-  exact funnel we want. The MCP-context layer (persistent ICP/offer) is the part
-  most teams skip and the part that makes iterations compound.
-- **No-redeploy A/B** via an analytics API means we can ship one page and test
-  copy continuously — a copyable conversion recipe.
-- **Paper-style sync** (design ↔ code) avoids the Figma handoff tax; worth
-  evaluating for our own landing pages.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=YiitvyQGbkc
 - Idea Browser: https://www.ideabrowser.com

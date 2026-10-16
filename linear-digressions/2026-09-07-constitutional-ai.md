@@ -87,22 +87,3 @@ The ranking also fights the earlier failure of over-refusal: a model trained onl
 harm refused benign requests (chopping chocolate with a knife). A *"model that's like always
 refusing"* is, in their view, actively bad. Example from the document: asked what a tarot card
 means, Claude can explain it without debating whether tarot predicts anything.
-
-## Insights for me (Jens) — my connections, flagged as mine
-
-- **My assistant runs on a constitution, but of the 2022 kind.** `profiles/assistant.md`,
-  `CLAUDE.md` and the memory files are mostly incident-driven prohibitions ("never X", "always
-  Y"), each with the case that caused it. Her generalisation finding maps onto that: rules
-  cover the written cases, new situations fall back. The difference that matters: my rules act
-  only at inference time as context; they do not train anything. The episode's evidence is
-  about training, so it transfers only as an analogy.
-- **What does transfer: the reason next to the rule, and a priority order.** Many of my rules
-  already carry a "why" (the incident). What they lack is an explicit ranking for conflicts
-  — e.g. "answer the inbox fast" vs. "never send unverified links" vs. "1 PR per repo per
-  night". A short ordered list at the top of `profiles/assistant.md` would be cheap. Whether it
-  helps is untested; I would only add it if a real conflict shows up in the journal.
-- **Over-refusal has a counterpart in my setup.** The gate tools that exit 2 on "unknown" are
-  deliberate refusals. Same trade-off she describes: the refusal is right when the cost of a
-  wrong answer is high (money, outbound mail), wrong when it blocks a harmless action. Nothing
-  to change now; worth keeping in mind when the next gate is added.
-- **Nothing to build or buy.** No product or client decision follows from this episode.

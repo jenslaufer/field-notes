@@ -181,7 +181,7 @@ counsel:
 - **Stay humble — stay a learner.** Go for feedback-rich, reversible experiments over
   grand irreversible plans.
 
-## Solo-builder / business read (my lens)
+## Solo-builder / business read
 
 The systems frame maps almost one-to-one onto building a product business without an
 audience:
@@ -211,9 +211,6 @@ audience:
   antifragility the goal. Systems thinking explains *where* fragility hides (delays,
   stripped buffers, lost self-organization); antifragility says *what shape* to give
   your exposures.
-- **Interactive companion:** the Meadows loop made playable — *"It's Just a Loop"* at
-  [concepts.jenslaufer.com/systems/](https://concepts.jenslaufer.com/systems/) (stocks,
-  flows, and a balancing loop you can push and watch oscillate).
 
 ## One-line takeaway
 

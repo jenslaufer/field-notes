@@ -142,29 +142,3 @@ agents in.
 
 My judgement, not the episode's: the scarcity play needs an audience that is already watching;
 the network effect needs a user base. Both are distribution assets the product has to own first.
-
-## Insights for me
-
-- **The segment is "normal people"; I have no route to them.** Instinct wins on consumer
-  onboarding plus invite scarcity plus a rumoured large raise. Every lever is capital and
-  audience. None of it transfers to a solo founder without either. Watching, not copying.
-- **The copyable part is the argument, not the product: power tools drift away from normal
-  users.** That is exactly my position with the assistant daemon — VPS, systemd, skills, a
-  Telegram bot, and it still needs me to fix it (the Hermes-for-mum story is my daemon for
-  anyone who is not me). If Fabrik or the assistant is ever sold, the buyer who pays is the one
-  who wants the result without the setup. That argues for a *done-for-you* service on top of
-  what I already run, not for a new consumer app.
-- **Blast-radius card: adopt it now.** Any agent of mine that may pay (ads top-ups, API credits,
-  bookings) should hold a separate virtual card with a daily cap, never the Finom main card. Same
-  logic as restricted Stripe keys (`rk_live`), applied to spending. Cheap, reversible, one bank
-  setting.
-- **"Each task saves 10-15 minutes" is the honest pricing anchor for personal agents** and it is
-  low. For B2B, where I sell, the anchor must be labour hours or a compliance deadline
-  (XRechnung 2027), not convenience minutes. Confirms: stay B2B.
-- **Privacy is a wedge, and it is a German one.** The episode's biggest con — email retained
-  after disconnect, concerning T&Cs — is precisely what a DSGVO-careful, self-hosted German
-  vendor can promise in writing. Not a product idea on its own; a sentence for the launch-kit and
-  e-invoice positioning ("your data stays in Germany, deleted on disconnect").
-- **Agent email inboxes per user (`<name>@mail.instinct.com`) are a feature the launch-kit
-  tenant model could offer cheaply** (it already sends from tenant `smtp_from`). Only worth it if
-  a tenant asks — per the validate-before-build rule.

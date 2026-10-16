@@ -73,16 +73,6 @@ captured: 2026-06-18
 - **Even if you'll hire an agency, build it yourself first** — you'll understand and
   dial in your own funnel.
 
-## Why this matters for us
-- **A full, copyable launch-kit funnel in one terminal:** positioning → landing page
-  → gated audit tool → SEO content → ad — exactly our lead-funnel + email stack.
-- **The interactive-audit lead magnet** (quiz → score → gated report) is a
-  high-converting, build-it-once pattern we can reuse across niches.
-- **Research-first (Perplexity/Firecrawl/Playwright) beats prompt-and-pray** — a
-  guardrail against AI slop in anything we generate.
-- **Skills = encoded taste:** our domain expertise becomes a reusable, on-brand
-  asset rather than a one-off prompt.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=fVUlrpaWNxg
 - The Vibe Marketer: https://www.thevibemarketer.com

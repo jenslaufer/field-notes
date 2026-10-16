@@ -210,36 +210,3 @@ Stated once, explicitly, and it is the actual takeaway of the episode:
 And his own framing of the habit:
 
 > *"I just think it's a really interesting thing to do, to just do monthly things."* … *"finding new GitHub repos, installing them."*
-
-## Insights for me
-
-- **Skill Spectre is the one to act on, and the exposure here is already large.** This machine
-  runs a private plugin marketplace (`toolkit@jenslaufer-private`, ~40 own skills that auto-update
-  from a push to `main`), plus foreign skills installed from elsewhere — gstack and the firecrawl
-  symlinks — and a set of MCP servers. That is exactly the *"little operating system for your
-  work"* he describes, assembled from sources with different trust levels, and none of it has ever
-  been scanned. `--no-llm` matters specifically here: the skills carry credential paths and
-  business context, so the static mode is the one to start with. A scan is cheap, one-off, and
-  either finds nothing (and we know) or finds something (and we very much want to know).
-- **The no-slop skill is `klartext` pointed at a different failure, and the comparison is
-  instructive.** Both are gates on text before it reaches a human; `klartext` checks characters and
-  structure, Peter Yang's checks the tells that cost trust. The part worth copying is not the word
-  list but **his workflow order** — human draft first, cleanup second. The German drafts here are
-  already written that way; the English ones (issue bodies, PR descriptions, the field notes
-  themselves) are not gated at all.
-- **"Warm leads I can't afford to forget" is a pipeline that exists here with no home.** Named,
-  measurable instances: two contracting candidates in `waiting #354` with a window closing
-  Thursday, the freelancermap threads that close after 31 days, 16 FinGrab reviewers, and a
-  cancelled subscriber who gave the reason `unused`. Against that, `waiting.md` carries 78 items
-  and grows monotonically. Note the honest limit before anyone builds the CRM: **the measured
-  problem here is demand, not forgotten warm leads** — 17 checkout sessions in five months is not
-  a follow-up failure. File the repo as a reference, do not open a project.
-- **Phone Harness is the second independent mention of nightly mobile QA in three episodes** (it
-  was prompt 7 on 10.09.) and it still does not apply — the products are Chrome extensions and a
-  Go/Vue instance, all desktop. Worth naming so a later session does not rediscover it as an idea:
-  the surface is absent, not neglected.
-- **The format itself is the transferable thing.** "Go through what got attention in the last 30
-  days, pick five, explain each in plain English with the install line and one small first
-  workflow" is a content format with no audience requirement and a permanent supply of material.
-  It is also what this repo already does for podcasts. If the distribution problem is the binding
-  constraint, a monthly post in exactly this shape is a cheaper experiment than another product.

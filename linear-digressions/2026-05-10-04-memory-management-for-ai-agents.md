@@ -196,47 +196,6 @@ What changed is deliberateness — "people started to talk about **context
 engineering as a discipline**". And the unglamorous half of that discipline is
 compaction, "doing real work in every long coding session that doesn't crash".
 
-## Relevanz hier — Konzept-Karte mit einer live gültigen Adresse, kein Geld-Faden
-
-Ehrlich zuerst: das ist eine **Konzept-Karte**, keine Handlungsliste, und sie
-hängt an keinem Geld-Faden. Sie ist trotzdem die Folge der Staffel mit dem
-direktesten Bezug auf diesen Betrieb — weil dieser Betrieb die Architektur der
-Folge **bereits gebaut hat**, nur ohne sie je so genannt zu haben.
-
-- **Dieser Assistent läuft nicht auf Compaction, sondern auf MemGPT.** Jede
-  Sitzung ist ein frischer Prozess; der Kontext wird zu Beginn **von der Platte
-  gelesen** (`MEMORY.md`, `journal.md`, Tagesdateien, `waiting.md`) und am Ende
-  zurückgeschrieben. Das ist wörtlich Auslagern und Einlesen unter Kontrolle des
-  Agenten — nicht ein Fenster, das zusammengefasst wird. Der Satz vom 04.08.
-  („die harten Regeln überleben, weil sie jede Sitzung neu von der Platte gelesen
-  werden") war die halbe Erkenntnis; die ganze ist, dass es die **Bauart** ist.
-- **Also gilt hier auch die Fehlerart der Bauart, nicht die des Compaction.**
-  Kontext-Fäulnis ist hier nicht das Risiko. Das Risiko ist ein **halb
-  fehlgeschlagenes Einlesen, das sich nicht meldet** — die 25k-Lesekappe, die
-  eine Datei still abschneidet. Genau das ist heute live: `MEMORY.md` steht bei
-  **24.899 von 25.000** Token. Ein Betriebssystem, dessen Auslagerungsdatei beim
-  Einlesen die zweite Hälfte verliert und Erfolg meldet, wäre defekt; hier ist es
-  der Normalzustand, den eine tägliche Routine abfängt.
-- **Die Rangfolge existiert hier ebenfalls, in drei Stufen:** `~/.claude/CLAUDE.md`
-  (global) → `CLAUDE.md`/`profiles/` des Betriebs → Sitzungsverlauf. Die
-  Wirksamkeit kommt aus demselben Grund wie in der Folge: die oberen zwei werden
-  **absichtlich neu eingespielt**, sie wachsen nicht organisch mit.
-- **Ihr Vorbehalt — der Agent weiß vorab nicht, was er brauchen wird — ist die
-  Rechtfertigung für das teuerste Stück des Sitzungsvorspanns:** fünf Dateien
-  komplett lesen,
-  jedes Mal, unabhängig vom Auftrag. Das ist kein Verschwenden, das ist der Preis
-  dafür, kalte Daten nicht vorschnell auszulagern. Der Preis ist aber messbar
-  (fünf Dateien knapp unter der Kappe), und die Folge nennt die Gegenrichtung:
-  **Fähigkeiten** sind der prozedurale Ausweg — bei Bedarf laden, danach
-  verwerfen. Was hier als Skill in `~/.claude/skills/` liegt, muss nicht in
-  `MEMORY.md` stehen.
-- **Der RAG-vs-MemGPT-Schnitt ist ein Prüfstein für Werkzeugentwürfe:** wird dem
-  Modell etwas *vorgelegt* oder *holt* es selbst? Die Werkzeuge hier sind fast
-  alle vom zweiten Typ (`gsc.py`, `stripe-status.py`, die Postfach-Abrufe) — der
-  Agent entscheidet, wann er zieht. Das ist der teurere, aber der einzige Typ,
-  bei dem die Nachforderung überhaupt möglich ist — genau das, was der passiven
-  RAG-Seite der Folge fehlt.
-
 ## Korrekturen an der vorherigen Fassung dieser Datei
 
 1. **Erfundene Zahl:** *„Assume anything 20 messages old is effectively gone."*
@@ -253,8 +212,7 @@ Folge **bereits gebaut hat**, nur ohne sie je so genannt zu haben.
    talk to you about planning"*). Auf „Katie Malone (solo)" korrigiert — dritte
    Notiz mit demselben Fehler im Vorspann.
 4. **Ergebnis verkürzt:** die alte Fassung schrieb „On long-document tasks".
-   Getestet wurden **zwei** Domänen, Langdokumente **und** Mehr-Sitzungs-Gespräche
-   — letzteres ist der Fall, der diesen Betrieb betrifft.
+   Getestet wurden **zwei** Domänen, Langdokumente **und** Mehr-Sitzungs-Gespräche.
 5. **Falsche Rahmung als Menü:** die alte Fassung stellte Compaction und
    MemGPT-Paging als Wahl „choose by task complexity" nebeneinander. Die Folge
    sagt das Gegenteil: das Elegante ist **nicht** das, was ausgeliefert wird.

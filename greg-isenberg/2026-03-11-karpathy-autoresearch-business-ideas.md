@@ -86,18 +86,6 @@ captured: 2026-06-18
 - **Vertical it down.** Every idea works better aimed at one niche (realtor emails,
   Shopify stores, crypto compliance) than as a horizontal tool.
 
-## Why this matters for us
-
-- **Autoresearch = automated CRO/experimentation** — the "always-on A/B testing"
-  and "optimize button" ideas are directly relevant to our lead funnels and
-  landing-page conversion work.
-- **"100× more tests" + performance pricing** is a copyable GTM frame: sell the
-  experiment *volume* and align fees to a measured lift.
-- **Loop-as-a-feature** (one "optimize" button) is a marketable, demo-able feature
-  and a natural Pro-tier upsell — exactly the kind of gotcha-feature + funnel play.
-- **First-clear-explainer-wins** is a distribution-first content tactic: cover an
-  exciting, still-foggy tool early to capture attention.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=qb90PPbAWz4

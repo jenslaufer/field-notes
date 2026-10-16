@@ -18,10 +18,6 @@ propagated into the arXiv listing. So: treat every number below as an author's c
 until someone checks it against the tables. Reading order per section is my ranking,
 strongest first.
 
-Where a paper says something about *this* setup — the assistant's memory files, the
-skill library, the local Ollama models — it is marked **→ hier**. That mapping is my
-inference, not the paper's claim.
-
 ---
 
 ## 1. Context and memory optimisation
@@ -39,8 +35,6 @@ from complete trajectories; the agent's own good memory decisions become trainin
 signal. On Crafter/MiniHack/NetHack, optimising memory alone — task behaviour
 untouched — improved the base agent 2–4x and brought a 32B open-weight model level with
 Claude Opus 4.5 and Gemini 3.1 Pro Thinking.
-**→ hier:** this is the closest published description of what `state/memory/` already is.
-The claim worth testing is the leverage: memory structure, not model, as the thing to tune.
 
 **[`2607.22962`](https://arxiv.org/abs/2607.22962) — ConsistencyGate: Preventing Memory Contamination via Self-Consistency Admission Control** (Zhang & Li, 2026-07-25)
 Names the failure mode precisely: a hallucinated fact written once **persists as a false
@@ -49,8 +43,6 @@ not *write-time* correctness. The gate queries the model K times for a support s
 before committing a fact; model-agnostic, no fine-tuning, reducible to a single forward
 pass. Benchmarks built by planting single-detail corruptions in real long conversations.
 Cost concentrates on facts only *implicitly* stated in the source.
-**→ hier:** the admission question — what earns a line in `MEMORY.md` — is currently a
-judgement call at write time with no check at all.
 
 **[`2607.27773`](https://arxiv.org/abs/2607.27773) — ChronoMem: Version Control and Semantic Rollback for Agent Memory** (Su, Xu, Zuo et al., 2026-07-30)
 Existing memory systems are **forward-only**: they accumulate, consolidate and overwrite
@@ -58,8 +50,6 @@ with no way to inspect or revert. ChronoMem snapshots memory on every write, kee
 version history, and maps natural-language undo intents onto historical versions.
 Integrated into Google's Agent Development Kit. Introduces a post-exposure protocol:
 can the agent answer *as if* the later update never happened?
-**→ hier:** the snapshot half is free — `state/` is a git repo. The part that does not
-exist is the *semantic* half: finding which past version to go back to.
 
 **[`2608.00009`](https://arxiv.org/abs/2608.00009) — AgentMemBench: Benchmarking Long-Term Memory Management Strategies** (Cherif, 2026-06-16)
 Five strategies under identical conditions: in-context windowing, external key-value
@@ -67,9 +57,6 @@ store, graph episodic memory, compression-summarisation, web-augmented. The unco
 result: on LoCoMo, where the answer lies many sessions back, **windowing, summaries and
 entity graphs retrieve almost nothing** (Recall@5 ≤ 0.005) while the key-value store
 reaches 0.573. Its price is footprint — ~5,100 vs ~300 tokens.
-**→ hier:** the assistant's memory is windows plus summaries, i.e. the two strategies
-this benchmark puts at the bottom for long-range recall. Worth checking before trusting
-a summary to carry something six weeks old.
 
 **[`2605.17304`](https://arxiv.org/abs/2605.17304) — Compress the Context, Keep the Commitments** (Trukhina & Vashkelis, 2026-05-17)
 "LLM context is not just tokens; it is a set of **commitments**" — goals, constraints,
@@ -78,9 +65,6 @@ compression rarely says *which* commitments must survive or how to measure that.
 typed source-grounded atoms and metrics: Critical Atom Recall, Weighted Atom Recall,
 Commitment Density, round-trip recoverability. Honest about its own scope — a framework
 plus a small diagnostic study, not a solved problem.
-**→ hier:** `waiting.md` is a commitment store, and the recent condensations were
-verified exactly this way ad hoc (re-find every code span and number afterwards). This
-paper is the vocabulary for that check.
 
 *Also seen:* `2607.14275` (context quality as a validated preflight signal, seven scored
 criteria) · `2608.09153` (TRACE, attributing agent failures back to the context source).
@@ -112,8 +96,6 @@ coupled** — improving one systematically moves another, which distorts the agg
 release decisions run on. RADAR probes a rubric *before* large-scale evaluation and
 returns a directional coupling matrix, recovering human inter-criterion correlation
 structure at Pearson r > 0.84 from few probes.
-**→ hier:** every critic skill in `~/.claude/skills` scores 8–10 "dimensions" and adds
-them up. This says measure the coupling first — some of those dimensions are one dimension.
 
 **[`2606.26300`](https://arxiv.org/abs/2606.26300) — The Verification Horizon: No Silver Bullet for Coding Agent Rewards** (Wang, Zhang, Liu et al., 2026-06-24)
 The classical intuition that verifying is easier than producing is **inverting**:
@@ -182,8 +164,6 @@ paired with Foundation-Sec-8B — reached **35.30%, above the strongest unground
 baseline at 34.77%**. Note the honest control the abstract keeps: given the *same*
 evidence pipeline, grounded Gemini stayed ahead at 38.22%. So the win comes from
 **evidence grounding**, and small models capture most of it at a fraction of the cost.
-**→ hier:** the `simple` / `cloud-oss` aliases on the LiteLLM proxy are exactly this
-hardware. Domain-specific, not general.
 
 **[`2605.10698`](https://arxiv.org/abs/2605.10698) — The Bystander Effect in Multi-Agent Reasoning** (Shehata & Li, 2026-05-11)
 22,500 deterministic trajectories across GAIA, SWE-bench and Multi-Challenge, auditing
@@ -232,9 +212,6 @@ skill-description context**. The part that matters most is the counterfactual re
 all skills exposed, the model picked a production-blocked skill in **7.8% of
 conversations**. The gate does not merely save tokens, it stops impossible options from
 influencing the choice.
-**→ hier:** 118 skill directories sit under `~/.claude/skills` (counted 2026-08-11). Any
-skill whose precondition is checkable without a model — missing credential, wrong
-directory, absent binary — can be gated exactly this way.
 
 **[`2608.02464`](https://arxiv.org/abs/2608.02464) — Real-Time Detection and Repair of LLM Agent Failures** (Dubey, 2026-08-03)
 Starts from the cost argument: judging every step with a second LLM costs more than the
@@ -248,8 +225,6 @@ actually received, and confirm every required call was made**. Head-to-head it c
 unchanged to another model, and trips on 0 of 1825 healthy episodes. Rolling back and
 re-running flagged episodes recovered 45% of failures against a 16% resampling control
 (p=0.0005), lifting task success 52% → 73% for about one extra model call.
-**→ hier:** "recompute the number from the artefacts the run actually touched" is the
-cheapest possible version of the proof-with-numbers rule, and it is not a judge.
 
 **[`2606.14935`](https://arxiv.org/abs/2606.14935) — PrologMCP: A Standardized Prolog Tool Interface for LLM Agents** (Mensfelt, Prabhakaran, Haret et al., 2026-06-12)
 Symbolic delegation as a **reusable MCP primitive** rather than a bespoke integration: the
@@ -267,8 +242,6 @@ five-sample self-consistency — using one model call instead of five**. On a BB
 logical-deduction subset, **0.933 vs 0.283**. The advantage survives a cost-aware adaptive
 self-consistency baseline. Explicitly bounded: finite-domain logic only, and it is
 model-dependent (Phi-4-mini went negative on typed constraints).
-**→ hier:** the strongest published case that a solver beats sampling a weak local model
-repeatedly — same class of hardware as the Ollama setup.
 
 **[`2608.03065`](https://arxiv.org/abs/2608.03065) — Efficient Grammar-Constrained Decoding via Parser Stack Classification** (Li, Dong, Li et al., ISSTA 2026, 2026-08-04)
 The dumbest tool of all — a parser — with the objection removed. Grammar-constrained
@@ -315,7 +288,7 @@ fabricated, the largest refused.
 
 ## Method
 
-Retrieved with `tools/arxiv-search.py` in the assistant repo (written for this task)
+Retrieved with a small arXiv search script (written for this task)
 against `export.arxiv.org/api/query`, 20 queries across the four topics,
 sorted by submission date and cut at 2025-06. Selection was by hand from titles and
 abstracts; the 20 finalists were then re-fetched by ID with full abstracts, which is what

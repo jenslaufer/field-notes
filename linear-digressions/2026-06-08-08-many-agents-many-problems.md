@@ -21,7 +21,7 @@ Unlike episodes 9, 10 and 11, the show-notes version of this file was substantia
 **correct** — the published description for this episode was detailed, and the audio
 confirmed the two papers, all three "laws", the 45 % threshold and both swing figures. What
 the rewrite adds is the verbatim argument, the framing Katie builds the episode on, her own
-caveat about the age of the evidence, and a relevance section, which the file did not have.
+caveat about the age of the evidence.
 **One correction:** the front matter named "Katie Malone & Ben Jaffe"; this is Katie solo.
 
 Corrected ASR slip: *"prompt engineer your **weight** out of"* → *way* out of.
@@ -177,52 +177,6 @@ not a constant.
 
 And the season-arc conclusion: *"delegation of a task to a team of AIs is not obviously better
 than delegation to one good one. And in many cases, it's worse."*
-
-## Relevance for Jens
-
-**Genre: architecture verdict on this operation, with three of the paper's regimes testable
-against what already runs here.** No money thread — the payoff is avoided work, not new
-revenue.
-
-**1. The three "single agent wins" regimes all describe an agent-task YAML — so the current
-architecture is already the recommended one.** Take a typical task: it is **tool-heavy** (git,
-test runner, gh, file edits — Law 1), it is **strictly sequential** (write the failing test →
-implement → quality gate → PR; step B depends on A — the −70 % case), and its **solo success
-rate is far above 45 %** (July: 72 merged non-Dependabot PRs — Law 2). Three independent
-criteria, all pointing the same way: **one strong agent with good tools per task.** That is
-exactly what a YAML is. The practical consequence is a *non*-action: the recurring temptation
-to build an orchestrator that splits a ticket across specialist agents would move this setup
-from the regime where it wins into the regime where the research measures −70 %. **Written
-down so it does not get rebuilt in six weeks.**
-
-**2. Fabrik is in the good regime, and for a structural reason worth protecting.** Workers
-pull *whole issues* independently and work them end to end — independent sub-tasks, no
-inter-agent messaging, no shared representation to negotiate. That is the +80 % column. The
-property doing the work is not the number of workers but that **they never have to talk to
-each other.** Any future feature that makes workers coordinate on a shared ticket trades the
-good regime for the bad one.
-
-**3. The relay warning has a specific address here: model escalation.** The house rule is
-cheap model for routine, Opus for the hard parts, with sonnet→opus escalation once a task
-touches several files. Whenever that becomes "weak model does step one, strong model picks up
-step two" (my phrasing, not hers — and note it runs the *opposite* direction to the paper's
-relay, where the strong agent leads), it is the same sequential-pipeline shape — which this episode identifies as a sequential
-pipeline, the most error-amplifying topology, because step one's mistakes are inherited rather
-than caught. **Escalation should re-do the step, not continue from it.** Deciding the model
-before the work starts, rather than handing a half-finished chain upward, is the cheaper and
-safer form.
-
-**4. The distilled-model finding compounds a risk already logged.** The LiteLLM fallback chain
-is `smart → cloud-oss → simple`, and the bottom two rungs are small/distilled models. The
-distillation episode already established that distilled students are trained on the **mode**,
-so creativity sits in the edges that get shaved off. This paper adds a second, independent
-penalty: distilled models are *"the models that showed some of the most dramatic collapse"*
-specifically at **collaborating** — good answers, poor explanations. Consequence for this
-setup: a fallback to `simple` degrades a solo task somewhat, but degrades anything involving a
-**handoff** — subagent reports, YAML prompts written for another agent to execute, PR
-descriptions meant to be read by the next agent — **disproportionately**. If the top of the
-chain ever disappears (and episode 10 documents that happening within days by government
-directive), the first thing to give up is fan-out, not depth.
 
 ## Newsletter teaser
 

@@ -25,5 +25,3 @@ captured: 2026-06-14
 **Result.** Consistent gains across QA, math, and toxicity-reduction tasks versus no-tool self-correction.
 
 **Takeaway.** If you want self-correction to mean anything, give the critic a real-world oracle to consult. Pure introspection is not verification.
-
-**Our stack.** The Quality Gate is exactly this — unit/build/e2e in clean containers is the external oracle consulted before a PR is trusted.

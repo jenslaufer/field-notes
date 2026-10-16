@@ -67,18 +67,6 @@ captured: 2026-06-17
 - The model only works when **paid-acquisition cost < ARPU × retention**. If the
   ad math doesn't close, the app doesn't scale no matter how good it looks.
 
-## Why this matters for us
-
-- **Distribution-first, not feature-first** — same lesson as Greg's "9
-  opportunities" note: building is cheap, the edge is the gotcha + the funnel.
-  Maps directly to the launch-kit *idea-validation* thesis (test the offer×audience
-  fast, the plumbing was never the bottleneck — cf. ExtCharge 0/593).
-- The **$2 CPM / $100-day / 5–15 creatives / $2 ARPU** numbers are a concrete,
-  copyable paid-ads starting recipe if we ever push a consumer app or any tool
-  with paid acquisition.
-- "Onboarding *is* the sales page" is a reusable conversion frame for any
-  lead-capture funnel.
-
 ## References
 
 - George's $10K/month app playbook: https://startup-ideas-pod.link/George-app-playbook

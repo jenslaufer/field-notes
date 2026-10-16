@@ -426,45 +426,6 @@ at all. The whole hour is a case for decision procedures that never ask for a nu
 can supply — and for treating a culture's ability to say *I do not know* as infrastructure
 rather than manners.
 
-## Solo-builder read (insights for Jens)
-
-- **Break it early is the one rule here I can apply this week.** Every half-alive thing in
-  the portfolio — a product with no users, a channel with no returns, a client relationship
-  that only works when nothing goes wrong — is being propped up rather than allowed to fail.
-  The argument is not that failing is virtuous; it is that suppressing the small failure
-  builds the large one, and the information I need is precisely in the loss I keep
-  preventing. Concretely: for each project, name what would have to be true for me to shut
-  it, and set the date now, while the cost is still small.
-- **The prudent-firm observation is the most personally relevant line in the episode.** The
-  firms that stayed out had lower returns year after year, were finally about to be
-  vindicated, and then could not collect because the reckless were propped up. Running a
-  conservative solo business next to funded competitors is that position exactly: the payoff
-  for prudence arrives only in the bad year, and can be cancelled by something outside my
-  control. So prudence has to pay something *during* the good years too — a cashflow floor
-  is not just risk management, it is the only part of the payoff I can actually bank.
-- **Returnless risk is a portfolio audit I can run in an afternoon.** Where am I taking the
-  most risk for the least return? The senior tranche is anything carrying real downside for
-  pennies: a fixed-price contract with open scope, a free tier that costs support time, an
-  unpaid integration built for one customer, a platform dependency with no fallback. None of
-  them look risky, which is the point — they were bought because they looked safe.
-- **The opera singer describes my own market, and it cuts both ways.** Software and AI
-  agents are storable and scalable, so the market is fat-tailed by construction: a handful
-  of winners, and the local performer loses the wedding gigs. That is the argument against
-  building the fifth-best version of anything, and also the argument *for* being in this
-  market rather than the dentist's — the right tail only exists where work can be stored.
-  What it rules out is the middle: scalable work aimed at a merely-decent outcome has the
-  dentist's ceiling and the singer's floor.
-- **The metric obstacle is the part I would underestimate.** Robustness is easy to build;
-  what stops people is that their measurement system cannot see it. Whatever I put on a
-  dashboard becomes what I optimise, and a dashboard of revenue and installs will always
-  score the concentrated bet above the barbell. Worth adding one number that measures
-  exposure rather than outcome — share of revenue from the largest client, days of runway,
-  count of single points of failure — so the safe structure has something to win at.
-- **"God knows" as an engineering practice.** A vocabulary that makes it socially cheap to
-  say *I do not know* is infrastructure. An agent, a report or a status update must have a
-  permitted way to return *unknown* — otherwise a forced field produces a fabricated value,
-  which is the same defect as a risk model that must output a probability.
-
 ## Quotable
 
 Only the first three are attributed to a speaker in the source; the rest are the

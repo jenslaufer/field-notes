@@ -286,56 +286,8 @@ version** of it looks like — or undercut on price.
 - **The tooling advice is dated on arrival:** the unresolved `cloud tag` product she calls "a
   mess right now" was expected to be fixed by publication.
 
-## 12. Relevance for Jens
+## Sources checked
 
-Constraints applied: no audience, no network, distribution is the binding constraint, away
-15.08.–07.09. (Telegram only).
-
-**1. Most of this is already built here — and that is the finding, not a compliment.** The
-agent workforce with a chief of staff, context files, goals, scheduled proactive runs and
-model tiering by task is `~/repos/assistant` plus the agent-task and Fabrik channels. Her model
-rule (*"not everything needs opus"*, sub-agents on Haiku/Sonnet) is the session-budget rule from
-`MEMORY.md`, word for word. Her watchdog-with-insight point (*"dashboards are dumb… I want
-anomaly detection"*) is the rule every routine here already follows: report the **change**, not
-the state — stripe-watch, paywall-health-check, funnel-health-check, deadline-check,
-bing_delivery_check, creds-health-check, unit-health-check. **Eight watchers exist; her episode
-says almost nobody has one.** So the episode does not supply a next step here. It prices what is
-already standing — and the thing it prices has produced no revenue, which is the same gap the
-100-day retrospective named.
-
-**2. The one role that is genuinely missing: Toby.** Nothing here watches the workforce work and
-writes down *where the friction is and who lacked access*. The closest equivalents are the
-monthly retro (once a month, by hand) and the journal (a log, not an analysis). The evidence
-that this gap is real and expensive is in this repo: `memory-evict` ate its own output for days
-(#71), four test files had never executed once (41 tests), a test inherited an env var and was
-red only in inbox sessions — every one of those was found by accident, not by a watcher.
-**Concrete and cheap:** a weekly pass over the last seven journal entries + `learnings.md`
-whose only question is *which friction repeats*. Not a new agent — a routine line. Worth
-proposing, not worth building unasked.
-
-**3. "Build the factory, not the thing" is the one idea that changes a decision — and it is
-already the bet.** Fabrik is the factory; extension-forge is a factory; the skills directory is
-a factory. Her version adds the part that is missing here: **her factory shipped a product that
-is profitable, and the factory was justified by the second product.** Here the factories are
-several layers deep and the products they produce (extensions, calculators, sites) have earned
-~0. The honest reading of her point is therefore inverted for Jens: *he has the factory and
-lacks the customer*, she had the customer and built the factory. Do not read this episode as
-permission to build another factory layer.
-
-**4. "Who is liable now?" is a sellable line, not a philosophical one.** Her three reasons
-enterprises will not replace SaaS — bandwidth, liability, lab-access lag — are the strongest
-argument in the episode for **day-rate work** over product, on the same side as
-`2026-07-20-fde-million-dollar-ai-job.md`. That matters for the freelancermap profile and CV (#130), where
-the positioning is already harness/FDE: *the person you can call when the agent workforce breaks*
-is a role with a buyer, a budget and no product-market-fit risk.
-
-**5. The lead-magnet shape, noted and parked.** Her AI-First assessment is a free public
-self-benchmark that feeds a paid ladder — and solytics already ships exactly that shape
-(readiness check + `ki-readiness` segment in Launch Kit, both green in the funnel check). The
-gap is not the artefact; it is that ~1,100 impressions on the KI pages produce **0** clicks at
-position 26–59. Same authority bottleneck. Nothing in this episode addresses it.
-
-**Sources checked while writing this note:**
 [areyouaifirst.com](https://www.areyouaifirst.com/) (16 dimensions, public benchmark) ·
 [Allie K. Miller](https://www.linkedin.com/in/alliekmiller/) (ex-Amazon/AWS, ex-IBM) ·
 [episode](https://www.youtube.com/watch?v=EzQAgnjTq2k)

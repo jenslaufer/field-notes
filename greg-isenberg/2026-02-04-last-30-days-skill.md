@@ -73,16 +73,6 @@ captured: 2026-06-18
 - **`--emit=html` briefs** are share-ready, offline assets — clean artifacts for
   pitches, newsletters, or client deliverables.
 
-## Why this matters for us
-- **Idea validation, live.** `/last30days [niche] --store` turns the launch-kit's
-  validation step into a recurring, engagement-ranked demand signal.
-- **Anti-stale prompting.** Grounding Claude Code in last-30-days data is a cheap
-  fix for AI defaults — fresher copy, fresher positioning, less slop.
-- **Distribution-first.** It reads the channels (Reddit/X/HN) where our audience
-  already talks, so we build to demand instead of guessing.
-- **Drop-in & free.** Reddit/HN/GitHub/Polymarket need zero keys; MIT-licensed,
-  installs in one command.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=71ES9jzqa0Q
 - Skill (GitHub, MIT): https://github.com/mvanhorn/last30days-skill

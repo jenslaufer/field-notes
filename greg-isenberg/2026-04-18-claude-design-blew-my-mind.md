@@ -115,30 +115,6 @@ captured: 2026-06-20
 - **Underserved-audience thesis:** everyone builds for Gen Z / millennials;
   older adults are wide open.
 
-## Why this matters for us
-
-- **Idea → deck pipeline.** The Idea Browser → Claude Design deck flow is a fast
-  path to a credible pitch with real GTM math baked in — directly useful for the
-  e-invoice BDL pitch, Fabrik investor narrative, or any Solytics offer. One
-  prompt got a deck with CAC/LTV/payback and cited research.
-- **Wireframe-first to control spend.** Same discipline we want on FK/HC/launch-
-  kit landing pages: define screens + features in a cheap low-fi pass before
-  committing tokens (or agent time) to hi-fi.
-- **Steal the questionnaire pattern.** The "ask the user like a PM, then
-  extrapolate" front-end is exactly the spec-quality gap in our agent-task /
-  Fabrik pipeline — a structured clarifying questionnaire before build would cut
-  the needs-info round-trips.
-- **Reference-driven prompting.** "Research X and Y, make it familiar but fresh,
-  good enough that the CPO of X would love it" is a reusable quality lever for
-  any generation task, not just design.
-- **Copy lesson:** "Share this **win**" > "Share on Facebook." Frame share/CTA
-  copy around the user's win — a free conversion tweak for our calculators and
-  apps.
-- **Design ↔ code, skip the Figma handoff.** Worth evaluating Claude Design for
-  our own landing-page and dashboard mockups; pair with Claude Code to build.
-- **Right tool per job:** Claude Design for wireframes/visuals/decks; a Veo-class
-  tool (ever-since.ai) for real video ads.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=vyLaimDeK_g

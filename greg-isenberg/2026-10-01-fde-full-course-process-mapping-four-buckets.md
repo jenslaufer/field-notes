@@ -199,36 +199,3 @@ The salary claim is arithmetic, Greg's own: *"you gave $10 million of value to t
 The closing playbook, verbatim in parts: *"We baseline before we build."* Timeline: four weeks
 audit and POCs, four weeks building agents, then the proof at three and six months —
 *"this is what it used to be."* *"This is what it is now."*
-
-## What it means for Jens
-
-- **The method is a sellable freelance package, and the rate question changes with it.** At
-  90–110 EUR/h Jens sells hours. The episode sells a measured delta: steps, cycle time,
-  cost per invoice, before and after. A fixed-price "process map + one agent" offer for one
-  workflow (the guest's four weeks audit, four weeks build) prices against the delta, not the
-  hour. My judgement: the AP case's units — cost per invoice, straight-through rate — are the
-  format a German Mittelstand CFO reads; the dollar figures themselves are unaudited.
-- **Jens has the Monday–Thursday homework already done, on his own books.** The bookkeeping
-  workflow (invoice in, booking, account statements, UStVA) is exactly the guest's example
-  *"how you submit an invoice if you're a freelancer for work"*, and the assistant is a
-  background agent, not a sidekick. Concrete next step: write that one process down with the
-  four buckets and a before/after number (minutes per invoice), and use it as the case study in
-  the freelancermap profile. That is proof he owns, not a borrowed Fortune-500 slide.
-- **The Friday step does not fit his channel as stated.** The guest's entry is cold outbound to
-  SMBs and a free first project; Jens has no network, and freelancermap postings arrive already
-  scoped as "build X", not "find what to automate". Measure before betting: count freelancermap
-  postings that ask for process analysis plus AI (search terms like "Prozessanalyse KI",
-  "Automatisierung", "Forward Deployed") over two weeks. If near zero, the FDE framing belongs
-  in how he answers a scoped posting (map first, then build), not in a new channel.
-- **"Inside the system of record" is the German stack: DATEV, SAP, lexoffice, sevDesk.** The
-  guest's rule — no new surface — is also why a Chrome extension that works inside a page the
-  user already opens is easier to adopt than a new app. For client work, knowing what DATEV and
-  SAP already do (his NetSuite point) is the domain skill that separates Jens from a generic
-  LLM engineer.
-- **Model choice: his proxy setup is an asset, with one caveat.** Benchmarking each workflow
-  against several models is what the LiteLLM proxy already allows. But the local default is
-  Qwen, and the guest says enterprises refuse Chinese models — for client work, keep an
-  approved non-Chinese route ready and say so in the offer.
-- **Not for him now:** PE carry, Fortune-500 engagements, a 35-engineer roll-up team. Doing the
-  first project for free is a real cost at his runway; one paid, small, measured workflow is the
-  version that fits.

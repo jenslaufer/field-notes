@@ -227,58 +227,6 @@ Note what it is not: not "treat it as a tool", not "treat it as a person". **Tre
 competent, well-meaning colleague who can be socially engineered** — and then write the job
 description and the sign-off rules that this implies.
 
-## Relevance for Jens
-
-**Genre: one audit that applies to this operation directly, plus one mechanism that is
-already implemented here without the vocabulary.** No money thread; the value is that the
-trifecta is a five-minute check that produces a verdict, and this setup has never been run
-through it.
-
-**1. This assistant holds all three legs of the trifecta. That is a measurement, not a
-worry.**
-
-| Leg | Present here |
-|---|---|
-| Private data | `~/.secrets/`, the bookkeeping repos, bank and Stripe data, Gmail, the CV, house-sale correspondence |
-| Untrusted content | inbound Gmail, the freelancermap Postfach, Kleinanzeigen messages, scraped competitor pages — all of it attacker-writable text, read into the same session |
-| External communication | Telegram send, SES/SMTP send, `git push`, the Launch-Kit and Cal.com APIs |
-
-Katie's judgement applies without adjustment: with all three in one agent, defending
-reliably is *"maybe impossible"*. The honest framing is not that something is broken —
-nothing has gone wrong — but that **the current safety story is "the model has good
-judgement", which is exactly the story the episode dismantles.** The cheapest available
-counter is the CaMeL split, and the machinery already exists: sweeps of attacker-writable
-surfaces could run as a **read-only subagent with no credentials and no send tool**,
-returning structured findings to the session that acts. That is a genuine option to put to
-Jens, not something to build unasked.
-
-**2. The compaction failure is this operation's own failure mode — and the fix is already
-in place, by accident of design.** An agent losing a standing instruction when context is
-compressed is precisely the 25-minute session kill plus the ~25k-token silent `Read`
-truncation. The reason "never push to main", "no test pings to live Telegram", "PRs are
-never closed" have survived hundreds of sessions is **not** that any session remembered
-them: they are re-read from `MEMORY.md` and the profile at the start of every session.
-**That is enforcement outside the prompt** — the thing the OpenClaw user did not have.
-Corollary worth acting on: a rule that exists only in a running conversation, or only in a
-`waiting.md` line that has grown past the read cap, is not a rule. The file-size discipline
-in the end-of-session checklist is a *safety* control, not tidiness.
-
-**3. "Relatedness is not authorization" is a boundary rule this operation keeps breaking
-against.** *Clean up my branches* ≠ batch delete. *Can we fix this?* = a question, not a
-directive. The recurring pattern in feedback — building before validating, widening a task
-past what was asked, treating an approval in one context as standing permission — is the
-same over-eagerness failure the transcript classifier exists to catch. The mitigation the
-episode suggests transfers cleanly: judge a proposed action against **what was authorized**,
-not against **what would serve the goal**.
-
-**4. The 93 % number is a warning about Jens's own review load.** Every PR here is
-explicitly routed to Jens to merge. That control is real *only* while the volume stays low
-enough for it to be read. 72 merged PRs in July is close to the regime where merging becomes
-approve-approve-approve — the same button the study measured. **The defense is not more
-prompts, it is tiering:** the quality gate and the tests-first rule are what make most PRs
-safe to wave through, and the burst/cadence caps are what keep the queue short enough that
-the risky ones still stand out.
-
 ## Links
 
 - Lethal trifecta — simonwillison.net/2025/Jun/16/the-lethal-trifecta/

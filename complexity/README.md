@@ -1,6 +1,8 @@
 # Complexity Science
 
-Notes on complexity science, complex systems, emergence and their foundations — the Santa Fe Institute canon (David Krakauer, Melanie Mitchell, John Krakauer), systems thinking, stochastic processes, and antifragility. Each note ends with a solo-builder read.
+Notes on complexity science, complex systems, emergence and their foundations — the Santa Fe Institute canon (David Krakauer, Melanie Mitchell, John Krakauer), systems thinking, stochastic processes, and antifragility. Several notes end with a generic solo-builder read.
+
+Personal takeaways for Jens, collected across all notes: [`insights-for-jens.md`](insights-for-jens.md).
 
 - [`2025-07-29-melanie-moses-scaling-decentralization.md`](2025-07-29-melanie-moses-scaling-decentralization.md) — Melanie Moses (computer science, UNM; SFI external faculty), Scaling Theory #21 (July 2025): decentralization changes the scaling law but its infrastructure is never free (the swarm-robot roadway), information scales differently from energy so filters are load-bearing, the ants that ignore the pheromone trail are the adaptive ones, no universal scaling law but keep looking, and the AI leverage sits in the protocol that connects flawed agents — not in the agent
 - [`2024-09-25-nature-of-intelligence.md`](2024-09-25-nature-of-intelligence.md) — Melanie Mitchell's 6-part COMPLEXITY season (Santa Fe Institute): each episode summarized individually — intelligence as a suitcase word, language vs thought, LLMs as "exotic mind-like entities" that role-play, babies vs machines, construct validity in testing, Mitchell's own AI-seasons worldview

@@ -23,5 +23,3 @@ captured: 2026-06-14
 **Result.** Large reasoning gains on top of CoT: GSM8K +17.9%, SVAMP +11.0%, AQuA +12.2% (with PaLM-540B and similar). Robust across model scales.
 
 **Takeaway.** The cheapest orthogonality there is. Cost scales linearly with sample count, and it only helps where answers are discrete enough to vote over. It's the redundancy floor every richer method builds on.
-
-**Our stack.** This is the principle under N-version / A-B bake-offs: divergence between independent attempts is itself the signal.

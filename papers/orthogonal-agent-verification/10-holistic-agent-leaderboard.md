@@ -25,5 +25,3 @@ captured: 2026-06-14
 - A score alone hides this — you have to read the *behaviour*.
 
 **Takeaway.** Report **cost and behaviour, not just a top-line score**, and evaluate scaffolds as part of the system. Third-party, log-transparent evaluation catches what self-reported accuracy hides.
-
-**Our stack.** Justifies our cost-tracking on bake-offs and the habit of reading *what the agent did* (file diffs, tool calls), not just whether tests passed.

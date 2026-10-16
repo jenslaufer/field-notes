@@ -272,18 +272,18 @@ everyone repeats:
 
 ## Solo-builder read
 
-Four things here are load-bearing for how I work; the rest is beautiful and not
-actionable, and I'd rather say so than manufacture relevance.
+Four things here are load-bearing for a solo builder; the rest is beautiful and not
+actionable, and saying so beats manufacturing relevance.
 
 **1. Price the roadway before claiming the scaling.** The swarm-robot result is the
-cleanest statement I have found of a mistake I keep repeating: build the decentralized
+cleanest statement of a common mistake: build the decentralized
 workers, watch them work at n = 5, then hit a wall at n = 500 that no amount of
 better workers fixes, because the missing piece is *infrastructure* — and the
 infrastructure has to be paid for separately, in advance, with no visible output while
 you build it. Test to apply before the next "let's scale this up": name the roadway and
 the trucks, and their cost. If they aren't named, the plan is n = 5 with optimism.
 
-**2. Superlinear is information, sublinear is stuff — and my portfolio is mostly stuff.**
+**2. Superlinear is information, sublinear is stuff.**
 Patents and crime scale superlinearly, pavement sublinearly. Every asset that pays off
 per-capita-increasing is an information/interaction asset. Repos are pavement.
 
@@ -292,20 +292,17 @@ is"* is about connecting unreliable agents in a structure whose job is to find t
 flaws. That is precisely what a quality gate, an adversarial reviewer, or a critic
 subagent is — and it says the marginal return is higher there than in a better single
 agent. Concretely: a stronger model on one task is worth less than a cheap second agent
-whose only job is to try to refute the first. This is the one place where the episode
-argues *for* work I am already doing, and it argues for more of it.
+whose only job is to try to refute the first.
 
 **4. The ants that ignore the trail are load-bearing — but only against a working
 trail.** Explore/exploit is not permission to scatter; the wandering ants are adaptive
-*because the colony also has ants on the pheromone trail*. My failure mode is the
-inverse of the scientist's: too many wandering ants, no reinforced trail. The correct
-reading for me is not "explore more", it is "the exploration budget is only defensible
-once something is being exploited." Add the pivot penalty [33:54] and it gets sharper:
-the market pays the specialist, and pivots are punished by the reward system, not by
-the ideas.
+*because the colony also has ants on the pheromone trail*. The exploration budget is
+only defensible once something is being exploited. Add the pivot penalty [33:54] and it
+gets sharper: the market pays the specialist, and pivots are punished by the reward
+system, not by the ideas.
 
 **Not applicable, said out loud:** scalable trust, governance, urban road allometry and
-neuromorphic hardware are the substance of the episode and have no thread to my money
-line. The filter argument [17:29] is interesting for anyone building distribution — you
-are always competing against a filter that exists because it must — but that is an
-observation, not a move.
+neuromorphic hardware are the substance of the episode and have no thread to a solo
+builder's money line. The filter argument [17:29] is interesting for anyone building
+distribution — you are always competing against a filter that exists because it must —
+but that is an observation, not a move.

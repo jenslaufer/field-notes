@@ -3,7 +3,7 @@ title: "Orthogonal Verification Methods for AI Agents"
 type: "paper survey"
 papers: 10
 captured: 2026-06-14
-source: "curated reading list (Jens)"
+source: "curated reading list"
 ---
 
 # Orthogonal Verification Methods for AI Agents
@@ -17,7 +17,7 @@ The ten papers split into five families by *how* they create independence.
 
 Each paper also has its own one-page note in
 [`orthogonal-agent-verification/`](orthogonal-agent-verification/) — problem,
-method, result, takeaway, and how it maps to our stack.
+method, result, and takeaway.
 
 ---
 
@@ -120,7 +120,7 @@ top-line score.
 
 ## The orthogonal perspectives, mapped
 
-Jens's extra checklist (factual correctness, logical consistency, math
+An extended checklist of perspectives (factual correctness, logical consistency, math
 verification, counterexample search, red-team, security/risk, economic
 plausibility, stakeholder view, historical analogy, scientific evidence, source
 quality, long-term effects, edge-case, premortem, devil's advocate, N-version,
@@ -149,13 +149,3 @@ checker, a red-teamer, and an economic-plausibility check rarely miss the same w
   solo agent is weak (<~45% solo success); above that, coordination overhead hurts
   (see `linear-digressions/08`). Match the verification architecture to the task.
 
-## How this maps to our own stack
-
-- **actor/critic skills** (`copywriting --critic`, `vue-developer --critic`, …) =
-  CRITIC / Constitutional pattern: a separate critic scores the actor's output.
-- **A/B bake-offs** (mini-PC vs Fabrik, same spec) = N-version reasoning — divergence
-  between arms exposes discipline gaps a single run would hide.
-- **Quality Gate** (unit + build + e2e in clean containers) = tool-based verification
-  with an external oracle, run before trusting a PR.
-- **Premortem memory** + **adversarial verify in workflows** (refute-by-default
-  skeptics) = debate/devil's-advocate applied to our own findings.

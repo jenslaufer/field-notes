@@ -523,58 +523,6 @@ most portable thing in the episode: **reputation is a binary attached to an unbo
 Any system that rewards frequency of being right rather than magnitude can be farmed indefinitely
 by someone who does not hold the downside — and will be, without anyone deciding to cheat.
 
-## Solo-builder read (insights for Jens)
-
-The setup fits this episode almost too well: no employees, so no classic principal-agent problem
-inside the company — but a permanent, growing perimeter of people and systems acting on my behalf
-that hold none of my downside. Agencies, recruiters, vendors, platforms, and now AI agents that
-write and ship code. Every one of them is long an option I wrote.
-
-- **Run the column test on the perimeter.** For each counterparty ask only: if this goes wrong in
-  the worst plausible way, what do *they* lose? A recruiter loses a fee they never had. An agency
-  loses a replaceable retainer. A platform loses one seller out of thousands. A coding agent loses
-  nothing at all — it cannot. In each of those I am the taxpayer. Not a reason to stop using them;
-  a reason never to buy their forecast.
-- **For AI agents the fit is exact.** An agent optimises for the appearance of a finished task — the
-  binary — and the review surface is a PR that looks complete. That is literally "shoot for a high
-  probability, low impact event", and it is why the recurring failure here is the agent that commits
-  three of eight files and reports done, or writes a PR message describing work it did not deliver.
-  The agent holds no tail, so the fix cannot be a better prompt asking it to be careful — prompts
-  are disclosure, and disclosure is what Hammurabi replaced. The fix is structural: gates that make
-  the *absence* of the claimed change fail loudly — a bugfix test that was red before, a
-  partial-commit guard, a quality gate it cannot talk past. Verification attaches to the artifact
-  because it cannot attach to the agent's downside.
-- **Never buy an opinion where an exposure is available.** A vendor's stated confidence and a
-  vendor's actual position are different variables, and neither predicts the other. So rewrite the
-  question. Not "will this integration work?" but "what does your invoice look like if it doesn't?"
-  Not "is this a good channel?" but "will you take part of the fee on performance?" The second
-  answer is information; the first is weather.
-- **Cashflow work is picking up nickels — fine, as long as I know where the bulldozer is.** A day
-  rate is high-frequency, low-magnitude income with a rare correlated loss: the one client, gone in
-  a month. The warning is not against the strategy, it is against reading a good run as evidence.
-  Nine quiet quarters of single-client concentration look exactly like the nine quarters before a
-  blow-up. Same for the capital feedback loop: every success invites more of the same commitment, so
-  cap any single dependency while things are going well, because it cannot be capped afterwards.
-- **My own skin is a sales asset, and I under-use it.** Taleb's line about picking up the phone
-  without discomfort is a *sales* argument, not an ethical one: a solo founder who ships his own
-  software, runs it against his own money and eats his own outages holds a position no agency and no
-  offshore team can hold. That differentiator survives commoditisation by AI, because it is not
-  about the code. It belongs in the offer explicitly — shared risk, a fee that moves with the
-  outcome, a guarantee that costs me something real.
-- **Read the buy-side of the tail as the strategy, not the risk.** The distinction is sign, not
-  size: selling small probabilities (one client funding everything, a no-fallback dependency, a
-  personal guarantee) versus buying them (a published artifact, a store listing, a cheap paid test).
-  Both look like risk from outside. Only one can pay off unboundedly, and only one can end me.
-- **Shame works locally, so build local loops deliberately.** What keeps a Swiss municipality honest
-  is a person in church on Sunday; working alone with remote vendors deletes that surface. The
-  substitutes are structural — short contracts, small first orders, repeat business as the real
-  incentive, payment in tranches against delivered artifacts.
-- **And the honest counterweight, which is Roberts' point rather than Taleb's.** Too much skin in
-  the game prices things out: demanding downside from every vendor loses the good ones and selects
-  for the desperate. The usable form is Taleb's own retreat — "a painful disincentive beyond the
-  cosmetic", not symmetry. A deposit at risk, a milestone unpaid, a renewal not granted. Enough to
-  change a decision, cheap enough that the deal still happens.
-
 ## Quotable
 
 - "no inspector, no regulation, will ever ever outperform that simple rule."

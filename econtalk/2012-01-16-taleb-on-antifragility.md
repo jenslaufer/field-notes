@@ -439,45 +439,6 @@ column can behave insanely is not stupidity, it is that someone else holds their
 tail. Where a system lets one party keep the upside and post the downside elsewhere, no
 amount of measurement fixes it — only the Hammurabi move does.
 
-## Solo-builder read (insights for Jens)
-
-- **The stress-test-the-second-derivative habit transfers directly to a business.** Don't
-  ask "can I survive a bad month?" Ask: what does one bad month cost, what do two cost,
-  what do three cost — and does the third one cost *more than* the first two combined? If
-  it does, that is a fragility with a name and a location, and you can remove it today
-  without forecasting anything. Same test on a channel, a client concentration, an API
-  dependency, a single machine.
-- **The writers' barbell is a description of the current setup, and it says the middle is
-  the danger.** Kafka's cushy job plus speculative writing at night maps onto a stable
-  income floor plus genuinely convex bets. The failure mode Taleb warns about is not
-  "too risky" — it is *the journalist*: work that is moderately demanding, moderately
-  paid, and consumes exactly the energy the speculative side needs. Worth holding a
-  freelance day rate against: it is the safe half of a barbell only while it stays a
-  floor and does not become the whole bar.
-- **"In real life, people don't notice the options"** is the most directly monetisable
-  sentence in the hour. Options in a solo business are things with a bounded cost and an
-  unbounded, unknowable payoff: a published artefact, a listing in a store, a small paid
-  test, an application sent. Their price is known; their upside is not. The discipline is
-  to keep buying cheap ones and to stop measuring them by expected value, because the
-  expected value is exactly the thing that is uncomputable.
-- **Selection bias is the check to run on my own "what doesn't kill you" stories.** When
-  a channel or a product looks like it got stronger after a shock, ask whether anything
-  actually improved or whether the weak variants just disappeared. Taleb applies this to
-  his own favourite example without being asked, which is the standard to meet.
-- **Via negativa is a to-do list I do not keep.** The removals — a subscription, a
-  half-alive project, a channel that has never returned a euro, a dependency with no
-  fallback — have no side effects and compound. The additions all do have side effects
-  and none of them can be predicted. A subtraction list is cheaper to maintain than a
-  roadmap and is more likely to be right.
-- **The Cameron proposal is a template for any asymmetric relationship, not just banks.**
-  Instead of regulating the size of a thing, price the option it holds over you. Applied
-  to a supplier, a platform, or a single customer: if their failure lands on me, what am
-  I entitled to in exchange? If the answer is nothing, I am the taxpayer in that
-  arrangement.
-- **Seneca's nightly write-off is the cheapest of all of them.** Marking the whole balance
-  to zero once, deliberately, converts a number that can be lost into one that can only
-  be gained — and it is the same move as clipping the left tail, executed on the inside.
-
 ## Quotable
 
 - "You just give light on something by coining a word; and that turned out to be

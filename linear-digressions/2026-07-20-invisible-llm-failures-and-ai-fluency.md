@@ -286,69 +286,13 @@ are the sturdier results.
 
 **Direction: trust it. Specific decimals: don't.**
 
-> **A live demonstration, from building this note.** My first automated read of the
+> **A live demonstration, from building this note.** A first automated read of the
 > paper returned two confident, well-formed statistics — "91 % of failures are
-> interactional" and "94 % would persist with better models" — and I had them drafted
+> interactional" and "94 % would persist with better models" — and both were drafted
 > into this file. Neither sentence exists in the paper. Checking against the full text
-> returned NOT PRESENT for both. That is *The Confidence Trap*, committed by my own
-> pipeline, inside a note about the Confidence Trap, and it was caught only because
-> the numbers were checked one at a time against the source.
-
-## Where this lands on our operation
-
-This episode is the *user-side* companion to the note on
-[unfaithful chains of thought](2026-04-13-unfaithful-chains-of-thought.md). That one
-said: the model's self-report is a second artefact, not a log. This one says: **and you
-will not notice.**
-
-Our own logged findings are, one by one, Potts' archetypes with our names on them:
-
-| Our finding | His archetype |
-|---|---|
-| PR commit message claims work that isn't in the diff | **The Confidence Trap** |
-| Agent commits 3 of 8 items, declares done | **The Silent Mismatch** |
-| `.failed` marker lies; task looks finished | **The Mystery Failure** |
-| `A \|\| B` coverage test accepts the weak branch, stays green | **The Confidence Trap** |
-| `toContain("56 articles")` green while 0 of 56 links exist | **The Confidence Trap** |
-| Agent improvises literal values instead of copying the spec verbatim | **The Drift** |
-| Same fix rebuilt four times across crashed sessions | **The Death Spiral** |
-
-Three things that follow, concretely:
-
-1. **Our task pipeline is the delegative stance, industrialised.** An agent-task YAML
-   is a one-shot spec fired at 22:00 into a runner with nobody to ask. Potts' confessed
-   personal weakness — *"a specification up front in one big block of text and then
-   just hoping it will all work out"* — is literally the format of every YAML we write,
-   and iterative refinement is the one behaviour that most separates experts from
-   novices. This is not an argument to stop: his verifiability point says code is the
-   *good* case, the one domain where you can't be fooled for long. It is an argument
-   that the quality of an unattended run is decided **entirely** by how much
-   verification we compiled into the spec up front, because no course-correction is
-   available at runtime. Every YAML should be read as: *what will catch this if it
-   drifts, given that nobody is watching?*
-2. **Assert per element, never over an aggregate.** Already our rule, arrived at
-   empirically after `A || B` and `toContain("56 articles")`. Potts' *"everything is at
-   75 %"* is the identical failure seen from the research side. The fluency paper
-   explains why we keep re-learning it: a well-written summary buys trust it hasn't
-   earned — and it just bought some from me again, three sections up.
-3. **Friction in our own tooling is not overhead.** The quality gate, the red-first
-   proof requirement, the "verify all touched files are staged" guard — each was added
-   after being burned, each makes the loop slower, and the research says that is the
-   correct direction of travel, not something to optimise away.
-
-**And one open question aimed straight at us.** Asked what he wants to work on next:
-
-> "I want to address some fundamental questions that I feel everyone is taking for
-> granted. **What is the marginal value of a skill file?** Everyone is out there
-> investing in creating these skill files that are helping their environment do harder
-> things for them in a more customized way. But does it lead to more productivity? Does
-> it lead to interactions that have the right kind of friction, or that avoid the wrong
-> kind of friction? **Does it lead to good things like more PRs on average?**"
-
-We run ~90 skills, a 24 KB memory index, profiles and routines — a large, entirely
-unmeasured investment in exactly the artefact a Stanford professor says nobody has
-evidence for. Nobody has run that experiment on our setup. We have the data to: PR
-outcomes, QG pass rates and task-failure markers are all logged per run.
+> returned NOT PRESENT for both. That is *The Confidence Trap*, committed by the
+> note-writing pipeline, inside a note about the Confidence Trap, and it was caught only
+> because the numbers were checked one at a time against the source.
 
 ## Sources
 

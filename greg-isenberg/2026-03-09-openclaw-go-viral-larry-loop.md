@@ -66,18 +66,6 @@ not any single video.
 - **Honest caveat from the episode: churn is high.** Viral installs ≠ retained
   subs. Solve onboarding or the loop just rents users.
 
-## Why this matters for us
-
-- **Distribution as a closed loop, not a campaign.** The edge is the
-  analytics→content→revenue feedback wired together — directly applicable to
-  launch-kit lead funnels (instrument the funnel, let it self-tune).
-- **Own-hardware, own-files agent** = cheap, ownable growth engine. No per-seat
-  SaaS tax on your own marketing.
-- **The diagnosis matrix** (hook vs CTA vs onboarding) is a reusable conversion
-  triage we can copy for any paid or organic funnel.
-- Reinforces the house thesis: building is cheap, **the loop that learns what
-  converts** is the moat.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=OV5eK91YY68

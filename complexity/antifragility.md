@@ -156,10 +156,10 @@ the game so feedback is real → let time / Lindy do the selection.
   the point is *bounded* downside + *unbounded* upside; (c) using "via negativa" as an
   excuse for inaction rather than disciplined removal of downside.
 
-## Why this matters for us
+## Solo-builder playbook
 
 A one-human-one-AI shop running a portfolio of small software products is, structurally,
-an antifragility machine — *if* we set the shape deliberately:
+an antifragility machine — *if* the shape is set deliberately:
 
 1. **Run a barbell product portfolio.** Safe leg = the 1–2 cashflows that pay the bills,
    defended conservatively (low burn, no debt, boring reliability). Convex leg = many
@@ -172,8 +172,7 @@ an antifragility machine — *if* we set the shape deliberately:
    precisely the antifragile lever. Keep per-bet cost small enough that any single
    failure is a shrug; pour into the rare winner, kill losers fast (via negativa).
 3. **Via negativa first.** Before adding, remove fragilizers: single points of failure
-   (one platform, one traffic source, one credential that silently expires — see our own
-   outage learnings), debt, irreversible commitments. Capping downside out-leverages
+   (one platform, one traffic source, one credential that silently expires), debt, irreversible commitments. Capping downside out-leverages
    chasing upside.
 4. **Court positive Black Swans with capped downside.** Ship publicly, in volatile
    channels, often. You can't predict which post/product goes viral, so maximize the

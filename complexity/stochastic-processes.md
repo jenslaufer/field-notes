@@ -71,8 +71,8 @@ type: concept distillation
    noise multiplies) — wealth, portfolios, startups, anything that grows in
    percent. This is where ensemble and time averages split hardest: positive
    expected return per step is compatible with almost every single path going
-   to zero (variance drag: time-average growth ≈ mean − σ²/2). Kelly sizing,
-   "volatility is a tax", and my /ergodicity/ simulator all live here.
+   to zero (variance drag: time-average growth ≈ mean − σ²/2). Kelly sizing
+   and "volatility is a tax" live here.
 7. **Mean-reverting processes** (Ornstein–Uhlenbeck: pulled back to a level) —
    interest rates, pairs trading, body temperature, ad-auction prices, most
    operational KPIs. The trap runs the other way here: apparent "improvement
@@ -116,44 +116,6 @@ the zoo is knowing why these architectures look the way they do.
   by their largest single event, and sample means converge slowly or lie.
   Before averaging anything, ask which regime generated it — Mandelbrot's point
   about markets, Taleb's about everything else.
-
-## Solo-builder read (what this changes for my work)
-
-- **The concepts family already teaches half the zoo — now I can name the other
-  half.** /ergodicity/, /sequence/, /compounding/ = multiplicative processes and
-  path dependence; the feedback-loop sims = dynamics with noise; /uncertainty/ =
-  distributions. Open, highly teachable gaps with strong predict-then-reveal
-  material: **gambler's ruin / absorbing barriers** ("fair game, certain ruin —
-  guess how long you survive"), **the Pólya urn** ("two identical products, one
-  ends with 80% share — pure luck locked in"), and **Poisson clumping** ("here
-  are 100 arrivals: which strip is random, which is human-faked?" — people
-  reliably fake it too evenly). Each is a one-evening build on the existing
-  scaffold, and each is a stochastic process, so the note doubles as a build
-  backlog.
-- **The fingrab verdict rule is Poisson thinking, formalized.** Judging a
-  low-rate channel (conversions at small λ) on ~30 clicks is asking a photograph
-  question of a film: at plausible conversion rates, weeks of zeros are the
-  *expected* path, not evidence of death. The discipline — fix a clean
-  measurement window first, then judge on one number — is exactly how you treat
-  a rare-event arrival process. Corollary with teeth: the kill threshold should
-  be set in *expected conversions* (spend × plausible rate), not in gut-feel
-  days.
-- **Distribution is hard because attention is a Pólya urn.** Preferential
-  attachment says the cold start is not a skill deficit — it's the structural
-  regime of every attention market. Two honest responses: buy your first
-  attention (paid search = skipping the urn's early rounds) or make repeated
-  cheap draws and let one lock in (the serendipity lane, measured at the input).
-  Both lanes of the Tuesday routine are answers to the same process.
-- **Non-stationarity is the epitaph of the freelance market call.** "My last
-  three applications all converted to permanent-position offers" was the
-  process announcing its rules had changed — old base rates (what worked in
-  2021) were samples from a different process. When a channel's *generating
-  process* shifts, more effort on old data is noise-chasing.
-- **Absorbing states are the real risk frame for the runway.** The withdrawal
-  model (net-withdrawal Monte Carlo) is a first-passage problem: the question
-  is never "what's the average end wealth" but "which paths touch zero, and
-  when". Spending flexibility works because it moves the absorbing barrier —
-  same expected spend, radically fewer absorbed paths.
 
 ---
 

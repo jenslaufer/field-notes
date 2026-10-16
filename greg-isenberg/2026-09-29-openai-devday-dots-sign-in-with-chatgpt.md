@@ -140,30 +140,3 @@ His precedent is the AEO/GEO wave, and his figure for it is hedged on air: *"I t
 raised at a $2 billion valuation or billion-dollar valuation."* Treat the valuation as
 unverified. The question he closes on: *"who's going to be the profound for this personal
 agent era"*.
-
-## Insights for me
-
-- **"Sign in with ChatGPT" removes the one cost that keeps AI features out of the free tier —
-  but only for apps that live on the web and can take a ChatGPT login.** The extensions
-  (FinGrab 512 users, 3 paid subs; xG Calculator 51 users, no paywall) have no inference cost
-  today, so the episode's core argument does not change their economics. Where it would bite:
-  any AI feature I have kept behind a paywall *because* of token cost. That list is short, and I
-  should check whether it is empty before treating this launch as relevant at all.
-- **The episode says "distribution is the plugin getting picked" — that is my bottleneck
-  renamed, not solved.** Being "hired before the customer knows your name" is exactly what a
-  builder without an audience needs, and exactly what the Chrome Web Store already promised:
-  rank follows the listing text, not the product. The first measurable question is the one in
-  idea 2 — does an agent pick my tool for a stated job — and nobody can measure it yet from the
-  outside. Wait for the ranking rule to become observable before building for Dots.
-- **Trigger/action/feedback maps cleanly onto the e-invoice API — the one product where I
-  could own all three.** Trigger: *"an invoice becomes due"* is his own first example. Action:
-  generate and validate XRechnung. Feedback: accepted or rejected by the recipient's portal —
-  *"Was it approved? Was it rejected?"* That is a concrete test for a plugin/Agents-API surface
-  that fits the 2027 mandate; my judgement, the episode does not mention e-invoicing.
-- **Fabrik vs. the Agents API.** OpenAI now sells multi-agent, tool calling and context
-  compaction as a managed harness. That commoditises the harness half of Fabrik; what stays
-  sellable is the workflow (worktree isolation, proof in the PR, review loop — the software-factory note).
-  Pitch Fabrik as the workflow, never as the harness.
-- **Not for me now:** the real-world work API needs a vetted supplier network in a niche — a
-  two-sided marketplace, and the supply side is a network I do not have. The analytics layer is
-  a venture-scale bet against funded incumbents. Neither is a small bet toward 5k EUR/month.

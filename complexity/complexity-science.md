@@ -124,7 +124,7 @@ simulation and new forms of computation are the native tools of the field.
   competitive artifacts. Choose and build tools that train the user's own model of
   the world.
 
-## Solo-builder read (what this changes for my work)
+## Solo-builder read
 
 - **The four-pillar rotation is a free design checklist.** For any product,
   campaign or system: What does it cost per cycle (entropy)? What survives
@@ -132,16 +132,6 @@ simulation and new forms of computation are the native tools of the field.
   (dynamics)? What problem does it actually solve, and how hard (computation)?
   Most business analysis uses one pillar and is blind to the other three —
   Wiener's mistake, commercialized.
-- **The concepts.jenslaufer.com family is a complexity-science curriculum in
-  disguise** — and the map shows the gaps. The feedback-loop sims (balancing,
-  reinforcing, delay, noise) cover the *dynamics* pillar; uncertainty/ergodicity/
-  barbell cover *entropy/probability*. Open quadrants with proven teachability:
-  **emergence itself** (simple local rules → macro surprise: flocking, Schelling
-  segregation, traffic jams from nothing — the strongest predict-then-reveal
-  material in the field), *evolution/adaptation*, and *computation*. Emergence is
-  also the concept that justifies the whole simulator idea: organized complexity
-  can't be solved in closed form — **you have to run it to see it**. That's
-  Weaver's argument, and it's why a Monte-Carlo sim teaches what prose can't.
 - **Meadows plugs in as one pillar of four.** Thinking in Systems
   (see `thinking-in-systems.md`) is the dynamics pillar done well; Krakauer names
   the other three so you notice when a systems-lens alone is Wiener-style
@@ -150,11 +140,10 @@ simulation and new forms of computation are the native tools of the field.
   (hardening one thing) only takes you so far; systems that persist *replicate
   cheap parts*. For a solo builder under uncertainty: many small, replaceable bets
   over one hardened bet — the complexity-science ancestor of the barbell.
-- **Build complementary artifacts.** The sims are exactly Krakauer's
-  "complementary cognitive artifacts" — they leave the user with a better internal
-  model after the tab is closed. That's a positioning sentence for the hub, and a
-  filter for what to build next (anything that merely *answers* is a competitive
-  artifact; anything that *trains intuition* is complementary).
+- **Build complementary artifacts.** A filter for what to build next: anything that
+  merely *answers* is a competitive artifact; anything that *trains intuition* —
+  leaves the user with a better internal model after the tab is closed — is
+  complementary.
 
 ---
 

@@ -223,13 +223,3 @@ captured: 2026-06-18
   revenue, not vanity** (put RevenueCat in the loop). *(making-money-with-ios-apps, openclaw-go-viral)*
 - **Honest caveat:** viral installs ≠ retained subs. Churn is high; fix onboarding
   or the loop just rents users. *(openclaw-go-viral)*
-
-## Why this matters for us
-
-- **Launch-kit is a distribution-first bet** — these tactics (warm-list validation,
-  free-tool + email capture, per-result pricing, one-angle-per-ICP landing pages)
-  are directly copyable into the idea-validation funnel.
-- **The cheapest copyable channels for us:** programmatic SEO + AEO (Firecrawl +
-  Claude Code), a weekly free tool, and an MCP server — all zero/low-CAC.
-- **Pricing and positioning are marketing** — verticalized message + outcome/
-  per-result pricing is a higher-converting wedge than generic SaaS framing.

@@ -313,35 +313,6 @@ through the probability.** In 2007 that is argued epistemically — the probabil
 knowable. Later it hardens into a claim about payoffs. That the shape was already here,
 before any of it paid off, is why this recording is worth more than the summaries of it.
 
-## Solo-builder read (insights for Jens)
-
-- **The classification move is free and I do not run it.** Sorting exposures into
-  negative-tail, neutral and positive-tail needs no forecast, no data, ten minutes. A single
-  large client is negative-tail; a monthly SaaS floor is roughly neutral; a published
-  artefact in a store is positive-tail. The useful shock is not how many negative-tail items
-  there are — it is how much of my week goes into *neutral* work that cannot ever produce
-  the outcome I am working for.
-- **Go to parties is the instruction I would edit out if I were summarising, which is
-  exactly why it stays.** The speculative sleeve is exposure to encounters whose payoff
-  cannot be estimated, and for someone with no network that sleeve is near zero regardless
-  of what the portfolio looks like. Harder to follow than any allocation percentage, and
-  unambiguously the underweight one.
-- **The Stigler story is about my tooling, not about econometrics.** When each test was
-  expensive the thinking happened before it; when tests are free — and an agent can run
-  fifty variants overnight — the thinking migrates to after the results, where it is
-  selection. The countermeasure is not fewer experiments but writing down what counts as a
-  positive result before launching, and keeping the failures visible.
-- **The blurry dog describes how I watch metrics**, and the dentist/trader test says which
-  of those numbers I may learn from. Checking a slow-moving series daily is gradual
-  resolution increase: it buys time to build intermediate theories that block the pattern.
-  And thin-tailed feedback — a feature someone uses, a bug fixed — is real evidence of
-  skill, while a launch or a store listing is not: building a method out of one good
-  fat-tailed outcome is the 1000-traders error committed on a sample of one.
-- **The envelope of serenity is a better objective than growth.** It makes the secure part
-  psychological infrastructure: it exists so the speculative part can be held without panic.
-  That is why losing the floor costs more than the money — it forces the speculative sleeve
-  to be liquidated first.
-
 ## Quotable
 
 Only the first three are attributed to a speaker in the source; the rest are the

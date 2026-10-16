@@ -1,5 +1,8 @@
 # Linear Digressions — where to check for new episodes
 
+Personal takeaways from all episodes live in one file: [`insights-for-jens.md`](insights-for-jens.md).
+The episode notes carry only the source.
+
 **Use the real podcast feed:**
 
 ```
@@ -41,9 +44,8 @@ curl -s "https://feeds.feedburner.com/linear-digressions?format=xml" \
 
 ## Which notes are built on a transcript, and which are not
 
-Jens, 2026-08-04 09:29: *"die Folgen … hast du zusammengefasst anhand der Summary Notes.
-Mach das bitte aber mach eine Summary bitte von den Transcribes"* — so every note here is
-being rebuilt from the audio. A note counts as done only when its front matter carries a
+Since 2026-08-04 every note here is built from the audio transcript, not from the show
+notes. A note counts as done only when its front matter carries a
 `transcript:` line.
 
 | Note | Source | gemessen |
@@ -173,13 +175,14 @@ nie, sie wird nur nicht aufgeloest. Gemessen: 23:21 Audio in **~2 min** bei 7 Th
 371 % CPU. Fertig-Signal bleibt allein die Logzeile `transcribed MM:SS`.
 
 **2. `verify-quotes.py` haelt bei der Ueberschrift `## Insights for me` an** (Konstante
-`DEFAULT_STOP`, per `--stop-at` aenderbar). Wer den Schlussabschnitt anders ueberschreibt,
-laesst die **eigenen** Saetze als Zitate mitpruefen — und deutsche Anfuehrungszeichen
-(`„ …"`) ergeben dann leicht eine ungerade Zahl, worauf das Werkzeug `UNPARSEABLE`
-meldet statt eines Ergebnisses. Also die Konvention-Ueberschrift benutzen:
-`## Insights for me (Jens) — my connections, flagged as mine`.
+`DEFAULT_STOP`, per `--stop-at` aenderbar). Seit 2026-10-16 tragen die Notizen keinen
+solchen Abschnitt mehr — eigene Einsichten stehen gesammelt in `insights-for-jens.md`.
+Das Werkzeug prueft eine Notiz also bis zum Ende. Eigene Saetze in Anfuehrungszeichen
+werden dann als Zitate mitgeprueft, und deutsche Anfuehrungszeichen (`„ …"`) ergeben
+leicht eine ungerade Zahl, worauf das Werkzeug `UNPARSEABLE` meldet statt eines
+Ergebnisses. Also keine eigenen Saetze in Anfuehrungszeichen in die Notiz.
 
 **Und den Exit-Code ohne Pipe messen.** `verify-quotes.py … | tail` gab **Exit 0**
 zurueck, waehrend das Werkzeug die Notiz gar nicht pruefen konnte — `$?` gehoert dann
-`tail`. Erst `> datei; echo $?` zeigte die echte Lage. Dieselbe Falle wie beim
-Bing-Auslieferungs-Check und beim freelancermap-Sweep.
+`tail`. Erst `> datei; echo $?` zeigte die echte Lage. Dieselbe Falle gilt fuer jeden
+Check hinter einer Pipe.

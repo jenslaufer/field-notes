@@ -271,52 +271,6 @@ air, and then re-tells the same content in her own voice.
   [`2026-07-20-invisible-llm-failures-and-ai-fluency.md`](2026-07-20-invisible-llm-failures-and-ai-fluency.md)
   is the Potts episode.
 
-## Relevance for Jens
-
-**Genre: concept card with three copyable mechanisms.** No money thread — but this is the
-closest thing in the season to a peer system: one person, two agents, a weekly artifact, and a
-production tail she refuses to hand over.
-
-**1. "The average is flat by construction" is the mechanism behind your own verdict.** You
-said in April 2026 that AI-generated website copy is *Schrott*, and that has stood as a rule
-without a reason. Here is the reason, from the agent's own mouth: an unconstrained request
-aims at the middle of the distribution. It lines up exactly with the distillation episode —
-performance and creativity live in the **tails**, mode-only training produces something
-*"more rigid, a little bit less performant"*
-([`2026-07-27-distillation-how-to-steal-a-model.md`](2026-07-27-distillation-how-to-steal-a-model.md)).
-Two independent episodes, same finding from opposite ends. **The consequence is not "don't
-generate text" — it is "never ask for text without a direction that constrains it."** Katie's
-newsletter is AI-drafted and is not slop, because the brief carries voice, audience, a
-no-hyperbole rule, and grounding in her own recorded words.
-
-**2. The locked-original + prompt-diff loop is cheap and you don't have it.** Her pipeline
-keeps the raw model output beside the approved final and then **feeds the diff back into the
-prompt**. Here, every correction from you — "weniger AI Slop", "kein Fixpreis", "das ist kein
-gutes Deutsch" — is applied once and then survives only as prose in `MEMORY.md`, if at all.
-The measurable claim she makes is the one worth stealing: *the editing pen gets lighter*.
-Nothing here measures whether yours does. A locked draft kept beside the sent version, per
-outbound mail, would make that measurable for the first time.
-
-**3. Her agent's three self-criticisms are three checks on this setup — two answered, one
-not.** Memory that dies with a hard drive: answered, `state/` is a git repo and pushed.
-Silent coverage holes (three episodes the system never touched): that is exactly the shape of
-the 25-of-75 unindexed solytics URLs and the `assistant-lead-watch` unit that failed eight
-times without an alarm — **the class of bug is "nothing reported, because nothing looked."**
-The unformalised handoff between two agents, with the human as the transport: **not answered
-here.** agent-tasks and Fabrik have no formal handoff either; the connection is a session
-reading a journal and writing a YAML. Worth remembering the next time a wave of dependent
-tasks goes sideways.
-
-**4. The interview format itself is a method, not a gimmick.** She got a usable critique out
-of an agent by (a) forbidding performance, (b) demanding "I can't tell you" over a smooth
-answer, and (c) pointing it at **artifacts it could actually inspect** — the repo, the command
-history, the shipped files. The pre-production agent, which had no artifacts, produced
-insight about *her*; the post-production agent, which had files, produced findings about *the
-system*. That is the same split as the unfaithful-CoT lesson
-([`2026-04-13-unfaithful-chains-of-thought.md`](2026-04-13-unfaithful-chains-of-thought.md)):
-**self-report grounded in inspectable artifacts is worth something; self-report about one's
-own nature is a story.** Both agents said so themselves, which is the joke of the episode.
-
 ## Links
 
 - Previous: Agent Economics (Jevons paradox / induced demand) — [`2026-06-21-10-agent-economics.md`](2026-06-21-10-agent-economics.md)

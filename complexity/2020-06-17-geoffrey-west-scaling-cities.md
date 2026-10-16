@@ -552,9 +552,7 @@ all platforms. Every distribution channel a solo builder uses — an app store, 
 a freelance marketplace, a social feed — is that same nonlinear engine with the same
 skewed equilibrium. **The median listing on a superlinear platform earns the linear
 return, which is approximately nothing.** So "we published it, we're on the platform"
-is not a distribution strategy; it is the linear decile. This is the same finding as
-four months of calculators producing four clicks a month, arriving from the other
-direction: the bottleneck was never inventory.
+is not a distribution strategy; it is the linear decile.
 
 **2. The escape from the treadmill is not the next artifact.** West's theorem is that
 open-ended growth survives only through periodic reinvention, and that **the required

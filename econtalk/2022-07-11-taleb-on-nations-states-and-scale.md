@@ -635,56 +635,7 @@ units, and it decomposes into five claims that depend on each other in order:
 The line that ties it to the rest of Taleb's work is the survival record. The elephant is individually
 stronger and collectively extinct. Big units win encounters and lose centuries.
 
-## Solo-builder read (insights for Jens)
-
-*My own words from here down.*
-
-**Staying small is a position, not a stage.** Size is a risk parameter you set, not a score you
-accumulate. Solytics is one person; the default story about that is "not yet big". Taleb's framing says
-it is a chosen point on a curve where error cost is low, correction is same-day, and no identity has to
-be curated. The honest version of the trade is the one Roberts forces out of him: small units are
-individually vulnerable and collectively durable. The goal is therefore not to grow out of small — it is
-to buy the protections that make small survivable, the way the Phoenicians did, as a priced premium
-rather than as an army.
-
-**The mayor test for every autonomous agent I run.** The Brussels/mayor distinction is directly
-implementable in this repo. For each automated thing — the session daemon, the watchdogs, the agent-task
-runner, Fabrik — ask: when it fails, who meets the consequence at the café on Sunday? Where the answer is
-"nobody, it just logs", that is a Brussels bureaucrat with a bridge. The unit-health-check and creds-check
-tools exist precisely to manufacture that encounter: they push the failure onto my phone, where I have to
-look at it. Every new automation should ship with its own café.
-
-**Errors that do not scale linearly is a build rule, not a metaphor.** A bug in a one-tenant deployment
-costs one correction; the same bug across a shared multi-tenant platform costs a migration, a
-notification and a trust repair. That is the doubled stone, and it argues for the confederation shape in
-the software: one shared army (auth, deploy, infra), everything else per-tenant and separately breakable.
-The Launch Kit tenant model already is that architecture; the discipline is to resist centralising
-anything that is not military.
-
-**Domain-dependence kills the generic "should I scale this?" question.** The right question is always
-per-function: what is large *for this thing*? Support at solo scale is large at a few dozen paying users;
-infrastructure at solo scale is not large at all. A better sizing instrument than headcount or revenue,
-and it explains why some parts of the business feel strained long before others.
-
-**The life-to-date P&L is the most portable idea here, and I violate it daily.** Checking Stripe, install
-counts and search impressions on a short window is exactly the trader watching an intraday screen: noise
-dominates, the emotional swing is real, the information content is near zero. The remedy is stated as
-therapy, not insight — look at the life-to-date number. For FinGrab that means the cumulative install and
-subscription line, not this week's; for the funnel work, the multi-month view where the signal lives. A
-dashboard that defaults to a short window is a machine for manufacturing dissatisfaction.
-
-**Tocqueville inverted, applied to my own reviews.** The parts of the operation I complain about most are
-usually the parts working well enough to be visible. The genuinely broken parts are opaque and quiet — no
-complaint arrives from a channel that produced nothing, because nothing happened. That maps onto the
-"funnel intact but silent" pattern already in memory. Loud dissatisfaction is a transparency signal;
-silence is the thing to audit.
-
-**The minimum deliverable unit as a spec heuristic.** The right size for a first release is the size that
-can be withdrawn or reversed within a day. Anything larger has begun curating an identity — a migration
-path, a documented promise, a user expectation — and identity maintenance is the cost that grows
-super-linearly.
-
-### Closing the arc: what survived, what hardened, what he dropped
+## Closing the arc: what survived, what hardened, what he dropped
 
 Against the antifragility conversation ten years earlier
 ([`2012-01-16-taleb-on-antifragility.md`](2012-01-16-taleb-on-antifragility.md)), in his own material:

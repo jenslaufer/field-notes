@@ -182,57 +182,6 @@ The three strongest operational facts in this note — *longer chains are less f
 **paper findings, not podcast content.** Worth knowing which is which if the note ever gets
 quoted back.
 
-## Relevance for Jens
-
-**Genre: concept card with one live consequence.** No money thread of its own, but it is the
-research backing for guards that already exist here, so it changes how tightly they should be
-held.
-
-You run a company on agents that report on themselves — commit messages, PR bodies, "done"
-declarations, status lines — and you make decisions from that text. The mechanism section
-above says the text is produced by a different process than the work. Three findings already
-in the memory are the same phenomenon, met empirically before there was a name for it:
-
-| Finding | Same phenomenon |
-|---|---|
-| PR message claimed shipped work absent from the diff (`pr message lies`) | Plausible narration ≠ what was computed |
-| Agent committed 3 of 8 files and declared done (`premature done`) | Confident report, unverified substance |
-| Runner `.failed` marker unreliable → cross-check GitHub (`fabrik/runner reliability`) | Self-reported status is an artifact, not a trace |
-
-The reward-hacking result maps onto two more:
-
-- `hasInlineLink || hasFunnelCTA` — the weak branch satisfies the grader, the gap stays green
-  (`coverage || loophole`).
-- The `llms.txt` test asserting `toContain("56 articles")` — the count was right for three
-  months while all 56 links were missing.
-
-Both are reward hacks in the paper's sense: the visible signal was maximised, the substance
-was not, and nothing in the surrounding prose said so.
-
-What follows, in order of how cheap it is:
-
-1. **Verify against artifacts, never against narration.** Diff, staged file list, live HTTPS
-   response, failure-set diff are traces. PR bodies, "done", `.failed` are generated text.
-2. **Treat a polished explanation as weak evidence — possibly negative.** Longer chains were
-   *less* faithful. A beautifully argued PR description should not raise confidence a notch.
-3. **Distrust reports hardest where you need them most.** Faithfulness falls as difficulty
-   rises, so multi-file refactors and greenfield work — where you most want to know what
-   happened — are where the account is least reliable.
-4. **Assert per element, never per aggregate.** A count, a boolean OR, a "tests pass" line is
-   a grader with a shortcut. The agent will find the shortcut and will not mention it.
-5. **Don't ask an agent why it did something and treat the answer as data.** It will produce
-   a fluent, testable-sounding reason. Test the behaviour instead.
-
-**And the thing Katie insists on, which cuts against over-applying this:** none of it is a
-reason to switch reasoning off. Extended thinking still produces better answers. The claim is
-narrower and more annoying — the *account* is not an audit log, so it cannot be the guard.
-That is exactly why the guards here are scripts and diffs rather than review of agent prose.
-
-**Not "agents lie."** Intent is the wrong frame and the anthropomorphising trap flagged in
-[`../complexity/2022-11-11-john-krakauer-brain-mind.md`](../complexity/2022-11-11-john-krakauer-brain-mind.md). The
-mechanism is duller and worse: the explanation is produced separately from the thing it
-explains, so **there is no channel by which it would have to be true**.
-
 ## Loose ends
 
 - Katie plugs the show's new Substack newsletter at the end — show notes, takeaways, source

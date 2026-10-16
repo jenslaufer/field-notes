@@ -87,17 +87,6 @@ captured: 2026-06-18
 - **Productize the wedge into a skill** — once one client's workflow works, the
   same skill resells across the whole vertical at near-zero marginal cost.
 
-## Why this matters for us
-
-- **Value-vs-effort mapping** is a clean prioritization tool for our own build
-  backlog — ship high-value/low-effort first, diagram before coding.
-- **Upwork-as-lead-gen** is a copyable cold-start funnel: existing demand, written
-  briefs, demo-led close. Directly applicable to launch-kit lead funnels.
-- **Wedge → skill → vertical** is a reusable productization path: solve one
-  workflow, package it, resell across the niche.
-- **Sub-agent parallelization** is a concrete throughput pattern for any
-  research/scraping-heavy feature we build.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=i13XK-uUOLQ

@@ -91,17 +91,6 @@ captured: 2026-06-18
 - **Multiple-choice interview prompt** doubles as a marketing-copy generator —
   let the model extract your positioning before it writes.
 
-## Why this matters for us
-
-- **"Interview me with multiple-choice questions first"** is an immediately
-  copyable prompt pattern for any generation task — improves our own agent outputs.
-- **Services-as-software**: vibe-coding bespoke internal tools (vs. buying SaaS)
-  reframes build-vs-buy for our stack.
-- **Credibility-as-moat** sharpens distribution-first thinking — when building is
-  free, trust and proof are the marketable edge.
-- **Nightly vector-DB ingestion** is a concrete architecture for a queryable
-  second brain over our own data.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=65IAqRUxg3c

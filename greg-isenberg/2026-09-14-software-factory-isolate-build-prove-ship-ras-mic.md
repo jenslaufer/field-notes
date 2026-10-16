@@ -203,45 +203,8 @@ Plus one aside he drops and does not develop, which is the seed of a different e
 
 > *"some startups are now an agent with a couple of markdown files, right?"*
 
-## Insights for me
+## Caveats
 
-- **Steps 1 and 2 are already built here; step 3 is missing, and I can measure that.**
-  `agent-tasks` has run every task in a worktree off the default branch since it existed
-  (`README.md`: "fetch origin → create worktree from default branch → run agent → commit + push
-  + PR"), and Fabrik's agents do the same through `app/adapters/git.py`. Isolate is done. **Prove
-  is not: of the last 60 merged PRs in `assistant` and the last 60 in `solytics`, 0 carry a
-  single image, screenshot or embedded before/after** (`gh pr list --state merged --limit 60`,
-  body matched against `![`, `.png`, `.jpg`, `user-images`). Every PR proves itself in prose,
-  which is exactly the artefact that has already been caught lying here — an agent PR body that
-  described work the diff did not contain, and one that committed 3 of 8 files and reported
-  finished. A before/after pair is the cheapest known defence against both, and it does not
-  depend on the agent being honest.
-- **The bugfix rule already in force is the same idea, one size down — extend it, do not invent
-  it.** "Bugfix test: red before, green after" is standing guidance here and it *is*
-  evidence-driven testing, just restricted to bugs and to tests. Ras Mic's version differs in two
-  ways worth copying: it applies to **every** change, and the artefact lands **in the PR body**
-  where the reviewer is, not in a test log nobody opens. For a repo whose changes are mostly
-  command-line tools, the numbers variant is the relevant one — the 817 → 61 pair, not
-  screenshots.
-- **Step 4 has a hole that is invisible from the outside: `/quality-gate` reports to Telegram,
-  not to the PR.** Measured this morning: **zero reviews of any kind on the last 30 merged
-  `assistant` PRs** — no bot, no human, no record. The gate genuinely runs, but its verdict lives
-  in a chat message, so nothing on the PR itself carries a score, and no agent can read a score
-  back and loop. That is the difference between a gate and a factory: Greptile's three-out-of-five
-  goes *back into the agent*. Writing the quality-gate verdict onto the PR as a comment costs one
-  `gh pr comment` and turns a notification into a closed loop.
-- **"Harness and model agnostic" is the same bet as the LiteLLM proxy, and it is the stronger
-  half of it.** Stufe 1 bought model independence at the endpoint. This episode says the more
-  durable independence is that the workflow is markdown — which is already true here by accident
-  (skills in `jens-toolkit`, prompts in agent-task YAMLs) and is worth stating as a design rule
-  rather than leaving as a coincidence.
 - **The one thing not to take: "I'm not reading my code anymore."** He can afford it because the
   proof step is real and an external reviewer scores every PR. Adopting the posture before
-  building the two gates would be the whole failure mode this repo keeps rediscovering under a
-  different name. Order matters — prove first, then stop reading.
-- **Fabrik note, and it is a product observation.** Fabrik sells autonomous workers that pick up
-  labelled issues and return PRs. The measured gaps in its output so far are surface bias and
-  spec drift — both are *proof* failures, not build failures. A worker that attaches a before/after
-  pair to every PR is directly differentiating against the category, and the episode is evidence
-  that the market now has a name for the thing ("software factory", "going viral" in Greg's
-  opener). Worth an issue, not an argument.
+  building the two gates is the failure mode. Order matters — prove first, then stop reading.

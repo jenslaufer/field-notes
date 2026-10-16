@@ -42,15 +42,6 @@ Gopnik points at small children as the real benchmark — they learn by acting o
 the world, not by absorbing a corpus. The framing shot: productive AI talk needs
 a definition of intelligence first, and we don't have a clean one.
 
-**Für dich:**
-- The "suitcase word" discipline is your own rule in disguise: don't measure a
-  vague thing, name the specific capability and measure *that*. Same reflex you
-  use when you insist on measuring distribution "am Eingang," not at revenue.
-- *Competence ≠ intelligence* is a useful lens on your agents: agent-tasks are
-  superb at competence (well-specified routines) and weak exactly where a problem
-  is genuinely new — which is why the scoping/QG scaffold around them matters more
-  than the model.
-
 ## Ep 2 — The Relationship Between Language and Thought
 *Guests: Ev Fedorenko (MIT), Steve Piantadosi (Berkeley), Gary Lupyan (Wisconsin).*
 
@@ -64,11 +55,11 @@ first-hand, compressing generations of knowledge into words. So an LLM trained o
 all text inherits humanity's compressed knowledge, but possibly *without the
 thinking machinery* that produced it.
 
-**Für dich:**
-- This is the load-bearing caveat for anyone whose business *is* LLM output
-  (you): the model has the language layer without the separate reasoning/world
+**Takeaways:**
+- This is the load-bearing caveat for anyone whose business *is* LLM output:
+  the model has the language layer without the separate reasoning/world
   layer. Fluency is not competence — the confident paragraph and the correct
-  paragraph are produced by the same machinery, which is precisely why you verify.
+  paragraph are produced by the same machinery, which is precisely why output needs verifying.
 - Flip side, and the optimistic read: language really is a compression of
   culture's knowledge. An LLM is a cheap interface to that compression — enormous
   leverage for a solo builder, as long as you treat it as a *retrieval-and-recombine*
@@ -98,18 +89,9 @@ game of belief." Concrete tells:
   (Sally-Anne) task, it may have memorized the pattern, like patching a broken
   multiplication table by adding entries one at a time.
 
-**Für dich:**
-- This episode *is* the design spec for your agent guardrails. "Confident,
-  fluent, and wrong, with no belief-update from reality" is the failure mode your
-  QG / smoketest / "no live claim on curl" rules exist to catch. You already
-  engineer around Shanahan's point; this names it.
+**Takeaways:**
 - **"Generates hypotheses, doesn't retrieve facts"** — bake it in: never let an
-  agent be the source of truth for a fact you can check. The fabricated-episode
-  example is your agent inventing a file path or an API field verbatim (you've hit
-  exactly this — "commit message lies, verify diff").
-- The **role-play** frame is also a product idea, not just a warning: your concept
-  sims work *because* they let the user role-play a system and be wrong. Same
-  mechanism, pointed at learning instead of deception.
+  agent be the source of truth for a fact you can check.
 
 ## Ep 4 — Babies vs. Machines
 *Guests: Alison Gopnik, Linda Smith, Mike Frank, Erica Cartmill, Tomer Ullman.*
@@ -123,15 +105,11 @@ child isn't a smaller language model — it's a different kind of learner, drive
 curiosity and embodiment, building a causal model of the world before it has much
 language at all.
 
-**Für dich:**
+**Takeaways:**
 - The gap between "learns from a few examples and transfers" and "needs millions
   and breaks off-distribution" is *the* moat question for an AI business: the
   value you add is not the model, it's the **context, structure, and feedback
   loop** you wrap around it to cover that gap.
-- This is the scientific spine of your own [[learning_concept_sim_participation_over_observation]]
-  thesis: learning is *active*, not passive. Babies don't watch a slider move —
-  they act and get corrected. That's exactly why "predict-then-reveal" beats
-  "watch the curve confirm the prose." The episode gives you the citation.
 
 ## Ep 5 — How Do We Assess Intelligence?
 *Guests: Erica Cartmill (anthropology/cognitive science), Ellie Pavlick (Brown, CS+linguistics).*
@@ -149,12 +127,10 @@ lesson: elephants coordinate through ground vibrations we can't even perceive �
 routinely conclude an animal *lacks* an ability when really we lack a test for it.
 Both guests want the word "intelligent" **fractured into many specific abilities.**
 
-**Für dich:**
-- **Construct validity is the single most transferable idea in the season for you.**
+**Takeaways:**
+- **Construct validity is the single most transferable idea in the season.**
   A benchmark score, a slick demo, a passing test — none of them prove the ability
-  you think they prove. Your entire verification culture (per-PR QG, mutation
-  tests that must fail on broken code, live-verify not bookkeeping) is applied
-  construct-validity. This episode is the theory behind your habits.
+  you think they prove.
 - The animal lesson cuts the other way too: *absence of evidence isn't evidence of
   absence.* When an agent seems to "fail" a task, check whether you built a test
   that could even detect success — same trap, inverted.
@@ -187,21 +163,13 @@ the thing machines are worst at. Her load-bearing claims:
 - **Prescription:** *"slow thinking"* — interdisciplinary, unhurried, the SFI way —
   against an industry optimized for speed and scale.
 
-**Für dich:**
-- Her benchmark of intelligence — **analogy / transfer without retraining** — is a
-  clean way to price your own edge. The model is weak at it; *you* are strong at
-  it. Your value is carrying insight across domains (complexity science → your
-  product decisions, stochastic processes → your withdrawal model). Don't sell the
-  model's commodity; sell your transfer.
-- **"AI slop flooding search"** is not abstract for you — it's your SEO reality
-  (FK/HC/solytics) and the reason your "no AI slop" design bar and the
-  participation-first sims are a *moat*, not a nicety. The web filling with
+**Takeaways:**
+- **"AI slop flooding search"** is also an opening: the web filling with
   generated sludge makes specific, human, verifiable artifacts scarcer and more
-  valuable. Lean into it.
-- **"Defined into existence"** is a good bullshit-detector for the AI-agent-business
-  hype you research (Isenberg et al.): when a pitch keeps redefining the win, the
-  win probably isn't there. Match claims to a fixed, pre-stated bar — your own
-  discipline of setting the kill-threshold *before* the experiment.
+  valuable.
+- **"Defined into existence"** is a good bullshit-detector for AI-agent-business
+  hype: when a pitch keeps redefining the win, the
+  win probably isn't there. Match claims to a fixed, pre-stated bar.
 - The **AlphaFold / lost-understanding** point is the solo-builder's daily risk in
   miniature: shipping agent-generated code you don't understand buys speed and
   sells comprehension. Fine for the throwaway; dangerous for the load-bearing.
@@ -212,12 +180,12 @@ the thing machines are worst at. Her load-bearing claims:
 ## Solo-builder read
 
 The whole season is, unexpectedly, an operating manual for someone whose business
-*runs on* LLMs — which is you. Three things to keep:
+*runs on* LLMs. Three things to keep:
 
 1. **Fluency is not understanding, and they're produced by the same machinery.**
-   This is why your verification culture isn't bureaucracy — it's the only correct
+   This is why verification culture isn't bureaucracy — it's the only correct
    response to a role-playing, hypothesis-generating, belief-non-updating tool.
-   The academy just spent six episodes proving the thing your QG gates assume.
+   The academy just spent six episodes proving the thing quality gates assume.
 
 2. **The moat is never the model; it's the gap around it.** Everything the season
    says machines can't do — few-shot transfer, active learning, abstraction,
@@ -227,8 +195,8 @@ The whole season is, unexpectedly, an operating manual for someone whose busines
 
 3. **Slop makes the specific scarce.** Mitchell's most actionable throwaway line:
    the web is flooding with generated sludge. That is a *tailwind* for anything
-   human, verified, participatory, and specific — your sims, your field-notes, your
-   hand-checked calculators. The market is auto-generating your differentiation.
+   human, verified, participatory, and specific. The market is auto-generating the
+   differentiation.
 
 Pairs directly with [[complexity-science]] and [[landscape-of-21st-century-science]]
 (Krakauer, same SFI universe): where those argue *why* prediction ≠ understanding

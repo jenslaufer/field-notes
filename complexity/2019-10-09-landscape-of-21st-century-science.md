@@ -80,46 +80,6 @@ the *founding manifesto* — less taxonomy, more where-is-science-going.
   explain them — but great scientists spend most of their time creating worlds
   (counterfactuals) in order to demolish them.
 
-## Solo-builder read (insights for Jens)
-
-- **Your two-track barbell IS the Cain-and-Abel settlement.** Krakauer's schism —
-  predictive black box vs. explanatory crude-look — is exactly your split between
-  the cashflow track (fingrab/ads: judge by the number, don't demand
-  understanding) and the explorer track (sims/field-notes: judge by insight, don't
-  demand revenue). The episode's message is that *both are legitimate science*;
-  neither converts into the other. Stop expecting one track to justify itself in
-  the other's currency — that's the exact measurement error from your Tief.
-- **Mountains/monasteries/metropolis is a distribution insight, not just a
-  creativity one.** Your pipeline has a mountain (you + coding agents, idea
-  generation is nearly free) and a metropolis (the public internet, where things
-  currently die of silence). What's structurally missing is the **monastery** —
-  the friendly community that stress-tests ideas *before* the metropolis. That's
-  what an owned list (field-notes list, #60) and LinkedIn shots (#67) actually
-  are: not "marketing", but your monastery — the middle institution the ideas
-  currently skip on their way from build to public grave.
-- **Risk-vector audit of your bets.** By Krakauer's decomposition you already run
-  SFI's profile: pencil-cheap builds (agents ≈ free), so financial risk ~0; the
-  real spend is *attention* and *reputation* (posting under your name). The
-  operational consequence: guard the scarce components (your hours, your
-  willingness to be visible), not the cheap one (build cost). A dead microsite
-  costs nothing; an unposted LinkedIn shot spends nothing — but a week of building
-  instead of shipping shots spends the scarce resource.
-- **"Models over theories" is your sales argument for the sim family.** The
-  billiard parable is the concept-simulator pitch verbatim: people learn the
-  *game* (playable model) long before the *theorem* — that's why predict-then-
-  reveal works and prose doesn't. Krakauer even names the product category:
-  complexity insights "haven't diffused out into society" yet — economies that
-  look like brains, cities like organisms. Your sims are exactly that diffusion
-  layer ("complementary cognitive artifacts", his later phrase). Worth stealing
-  for the hub's positioning line.
-- **The Odyssean self-description fits and warns.** Direct experience plus
-  abstraction, at home in neither camp — that's your profile (corporate CV +
-  solo exploration). Krakauer's caveat applies to you specifically: the
-  Pythagorean/monastery mode only survives if something else pays for the
-  building. SFI has donors; you have the 950k runway plus the cashflow track.
-  The monastery is legitimate *because* the other hand funds it — not instead of
-  it.
-
 ## Quotable
 
 - "Theories of everything except those things that theorize."

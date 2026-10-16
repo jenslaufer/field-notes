@@ -66,18 +66,7 @@ ASR and are given as heard (e.g. "Mercore, Micro One").
     read invoices and draft entries only), and physical security. Forecast, labelled as his
     guess: a big breach at a personal-agent startup.
 
-## What it means for Jens
+## Caveats
 
-- **Item 1 and item 12 are what Jens already runs for himself.** The autonomous assistant books
-  his accounts, checks bank balances against the ledger and sweeps three mailboxes. The
-  bookkeeping example in item 1 is almost exactly the `buchhaltung` workflow — agent prepares,
-  human reviews exceptions. The open question is not whether it can be built, but which single type
-  of business would pay per closed month.
-- **Item 13 is a niche Jens can show evidence for.** The setup already separates read paths from
-  write paths (read-only PSD2 banking, gates before every send). "Agent access control for
-  accounting firms" is a concrete, sellable form of what he built for his own safety.
-- **Item 3 repeats the finding that already stands in these notes:** building is not the
-  bottleneck, reaching people is. FinGrab has 557 users and 6 payers; the lever is the channel,
-  not another feature.
-- **Discount the rest.** No numbers per business, no failure rates, no costs. The list is a
+- **Discount the list.** No numbers per business, no failure rates, no costs. The list is a
   prompt for ideas, not evidence that any item works.

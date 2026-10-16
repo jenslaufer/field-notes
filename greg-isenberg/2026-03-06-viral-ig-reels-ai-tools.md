@@ -64,16 +64,6 @@ captured: 2026-06-18
 - **Systematize with Obsidian + Claude Code** so you ship volume on-style instead
   of reinventing each video — consistency compounds the algorithm's trust.
 
-## Why this matters for us
-
-- **Distribution-first, productized:** a repeatable content *system* (deconstruct
-  → template → enhance → ship) beats one-off "content." Maps to building a media
-  flywheel around launch-kit.
-- The **5-act structure + 15-second rule** are copyable for any product demo or
-  feature-launch short.
-- **AI as enhancement layer, not the whole video** — credibility comes from real
-  footage with surgical AI polish. A guardrail for our own marketing clips.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=0b8qQx3FaLE

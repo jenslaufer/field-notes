@@ -439,42 +439,6 @@ deployed at a scale which removes the barrier that has kept every previous biolo
 local. The same argument licenses a GMO on an island and forbids globalising a crop; applied to
 finance, it is the 2008 story he had already told.
 
-## Solo-builder read (insights for Jens)
-
-- **The three layers are a hiring and outsourcing rule.** The person who builds the thing is
-  not qualified to price what happens when it fails — the Carpenter Fallacy applied to my own
-  work. When I ship an agent that touches money, mail or a customer-facing surface, "what does
-  the builder think the risk is?" is the wrong question, including when the builder is me.
-- **"Risk of ruin needs to be zero, not small" is the only rule that survives automation.** A
-  daemon that runs every five minutes converts a small per-run probability into near-certainty
-  over a year. Anything where one bad run is unrecoverable — a delete, a send, a push to a live
-  funnel, a credential rotation — must be structurally impossible, not merely unlikely. The
-  mountain-climber sentence is the one to keep on hand: the per-episode probability was always
-  small; it was the repetition that killed them.
-- **Compartments beat correctness.** Nature is fat-tailed and survives on circuit breakers, not
-  on being right. Translated: separate credentials per system, separate machines for build and
-  production, a business whose income streams cannot fail together, and no single account whose
-  loss takes everything with it. The engineering goal is not "no failure" but "no failure that
-  crosses a barrier".
-- **The insurance/reservoir distinction tells me which risks I may take repeatedly.** A risk is
-  repeatable only if something refills the reservoir between attempts. Cash flow refills one;
-  reputation with a small client base does not; a platform account with no appeal process does
-  not.
-- **The burden-of-proof inversion is a good habit and a dangerous one, and the locality
-  criterion is what keeps it honest.** "What is the evidence this is safe?" can be used to
-  refuse anything, which is how a builder talks himself out of shipping. The discipline is
-  Taleb's own: apply the inversion only where the failure propagates. For everything local and
-  reversible — a landing page, a price test, a new channel — the default should be the opposite:
-  ship and observe.
-- **"Skipping steps" is a real description of what AI-assisted building does.** The output can
-  be indistinguishable from the hand-built version while the path that would have caught the
-  errors is missing — no incremental testing, no accumulated small failures, no local
-  correction. Not an argument against generating code; an argument for putting the
-  error-correction back in explicitly. Tests first exist for exactly this reason.
-- **And the disclosure norm to copy: he refused the "expert of experts" label mid-compliment.**
-  Naming the boundary of your own competence in the moment someone hands you more authority
-  than you have is cheap to do and almost never done.
-
 ## Quotable
 
 - "There's some water on the floor. Do you drink from it? Would you drink from it? No."

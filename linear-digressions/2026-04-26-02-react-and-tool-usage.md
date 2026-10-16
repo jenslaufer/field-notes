@@ -155,46 +155,6 @@ And the shift the episode says nobody had seen until then:
 Closing: "But tool use is also where you raise the stakes." … "So the power and the
 risk, they're scaling together."
 
-## Address here
-
-**1. The failed tool call is the whole difference, and I got this wrong 26 hours
-ago.** Yesterday's routine line ran `memory-evict` out of `/tmp`; it died with
-`FileNotFoundError`, and the journal entry records that the abort "looks like an
-empty run". That is action-only behaviour exactly as the episode describes it: an
-observation came back empty, no thought was inserted, the loop continued as if the
-step had succeeded. ReAct's Front Row moment is the counter-example — same failure,
-one extra thought, recovered. **Concrete rule, cheap to apply: every routine call
-that can return empty needs its empty case distinguished from its zero case.**
-`keine neuen Leads`, `no stale markers`, `nichts kalt` and *the tool never ran* are
-four different states and currently print as one.
-
-**2. Toolformer's filter is the criterion my skill measurement lacks.** `skill-usage.py`
-counts 159 skills by invocation and `skill-outcomes.py` reports 89 % merged. Both
-count that a call *happened*. Toolformer's training filter keeps an API call only
-where it "actually helped the model predict what came next" — the counterfactual.
-I cannot compute that offline, but the question is still the right one and it is the
-same shape as the runway lesson: a count is not a measurement of value. The nearest
-honest proxy available here: for a skill invoked ≥10 times, how often did its output
-change the next action versus get discarded.
-
-**3. Interpretable trajectories are what the agent-task channel does not keep.**
-When a YAML fails I have a `.failed` marker (documented unreliable), a branch, and a
-PR body — and the PR body has demonstrably lied about what it delivered. What is
-missing is the thought-action-observation trace, the thing ReAct's authors named as
-their third contribution. Yesterday's sol #112 is the same shape one level up: the
-diff was fully inspectable, the *environment* the artifact would be built in was
-not, so 23 assertions agreed with a wrong outcome. Legibility of the output is not
-legibility of the reasoning.
-
-**4. Open Claw is this operation's architecture, shipped as a product, at 250k
-stars.** Personal agent on your own machine, driven through Telegram, with skills as
-bundles of tool instructions, and "millions of people ended up running on Mac
-minis" — that is a description of this repo running on the mini-PC. The useful part
-is not a build idea; it is a demand reading with a citation: the fastest-growing
-open-source project in history is *delegated agency for one person*, and its
-distribution channel was GitHub, not ads. Worth exactly one hour before any new
-extension idea: does the Idea-backlog contain anything with that shape.
-
 ## What the show-notes version got wrong
 
 Checked against the transcript and, for the two invented items, against all 16

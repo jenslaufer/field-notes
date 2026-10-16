@@ -25,5 +25,3 @@ captured: 2026-06-14
 **Result.** The fused output beats the best individual model across instruction-following benchmarks; released with the MixInstruct dataset.
 
 **Takeaway.** Diversity of *models* (not just samples from one model) is a stronger ensemble axis. And rank by comparison, not by absolute score.
-
-**Our stack.** Pairwise ranking is the lesson for our bake-offs — compare arms head-to-head rather than scoring each in isolation.

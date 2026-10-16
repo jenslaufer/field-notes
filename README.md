@@ -17,6 +17,12 @@ Organized by source:
 - [`actioncoach/`](actioncoach/) — The ActionCOACH Podcast: Rory Sutherland on trivial improvements vs real strategy — benchmarking makes difference cheap, the S-curve makes big bets look like failures, critical non-essentials; with the books he names
 - [`papers/`](papers/) — research paper surveys and distillations
 
+## Personal insights
+
+Episode notes cover the source only. Insights that refer to Jens — his projects, products, tools,
+situation — go into **one `insights-for-jens.md` per blog folder** (recurring themes, then one entry
+per episode, newest first), never into the note itself.
+
 ## Dateinamen
 
 **Folgen-Notizen heissen `YYYY-MM-DD-slug.md`** und sortieren damit chronologisch — das Datum ist

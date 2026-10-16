@@ -79,8 +79,7 @@ minimal; the capability lives in many sharp, single-purpose skills/agents.
   product and strategy decisions. (Described concept; no standalone release —
   GStack ships an equivalent CEO/strategy agent.)
 - **Design Shotgun** — generates multiple UI directions in ~60 seconds for fast
-  visual exploration. (Described concept; the assistant's own `design-variants`
-  skill does the same.)
+  visual exploration. (Described concept; no standalone release.)
 - **Adversarial Review / QA automation** — multi-step reviews driven through
   Playwright/Chromium CLI wrappers.
 - **GStack** — [Garry Tan's open-source toolkit](https://github.com/garrytan/gstack)
@@ -102,21 +101,6 @@ minimal; the capability lives in many sharp, single-purpose skills/agents.
 - **Phase Shift** — automated daily manual work and avoided hiring whole
   departments (e.g. design teams). (Named in the talk; no public source verified.)
 
-## Why this matters for us (Jens / fabrik / the assistant)
-
-- **The assistant already runs this thesis.** Its design line — "intelligence
-  lives in context and memory, not in scripts; the session script is a thin
-  launcher" — *is* "thin harness, fat skills." This episode is outside vocabulary
-  for what we already do; worth borrowing the framing for positioning.
-- **Fabrik = an "AI software factory."** The spec-and-tests-in, agent-writes-code
-  pipeline is exactly the sellable story. "Strong DM repo = only specs + tests"
-  is a strong third-party proof point to cite.
-- **Harness Engineer positioning.** "Thin harness, fat skills" is a clean,
-  externally-validated phrase for Jens's freelance/CV framing of harness work.
-- **Closed-loop = the field-notes/journal/memory discipline.** Record → measure →
-  feed back is the same loop the assistant runs on itself nightly. Confirms the
-  architecture rather than challenges it.
-
 ## One-line throughline
 
 Capability is not the constraint — *legibility* is. Close the loop so the org can
@@ -137,7 +121,7 @@ does the coordinating and the building.
 - GStack — Garry Tan's open-source toolkit turning Claude Code into a 23-agent engineering team: https://github.com/garrytan/gstack
 - StrongDM Software Factory ("Strong DM repo = only specs + tests") — spec-driven, no human-written or human-reviewed code: https://factory.strongdm.ai/ · write-up: [Simon Willison, *How StrongDM's AI team build serious software without even looking at the code*](https://simonwillison.net/2026/Feb/7/software-factory/)
 - Giga ("Atlas" internal agent) — enterprise browser/support agents: https://giga.ai/
-- Office Hours Agent / Design Shotgun / Adversarial Review — described as specialized agents, no standalone public release; GStack ships equivalents and the assistant has a `design-variants` skill.
+- Office Hours Agent / Design Shotgun / Adversarial Review — described as specialized agents, no standalone public release; GStack ships equivalents.
 - Phase Shift — named in the talk; no public source verified.
 
 **Companies cited**

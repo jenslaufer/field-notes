@@ -242,26 +242,8 @@ Closing frame:
 
 > *"Local AI is just way easier to understand once you stop treating it like a model benchmark conversation and start treating it like a product conversation."*
 
-## Insights for me
+## Caveats
 
-- **The infrastructure in this episode already exists on the mini-PC, unfinished.** Ollama is
-  installed and enabled as a user service, LiteLLM fronts it, and `simple` points at qwen3:8b —
-  that is exactly Greg's Path 2 plus a router he does not have. What is missing is his step 7: not
-  one repeated workflow runs on it. The honest status is "Stufe 1 built, never pointed at a job".
-- **The single best-fitting job here is the pre-send reviewer, and it is an internal one first.**
-  This repo already gates outbound text through `klartext.py`, `check-links.py` and
-  `koordinaten-check.py` — rule-based, deterministic, and blind to meaning. A local model reading
-  the same draft against a checklist is the natural next gate, and it is the one place where
-  *local* is not a preference: the drafts contain Jens' bank balances, client names and the house
-  sale. That is a real reason to keep it off a cloud endpoint, not a marketing reason.
-- **His "folder of X becomes Y" list names two folders that already sit here unread.**
-  `state/drafts/` holds ~380 sent messages, and the FinGrab store reviews plus the `unused`
-  cancellation have no folder at all. The second one is the `/customers` gap from 17.08. for the
-  third time in a month — three independent episodes now point at the same missing directory.
 - **The 24-month claim and the $13 billion are his, not measured.** Neither belongs in anything
   written for a customer without a source. The part of this episode that survives without the
   sponsor is the filter in section 8 and the eval in section 7.
-- **Caution against the obvious German pitch.** "Local AI for GDPR reasons" is the reflex, and the
-  market-intelligence note from July says the buyable German demand around AI consulting is thin.
-  The filter here is better than the pitch: sensitive data *plus* a repeated review loop *plus* bad
-  incumbent software. Two out of three is a hobby.

@@ -54,16 +54,6 @@ captured: 2026-06-18
 - **Reference-driven refinement**: feeding the finished design back into the
   builder keeps every new screen on-brand — consistency compounds.
 
-## Why this matters for us
-- **Direct anti-slop playbook for our UI**: brand strategy → moodboard → Weavy
-  assets → reference back into the build. Copyable for any product surface.
-- **The "how should it feel" question** is a cheap, high-leverage gate before we
-  ship any landing page or app screen.
-- **Weavy/Figma Weave** is worth trialing as the asset layer between Claude/Stitch
-  and our Tailwind builds.
-- **Branding lifts conversion**, not just looks — a distribution argument for
-  investing design time early in the launch-kit.
-
 ## References
 - Episode: https://www.youtube.com/watch?v=9OnN4O4uapI
 - Weavy / Figma Weave: https://weave.figma.com

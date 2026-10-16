@@ -122,37 +122,3 @@ captured: 2026-07-15
 | PostHog + Sentry | inputs for the product-feedback loop |
 | GLM 5.2 (OSS) | cheap model for loops on tight budgets |
 | Slack ping per run | human approval layer |
-
-## Insights for me (Jens) — honest, not an echo
-
-1. **You already run this — the episode is validation, not news.** Harry (the
-   assistant) *is* a loop harness: scheduled sessions, `routines.md` = the
-   "automations" layer, journal + memory = the markdown memory file the
-   episode calls essential, Telegram = the Slack ping. Your 4 GSC-based
-   solytics SEO-YAMLs (07-14) were literally one iteration of the episode's
-   SEO loop, hand-fired. The delta is only: **make it recurring with a
-   measure-first step.**
-2. **The SEO loop is adoptable — but only on solytics.** The loop iterates
-   on-page factors against rank/CTR; it cannot fix domain authority. FK/HC
-   (0–2 clicks/28d, authority bottleneck) would burn tokens in a loop forever
-   — Elie says himself DR 63 ≠ fresh domain. solytics ranks (pos 7–10, CTR
-   lever) → the already-scheduled 08-04 CTR-payoff recheck is exactly the
-   loop's "verify last run" step. If 08-04 shows lift: formalize as a monthly
-   routine (GSC pull → one snippet/on-page experiment → measure next month).
-3. **DataForSEO is the one genuinely missing tool.** All our SEO decisions use
-   GSC only (own data); we have no "who ranks above us and why" view.
-   Pay-as-you-go API, no subscription — worth a cost check before the next
-   solytics SEO round (no spend without your Go).
-4. **The ads loop confirms the fingrab Tuesday routine design** — objective
-   metric (€/install-intent, paid sale), kill threshold (500 €), one lever per
-   week, human approves. The episode's variant-budget caveat is why full
-   automation adds little at ~€14/week spend: too small for statistical
-   verdicts. Keep it manual-weekly.
-5. **Product-feedback loop = commentgrab's post-launch play.** Once live with
-   users: reviews + usage → prioritized fixes on a loop, bug loop split from
-   feature loop. Parked until there are users.
-6. **The MVL frame names something you learned the hard way:** Bahn B measures
-   "posts shipped" not revenue, fingrab measures install-intent before sales —
-   both are minimal viable loops. Where a loop keeps failing to move its
-   metric (FK/HC calculators), the answer was never a better loop — it was
-   killing the loop. Stop conditions apply to strategies, not just agents.

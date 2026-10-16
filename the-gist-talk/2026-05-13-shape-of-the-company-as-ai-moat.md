@@ -61,26 +61,6 @@ makes that person possible — that's the moat, not the pitch.
   *destiny/inevitability* as the belonging.
 - **McKinsey** (legacy contrast) — generalist rotations sell optionality and choice.
 
-## Why this matters for us
-
-- **Moat ≠ features** is the same lesson as the iOS-apps and "9 opportunities"
-  notes from a different angle: when building is free, the durable edge is structural
-  — distribution there, *organizational shape* here. For **Fabrik** (a sellable
-  product), the defensible story isn't "we ship code with agents" (copyable) but the
-  **operating shape**: operator-reviewed autonomous engineering, made + operated in
-  Germany. That's a *form* claim, not a feature claim — lean into it in positioning.
-- **"Form must mirror story" applies to the 1-human-1-AI shape itself.** Jens's moat
-  isn't any single calculator or site; it's the *closed-loop operating structure*
-  (assistant + agent-tasks + fabrik) that lets one person run a portfolio. The honest
-  marketing frame for that is structural, not feature-list.
-- **"Chosen vs Seen"** is a useful lens for any future hire/collaborator: pay in
-  tangible stakes, never in "belonging + Later." Also a copywriting lens — landing
-  pages that sell *being seen* (real outcomes, authority) convert ambitious buyers
-  better than pages selling *being chosen* (vague community).
-- **"What kind of person can only be themselves here?"** is a sharp positioning
-  question for solytics/FK/HC audiences too: design the product so a specific user
-  feels uniquely served, rather than chasing a broader, blander fit.
-
 ## References
 
 - Spotify (The Gist Talk): https://open.spotify.com/episode/0s60j8Bs56u3AdDfnuaGbn

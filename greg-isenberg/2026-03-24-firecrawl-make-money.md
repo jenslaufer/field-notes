@@ -92,17 +92,6 @@ captured: 2026-06-18
   spin-off idea: build AI agents companies like Firecrawl would "hire" as
   $5K/mo content / support / junior-dev employees.
 
-## Why this matters for us
-
-- **Picks-and-shovels, vertical, weekend-buildable** — the cleanest "marketable
-  feature" pattern: take a $100s/mo horizontal tool, rebuild one slice for one
-  niche, sell the output. Maps to the launch-kit idea-validation loop.
-- **"Sell the output, charge per result"** is a copyable pricing/offer frame for
-  any lead-funnel or enrichment tool we ship.
-- **The 5-step playbook (pick → build → package → sell → automate)** is a reusable
-  recipe; the data layer (Firecrawl) is the plumbing, the niche + funnel is the moat.
-- The **hire-an-AI-agent stunt** is a distribution-first marketing idea in itself.
-
 ## References
 
 - Episode: https://www.youtube.com/watch?v=eH8JdttKIdA

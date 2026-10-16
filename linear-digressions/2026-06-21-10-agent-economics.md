@@ -193,45 +193,6 @@ She does not explain it away: *"I still do not know how this happened. I assume 
 several hours to take all the infrastructure offline. I genuinely do not know."* Transcript
 excerpts and her thoughts went into the Substack newsletter rather than the episode.
 
-## Relevance for Jens
-
-**Genre: concept card with one number worth adopting and one risk worth pricing.** No money
-thread of its own — the flat Max subscription means the marginal token here costs €0. That is
-exactly why the episode is still useful: it names what the real scarce unit is.
-
-**1. The abo does not exempt this operation — it changes the currency.** The scarce resource
-here is not euros per token, it is the **5-hour rate-limit window** and the **25-minute
-session kill**. Every mechanism Katie describes still applies, denominated differently:
-quadratic context growth is *literally* why a session dies mid-task and why `Read` silently
-truncates at ~25k tokens; the median 41–58 turns per real coding task is the reason a
-greenfield YAML needs Opus and a burst of them does not fit in one night. **The house rule
-"best model per task, then do less in that session" is a cost-per-task rule that was written
-without the vocabulary. This episode supplies it.**
-
-**2. The failure tax is the number this operation does not measure.** $5.85 per attempt versus
-$7.80 per correct patch means roughly a **quarter of the spend buys nothing**. The equivalent
-here is measurable and never has been: agent-task YAMLs that produce a PR versus YAMLs that
-produce a PR **that merges**; the 89 %-merged figure from `skill-outcomes.py` is the closest
-thing and it covers skills, not tasks. July's 72 merged non-Dependabot PRs is a numerator with
-no denominator. **Before the next cadence argument, count the attempts, not just the
-successes** — that is the same discipline as reading the artifact instead of the report.
-
-**3. Cheap capacity summons work that should not exist — and this operation has the receipt.**
-Induced demand is the *mechanism* behind the July retrospective: 511 sessions, 409 messages,
-72 merged PRs, and the two money-nearest events of the month needed almost no code. Cheap
-agent capacity made 29 hardening PRs on `launch-kit` **feel** affordable. They were, in euros.
-They were not, in the only budget that matters. The Moses lesson is exact: **more lanes did
-not produce faster trips, it produced more trips.**
-
-**4. The fable anecdote prices a risk that is already hedged here.** A frontier model was
-available to the public and **gone within days by government directive** — not a business
-decision, not a price change, not something an SLA covers. The LiteLLM proxy (Stufe 1) with
-`smart → cloud-oss → simple` fallback was justified in `CLAUDE.md` as insurance against a
-cancelled subscription. This is a second, unrelated way the top of that chain can vanish, with
-a real precedent and a lead time of days. It moves the proxy from prudent to load-bearing —
-and it also explains the note already in memory that `fable5` cannot be selected for
-subagents: availability of a named model is not a stable assumption.
-
 ## Links
 
 - Jevons paradox — en.wikipedia.org/wiki/Jevons_paradox
