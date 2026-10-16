@@ -138,6 +138,10 @@ Memory-entry names in backticks (`unrunnable check`, `proof with numbers`, …) 
 
 ## By episode
 
+### 2026-10-16 · [AGENTS.md, CLAUDE.md und Skills 2026](agents-md-context-skills-2026.md)
+
+**Bezug zum Setup (Einschätzung, nicht gemessen):** `~/repos/assistant/CLAUDE.md` lädt bei jeder Sitzung eine Tabelle mit über 60 Werkzeug-Zeilen plus eine lange MEMORY.md-Liste. Das ist genau das Muster „always-loaded, wächst durch Anhängen", das Chakrabarti und Liu et al. beschreiben. Die Forschung legt nahe: Werkzeug-Details in Skills oder Detail-Dokus verschieben, harte Regeln (kein Push auf main, Link-Prüfung) als Hook durchsetzen, die Datei auf Nicht-Ableitbares kürzen und die Wirkung an echten Sitzungen prüfen.
+
 ### 2026-08-11 · [Reading list — four questions about running LLMs](reading-list-2026-08-llm.md)
 
 - The list marked setup mappings as **→ hier** (Jens' inference, not the papers' claim).
