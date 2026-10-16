@@ -66,12 +66,14 @@ build, only *how*. That says little about greenfield products, where the spec is
 which he concedes himself in claim 5 (the human decides features). *Less prompt* is true when
 the task is already specified elsewhere.
 
-**The ETH paper says something narrower.** Checked against coverage of the paper (*Evaluating
-AGENTS.md*, ETH Zürich, arXiv Feb 2026 — not "vor zwei Wochen"): the cost increase and the slight
-drop apply to *LLM-generated* context files. Developer-written files showed a small average gain,
-also at higher cost. The authors recommend keeping only what the agent cannot infer — which is
-his own conclusion, but not *lösch deine Markdown Dateien* (his paraphrase). Benchmarks were SWE-bench Lite and
-AgentBench: short, isolated bug fixes, not multi-week product work where conventions matter.
+**The ETH paper: his summary is close, his conclusion overshoots.** The paper is Gloaguen et
+al., arXiv 2602.11988, February 2026 — not *vor zwei Wochen*. Its abstract (per
+[`../papers/agents-md-context-skills-2026.md`](../papers/agents-md-context-skills-2026.md)) finds no
+general gain in success rate and over 20 % more inference cost, for LLM-generated *and*
+developer-written files. My first version of this note said the result applied only to generated
+files; that came from secondary write-ups and is corrected here. The authors still see a use for
+non-standard coding practices — his *exotic rules* point — so *lösch deine Markdown Dateien* (his
+paraphrase) is not their conclusion. Benchmarks were short, Python-heavy issue fixes.
 
 **The 80% system-prompt cut moved rules, it did not delete them.** Reports on the July 2026
 change say rules went into tool descriptions and on-demand skills. That supports *less always-on
@@ -113,6 +115,32 @@ be dismissed as outdated.
 as an authority on its own progress. The second half is a sponsored MSG segment, and the career
 advice (path 2: consultant for transformation) leads straight into the sponsor. "Nichts wird
 verkauft" — but the video sells MSG as employer and brand.
+
+## Checked against the paper survey
+
+Source: [`../papers/agents-md-context-skills-2026.md`](../papers/agents-md-context-skills-2026.md)
+(30 papers, abstracts fetched 2026-10-16). Numbers below are from that survey, not from the video.
+The survey's own caveat applies throughout: the studies used Sonnet 4.5, Opus 4.6 and GPT-5.x.
+Steenfatt's argument is that the autumn-2026 models changed the rules — the papers can neither
+confirm nor refute that for models they did not test.
+
+| Claim | Verdict | Papers |
+|---|---|---|
+| Context files do not raise success | **Supported** | Gloaguen (no general gain, +20 % cost), Khatri (no correctness effect, Claude Code + Codex), Arman (docs do not beat the bare issue) |
+| … so delete them | **Not supported** | Lulla: AGENTS.md cut median runtime 28.64 % and output tokens 16.58 % at equal completion. Shepard: tested guidance 33.0 % vs 25.5 % without. Zhang: prohibitions help. Files save search time; they do not add skill |
+| Agent-written files rot and bloat | **Supported** | Chakrabarti: CLAUDE.md grows +226 %, deletions rare. Santos: context bloat in 42 % of 100 repos. Liu: irrelevant rules lower compliance. His own file is the textbook case |
+| Keep only exotic, non-inferable rules | **Supported** | Gloaguen (non-standard practices), Gloaguen (repo overviews useless), Anthropic docs (drop what Claude can infer) |
+| Hooks and checks beat prose rules | **Strongly supported** | ContextCov: 88.3 % compliance enforced vs 67.0 % prompt-only. Yan: only 4–16 % of CLAUDE.md security rules have a matching built-in control. Anthropic: CLAUDE.md is advisory, hooks are deterministic |
+| Skills are in question too | **Contradicted** | SkillsBench: curated skills +16.6 pp (33.9 % → 50.5 %). Harm only for unfocused or piled-up skills: Yang (WebDev skills −1.3 to −4.2 %, cost +72–394 %), Jiang (selection precision 3.3 % at 100 skills) |
+| Less prompt is better | **Partly** | Anthropic: smarter models need less prescriptive engineering. But Zhang: 0–50 rules leave pass rates stable, random rules help as much as curated (+13.8 pp, priming). ACE warns of brevity bias. The papers say *wrong* text hurts, not text as such |
+| Context management is solved by the harness | **Not supported** | Lost in the Middle, NoLiMa, Chroma Context Rot, IFScale: performance drops with length and instruction count. None measures 24-hour agent runs with compaction; his anecdote is the only evidence |
+| "Make it safe" as security measure | **Weak** | Same logic as ContextCov and Yan: a prompt-level safety instruction is advisory. Enforced checks (SAST, CI gates) are the tested route. Liu: 26.1 % of marketplace skills carry a vulnerability; Wang: rule files are an injection vector |
+| Model as architect, Zuckerberg analogy, subagent swarms, career paths | **Not covered** | No paper in the survey measures these |
+
+**Net:** On context files his practical advice — short file, exotic rules only, enforce via hooks
+and CI — matches the research almost line for line. The overreach is the framing: the papers
+support *trim and enforce*, not *delete*, and they support skills rather than discrediting them.
+The context-management claim has no paper behind it.
 
 ## What holds up
 
