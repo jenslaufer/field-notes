@@ -35,7 +35,7 @@ Jede Woche, klein und konkret. Lieber roh und echt als perfekt.
 ### Rep A — Distribution-Map für eine Nische (20 Min)
 **Nicht frei 20 Orte raten — meine eigene Channel-Bibliothek benutzen.** Ich habe
 dafür längst ein Werkzeug: die `channel-fit`-Skill mit den **19 Traction-Kanälen**
-(`~/.claude/marketing-channels/README.md`). Das ist die Landkarte; die improvisierte
+(heute `~/repos/marketing/channels/README.md`). Das ist die Landkarte; die improvisierte
 „20 Orte"-Liste war eine schwächere Version davon. Also:
 
 1. **Die 19 Kanäle durchgehen**, für die Nische je **Fit / Vielleicht / Nein** mit
