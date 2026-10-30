@@ -52,6 +52,15 @@ This file collects the personal takeaways that previously sat inside the individ
 
 ## By episode
 
+### 2026-10-29 · [SaaS is dead?](2026-10-29-saas-is-dead-free-tool-upsell-intelligence.md)
+- The extensions already are free tools with a paywall — but the paid part is more of the same tool. Greg's model sells a different kind of value (work done). Untested, and it skips the real constraint: arrivals at the register.
+- "Pay with data" breaks the privacy promise of in-browser extensions.
+
+### 2026-10-28 · [Agent harnesses (Gamma, Jon Noronha)](2026-10-28-agent-harnesses-gamma-jon-noronha.md)
+- The interior harness he describes (render, then measure true size with code, prosumer stager pays) sits next to the existing `immo-entwurf` skill. Demand untested.
+- Visual QA by a vision model before delivery: Jens gates code, never his generated images/PDFs.
+- With ~500 users only large-effect changes are measurable; Gamma's day-long A/B tests need Gamma's traffic.
+
 ### 2026-10-15 · [Gemini 4 Argon: AI Marketing, 3D Printing and SaaS](2026-10-15-gemini-4-argon-marketing-3d-printing-saas.md)
 - No reason to switch models. The six habits are what the Claude Code setup already does (plan, sub-agents, browser test, learnings into memory).
 - References first: webdesign and design-variants work should always get two or three reference sites.
