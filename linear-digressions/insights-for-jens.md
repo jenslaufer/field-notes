@@ -48,6 +48,30 @@ This file collects the personal takeaways that previously sat inside the individ
 
 ## By episode
 
+### 2026-11-02 · [KV Cache Fundamentals](2026-11-02-kv-cache-fundamentals.md)
+
+- **Every assistant session starts cold.** The launcher runs `claude -p` fresh each time and
+  first loads profiles, journal and memory. That shared prefix is the part a cache would make
+  cheap; how much of it the abo's prompt cache actually hits between sessions is not measured.
+  `/usage` or the token counts in the session log would show it — a check, not a build.
+- **Model switching costs more than the price list says.** The `model.conf` fallback switches
+  between sessions, which is fine. Mixing models inside one task — main session on one model,
+  subagents on another — rebuilds a cache each time. Her rule matches the model-budget rule: pick the
+  model per task and stay on it.
+- **Long agent runs are the expensive regime by her account.** agent-task and Fabrik sessions are
+  exactly the "coding agent, multi-hour" case; keeping specs small (≤8–10 files per task) also
+  keeps the cache small.
+
+### 2026-10-26 · [AI Inference 101](2026-10-26-ai-inference-101.md)
+
+- **It explains the local-model experience on the mini-PC.** The `simple` alias in the LiteLLM
+  proxy runs on local Ollama without a GPU. By her model, decode speed there depends on memory
+  bandwidth and model size, not on CPU cores — a smaller model is the lever, not more threads.
+- **Prompt shape is a cost lever for the sessions.** The assistant sessions read long context
+  (profiles, journal, memory) once and answer short: prefill-heavy. Trimming loaded context
+  shortens time to first token.
+- No business idea in the episode; it is a foundations lesson for the series.
+
 ### 2026-10-05 · [Mechanistic Interpretability](2026-10-05-mechanistic-interpretability.md)
 - The setup already follows her conclusion. Nothing trusts the model's own account: `verify-quotes.py` checks quotes against the transcript, PR rules put the diff over the commit message, `check-links.py` resolves every link. These outside probes have a ground truth — exactly what interpretability lacks for "is it lying". For these use cases, output checks against a source stay the stronger tool.
 - The audit study is the pattern for testing guards: plant a known fault, see whether the guard finds it. "Red before, green after" is the same idea at small scale.
