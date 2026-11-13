@@ -2,6 +2,10 @@
 
 This file collects the personal takeaways that previously sat inside the individual episode notes.
 
+Chrome extensions are one of Jens' lines of work, not the lens. He also builds agent harnesses,
+calculator sites and Launch Kit, works with data, and is open to any business — judge each idea
+on its own, and name the extensions only where the fit is specific.
+
 ## Recurring themes
 
 ### 1. Distribution is the binding constraint, not building
@@ -53,7 +57,7 @@ This file collects the personal takeaways that previously sat inside the individ
 ## By episode
 
 ### 2026-10-29 · [SaaS is dead?](2026-10-29-saas-is-dead-free-tool-upsell-intelligence.md)
-- The extensions already are free tools with a paywall — but the paid part is more of the same tool. Greg's model sells a different kind of value (work done). Untested, and it skips the real constraint: arrivals at the register.
+- The calculator sites are free tools, the extensions free tools with a paywall — but the paid part is more of the same tool. Greg's model sells a different kind of value (work done). Untested, and it skips the real constraint: arrivals at the register.
 - "Pay with data" breaks the privacy promise of in-browser extensions.
 
 ### 2026-10-28 · [Agent harnesses (Gamma, Jon Noronha)](2026-10-28-agent-harnesses-gamma-jon-noronha.md)

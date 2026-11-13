@@ -200,8 +200,15 @@ loop · reuse the harness for the next niche. Ideas the episode lacks:
 
 - **The second brain already exists** in his setup (CLAUDE.md, memory, field-notes). New
   for him: `facts.md` as a list of what an agent may claim, and the append-with-date rule.
-- **N12 (ask three assistants the buyer's 20 questions)** and **N15 (sign up as a customer
-  at five competitors)** fit his Chrome extensions directly and need no audience.
+- **Idea finders that need no audience:** N1 (100 niches via subagents) and N2 (job postings
+  → service at a third of the salary) turn the niche search into a run, not a hunch. N2 also
+  hands over the price.
+- **Prompts 4 and 5 are sellable services** for any small business: legacy spreadsheet →
+  web app, P&L check before buying a company. Both sit on his engineering/data side.
+- **The harness part (N9–N11)** is what he already builds (see
+  `user-identity-harness-engineer-not-fde`): a reviewer agent and a 50-job model test turn
+  any agent product into one that improves with each model release.
 - **Prompt 2 / N2 are the Fiverr idea** from 23.10. again — Greg now frames it as "fixed
   price per job". Same weakness as before: the moat is the system, not the bidding.
-- **N21** maps onto his own Stripe, FinTS and ad-account skills.
+- **N12, N15, N21** apply to any product he runs: assistant visibility, competitor
+  sign-up, profit per channel from Stripe/bank/ad exports.

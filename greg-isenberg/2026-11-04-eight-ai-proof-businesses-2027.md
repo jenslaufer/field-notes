@@ -58,8 +58,9 @@ Mix categories (attention + belonging, permission + liquidity, outcomes + unique
 
 ## What it means for Jens
 
-- **His Chrome extensions sit in none of the eight.** They are pixel software, the thing
-  Greg says is now free to build. Of his own portfolio, only the house in Tannheim is atoms.
+- **What he has built so far is mostly pixel software** — extensions, calculator sites,
+  agent harnesses — the thing Greg says is now free to build; the house in Tannheim is
+  atoms. The list is a menu for the next venture, not a verdict on the current ones.
 - **The Fiverr idea he asked about on 23.10.** is Greg's category 8 — the one he ranks
   lowest. Its moat is the system and data, not the bidding machine.
 - **Attention and belonging need an audience;** Jens has no network (see

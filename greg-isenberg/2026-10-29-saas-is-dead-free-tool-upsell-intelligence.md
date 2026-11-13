@@ -44,8 +44,9 @@ with revenue. Everything here is Greg's thesis, not a measurement.
 
 ## What it means for Jens
 
-- **His extensions already run the first half.** FinGrab, InvoiceGrab and PlaylistGrab are
-  free tools with a paywall on more of the same tool (longer ranges, more exports). Greg's
+- **Several of his products already run the first half.** The calculator sites are free
+  tools; the extensions (FinGrab, InvoiceGrab, PlaylistGrab) are free tools with a paywall
+  on more of the same tool (longer ranges, more exports). Greg's
   model says the paid part should be a **different kind of value** — work done for the user —
   not a bigger quota of the free tool. Not tested by anyone with numbers in this episode.
 - **Counter-evidence from his own data:** the binding constraint is reaching the register
