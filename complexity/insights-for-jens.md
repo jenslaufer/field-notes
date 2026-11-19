@@ -46,6 +46,11 @@ This file collects the personal takeaways that were previously inside the indivi
 
 ## By episode
 
+### 2023-11-02 · [Deborah Gordon on ant colonies](2023-11-02-deborah-gordon-ant-colonies.md)
+- Harvester rule vs turtle-ant rule for paid search: when performance is correlated only locally (per search term), the decision has to be local too. A campaign average applied to Bieterpost is the harvester rule in a turtle-ant environment — judge and cut per search term.
+- Ants act on a rate, not on each event. A watcher that fires per event without knowing the source can turn one bulk import into 177 alerts (lk-lead-watch, 2026-11-19).
+- Not applicable: cancer, the brain analogy, and the ghost in the machine have no thread to my money line.
+
 ### 2025-07-29 · [Melanie Moses on Scaling Theory #21](2025-07-29-melanie-moses-scaling-decentralization.md)
 - Roadway: building decentralized workers, seeing them work at n = 5, then hitting a wall at n = 500 is a mistake I keep repeating.
 - My portfolio is mostly stuff (sublinear). Repos are pavement.
