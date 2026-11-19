@@ -51,6 +51,11 @@ This file collects the personal takeaways that were previously inside the indivi
 - Greedy search needs a dense network. I have no network, so a "nearest node" approach (warm intros, referrals) has nothing to step to; outreach has to bring its own reach.
 - Not applicable: tech-transfer framing, drones, climate, the AI remark.
 
+### 2021-07-30 · [Deborah Gordon on COMPLEXITY 65](2021-07-30-deborah-gordon-complexity-65-distributed-computers.md)
+- Patchy in time needs rapid mobilization. A reply to the freelance wave or a real lead is a picnic, not a scattered seed: it pays only if answered fast. Leads have a 10-minute watcher; mail replies wait for the next mailbox sweep, up to 6 hours.
+- Specialization pays only where doing makes you better. Agents don't learn between sessions, so rotating their tasks costs nothing; selling does improve with repetition, so that is the work to keep in one hand and repeat.
+- Not applicable: cancer, identity, dopamine, the host's market analogies.
+
 ### 2023-11-02 · [Deborah Gordon on ant colonies](2023-11-02-deborah-gordon-ant-colonies.md)
 - Harvester rule vs turtle-ant rule for paid search: when performance is correlated only locally (per search term), the decision has to be local too. A campaign average applied to Bieterpost is the harvester rule in a turtle-ant environment — judge and cut per search term.
 - Ants act on a rate, not on each event. A watcher that fires per event without knowing the source can turn one bulk import into 177 alerts (lk-lead-watch, 2026-11-19).
