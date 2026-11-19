@@ -46,6 +46,11 @@ This file collects the personal takeaways that were previously inside the indivi
 
 ## By episode
 
+### 2026-08-05 · [Deborah Gordon on AUTM on the Air](2026-08-05-deborah-gordon-autm-collective-behavior.md)
+- Default off for expensive work: harvester foragers go out only while enough foragers return with food. For paid ads (Bieterpost) that means spend continues only while the buyer rate pays for it — the 237 EUR cost per buyer is the return signal, not the budget.
+- Greedy search needs a dense network. I have no network, so a "nearest node" approach (warm intros, referrals) has nothing to step to; outreach has to bring its own reach.
+- Not applicable: tech-transfer framing, drones, climate, the AI remark.
+
 ### 2023-11-02 · [Deborah Gordon on ant colonies](2023-11-02-deborah-gordon-ant-colonies.md)
 - Harvester rule vs turtle-ant rule for paid search: when performance is correlated only locally (per search term), the decision has to be local too. A campaign average applied to Bieterpost is the harvester rule in a turtle-ant environment — judge and cut per search term.
 - Ants act on a rate, not on each event. A watcher that fires per event without knowing the source can turn one bulk import into 177 alerts (lk-lead-watch, 2026-11-19).
