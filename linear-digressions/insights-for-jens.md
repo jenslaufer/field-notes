@@ -48,6 +48,27 @@ This file collects the personal takeaways that previously sat inside the individ
 
 ## By episode
 
+### 2026-11-16 · [How to Stay Relevant as a Data Scientist](2026-11-16-staying-relevant-as-a-data-scientist.md)
+
+- **A brief for the freelance applications.** Krohn names what buyers still pay humans for:
+  judgment, stakeholder communication, messy domain expertise, product-manager thinking. CV and
+  cover letters that lead with tool lists (Python, R, ML) sell the part he calls the lost moat.
+  Lead with decisions defended in front of stakeholders and domain work, tools second.
+- **One concrete lead.** His consultancy Y Carrot hires independent data scientists who advise on
+  strategy, prototype and ship models to production — an inbound route that needs no network.
+  Check the site and the terms before anything is sent.
+- **His own setup is human + AI, not agents alone,** for the same reason the assistant keeps
+  Jens' approval on outbound text: specialist output needs someone who can say why it is right.
+
+### 2026-11-09 · [GPU Architecture for LLM Inference](2026-11-09-gpu-architecture-for-llm-inference.md)
+
+- **A price tag for "run the fallback locally".** Her DGX Spark figures (128 GB, 273 GB/s,
+  $5–10K, up to ~200B parameters) are the entry ticket for serious local models. Bandwidth, not
+  memory size, sets decode speed, and the Spark's bandwidth is laptop-class. Any idea of buying
+  hardware so the stack no longer depends on Claude has to start from that number.
+- **Nothing to change in the setup.** No business idea; the episode completes the inference
+  series (101 → KV cache → hardware).
+
 ### 2026-11-02 · [KV Cache Fundamentals](2026-11-02-kv-cache-fundamentals.md)
 
 - **Every assistant session starts cold.** The launcher runs `claude -p` fresh each time and

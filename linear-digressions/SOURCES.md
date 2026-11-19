@@ -50,6 +50,8 @@ notes. A note counts as done only when its front matter carries a
 
 | Note | Source | gemessen |
 |---|---|---|
+| `2026-11-16-staying-relevant-as-a-data-scientist` | **Transkript** | geschrieben 19.11., **9/9 Zitatsegmente ≥ 8 W verbatim**, 0 Zahlen beanstandet (`verify-quotes.py`, Exit 0) |
+| `2026-11-09-gpu-architecture-for-llm-inference` | **Transkript** | geschrieben 19.11., **1/1 Zitatsegmente ≥ 8 W verbatim**, 0 Zahlen beanstandet (`verify-quotes.py`, Exit 0) |
 | `2026-11-02-kv-cache-fundamentals` | **Transkript** | geschrieben 04.11., **2/2 Zitatsegmente ≥ 8 W verbatim**, 0 Zahlen beanstandet (`verify-quotes.py`, Exit 0 ohne Pipe) |
 | `2026-10-26-ai-inference-101` | **Transkript** | geschrieben 04.11., **2/2 Zitatsegmente ≥ 8 W verbatim**, 0 Zahlen beanstandet (`verify-quotes.py`, Exit 0 ohne Pipe) |
 | `2026-10-05-mechanistic-interpretability` | **Transkript** | geschrieben 07.10., **6/6 Zitatsegmente ≥ 8 W verbatim**, 0 Zahlen beanstandet (`verify-quotes.py`, Exit 0 ohne Pipe) |
