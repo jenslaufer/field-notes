@@ -18,6 +18,7 @@ Organized by source:
 - [`niklas-steenfatt/`](niklas-steenfatt/) — Niklas Steenfatt (YouTube, German): *Vibe Coding hat sich verändert* — eleven claims on agentic coding in late 2026 (less prompt, no AGENTS.md, model as architect, you are the manager), each checked; the ETH AGENTS.md paper and the system-prompt cut say less than he claims
 - [`scaling-theory/`](scaling-theory/) — Scaling Theory (Thibault Schrepel): the unnumbered 2026 run — Pinker on common knowledge, Howitt on creative destruction, Cochrane on permission and empty skies, Gabaix on Zipf's law and big firms, Mollick on coexisting with AI; all from own transcripts, quotes verified
 - [`papers/`](papers/) — research paper surveys and distillations
+- [`handbook/`](handbook/index.md) — the opportunity and marketing methods from the AI skills, rewritten to run by hand (browser, spreadsheet, notebook); grows with its sources via `node --test handbook/tests/`
 
 ## Personal insights
 
