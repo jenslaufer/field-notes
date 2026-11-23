@@ -48,6 +48,16 @@ This file collects the personal takeaways that previously sat inside the individ
 
 ## By episode
 
+### 2026-11-23 · [Mixture of Experts](2026-11-23-mixture-of-experts.md)
+
+- **Two numbers per model when sizing local hardware.** Total parameters decide whether a model
+  fits in memory; active parameters decide how fast it decodes. An MoE model like DeepSeek V3 is
+  cheap per token but still needs memory for all 671 billion weights. Read next to the DGX Spark
+  figures from 11-09 (128 GB): my own rough count, not hers — even at 4 bits per weight that is
+  about 335 GB, so a frontier MoE does not fit one Spark. Any "local fallback" plan has to name
+  both numbers.
+- **Nothing to change in the setup.** No business idea; the episode extends the inference series.
+
 ### 2026-11-16 · [How to Stay Relevant as a Data Scientist](2026-11-16-staying-relevant-as-a-data-scientist.md)
 
 - **A brief for the freelance applications.** Krohn names what buyers still pay humans for:
